@@ -1,5 +1,5 @@
 import nltk
-import pandas
+import pandas as pd
 import torch
 from PIL import Image
 from torch.utils.data import Dataset
@@ -21,7 +21,7 @@ class HeritageDataset(Dataset):
         caption.append(self.vocab.getIndex('<END>'))
         caption = torch.Tensor(caption)
 
-        with open('{}/{}'.format(self.bounding_box_dir, self.dataset.iloc[index, 3]), 'r') as f:
+        with open('{}/{}'.format(self.bounding_box_dir, self.dataset.iloc[index, 3].replace('jpg', 'txt')), 'r') as f:
             lines = f.readlines()
             objects = []
             for line in lines:
@@ -36,6 +36,8 @@ class HeritageDataset(Dataset):
         objects = torch.stack(objects, 0)
         image = self.transform(image)
         return id, image, caption, objects
+    def __len__(self):
+        return self.dataset.shape[0]
 
 def collate_fn(data):
     ids, images, captions, list_objects = zip(*data)
@@ -54,7 +56,7 @@ def collate_fn(data):
     
     num_objects = [len(objects) for objects in list_objects]
     max_len = max(num_objects)
-    padded_objects = torch.zeros(list_objects.size(0), max_len, list_objects[0].size(1), list_objects[0].size(2), list_objects[0].size(3))
+    padded_objects = torch.zeros(len(num_objects), max_len, list_objects[0].size(1), list_objects[0].size(2), list_objects[0].size(3))
     for i, objects in enumerate(list_objects):
         length = num_objects[i]
         padded_objects[i,:length] = objects

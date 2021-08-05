@@ -1,31 +1,43 @@
+import pickle
 import torch
 import time
+import dataset.HeritageDataset as Dataset
+from dataset.Vocabulary import Vocabulary
 from model.models import Encoder, DecoderWithAttention, ObjectEncoder
 from torch.nn.utils.rnn import pack_padded_sequence
+from torch.utils.data import DataLoader
+from torchvision import transforms
 
 if __name__=='__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    with open('dataset/vocab.pkl', 'rb') as f:
+        vocab = pickle.load(f)
 
-    embed_dim = None
-    attention_dim = None
-    decoder_dim = None
-    vocab_size = None
-    object_dim = None
+    embed_dim = 100
+    attention_dim = 100
+    decoder_dim = 100
+    vocab_size = len(vocab)
+    object_dim = 100
     
-    num_filters = None
-    conv_kernel = None
-    pool_kernel = None
-    image_size = None
+    num_filters = 3
+    conv_kernel = 3
+    pool_kernel = 2
+    object_size = 32
 
-    epochs = None
-    learning_rate = None
+    epochs = 1
+    learning_rate = 0.1
+    train_batch_size = 3
 
-    train_loader = None
-    val_loader = None
+    transform = transforms.Compose([transforms.Resize(224),transforms.RandomCrop(224),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+    object_transform = transforms.Compose([transforms.Resize(object_size),transforms.RandomCrop(object_size),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+
+    train_dataset = Dataset.HeritageDataset('dataset/dataset.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
+    train_loader = DataLoader(dataset=train_dataset, batch_size=train_batch_size, shuffle=True, num_workers=2, collate_fn=Dataset.collate_fn)
+    val_loader = DataLoader(dataset=train_dataset, batch_size=train_batch_size, shuffle=True, num_workers=2, collate_fn=Dataset.collate_fn)
 
     encoder = Encoder(embed_dim).to(device)
     decoder = DecoderWithAttention(attention_dim, embed_dim, decoder_dim, vocab_size, object_dim).to(device)
-    object_encoder = ObjectEncoder(num_filters, conv_kernel, pool_kernel, image_size, object_dim).to(device)
+    object_encoder = ObjectEncoder(num_filters, conv_kernel, pool_kernel, object_size, object_dim).to(device)
 
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(list(decoder.parameters())+list(object_encoder.parameters())+list(encoder.parameters()), lr=learning_rate)
@@ -40,6 +52,10 @@ if __name__=='__main__':
         count_loss = 0
         start = time.time()
         for ids, images, captions, lengths, objects in train_loader:
+            images = images.to(device)
+            captions = captions.to(device)
+            lengths = lengths.to(device)
+            objects = objects.to(device)
             encoded_images = encoder(images)
             encoded_objects = object_encoder(objects)
             predictions, captions, lengths, alphas, sort_ind = decoder(encoded_images, encoded_objects, captions, lengths)
@@ -63,6 +79,10 @@ if __name__=='__main__':
             epoch_loss = 0
             count_loss = 0
             for ids, images, captions, lengths, objects in val_loader:
+                images = images.to(device)
+                captions = captions.to(device)
+                lengths = lengths.to(device)
+                objects = objects.to(device)
                 encoded_images = encoder(images)
                 encoded_objects = object_encoder(objects)
                 predictions, captions, lengths, alphas, sort_ind = decoder(encoded_images, encoded_objects, captions, lengths)

@@ -8,7 +8,6 @@ import torch.nn.functional as F
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-
 class Encoder(nn.Module):
     """
     Encoder.
@@ -90,12 +89,12 @@ class ObjectEncoder(nn.Module):
         :param objects: object's preprocessed images, a tensor of dimension (batch_size, num_objects, num_channel, height, width)
         :return: encoded object's tensor
         """
-        out = torch.zeros(objects.size(0), objects.size(1), self.fc.out_features)  # (batch_size, num_objects, object_dim)
+        out = torch.zeros(objects.size(0), objects.size(1), self.fc.out_features).to(device)  # (batch_size, num_objects, object_dim)
         for i in range(objects.size(1)):
             x = self.conv(objects[:,i])  # (batch_size, num_filters, image_size - conv_kernel + 1, image_size - conv_kernel + 1)
             x = F.relu(x)  # (batch_size, num_filters, image_size - conv_kernel + 1, image_size - conv_kernel + 1)
             x = self.pool(x)  # (batch_size, num_filters, (image_size - conv_kernel + 1)//pool_kernel, (image_size - conv_kernel + 1)//pool_kernel)
-            x = torch.flatten(x, 2)  # (batch_size, num_filters * (image_size - conv_kernel + 1)//pool_kernel * (image_size - conv_kernel + 1)//pool_kernel)
+            x = torch.flatten(x, 1)  # (batch_size, num_filters * (image_size - conv_kernel + 1)//pool_kernel * (image_size - conv_kernel + 1)//pool_kernel)
             x = self.fc(x)  # (batch_size, object_dim)
             out[:,i] = x
         return out
@@ -124,7 +123,7 @@ class DecoderWithAttention(nn.Module):
 
         self.attention = Attention(object_dim, decoder_dim, attention_dim)  # attention network
         self.embedding = nn.Embedding(vocab_size, embed_dim)  # embedding layer
-        self.dropout = nn.Dropout(p=self.dropout)
+        self.dropout = nn.Dropout(p=dropout)
         self.decode_step = nn.LSTMCell(embed_dim + object_dim, decoder_dim, bias=True)  # decoding LSTMCell
         self.f_beta = nn.Linear(decoder_dim, object_dim)  # linear layer to create a sigmoid-activated gate
         self.sigmoid = nn.Sigmoid()
@@ -140,7 +139,6 @@ class DecoderWithAttention(nn.Module):
         :param caption_lengths: caption lengths, a tensor of dimension (batch_size, 1)
         :return: scores for vocabulary, sorted encoded captions, decode lengths, weights, sort indices
         """
-
         batch_size = encoder_out.size(0)
         num_objects = objects.size(1)
 
@@ -154,13 +152,13 @@ class DecoderWithAttention(nn.Module):
         embeddings = self.embedding(encoded_captions)  # (batch_size, max_caption_length, embed_dim)
 
         # Initialize LSTM state
-        h = torch.zeros(batch_size, self.decoder_dim)  # (batch_size, decoder_dim)
-        c = torch.zeros(batch_size, self.decoder_dim)  # (batch_size, decoder_dim)
+        h = torch.zeros(batch_size, self.decoder_dim).to(device)  # (batch_size, decoder_dim)
+        c = torch.zeros(batch_size, self.decoder_dim).to(device)  # (batch_size, decoder_dim)
 
         decode_lengths = caption_lengths.tolist()
 
         # Create tensors to hold word predicion scores and alphas
-        predictions = torch.zeros(batch_size, max(decode_lengths), vocab_size).to(device)
+        predictions = torch.zeros(batch_size, max(decode_lengths), self.vocab_size).to(device)
         alphas = torch.zeros(batch_size, max(decode_lengths), num_objects).to(device)
 
         # At each time-step, decode by
@@ -168,18 +166,13 @@ class DecoderWithAttention(nn.Module):
         # then generate a new word in the decoder with the previous word and the attention weighted objects
         for t in range(max(decode_lengths)):
             batch_size_t = sum([l > t for l in decode_lengths])
-            attention_weighted_encoding, alpha = self.attention(objects[:batch_size_t],
-                                                                h[:batch_size_t])
+            attention_weighted_encoding, alpha = self.attention(objects[:batch_size_t], h[:batch_size_t])
             gate = self.sigmoid(self.f_beta(h[:batch_size_t]))  # gating scalar, (batch_size_t, object_dim)
             attention_weighted_encoding = gate * attention_weighted_encoding
             if t == 0:
-                h,c = self.decode_step(
-                    torch.cat([encoder_out, attention_weighted_encoding], dim=1),
-                    (h[:batch_size_t], c[:batch_size_t]))  # (batch_size_t, decoder_dim)
+                h,c = self.decode_step(torch.cat([encoder_out, attention_weighted_encoding], dim=1), (h[:batch_size_t], c[:batch_size_t]))  # (batch_size_t, decoder_dim)
             else:
-                h, c = self.decode_step(
-                    torch.cat([embeddings[:batch_size_t, t-1, :], attention_weighted_encoding], dim=1),
-                    (h[:batch_size_t], c[:batch_size_t]))  # (batch_size_t, decoder_dim)
+                h, c = self.decode_step(torch.cat([embeddings[:batch_size_t, t-1, :], attention_weighted_encoding], dim=1), (h[:batch_size_t], c[:batch_size_t]))  # (batch_size_t, decoder_dim)
             preds = self.fc(self.dropout(h))  # (batch_size_t, vocab_size)
             predictions[:batch_size_t, t, :] = preds
             alphas[:batch_size_t, t, :] = alpha
