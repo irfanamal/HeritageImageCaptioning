@@ -1,0 +1,24 @@
+Person
+Traditional Clothes Ulee Balang Man
+Traditional Clothes Ulee Balang Woman
+Traditional Clothes Bundo Kanduang Man
+Traditional Clothes Bundo Kanduang Woman
+Traditional Clothes Aesan Gede Man
+Traditional Clothes Aesan Gede Woman
+Traditional Clothes Teluk Belanga Man
+Traditional Clothes Teluk Belanga Woman
+Traditional Clothes Melayu Jambi Man
+Traditional Clothes Melayu Jambi Woman
+Traditional Clothes Paksian Man
+Traditional Clothes Paksian Woman
+Traditional Clothes Tulang Bawang Man
+Traditional Clothes Tulang Bawang Woman
+Traditional Clothes Pangsi Man
+Traditional Clothes Pangsi Woman
+Traditional Clothes Betawi Man
+Traditional Clothes Betawi Woman
+Traditional Clothes Kebaya Sunda
+Traditional Clothes Jawa Man
+Traditional Clothes Jawa Woman
+Traditional Clothes Pesaan Man
+Traditional Clothes Pesaan Woman
