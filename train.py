@@ -99,4 +99,6 @@ if __name__=='__main__':
             torch.save(encoder.state_dict(), 'checkpoint/encoder.pt')
             torch.save(object_encoder.state_dict(), 'checkpoint/object_encoder.pt')
 
+        with open('logs/train_log.txt', 'w+') as f:
+            f.write('Epoch {}, Train Loss: {}, Validation Loss: {}, Training Time: {}\n'.format(i+1, train_loss, val_loss, end-start))
         print('Epoch {}, Train Loss: {}, Validation Loss: {}, Training Time: {}'.format(i+1, train_loss, val_loss, end-start))

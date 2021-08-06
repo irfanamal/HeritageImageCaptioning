@@ -178,3 +178,30 @@ class DecoderWithAttention(nn.Module):
             alphas[:batch_size_t, t, :] = alpha
 
         return predictions, encoded_captions, decode_lengths, alphas, sort_ind
+
+    def predict(self, encoder_out, objects, max_length):
+        num_objects = objects.size(1)
+
+        h = torch.zeros(1, self.decoder_dim).to(device)  # (batch_size, decoder_dim)
+        c = torch.zeros(1, self.decoder_dim).to(device)  # (batch_size, decoder_dim)
+
+        predictions = torch.zeros(1, max_length).long().to(device)
+        alphas = torch.zeros(1, max_length, num_objects).to(device)
+
+        for t in range(max_length):
+            attention_weighted_encoding, alpha = self.attention(objects, h)
+            gate = self.sigmoid(self.f_beta(h))  # gating scalar, (batch_size_t, object_dim)
+            attention_weighted_encoding = gate * attention_weighted_encoding
+            if t == 0:
+                h, c = self.decode_step(torch.cat([encoder_out, attention_weighted_encoding], dim=1), (h, c))  # (batch_size_t, decoder_dim)
+            else:
+                embeddings = self.embedding(predictions[:,t-1])
+                h, c = self.decode_step(torch.cat([embeddings, attention_weighted_encoding], dim=1), (h, c))  # (batch_size_t, decoder_dim)
+            preds = self.fc(self.dropout(h))  # (batch_size_t, vocab_size)
+            word = torch.argmax(preds, 1)
+            predictions[:, t] = word
+            alphas[:, t, :] = alpha
+            if word[0] == 2:
+                break
+
+        return predictions, alphas
