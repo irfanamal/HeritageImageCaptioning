@@ -24,16 +24,18 @@ if __name__=='__main__':
     pool_kernel = 2
     object_size = 32
 
-    epochs = 1
+    epochs = 50
     learning_rate = 0.1
-    train_batch_size = 3
+    train_batch_size = 16
+    val_batch_size = 16
 
     transform = transforms.Compose([transforms.Resize(224),transforms.RandomCrop(224),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
     object_transform = transforms.Compose([transforms.Resize(object_size),transforms.RandomCrop(object_size),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
 
-    train_dataset = Dataset.HeritageDataset('dataset/dataset.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
+    train_dataset = Dataset.HeritageDataset('dataset/train.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
     train_loader = DataLoader(dataset=train_dataset, batch_size=train_batch_size, shuffle=True, num_workers=2, collate_fn=Dataset.collate_fn)
-    val_loader = DataLoader(dataset=train_dataset, batch_size=train_batch_size, shuffle=True, num_workers=2, collate_fn=Dataset.collate_fn)
+    val_dataset = Dataset.HeritageDataset('dataset/val.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
+    val_loader = DataLoader(dataset=val_dataset, batch_size=val_batch_size, shuffle=True, num_workers=2, collate_fn=Dataset.collate_fn)
 
     encoder = Encoder(embed_dim).to(device)
     decoder = DecoderWithAttention(attention_dim, embed_dim, decoder_dim, vocab_size, object_dim).to(device)
@@ -99,6 +101,6 @@ if __name__=='__main__':
             torch.save(encoder.state_dict(), 'checkpoint/encoder.pt')
             torch.save(object_encoder.state_dict(), 'checkpoint/object_encoder.pt')
 
-        with open('logs/train_log.txt', 'w+') as f:
+        with open('logs/train_log.txt', 'a+') as f:
             f.write('Epoch {}, Train Loss: {}, Validation Loss: {}, Training Time: {}\n'.format(i+1, train_loss, val_loss, end-start))
         print('Epoch {}, Train Loss: {}, Validation Loss: {}, Training Time: {}'.format(i+1, train_loss, val_loss, end-start))

@@ -26,12 +26,12 @@ if __name__=='__main__':
     pool_kernel = 2
     object_size = 32
 
-    max_length = 10
+    max_length = 20
 
     transform = transforms.Compose([transforms.Resize(224),transforms.RandomCrop(224),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
     object_transform = transforms.Compose([transforms.Resize(object_size),transforms.RandomCrop(object_size),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
 
-    test_dataset = Dataset.HeritageDataset('dataset/dataset.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
+    test_dataset = Dataset.HeritageDataset('dataset/test.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
     test_loader = DataLoader(dataset=test_dataset, batch_size=1, shuffle=False, num_workers=2, collate_fn=Dataset.collate_fn)
 
     encoder = Encoder(embed_dim).eval().to(device)
@@ -64,7 +64,8 @@ if __name__=='__main__':
             ground_truth = [translate(captions.numpy()[0])]
             end = time.time()
             test_time = end-start
-            result = {'id':ids[0], 'generated':generated, 'ground_truth':ground_truth, 'test_time':test_time}
+            alphas = alphas[:,:len(generated)].cpu().numpy()[0]
+            result = {'id':ids[0], 'generated':generated, 'ground_truth':ground_truth, 'alphas':alphas, 'test_time':test_time}
             results.append(result)
 
     bleu_1s = []
@@ -74,6 +75,7 @@ if __name__=='__main__':
     times = []
     gts = {}
     res = {}
+    attentions = []
 
     for result in results:
         bleu_1s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(1,0,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
@@ -83,6 +85,7 @@ if __name__=='__main__':
         times.append(result['test_time'])
         res[result['id']] = [' '.join(result['generated'])]
         gts[result['id']] = [' '.join(result['ground_truth'][0])]
+        attentions.append(result['alphas'])
 
     cider_score = Cider().compute_score(gts,res)
     with open('logs/test_results.txt', 'a+') as f:
@@ -90,6 +93,7 @@ if __name__=='__main__':
             f.write('ID: {}\n'.format(result['id']))
             f.write('Ground Truth: {}\n'.format(gts[result['id']]))
             f.write('Generated: {}\n'.format(res[result['id']]))
+            f.write('Attention: {}\n'.format(attentions[i]))
             f.write('BLEU-1: {}\n'.format(bleu_1s[i]))
             f.write('BLEU-2: {}\n'.format(bleu_2s[i]))
             f.write('BLEU-3: {}\n'.format(bleu_3s[i]))
