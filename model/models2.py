@@ -20,8 +20,22 @@ class ObjectDescriptor(torch.nn.Module):
         vgg16 = torchvision.models.vgg16_bn(pretrained=True)
         vgg16.features[-1] = torch.nn.AdaptiveMaxPool2d(1)
         self.vgg16 = vgg16.features
-    def forward(self, images):
-        return self.vgg16(images).squeeze()
+        self.descriptor_size = list(self.vgg16.children())[-3].num_features
+    def forward(self, images, num_objects):
+        batch_size = images.size(0)
+
+        num_objects, sort_ind = num_objects.squeeze(1).sort(dim=0, descending=True)
+        images = images[sort_ind]
+
+        object_lengths = num_objects.tolist()
+        object_descriptor = torch.zeros(batch_size, max(object_lengths), self.descriptor_size).to(device)
+
+        for t in range(max(object_lengths)):
+            batch_size_t = sum([l > t for l in object_lengths])
+            descriptor = self.vgg16(images[:batch_size_t, t, :, :, :]).squeeze()
+            object_descriptor[:batch_size_t, t, :] = descriptor
+
+        return object_descriptor, num_objects.unsqueeze(1), sort_ind
 
 class RegionAttention(torch.nn.Module):
     def __init__(self, embedding_size, hidden_size, descriptor_size):
@@ -44,7 +58,7 @@ class RegionAttention(torch.nn.Module):
         r = self.r(object_proposals)
         w = torch.add(wh,w)
         r = torch.add(rh,r)
-        return w, wr, r
+        return w.squeeze(-1), wr, r.squeeze(-1)
 
 class CaptionGenerator(torch.nn.Module):
     def __init__(self, hidden_size, descriptor_size, vocab_size, embedding_size):
@@ -78,17 +92,17 @@ class CaptionGenerator(torch.nn.Module):
         for t in range(max(decode_lengths)):
             batch_size_t = sum([l > t for l in decode_lengths])
             if t == 0:
-                h, c = self.lstm(torch.cat([embeddings[:batch_size_t, t, :], torch.zeros(batch_size_t, self.descriptor_size)], dim=1), (h0[:batch_size_t], h0[:batch_size_t]))
+                h, c = self.lstm(torch.cat([embeddings[:batch_size_t, t, :], torch.zeros(batch_size_t, self.descriptor_size).to(device)], dim=1), (h0[:batch_size_t], h0[:batch_size_t]))
             else:
-                h, c = self.lstm(torch.cat([embeddings[:batch_size_t, t, :], region_feedback], dim=1), (h[:batch_size_t], c[:batch_size_t]))
-            w, wr, r = self.attention(self.embedding.weight, object_proposals, h)
+                h, c = self.lstm(torch.cat([embeddings[:batch_size_t, t, :], region_feedback[:batch_size_t, :]], dim=1), (h[:batch_size_t], c[:batch_size_t]))
+            w, wr, r = self.attention(self.embedding.weight, object_proposals[:batch_size_t, :, :], h)
             preds = torch.add(torch.add(w, torch.sum(wr, 2)), torch.sum(r, 1).unsqueeze(-1))
             predictions[:batch_size_t, t, :] = preds
             region_attention = torch.add(torch.sum(w, 1).unsqueeze(-1), torch.add(torch.sum(wr, 1), r))
-            region_attention = torch.nn.functional.softmax(region_attention)
+            region_attention = torch.nn.functional.softmax(region_attention, dim=1)
             attention[:batch_size_t, t, :] = region_attention
-            region_feedback = torch.bmm(region_attention.unsqueeze(1), object_proposals).squeeze(1)
-        return predictions, attention, captions, decode_lengths, sort_ind
+            region_feedback = torch.bmm(region_attention.unsqueeze(1), object_proposals[:batch_size_t, :]).squeeze(1)
+        return predictions, attention, captions[:, 1:], decode_lengths, sort_ind
     def predict(self, h0, object_proposals, max_length):
         predictions = torch.zeros(1, max_length).long().to(device)
         predictions[:, 0] = torch.LongTensor([1]).to(device)
@@ -100,14 +114,14 @@ class CaptionGenerator(torch.nn.Module):
         for t in range(max_length):
             embeddings = self.embedding(predictions[:, t])
             if t == 0:
-                h, c = self.lstm(torch.cat([embeddings, torch.zeros(1, self.descriptor_size)], dim=1), (h0, h0))
+                h, c = self.lstm(torch.cat([embeddings, torch.zeros(1, self.descriptor_size).to(device)], dim=1), (h0, h0))
             else:
                 h, c = self.lstm(torch.cat([embeddings, region_feedback], dim=1), (h, c))
             w, wr, r = self.attention(self.embedding.weight, object_proposals, h)
             preds = torch.add(torch.add(w, torch.sum(wr, 2)), torch.sum(r, 1).unsqueeze(-1))
             predictions[:, t] = torch.argmax(preds, 1)
             region_attention = torch.add(torch.sum(w, 1).unsqueeze(-1), torch.add(torch.sum(wr, 1), r))
-            region_attention = torch.nn.functional.softmax(region_attention)
+            region_attention = torch.nn.functional.softmax(region_attention, dim=1)
             attention[:, t, :] = region_attention.squeeze()
             region_feedback = torch.bmm(region_attention.unsqueeze(1), object_proposals).squeeze(1)
         return predictions, attention

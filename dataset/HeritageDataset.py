@@ -56,9 +56,11 @@ def collate_fn(data):
     
     num_objects = [len(objects) for objects in list_objects]
     max_len = max(num_objects)
-    padded_objects = torch.zeros(len(num_objects), max_len, list_objects[0].size(1), list_objects[0].size(2), list_objects[0].size(3))
+    num_objects = torch.tensor(num_objects).unsqueeze(1)
+
+    padded_objects = torch.zeros(num_objects.size(0), max_len, list_objects[0].size(1), list_objects[0].size(2), list_objects[0].size(3))
     for i, objects in enumerate(list_objects):
-        length = num_objects[i]
+        length = num_objects[i][0]
         padded_objects[i,:length] = objects
     
-    return ids, images, padded_captions, lengths, padded_objects
+    return ids, images, padded_captions, lengths, padded_objects, num_objects
