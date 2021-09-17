@@ -24,8 +24,10 @@ class HeritageDataset(Dataset):
         with open('{}/{}'.format(self.bounding_box_dir, self.dataset.iloc[index, 3].replace('jpg', 'txt')), 'r') as f:
             lines = f.readlines()
             objects = []
+            class_list = []
             for line in lines:
                 box = line.split()
+                class_list.append(int(box[0]))
                 x0 = int((float(box[1]) - float(box[3])/2) * image.width)
                 x1 = int((float(box[1]) + float(box[3])/2) * image.width)
                 y0 = int((float(box[2]) - float(box[4])/2) * image.height)
@@ -35,14 +37,15 @@ class HeritageDataset(Dataset):
                 objects.append(object)
         objects = torch.stack(objects, 0)
         image = self.transform(image)
-        return id, image, caption, objects
+        return id, image, caption, objects, class_list
     def __len__(self):
         return self.dataset.shape[0]
 
 def collate_fn(data):
-    ids, images, captions, list_objects = zip(*data)
+    ids, images, captions, list_objects, class_lists = zip(*data)
 
     ids = list(ids)
+    class_lists = list(class_lists)
     images = torch.stack(images, 0)
 
     lengths = [len(caption) for caption in captions]
@@ -63,4 +66,4 @@ def collate_fn(data):
         length = num_objects[i][0]
         padded_objects[i,:length] = objects
     
-    return ids, images, padded_captions, lengths, padded_objects, num_objects
+    return ids, images, padded_captions, lengths, padded_objects, num_objects, class_lists

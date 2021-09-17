@@ -6,41 +6,36 @@ import time
 import dataset.HeritageDataset as Dataset
 from cider.cider import Cider
 from dataset.Vocabulary import Vocabulary
-from model.models import Encoder, DecoderWithAttention, ObjectEncoder
+from model.models2 import GlobalEncoder, ObjectDescriptor, CaptionGenerator
 from torch.utils.data import DataLoader
 from torchvision import transforms
 
 if __name__=='__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    with open('dataset/vocab.pkl', 'rb') as f:
+    with open('dataset/data2/vocab.pkl', 'rb') as f:
         vocab = pickle.load(f)
 
-    embed_dim = 100
-    attention_dim = 100
-    decoder_dim = 100
+    embedding_size = 512
     vocab_size = len(vocab)
-    object_dim = 100
-    
-    num_filters = 3
-    conv_kernel = 3
-    pool_kernel = 2
-    object_size = 32
+    hidden_size = 256
 
+    object_size = 64
+    experiment_num = 4
     max_length = 20
 
-    transform = transforms.Compose([transforms.Resize(224),transforms.RandomCrop(224),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
-    object_transform = transforms.Compose([transforms.Resize(object_size),transforms.RandomCrop(object_size),transforms.RandomHorizontalFlip(),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+    transform = transforms.Compose([transforms.Resize(224),transforms.RandomCrop(224),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+    object_transform = transforms.Compose([transforms.Resize(object_size),transforms.RandomCrop(object_size),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
 
-    test_dataset = Dataset.HeritageDataset('dataset/test.csv', 'dataset/images', 'dataset/bounding_box', vocab, transform, object_transform)
-    test_loader = DataLoader(dataset=test_dataset, batch_size=1, shuffle=False, num_workers=2, collate_fn=Dataset.collate_fn)
+    test_dataset = Dataset.HeritageDataset('dataset/data2/test.csv', 'dataset/data2/images', 'dataset/data2/bounding_box', vocab, transform, object_transform)
+    test_loader = DataLoader(dataset=test_dataset, batch_size=1, shuffle=False, num_workers=4, collate_fn=Dataset.collate_fn)
 
-    encoder = Encoder(embed_dim).eval().to(device)
-    decoder = DecoderWithAttention(attention_dim, embed_dim, decoder_dim, vocab_size, object_dim).eval().to(device)
-    object_encoder = ObjectEncoder(num_filters, conv_kernel, pool_kernel, object_size, object_dim).eval().to(device)
+    global_encoder = GlobalEncoder(hidden_size).eval().to(device)
+    object_descriptor = ObjectDescriptor().eval().to(device)
+    caption_generator = CaptionGenerator(hidden_size, object_descriptor.descriptor_size, vocab_size, embedding_size).eval().to(device)
 
-    encoder.load_state_dict(torch.load('checkpoint/encoder.pt'))
-    decoder.load_state_dict(torch.load('checkpoint/decoder.pt'))
-    object_encoder.load_state_dict(torch.load('checkpoint/object_encoder.pt'))
+    global_encoder.load_state_dict(torch.load('checkpoint/models2/{}/global_encoder.pt'.format(experiment_num)))
+    caption_generator.load_state_dict(torch.load('checkpoint/models2/{}/caption_generator.pt'.format(experiment_num)))
+    object_descriptor.load_state_dict(torch.load('checkpoint/models2/{}/object_descriptor.pt'.format(experiment_num)))
 
     def translate(word_ids):
         text = []
@@ -53,19 +48,23 @@ if __name__=='__main__':
 
     results = []
     with torch.no_grad():
-        for ids, images, captions, lengths, objects in test_loader:
+        for ids, images, captions, lengths, objects, num_objects, class_lists in test_loader:
             start = time.time()
-            images = images.to(device)
+            
             objects = objects.to(device)
-            encoded_images = encoder(images)
-            encoded_objects = object_encoder(objects)
-            predictions, alphas = decoder.predict(encoded_images, encoded_objects, max_length)
+            num_objects = num_objects.to(device)
+            object_proposals, num_objects, sort_ind = object_descriptor(objects, num_objects)
+            
+            images = images.to(device)
+            h0 = global_encoder(images)
+            
+            predictions, attentions = caption_generator.predict(h0, object_proposals, max_length)
             generated = translate(predictions.cpu().numpy()[0])
             ground_truth = [translate(captions.numpy()[0])]
             end = time.time()
             test_time = end-start
-            alphas = alphas[:,:len(generated)].cpu().numpy()[0]
-            result = {'id':ids[0], 'generated':generated, 'ground_truth':ground_truth, 'alphas':alphas, 'test_time':test_time}
+            attentions = attentions[:, :len(generated)].cpu().numpy()[0]
+            result = {'id':ids[0], 'generated':generated, 'ground_truth':ground_truth, 'attention':attentions, 'test_time':test_time, 'classes':class_lists[0]}
             results.append(result)
 
     bleu_1s = []
@@ -76,7 +75,10 @@ if __name__=='__main__':
     gts = {}
     res = {}
     attentions = []
+    class_names = []
 
+    with open('dataset/data2/bounding_box/classes.txt', 'r') as f:
+        classes = f.readlines()
     for result in results:
         bleu_1s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(1,0,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
         bleu_2s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(0,1,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
@@ -85,15 +87,16 @@ if __name__=='__main__':
         times.append(result['test_time'])
         res[result['id']] = [' '.join(result['generated'])]
         gts[result['id']] = [' '.join(result['ground_truth'][0])]
-        attentions.append(result['alphas'])
-
+        attentions.append(result['attention'])
+        class_names.append([classes[i][:-1] for i in result['classes']])
+        
     cider_score = Cider().compute_score(gts,res)
-    with open('logs/test_results.txt', 'a+') as f:
+    with open('logs/models2/{}/test_results.txt'.format(experiment_num), 'a+') as f:
         for i,result in enumerate(results):
             f.write('ID: {}\n'.format(result['id']))
             f.write('Ground Truth: {}\n'.format(gts[result['id']]))
             f.write('Generated: {}\n'.format(res[result['id']]))
-            f.write('Attention: {}\n'.format(attentions[i]))
+            f.write('Attention:\n{}\n{}\n'.format(class_names[i], attentions[i]))
             f.write('BLEU-1: {}\n'.format(bleu_1s[i]))
             f.write('BLEU-2: {}\n'.format(bleu_2s[i]))
             f.write('BLEU-3: {}\n'.format(bleu_3s[i]))
@@ -101,7 +104,7 @@ if __name__=='__main__':
             f.write('CIDER: {}\n'.format(cider_score[1][i]))
             f.write('Inference Time: {}\n\n'.format(times[i]))
     
-    with open('logs/test_summary.txt', 'a+') as f:
+    with open('logs/models2/{}/test_summary.txt'.format(experiment_num), 'a+') as f:
         f.write('BLEU-1: {}\n'.format(numpy.mean(bleu_1s)))
         f.write('BLEU-2: {}\n'.format(numpy.mean(bleu_2s)))
         f.write('BLEU-3: {}\n'.format(numpy.mean(bleu_3s)))

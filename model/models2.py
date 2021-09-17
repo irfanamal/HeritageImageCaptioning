@@ -5,9 +5,9 @@ import torchvision
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
-class GLobalEncoder(torch.nn.Module):
+class GlobalEncoder(torch.nn.Module):
     def __init__(self, hidden_size):
-        super(GLobalEncoder, self).__init__()
+        super(GlobalEncoder, self).__init__()
         vgg16 = torchvision.models.vgg16_bn(pretrained=True)
         vgg16.classifier[-1] = torch.nn.Linear(vgg16.classifier[-1].in_features, hidden_size)
         self.vgg16 = vgg16
@@ -111,7 +111,7 @@ class CaptionGenerator(torch.nn.Module):
         c = None
         region_feedback = None
 
-        for t in range(max_length):
+        for t in range(max_length-1):
             embeddings = self.embedding(predictions[:, t])
             if t == 0:
                 h, c = self.lstm(torch.cat([embeddings, torch.zeros(1, self.descriptor_size).to(device)], dim=1), (h0, h0))
@@ -119,9 +119,11 @@ class CaptionGenerator(torch.nn.Module):
                 h, c = self.lstm(torch.cat([embeddings, region_feedback], dim=1), (h, c))
             w, wr, r = self.attention(self.embedding.weight, object_proposals, h)
             preds = torch.add(torch.add(w, torch.sum(wr, 2)), torch.sum(r, 1).unsqueeze(-1))
-            predictions[:, t] = torch.argmax(preds, 1)
+            predictions[:, t+1] = torch.argmax(preds, 1)
             region_attention = torch.add(torch.sum(w, 1).unsqueeze(-1), torch.add(torch.sum(wr, 1), r))
             region_attention = torch.nn.functional.softmax(region_attention, dim=1)
-            attention[:, t, :] = region_attention.squeeze()
+            attention[:, t+1, :] = region_attention.squeeze()
+            if predictions[:, t+1].item() == 2:
+                break
             region_feedback = torch.bmm(region_attention.unsqueeze(1), object_proposals).squeeze(1)
         return predictions, attention
