@@ -127,3 +127,94 @@ class CaptionGenerator(torch.nn.Module):
                 break
             region_feedback = torch.bmm(region_attention.unsqueeze(1), object_proposals).squeeze(1)
         return predictions, attention
+    def beam(self, h0, object_proposals, max_length, k):
+        predictions = torch.zeros(k, max_length).long().to(device)
+        attention = torch.zeros(k, max_length, object_proposals.size(1)).to(device)
+        probs = torch.zeros(k).to(device)
+        lengths = torch.zeros(k).long().to(device)
+        h = torch.zeros(k, self.hidden_size).to(device)
+        c = torch.zeros(k, self.hidden_size).to(device)
+        region_feedback = None
+      
+        predictions[:, :1] = torch.ones(1).long().to(device)
+        probs[:1] = torch.ones(1).to(device)
+        lengths[:1] = torch.ones(1).long().to(device)
+        h[:1] = h0
+        c[:1] = h0
+        
+        for t in range(max_length-1):
+            lengths, sort_ind = lengths.sort(dim=0, descending=True)
+            predictions = predictions[sort_ind]
+            probs = probs[sort_ind]
+            attention = attention[sort_ind]
+            h = h[sort_ind]
+            c = c[sort_ind]
+
+            batch_size_t = sum([l>t for l in lengths.tolist()])
+            embeddings = self.embedding(predictions[:batch_size_t, t])
+            if t==0:
+                h[:1], c[:1] = self.lstm(torch.cat([embeddings, torch.zeros(1, self.descriptor_size).to(device)], dim=1), (h[:1], c[:1]))
+            else:
+                region_feedback = torch.bmm(attention[:batch_size_t, t].unsqueeze(1), object_proposals.repeat(batch_size_t,1,1)).squeeze(1)
+                h[:batch_size_t], c[:batch_size_t] = self.lstm(torch.cat([embeddings, region_feedback], dim=1), (h[:batch_size_t], c[:batch_size_t]))
+            w, wr, r = self.attention(self.embedding.weight, object_proposals.repeat(batch_size_t,1,1), h[:batch_size_t])
+            preds = torch.add(torch.add(w, torch.sum(wr, 2)), torch.sum(r, 1).unsqueeze(-1))
+            preds = torch.nn.functional.softmax(preds, 1)
+            top_k, word_ids = torch.topk(preds, k, dim=1)
+            region_attention = torch.add(torch.sum(w, 1).unsqueeze(-1), torch.add(torch.sum(wr, 1), r))
+            region_attention = torch.nn.functional.softmax(region_attention, dim=1)
+            probs_temp = torch.zeros(batch_size_t*k+k-batch_size_t).to(device)
+            sent_temp = torch.zeros(batch_size_t*k+k-batch_size_t, max_length).long().to(device)
+            att_temp = torch.zeros(batch_size_t*k+k-batch_size_t, max_length, object_proposals.size(1)).to(device)
+            h_temp = torch.zeros(batch_size_t*k+k-batch_size_t, self.hidden_size).to(device)
+            c_temp = torch.zeros(batch_size_t*k+k-batch_size_t, self.hidden_size).to(device)
+            
+            for i in range(batch_size_t):
+                sent_temp[k*i:k*(i+1)] = predictions[i].repeat(k,1)
+                att_temp[k*i:k*(i+1)] = attention[i].repeat(k,1,1)
+                h_temp[k*i:k*(i+1)] = h[i].repeat(k,1)
+                c_temp[k*i:k*(i+1)] = c[i].repeat(k,1)
+                for j in range(k):
+                    prob = probs[i] * top_k[i, j]
+                    probs_temp[k*i+j] = prob
+                    sent_temp[k*i+j, t+1] = word_ids[i,j]
+                    att_temp[k*i+j, t+1] = region_attention[i]
+            probs_temp[k*batch_size_t:] = probs[batch_size_t:]
+            sent_temp[k*batch_size_t:] = predictions[batch_size_t:]
+            att_temp[k*batch_size_t:] = attention[batch_size_t:]
+            h_temp[k*batch_size_t:] = h[batch_size_t:]
+            c_temp[k*batch_size_t:] = c[batch_size_t:]
+            probs_temp, sort_ind = probs_temp.sort(dim=0, descending=True)
+            sent_temp = sent_temp[sort_ind]
+            att_temp = att_temp[sort_ind]
+            h_temp = h_temp[sort_ind]
+            c_temp = c_temp[sort_ind]
+#             print(probs_temp)
+#             print(sent_temp)
+#             print(att_temp[:k, :3])
+            probs = probs_temp[:k]
+            predictions = sent_temp[:k]
+            attention = att_temp[:k]
+            h = h_temp[:k]
+            c = c_temp[:k]
+#             print(probs)
+#             print(predictions)
+#             print(attention)
+            lengths_temp = torch.zeros(k).long().to(device)
+            end = 0
+            for i in range(k):
+                count = 0
+                for j in range(max_length):
+                    if predictions[i, j].item() != 0:
+                        if predictions[i, j].item() == 2:
+                            end += 1
+                            break
+                        else:
+                            count += 1
+                    else:
+                        break
+                lengths_temp[i] = torch.tensor(count).to(device)
+            lengths = lengths_temp
+            if end == k:
+                break
+        return predictions, attention, probs

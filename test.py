@@ -22,6 +22,7 @@ if __name__=='__main__':
     object_size = 64
     experiment_num = 4
     max_length = 20
+    beam_size = 10
 
     transform = transforms.Compose([transforms.Resize(224),transforms.RandomCrop(224),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
     object_transform = transforms.Compose([transforms.Resize(object_size),transforms.RandomCrop(object_size),transforms.ToTensor(),transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
@@ -58,13 +59,13 @@ if __name__=='__main__':
             images = images.to(device)
             h0 = global_encoder(images)
             
-            predictions, attentions = caption_generator.predict(h0, object_proposals, max_length)
-            generated = translate(predictions.cpu().numpy()[0])
+            predictions, attentions, probs = caption_generator.beam(h0, object_proposals, max_length, beam_size)
+            generated = [translate(predictions.cpu().numpy()[i]) for i in range(beam_size)]
             ground_truth = [translate(captions.numpy()[0])]
             end = time.time()
             test_time = end-start
-            attentions = attentions[:, :len(generated)].cpu().numpy()[0]
-            result = {'id':ids[0], 'generated':generated, 'ground_truth':ground_truth, 'attention':attentions, 'test_time':test_time, 'classes':class_lists[0]}
+            attentions = attentions[:, :len(generated[0])].cpu().numpy()[0]
+            result = {'id':ids[0], 'generated':generated, 'ground_truth':ground_truth, 'attention':attentions, 'test_time':test_time, 'classes':class_lists[0], 'probs':probs.cpu().numpy()}
             results.append(result)
 
     bleu_1s = []
@@ -80,22 +81,25 @@ if __name__=='__main__':
     with open('dataset/data2/bounding_box/classes.txt', 'r') as f:
         classes = f.readlines()
     for result in results:
-        bleu_1s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(1,0,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
-        bleu_2s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(0,1,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
-        bleu_3s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(0,0,1,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
-        bleu_4s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'], weights=(0,0,0,1), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
+        bleu_1s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'][0], weights=(1,0,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
+        bleu_2s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'][0], weights=(0,1,0,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
+        bleu_3s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'][0], weights=(0,0,1,0), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
+        bleu_4s.append(nltk.translate.bleu_score.sentence_bleu(result['ground_truth'], result['generated'][0], weights=(0,0,0,1), smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7))
         times.append(result['test_time'])
-        res[result['id']] = [' '.join(result['generated'])]
+        res[result['id']] = [' '.join(result['generated'][0])]
         gts[result['id']] = [' '.join(result['ground_truth'][0])]
         attentions.append(result['attention'])
         class_names.append([classes[i][:-1] for i in result['classes']])
         
     cider_score = Cider().compute_score(gts,res)
-    with open('logs/models2/{}/test_results.txt'.format(experiment_num), 'a+') as f:
+    with open('logs/models2/{}/beam/{}/test_results.txt'.format(experiment_num, beam_size), 'a+') as f:
         for i,result in enumerate(results):
             f.write('ID: {}\n'.format(result['id']))
             f.write('Ground Truth: {}\n'.format(gts[result['id']]))
-            f.write('Generated: {}\n'.format(res[result['id']]))
+            f.write('Generated:\n')
+            for j in range(len(result['generated'])):
+                f.write('{}\n'.format(result['generated'][j]))
+            f.write('Probability: {}\n'.format(result['probs']))
             f.write('Attention:\n{}\n{}\n'.format(class_names[i], attentions[i]))
             f.write('BLEU-1: {}\n'.format(bleu_1s[i]))
             f.write('BLEU-2: {}\n'.format(bleu_2s[i]))
@@ -104,7 +108,7 @@ if __name__=='__main__':
             f.write('CIDER: {}\n'.format(cider_score[1][i]))
             f.write('Inference Time: {}\n\n'.format(times[i]))
     
-    with open('logs/models2/{}/test_summary.txt'.format(experiment_num), 'a+') as f:
+    with open('logs/models2/{}/beam/{}/test_summary.txt'.format(experiment_num, beam_size), 'a+') as f:
         f.write('BLEU-1: {}\n'.format(numpy.mean(bleu_1s)))
         f.write('BLEU-2: {}\n'.format(numpy.mean(bleu_2s)))
         f.write('BLEU-3: {}\n'.format(numpy.mean(bleu_3s)))
