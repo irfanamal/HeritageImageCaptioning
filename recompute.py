@@ -64,7 +64,7 @@
 
 from bleu.bleu import Bleu
 
-with open('logs/models2/4/beam/3/test_results.txt', 'r') as f:
+with open('logs/models2/7/val_results.txt', 'r') as f:
     lines = f.readlines()
 
 res = {}
@@ -81,7 +81,7 @@ for line in lines:
         res[id] = [sent]
 bleu_score = Bleu().compute_score(gts, res)
 
-with open('logs/models2/4/beam/3/test_results_recomputed.txt', 'a+') as f:
+with open('logs/models2/7/val_results_recomputed.txt', 'a+') as f:
     i = 0
     for line in lines:
         if len(line.split()) > 1:
@@ -96,10 +96,10 @@ with open('logs/models2/4/beam/3/test_results_recomputed.txt', 'a+') as f:
                 i += 1
         f.write(line)
 
-with open('logs/models2/4/beam/3/test_summary.txt', 'r') as f:
+with open('logs/models2/7/val_summary.txt', 'r') as f:
     lines = f.readlines()
 
-with open('logs/models2/4/beam/3/test_summary_recomputed.txt', 'a+') as f:
+with open('logs/models2/7/val_summary_recomputed.txt', 'a+') as f:
     for line in lines:
         if len(line.split()) > 1:
             if line.split()[0] == 'BLEU-1:':
