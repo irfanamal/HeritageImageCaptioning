@@ -1,0 +1,16 @@
+learning_rate: 0.001
+object_size: 128
+hidden_size: 512
+embedding_size: 512
+learning_rate: 0.001
+object_size: 128
+hidden_size: 512
+embedding_size: 512
+learning_rate: 0.001
+object_size: 128
+hidden_size: 512
+embedding_size: 512
+learning_rate: 0.001
+object_size: 128
+hidden_size: 512
+embedding_size: 512

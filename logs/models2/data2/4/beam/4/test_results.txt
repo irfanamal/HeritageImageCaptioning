@@ -1,0 +1,2601 @@
+ID: 3292
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+Probability: [0.02386915 0.0177928  0.01744784 0.01472272]
+Attention:
+['Aesan Gede Man Hat', 'Aesan Gede Man Clothes', 'Aesan Gede Woman Hat', 'Aesan Gede Woman Clothes', 'Person', 'Person']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [4.2176014e-03 4.1748941e-04 3.3915776e-04 9.9498391e-01 7.2842658e-06
+  3.4547502e-05]
+ [4.0297778e-03 4.1678338e-04 3.8056049e-04 9.9513078e-01 7.5768780e-06
+  3.4645789e-05]
+ [4.2625801e-03 4.1408945e-04 3.8908306e-04 9.9489117e-01 8.4042413e-06
+  3.4701920e-05]
+ [4.2637601e-03 4.0915021e-04 3.9068167e-04 9.9489439e-01 7.5108546e-06
+  3.4557379e-05]
+ [4.3114861e-03 4.2748931e-04 4.1731147e-04 9.9480033e-01 7.7008053e-06
+  3.5708345e-05]
+ [4.2707762e-03 4.0845468e-04 3.8427420e-04 9.9489343e-01 8.1782409e-06
+  3.4851309e-05]
+ [4.0278011e-03 3.9795224e-04 3.4656556e-04 9.9518716e-01 7.0448395e-06
+  3.3399061e-05]
+ [4.4621448e-03 4.4773644e-04 3.7722071e-04 9.9466681e-01 8.2321958e-06
+  3.7822731e-05]
+ [4.3410333e-03 4.3373645e-04 3.6330012e-04 9.9481696e-01 7.9335005e-06
+  3.7080608e-05]
+ [4.2306241e-03 4.0927393e-04 3.6471247e-04 9.9495280e-01 7.6644119e-06
+  3.4905679e-05]
+ [4.3402174e-03 4.1343668e-04 3.9264237e-04 9.9480927e-01 7.3979172e-06
+  3.6912272e-05]
+ [4.3391520e-03 4.1602997e-04 3.8716695e-04 9.9481457e-01 7.2607299e-06
+  3.5782221e-05]
+ [4.0311571e-03 4.0720581e-04 3.7682508e-04 9.9514294e-01 7.5204302e-06
+  3.4364395e-05]]
+BLEU-1: 0.8049580496530322
+BLEU-2: 0.7326455451973104
+BLEU-3: 0.7040481154404531
+BLEU-4: 0.6848817022650581
+CIDER: 8.205036729001213
+Inference Time: 0.08283209800720215
+
+ID: 10165
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto berjajar <END>']
+Probability: [0.02373545 0.0172837  0.01616778 0.01390234]
+Attention:
+['Person', 'Person', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Woman Hat', 'Tulang Bawang Man Clothes', 'Tulang Bawang Man Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.06699461 0.00067059 0.10616625 0.37219423 0.41436192 0.03961234]
+ [0.07193202 0.00067652 0.10529193 0.3771041  0.4059453  0.03905008]
+ [0.06922821 0.00064969 0.10841083 0.38113448 0.40121105 0.03936577]
+ [0.07003725 0.00066485 0.1051972  0.375217   0.40861    0.04027371]
+ [0.06817411 0.00074133 0.10397682 0.3815649  0.40542108 0.04012184]
+ [0.07103162 0.00070655 0.10443263 0.37942487 0.40472233 0.03968199]
+ [0.07062657 0.0006848  0.10346761 0.38330713 0.40125063 0.04066331]
+ [0.07506856 0.00064767 0.10783225 0.37833124 0.39753956 0.04058065]
+ [0.07246249 0.00063748 0.10285451 0.37807634 0.4069915  0.03897771]
+ [0.06979584 0.00062159 0.10368139 0.38368866 0.40204132 0.04017115]
+ [0.07331966 0.00064904 0.10849955 0.3810384  0.3954856  0.04100778]
+ [0.07100976 0.00063828 0.10625437 0.3822856  0.3999106  0.03990136]
+ [0.07197898 0.00066093 0.10815831 0.3829717  0.39459267 0.04163738]
+ [0.06909683 0.00066509 0.1048928  0.38446096 0.39981046 0.0410739 ]
+ [0.07655542 0.00061046 0.10118932 0.38209653 0.40010658 0.03944173]]
+BLEU-1: 0.9374999998828125
+BLEU-2: 0.9013878187514461
+BLEU-3: 0.8863913854079735
+BLEU-4: 0.8761560782053983
+CIDER: 7.821754958419616
+Inference Time: 0.06409931182861328
+
+ID: 10108
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+Probability: [0.10088133 0.05944028 0.05920752 0.05498092]
+Attention:
+['Kebaya Sunda Hat', 'Kebaya Sunda Clothes', 'Person']
+[[0.         0.         0.        ]
+ [0.66235024 0.3297473  0.00790246]
+ [0.67423    0.31829056 0.00747947]
+ [0.70167357 0.2913271  0.00699929]
+ [0.69093734 0.30166486 0.00739778]
+ [0.69678885 0.29612395 0.00708725]
+ [0.6937813  0.2990195  0.00719915]
+ [0.68699944 0.30577075 0.00722984]
+ [0.68151116 0.3110512  0.00743769]
+ [0.6967001  0.2962029  0.00709697]
+ [0.66970086 0.32259908 0.00770003]
+ [0.6641294  0.3280035  0.00786718]
+ [0.6471438  0.3447065  0.00814974]
+ [0.6609173  0.331289   0.00779371]]
+BLEU-1: 0.8571428570204084
+BLEU-2: 0.8119979428229199
+BLEU-3: 0.7603371307639573
+BLEU-4: 0.6997522297157751
+CIDER: 3.4567880476288764
+Inference Time: 0.05219578742980957
+
+ID: 3304
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+['<START> tiga orang laki-laki yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+Probability: [0.03563507 0.03147944 0.02658843 0.02433312]
+Attention:
+['Person', 'Person', 'Aesan Gede Woman Clothes', 'Aesan Gede Woman Clothes', 'Aesan Gede Woman Hat', 'Aesan Gede Woman Hat']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [1.9925176e-01 2.2675590e-01 4.0283909e-01 1.7115323e-01 1.5696855e-09
+  1.7866547e-11]
+ [1.9832610e-01 2.2833498e-01 4.0117377e-01 1.7216514e-01 1.4595376e-09
+  1.7206462e-11]
+ [2.0003748e-01 2.2537045e-01 3.9424464e-01 1.8034737e-01 1.4993174e-09
+  1.8162361e-11]
+ [2.0058596e-01 2.2792360e-01 3.9910537e-01 1.7238507e-01 1.6298095e-09
+  1.7735927e-11]
+ [1.9715044e-01 2.3348744e-01 3.8753501e-01 1.8182708e-01 1.5996001e-09
+  1.7496758e-11]
+ [1.9575019e-01 2.3653087e-01 3.8762680e-01 1.8009222e-01 1.7446262e-09
+  2.0766432e-11]
+ [1.9995379e-01 2.2514494e-01 3.9187711e-01 1.8302408e-01 1.8116261e-09
+  2.0893828e-11]
+ [1.9993663e-01 2.2132815e-01 3.9479551e-01 1.8393968e-01 1.5927858e-09
+  1.8628283e-11]
+ [2.0044288e-01 2.1991891e-01 4.0208748e-01 1.7755072e-01 1.7032693e-09
+  2.0088126e-11]
+ [2.0208496e-01 2.2523661e-01 4.0093839e-01 1.7174001e-01 1.6455290e-09
+  1.9887805e-11]
+ [2.0514686e-01 2.2292277e-01 4.0174767e-01 1.7018272e-01 1.5949780e-09
+  1.8333710e-11]
+ [1.9782352e-01 2.2389826e-01 4.0051663e-01 1.7776166e-01 1.6448299e-09
+  1.9013168e-11]
+ [2.0079318e-01 2.1992666e-01 4.0559423e-01 1.7368592e-01 1.6890820e-09
+  1.8522350e-11]
+ [1.9722259e-01 2.2781074e-01 4.0070212e-01 1.7426458e-01 1.7688291e-09
+  2.0927763e-11]
+ [1.9326764e-01 2.3323368e-01 4.0202972e-01 1.7146893e-01 1.7328782e-09
+  1.9945743e-11]]
+BLEU-1: 0.999999999875
+BLEU-2: 0.9999999998729167
+BLEU-3: 0.999999999870635
+BLEU-4: 0.9999999998681205
+CIDER: 10.0
+Inference Time: 0.06274151802062988
+
+ID: 3015
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berjalan beriringan sambil berpegangan tangan <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berjalan beriringan <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto berjajar sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berjalan beriringan sambil berpegangan tangan <END>']
+Probability: [0.07052296 0.03209297 0.0213988  0.01544503]
+Attention:
+['Person', 'Person', 'Ulee Balang Man Hat', 'Ulee Balang Woman Hat', 'Ulee Balang Man Clothes', 'Ulee Balang Woman Clothes']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [2.4718172e-03 1.3832626e-03 9.4453408e-04 2.8934499e-04 9.7822523e-01
+  1.6685795e-02]
+ [2.3650602e-03 1.4117074e-03 9.4582874e-04 2.8783793e-04 9.7712713e-01
+  1.7862434e-02]
+ [2.3069652e-03 1.5964450e-03 1.0106128e-03 3.1952260e-04 9.7658700e-01
+  1.8179493e-02]
+ [2.3937207e-03 1.5380285e-03 1.0184282e-03 3.1578453e-04 9.7493374e-01
+  1.9800248e-02]
+ [2.5713870e-03 1.7541884e-03 1.1912872e-03 3.8497438e-04 9.7180951e-01
+  2.2288704e-02]
+ [2.4692600e-03 1.5888781e-03 1.0759791e-03 3.4622551e-04 9.7404230e-01
+  2.0477301e-02]
+ [2.7709920e-03 1.8256702e-03 1.2332090e-03 3.9528910e-04 9.7138560e-01
+  2.2389272e-02]
+ [2.6440986e-03 1.6896189e-03 1.1722445e-03 3.4141951e-04 9.7349244e-01
+  2.0660194e-02]
+ [2.4960479e-03 1.8577307e-03 1.2620484e-03 3.7000794e-04 9.7166461e-01
+  2.2349531e-02]
+ [2.6450632e-03 1.7761419e-03 1.2154969e-03 3.5130250e-04 9.7270411e-01
+  2.1307901e-02]
+ [2.5345997e-03 1.5255805e-03 1.0444323e-03 3.0635117e-04 9.7560692e-01
+  1.8982129e-02]
+ [2.4775958e-03 1.5449749e-03 1.0475825e-03 3.1827783e-04 9.7476792e-01
+  1.9843604e-02]
+ [2.4599021e-03 1.4658477e-03 1.0728115e-03 3.0009553e-04 9.7654676e-01
+  1.8154545e-02]
+ [2.4311470e-03 1.5287236e-03 1.0811427e-03 3.1642025e-04 9.7449028e-01
+  2.0152276e-02]
+ [2.4419094e-03 1.4219421e-03 1.0101468e-03 2.8957243e-04 9.7709697e-01
+  1.7739553e-02]
+ [2.5700869e-03 1.6184991e-03 1.1012004e-03 3.2913365e-04 9.7449410e-01
+  1.9886959e-02]
+ [2.4219516e-03 1.5873372e-03 1.0677555e-03 3.2115020e-04 9.7481966e-01
+  1.9782143e-02]
+ [2.5357113e-03 1.5709688e-03 1.0501399e-03 3.1076110e-04 9.7623014e-01
+  1.8302221e-02]]
+BLEU-1: 0.6842105262797785
+BLEU-2: 0.5848976518339627
+BLEU-3: 0.5440017211408118
+BLEU-4: 0.5151630664701083
+CIDER: 0.49343002227169863
+Inference Time: 0.07294893264770508
+
+ID: 4139
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berjalan beriringan sambil berpegangan tangan <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto pengantin <END>']
+Probability: [0.04690425 0.04213964 0.01419292 0.01240663]
+Attention:
+['Person', 'Person', 'Jawa Man Clothes', 'Jawa Man Hat', 'Jawa Woman Clothes', 'Jawa Woman Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.00362975 0.12152524 0.29672194 0.09591012 0.38078493 0.101428  ]
+ [0.00348459 0.12282106 0.294449   0.09705    0.37775633 0.10443907]
+ [0.0034022  0.1255931  0.2997608  0.0941334  0.3842468  0.09286375]
+ [0.0037069  0.12255857 0.29796606 0.09686948 0.3836889  0.09521006]
+ [0.0037551  0.11931171 0.29811898 0.09895435 0.38397896 0.09588086]
+ [0.00372511 0.12291164 0.29434958 0.09451702 0.38149944 0.10299713]
+ [0.00357428 0.11951306 0.299261   0.09677567 0.37610343 0.1047726 ]
+ [0.00366446 0.11873235 0.2953386  0.09862263 0.37668568 0.1069563 ]
+ [0.00350273 0.11574371 0.30058303 0.09920082 0.36941612 0.11155363]
+ [0.00367108 0.1180323  0.29979318 0.09805924 0.37262076 0.10782339]
+ [0.00369661 0.12113022 0.293735   0.09713456 0.37047857 0.11382507]
+ [0.00373326 0.12198975 0.29582986 0.09589349 0.37865195 0.10390173]
+ [0.00382573 0.11777693 0.29320532 0.09565723 0.3737507  0.11578412]
+ [0.00370008 0.11538658 0.2977192  0.09473611 0.3831663  0.10529173]]
+BLEU-1: 0.7584835430694234
+BLEU-2: 0.6885826850110582
+BLEU-3: 0.6344308599809662
+BLEU-4: 0.600884415844724
+CIDER: 0.5726507132578773
+Inference Time: 0.07337164878845215
+
+ID: 10062
+Ground Truth: ['<START> satu orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berdiri <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.11287845 0.06065612 0.04484339 0.01759461]
+Attention:
+['Pesaan Man Hat', 'Pesaan Man Clothes', 'Person']
+[[0.         0.         0.        ]
+ [0.08023514 0.15360872 0.76615614]
+ [0.0779347  0.14771706 0.7743482 ]
+ [0.08070362 0.14647835 0.7728181 ]
+ [0.078398   0.14367287 0.7779291 ]
+ [0.07515481 0.12841597 0.7964292 ]
+ [0.07816946 0.1387731  0.7830574 ]
+ [0.08041934 0.1344294  0.78515124]
+ [0.07986164 0.13625611 0.78388226]
+ [0.07551794 0.13330045 0.79118156]
+ [0.07570825 0.1389226  0.78536916]
+ [0.07432655 0.13403402 0.7916395 ]
+ [0.07630753 0.14326696 0.7804254 ]]
+BLEU-1: 0.8461538460236689
+BLEU-2: 0.7510676160808549
+BLEU-3: 0.6751063810707115
+BLEU-4: 0.6262844961733891
+CIDER: 2.307597482418372
+Inference Time: 0.0515286922454834
+
+ID: 10178
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.01743839 0.01616368 0.01474386 0.01095891]
+Attention:
+['Tulang Bawang Woman Hat', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Man Clothes', 'Tulang Bawang Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.13240014 0.18585888 0.2686998  0.01279127 0.17476927 0.22548069]
+ [0.13534498 0.18336782 0.2724928  0.01251065 0.17372376 0.22255999]
+ [0.13865264 0.18422645 0.2674012  0.01245496 0.17516606 0.22209874]
+ [0.13826719 0.1846893  0.26347658 0.01246972 0.1776387  0.22345851]
+ [0.14046356 0.18347825 0.26965725 0.0123453  0.17661513 0.21744056]
+ [0.13864678 0.1796302  0.28093946 0.0125234  0.1757237  0.21253647]
+ [0.13696305 0.18062685 0.2862068  0.01219562 0.17131603 0.21269165]
+ [0.13470587 0.17967027 0.28558847 0.01239448 0.17577858 0.21186228]
+ [0.13426459 0.18204673 0.27911288 0.01248056 0.17515829 0.21693699]
+ [0.13853279 0.1829606  0.2783385  0.01234556 0.17203104 0.21579154]
+ [0.13599987 0.183218   0.27759153 0.01267477 0.17140107 0.2191148 ]
+ [0.13608415 0.18100269 0.28003192 0.01254145 0.17389318 0.2164466 ]]
+BLEU-1: 0.6107097366890842
+BLEU-2: 0.4494701960965626
+BLEU-3: 0.35234614283227755
+BLEU-4: 0.2886883040711345
+CIDER: 0.026427589571656418
+Inference Time: 0.06236577033996582
+
+ID: 4235
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar <END>']
+Probability: [0.04690808 0.04234335 0.03840484 0.02296844]
+Attention:
+['Pesaan Man Hat', 'Pesaan Man Clothes', 'Pesaan Woman Clothes', 'Person', 'Person']
+[[0.         0.         0.         0.         0.        ]
+ [0.24042027 0.68673533 0.04843789 0.00811184 0.0162947 ]
+ [0.23754014 0.69164956 0.04738197 0.00803475 0.01539357]
+ [0.23668247 0.6923552  0.04775782 0.00793294 0.01527158]
+ [0.23871566 0.6873585  0.0491655  0.00840098 0.01635932]
+ [0.23892511 0.6870432  0.04932567 0.00831389 0.01639216]
+ [0.23982409 0.68574697 0.04943493 0.00843594 0.01655817]
+ [0.24453436 0.6809939  0.05005425 0.00835303 0.01606444]
+ [0.24384198 0.6816309  0.05009463 0.00836408 0.01606842]
+ [0.2478977  0.67809254 0.0496275  0.00818745 0.01619482]
+ [0.25074452 0.6739079  0.05029239 0.00858799 0.01646716]
+ [0.24464223 0.6834947  0.04790911 0.00827728 0.0156767 ]
+ [0.24273765 0.6831666  0.04953909 0.00842151 0.01613507]
+ [0.2436519  0.68079406 0.04992491 0.00865841 0.01697078]
+ [0.2434583  0.6825976  0.04910383 0.0084414  0.01639896]]
+BLEU-1: 0.9999999998666668
+BLEU-2: 0.9999999998642858
+BLEU-3: 0.9999999998616607
+BLEU-4: 0.9999999998587455
+CIDER: 10.0
+Inference Time: 0.06801605224609375
+
+ID: 4205
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.07643199 0.0569988  0.03608087 0.0326957 ]
+Attention:
+['Person', 'Person', 'Jawa Woman Clothes', 'Jawa Woman Hat', 'Jawa Man Clothes', 'Jawa Man Hat']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [7.9645842e-02 6.9766939e-01 1.6252182e-01 5.1503923e-07 4.7246512e-02
+  1.2915922e-02]
+ [7.8677505e-02 7.0548296e-01 1.5672608e-01 4.8874779e-07 4.6640135e-02
+  1.2472807e-02]
+ [7.7558137e-02 6.9827414e-01 1.6614117e-01 4.6192326e-07 4.5517407e-02
+  1.2508683e-02]
+ [8.0749609e-02 6.9425440e-01 1.6565962e-01 4.0120315e-07 4.6552036e-02
+  1.2783963e-02]
+ [8.2041100e-02 6.8179905e-01 1.7807893e-01 4.3250202e-07 4.5202374e-02
+  1.2878126e-02]
+ [8.0408551e-02 6.9156879e-01 1.6908844e-01 4.6832722e-07 4.5990348e-02
+  1.2943379e-02]
+ [8.0943361e-02 6.8793988e-01 1.7523295e-01 4.5010427e-07 4.2820200e-02
+  1.3063235e-02]
+ [8.0384932e-02 6.9741869e-01 1.6557692e-01 5.1701568e-07 4.3926872e-02
+  1.2692117e-02]
+ [8.2394481e-02 6.9365942e-01 1.6795591e-01 5.3914874e-07 4.2939685e-02
+  1.3049886e-02]
+ [8.2560696e-02 6.9765073e-01 1.6283163e-01 5.0685316e-07 4.3981966e-02
+  1.2974586e-02]
+ [8.0891564e-02 7.0233613e-01 1.5974107e-01 5.2542367e-07 4.3923307e-02
+  1.3107370e-02]
+ [8.1698269e-02 6.9923466e-01 1.6058932e-01 4.5811282e-07 4.5461703e-02
+  1.3015633e-02]
+ [8.3789408e-02 6.9682819e-01 1.6004610e-01 5.2359712e-07 4.6168461e-02
+  1.3167299e-02]
+ [7.9739757e-02 6.9852072e-01 1.6390647e-01 4.9470538e-07 4.5319404e-02
+  1.2513107e-02]]
+BLEU-1: 0.9999999998666668
+BLEU-2: 0.9999999998642858
+BLEU-3: 0.9999999998616607
+BLEU-4: 0.9999999998587455
+CIDER: 10.0
+Inference Time: 0.0652611255645752
+
+ID: 3035
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat ulee balang sedang berfoto bergaya <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto pengantin <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat kebaya sunda sedang berfoto pengantin <END>']
+Probability: [0.03656193 0.02570491 0.01636009 0.01141567]
+Attention:
+['Person', 'Ulee Balang Woman Clothes', 'Ulee Balang Woman Hat']
+[[0.         0.         0.        ]
+ [0.06577959 0.22978596 0.7044344 ]
+ [0.06365231 0.24117531 0.6951724 ]
+ [0.06672169 0.24717003 0.6861083 ]
+ [0.06763075 0.23766008 0.6947091 ]
+ [0.06436187 0.24228768 0.69335043]
+ [0.06598366 0.23828258 0.6957338 ]
+ [0.06490057 0.23286648 0.7022329 ]
+ [0.06373257 0.2314076  0.7048598 ]
+ [0.06332121 0.2365943  0.7000845 ]
+ [0.06542256 0.23448636 0.70009106]
+ [0.06677373 0.23883568 0.6943906 ]
+ [0.06953721 0.2381705  0.6922923 ]
+ [0.06596737 0.22944932 0.70458335]]
+BLEU-1: 0.785714285602041
+BLEU-2: 0.695353495263869
+BLEU-3: 0.6229603840623748
+BLEU-4: 0.575757563532666
+CIDER: 1.5178938728875015
+Inference Time: 0.051579952239990234
+
+ID: 3510
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar sambil tersenyum <END>']
+Probability: [0.06194784 0.05696291 0.05521514 0.01826519]
+Attention:
+['Melayu Jambi Woman Hat', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Man Clothes', 'Melayu Jambi Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.00647631 0.01214433 0.04248639 0.07048304 0.8534043  0.01500576]
+ [0.00608676 0.01164892 0.04213656 0.06821214 0.8575402  0.01437544]
+ [0.00566063 0.01133092 0.04219155 0.06849949 0.8584844  0.01383312]
+ [0.00680659 0.01282505 0.04928831 0.07325994 0.8422946  0.01552552]
+ [0.00644852 0.01291237 0.05048599 0.07478061 0.8394046  0.01596802]
+ [0.00620714 0.01258554 0.04840483 0.0735222  0.8439373  0.01534305]
+ [0.00706475 0.01331289 0.05192114 0.08077084 0.83080727 0.01612312]
+ [0.00698812 0.01215025 0.0461407  0.07112857 0.84884244 0.01475   ]
+ [0.00748896 0.01274761 0.04908582 0.07214054 0.84298426 0.01555288]
+ [0.00688232 0.01253297 0.04727682 0.07194693 0.8464272  0.01493374]
+ [0.00749084 0.01290551 0.04803836 0.07448278 0.8413376  0.01574493]
+ [0.00806912 0.01427944 0.05302467 0.08414283 0.8229795  0.01750445]
+ [0.00688663 0.01249123 0.04643097 0.07096385 0.84818524 0.01504212]
+ [0.00595451 0.01201454 0.04401104 0.06583518 0.85741335 0.01477143]]
+BLEU-1: 0.8107727202526325
+BLEU-2: 0.7360529595487584
+BLEU-3: 0.6781679561265105
+BLEU-4: 0.6423088501305156
+CIDER: 0.68415242011079
+Inference Time: 0.06696534156799316
+
+ID: 10078
+Ground Truth: ['<START> dua orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+Generated:
+['<START> tiga orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.03485413 0.03378296 0.01917312 0.01909077]
+Attention:
+['Pesaan Man Clothes', 'Pesaan Man Clothes', 'Pesaan Man Hat', 'Pesaan Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.05001708 0.86962104 0.03816842 0.01005265 0.00188005 0.0302607 ]
+ [0.0500459  0.868773   0.03861999 0.01019647 0.00190021 0.03046445]
+ [0.05062394 0.86773324 0.03878441 0.01010689 0.00194531 0.03080618]
+ [0.04957616 0.87070674 0.03775204 0.00971457 0.00201541 0.03023503]
+ [0.05000261 0.8691091  0.03835223 0.00985062 0.00198176 0.0307037 ]
+ [0.04999547 0.86920077 0.0382247  0.00999285 0.00209046 0.0304958 ]
+ [0.05046131 0.8679631  0.03873249 0.01020428 0.00206231 0.03057652]
+ [0.04947639 0.8700317  0.03805444 0.01008649 0.00204684 0.03030419]
+ [0.04939188 0.8703972  0.03788163 0.0098687  0.00202135 0.03043932]
+ [0.05047436 0.86757493 0.03864335 0.01014472 0.00196796 0.0311947 ]
+ [0.04888947 0.8714623  0.03761815 0.00964444 0.00196426 0.03042143]
+ [0.04913292 0.8710065  0.03765643 0.00980363 0.00191233 0.03048825]]
+BLEU-1: 0.7692307691124263
+BLEU-2: 0.6201736728486433
+BLEU-3: 0.519076442264081
+BLEU-4: 0.4525888007145081
+CIDER: 0.638028547820507
+Inference Time: 0.06302118301391602
+
+ID: 10187
+Ground Truth: ['<START> tiga orang perempuan yang memakai pakaian adat tulang bawang sedang melakukan parade <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian pakaian sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian pakaian sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian pakaian adat tulang bawang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.03503425 0.02449056 0.02007169 0.0142768 ]
+Attention:
+['Person', 'Person', 'Person', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Woman Hat', 'Tulang Bawang Woman Hat']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00]
+ [4.60191339e-01 4.09721397e-02 4.85467771e-03 3.33446860e-01
+  1.26434609e-01 3.40997837e-02 5.44525221e-07]
+ [4.59351987e-01 4.09459695e-02 4.61977581e-03 3.34963888e-01
+  1.26270369e-01 3.38475183e-02 4.71755726e-07]
+ [4.54674751e-01 4.20189090e-02 4.36958950e-03 3.38917136e-01
+  1.27469912e-01 3.25491577e-02 5.43956901e-07]
+ [4.60467637e-01 4.42035235e-02 4.69987467e-03 3.30912977e-01
+  1.26295611e-01 3.34197804e-02 5.52335052e-07]
+ [4.68759924e-01 4.06539626e-02 4.44352906e-03 3.28963161e-01
+  1.24422841e-01 3.27560343e-02 5.28684438e-07]
+ [4.73959863e-01 4.27023806e-02 4.45303321e-03 3.22328180e-01
+  1.24213599e-01 3.23423259e-02 6.38519566e-07]
+ [4.71730560e-01 4.10373583e-02 4.32466483e-03 3.26518655e-01
+  1.23859845e-01 3.25283334e-02 6.12874317e-07]
+ [4.76278245e-01 4.36629206e-02 4.04085079e-03 3.21943909e-01
+  1.20234385e-01 3.38391811e-02 4.76046552e-07]
+ [4.65205610e-01 3.86916883e-02 3.79362889e-03 3.32843721e-01
+  1.23944558e-01 3.55203263e-02 4.95096288e-07]
+ [4.60506111e-01 3.72621864e-02 3.66013730e-03 3.37175757e-01
+  1.25045314e-01 3.63500305e-02 5.04959644e-07]
+ [4.74398106e-01 3.61333340e-02 3.82667594e-03 3.26852262e-01
+  1.25231177e-01 3.35579142e-02 5.07611048e-07]
+ [4.79131758e-01 4.09518927e-02 4.21447353e-03 3.17273676e-01
+  1.24221079e-01 3.42065059e-02 5.75564172e-07]
+ [4.75008637e-01 4.38437834e-02 4.26089484e-03 3.19964647e-01
+  1.23070873e-01 3.38506587e-02 5.35565448e-07]]
+BLEU-1: 0.571428571346939
+BLEU-2: 0.36313651954840737
+BLEU-3: 0.2801105939320273
+BLEU-4: 0.21142141711087856
+CIDER: 0.021350284569808788
+Inference Time: 0.07507658004760742
+
+ID: 3020
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil <UNK> <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.05517313 0.0462488  0.04158198 0.02017681]
+Attention:
+['Ulee Balang Woman Clothes', 'Ulee Balang Man Clothes', 'Ulee Balang Woman Hat', 'Ulee Balang Man Hat', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [3.11033276e-04 5.08730151e-02 1.31680012e-01 9.74721089e-03
+  1.08431373e-02 7.96545565e-01]
+ [2.84772221e-04 4.88011688e-02 1.24247424e-01 9.05849319e-03
+  1.00112054e-02 8.07596862e-01]
+ [2.76711391e-04 4.68372777e-02 1.17155135e-01 8.68534483e-03
+  9.56376083e-03 8.17481697e-01]
+ [2.95127160e-04 4.72992435e-02 1.24483764e-01 9.30857006e-03
+  1.04551129e-02 8.08158219e-01]
+ [2.96069979e-04 4.80682515e-02 1.33939594e-01 9.65222996e-03
+  1.06234532e-02 7.97420442e-01]
+ [2.93998775e-04 4.82418090e-02 1.24298245e-01 9.05755907e-03
+  1.00418115e-02 8.08066666e-01]
+ [2.69465236e-04 4.23669294e-02 1.22053124e-01 8.61647166e-03
+  9.54094809e-03 8.17153037e-01]
+ [2.54502898e-04 4.07153592e-02 1.17167160e-01 8.13857559e-03
+  9.52521898e-03 8.24199140e-01]
+ [2.61565903e-04 4.08235155e-02 1.27982274e-01 8.85687023e-03
+  1.01826144e-02 8.11893106e-01]
+ [2.71213648e-04 4.15654592e-02 1.23064570e-01 8.74149799e-03
+  1.00276656e-02 8.16329539e-01]
+ [2.74485210e-04 4.34218980e-02 1.17275372e-01 8.42571910e-03
+  9.51410551e-03 8.21088314e-01]
+ [2.57528154e-04 4.16950807e-02 1.22129589e-01 8.77264887e-03
+  1.02728670e-02 8.16872299e-01]
+ [2.92018405e-04 4.73570265e-02 1.30207047e-01 9.67304222e-03
+  1.07263476e-02 8.01744521e-01]
+ [2.89141608e-04 4.80224751e-02 1.33930385e-01 9.81037878e-03
+  1.08918324e-02 7.97055840e-01]
+ [2.86464201e-04 4.81481291e-02 1.28929734e-01 9.27066989e-03
+  1.02307014e-02 8.03134203e-01]]
+BLEU-1: 0.8824969024742833
+BLEU-2: 0.8525730060715597
+BLEU-3: 0.8413897572649679
+BLEU-4: 0.8346140404806057
+CIDER: 5.930738477348609
+Inference Time: 0.07125258445739746
+
+ID: 10205
+Ground Truth: ['<START> empat orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berjalan sambil bergandengan tangan <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berjalan <END>']
+Probability: [0.06179324 0.03396606 0.02037755 0.00809405]
+Attention:
+['Paksian Man Hat', 'Paksian Man Hat', 'Paksian Man Clothes', 'Paksian Man Clothes', 'Paksian Woman Clothes', 'Paksian Woman Clothes', 'Paksian Woman Hat', 'Paksian Woman Hat', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [9.96153131e-02 4.55072038e-02 5.31401439e-03 5.59026885e-05
+  1.17808759e-01 3.30154039e-02 1.50053993e-01 4.90009114e-02
+  4.71491439e-05 7.64923915e-02 1.79939106e-01 5.32918517e-03
+  1.52141929e-01 8.56787264e-02]
+ [9.92315784e-02 4.58471179e-02 5.34369890e-03 5.42315502e-05
+  1.22629963e-01 3.30914520e-02 1.35794103e-01 4.97304015e-02
+  4.69993392e-05 7.80320764e-02 1.81051806e-01 5.45542734e-03
+  1.57215491e-01 8.64756107e-02]
+ [9.94268432e-02 4.58928943e-02 5.48987556e-03 5.34042229e-05
+  1.21635810e-01 3.29441652e-02 1.44345134e-01 5.10948524e-02
+  4.55189802e-05 7.82253295e-02 1.78015873e-01 5.32497233e-03
+  1.51925027e-01 8.55803490e-02]
+ [9.84534547e-02 4.53456789e-02 5.12089347e-03 5.36875632e-05
+  1.19896308e-01 3.25676277e-02 1.51499480e-01 5.08657917e-02
+  4.44495054e-05 7.67357126e-02 1.73819959e-01 5.15147764e-03
+  1.54601172e-01 8.58442560e-02]
+ [9.95943993e-02 4.58473302e-02 5.25725866e-03 5.87965878e-05
+  1.18735410e-01 3.31995972e-02 1.51324436e-01 5.11235259e-02
+  4.52753957e-05 7.75944740e-02 1.72775984e-01 5.21018123e-03
+  1.53354615e-01 8.58788043e-02]
+ [1.00434467e-01 4.57435660e-02 5.38642285e-03 6.23476953e-05
+  1.19997226e-01 3.29165459e-02 1.45247906e-01 4.93415855e-02
+  4.71806998e-05 7.78209642e-02 1.76550448e-01 5.37295546e-03
+  1.55388236e-01 8.56901333e-02]
+ [1.00405067e-01 4.50318940e-02 5.25704771e-03 5.66032686e-05
+  1.19197927e-01 3.26111205e-02 1.54600859e-01 4.89151403e-02
+  4.42389428e-05 7.67028555e-02 1.67552188e-01 5.32548781e-03
+  1.60473630e-01 8.38259235e-02]
+ [1.00461133e-01 4.56436425e-02 5.22670383e-03 5.20550602e-05
+  1.18900731e-01 3.30312476e-02 1.46117330e-01 4.95597906e-02
+  4.42970231e-05 7.71544799e-02 1.71411067e-01 5.24282362e-03
+  1.61093682e-01 8.60610381e-02]
+ [1.01705678e-01 4.66475524e-02 5.52825816e-03 5.33539314e-05
+  1.20882206e-01 3.39353606e-02 1.38059437e-01 4.99488190e-02
+  4.49908621e-05 7.87297934e-02 1.71629086e-01 5.33122756e-03
+  1.58720359e-01 8.87839273e-02]
+ [1.02560297e-01 4.61220853e-02 5.30561572e-03 5.34971150e-05
+  1.21317968e-01 3.36266421e-02 1.39900446e-01 5.00475802e-02
+  4.60853007e-05 7.84379095e-02 1.71840400e-01 5.42735960e-03
+  1.58694819e-01 8.66193995e-02]
+ [9.96462032e-02 4.51468676e-02 5.32946968e-03 5.72181525e-05
+  1.17485523e-01 3.28609906e-02 1.53903529e-01 4.92993891e-02
+  4.71841158e-05 7.67043754e-02 1.71886265e-01 5.40100504e-03
+  1.58369422e-01 8.38625133e-02]
+ [9.93030891e-02 4.51848656e-02 5.04029822e-03 5.14649000e-05
+  1.17337845e-01 3.28160711e-02 1.53711557e-01 5.05371056e-02
+  4.47142447e-05 7.58388862e-02 1.71527520e-01 5.24309790e-03
+  1.57762870e-01 8.56006220e-02]
+ [9.77621973e-02 4.50376235e-02 5.21719363e-03 5.38992972e-05
+  1.20722733e-01 3.20520997e-02 1.45648301e-01 5.00043817e-02
+  4.65552948e-05 7.67203793e-02 1.71761692e-01 5.26265847e-03
+  1.63849249e-01 8.58609900e-02]
+ [9.79241431e-02 4.59000617e-02 5.21118008e-03 5.33759376e-05
+  1.20877981e-01 3.29787321e-02 1.41597092e-01 5.07825688e-02
+  4.52328786e-05 7.76133090e-02 1.74519554e-01 5.12940157e-03
+  1.59467816e-01 8.78995210e-02]]
+BLEU-1: 0.7001386551410063
+BLEU-2: 0.6276193133425839
+BLEU-3: 0.596409337407851
+BLEU-4: 0.5736685499814045
+CIDER: 2.5423084821417774
+Inference Time: 0.07600760459899902
+
+ID: 10163
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil berpegangan tangan <END>']
+Probability: [0.1035812  0.0642061  0.03465733 0.01801998]
+Attention:
+['Person', 'Person', 'Tulang Bawang Man Clothes', 'Tulang Bawang Man Hat', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Woman Hat']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [7.52996504e-02 9.93921887e-03 1.76114589e-01 7.37683535e-01
+  5.36217231e-05 9.09397146e-04]
+ [7.70682096e-02 9.97018162e-03 1.80275932e-01 7.31728435e-01
+  5.73644902e-05 8.99904699e-04]
+ [7.35408738e-02 9.83846746e-03 1.80381194e-01 7.35292375e-01
+  5.59523833e-05 8.91148287e-04]
+ [8.16390365e-02 1.05302883e-02 1.82713106e-01 7.24131048e-01
+  5.91797943e-05 9.27326095e-04]
+ [8.25745016e-02 1.05065219e-02 1.82598189e-01 7.23283350e-01
+  5.99616578e-05 9.77524905e-04]
+ [7.96647817e-02 1.04817534e-02 1.82088614e-01 7.26737797e-01
+  5.72978970e-05 9.69776826e-04]
+ [7.94970542e-02 1.00343572e-02 1.79842487e-01 7.29591250e-01
+  5.68347023e-05 9.78016877e-04]
+ [7.97519013e-02 1.03230057e-02 1.78898662e-01 7.30015516e-01
+  6.00133026e-05 9.50967544e-04]
+ [7.80784264e-02 1.03218881e-02 1.83552310e-01 7.27015197e-01
+  5.77698775e-05 9.74358234e-04]
+ [7.99245611e-02 1.06902905e-02 1.85201570e-01 7.23183274e-01
+  6.28754206e-05 9.37352714e-04]
+ [7.97825307e-02 1.06666526e-02 1.80920690e-01 7.27622509e-01
+  6.17611149e-05 9.45818552e-04]
+ [7.89062753e-02 1.07728066e-02 1.79306358e-01 7.29993820e-01
+  6.13189841e-05 9.59377969e-04]
+ [8.06288272e-02 1.08836303e-02 1.80711299e-01 7.26730525e-01
+  6.37977937e-05 9.81939724e-04]
+ [8.26947838e-02 1.02369254e-02 1.75898612e-01 7.30138481e-01
+  6.10911593e-05 9.70085035e-04]]
+BLEU-1: 0.8107727202526325
+BLEU-2: 0.7360529595487584
+BLEU-3: 0.6781679561265105
+BLEU-4: 0.6423088501305156
+CIDER: 0.7018564190232615
+Inference Time: 0.0680704116821289
+
+ID: 10026
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto berjajar <END>']
+Probability: [0.04473567 0.0386234  0.02091769 0.01677882]
+Attention:
+['Aesan Gede Man Hat', 'Aesan Gede Man Clothes', 'Aesan Gede Woman Clothes', 'Aesan Gede Woman Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.0075265  0.3712874  0.15838727 0.03811062 0.2626802  0.16200793]
+ [0.00735423 0.36956117 0.15565865 0.04026594 0.2637246  0.16343547]
+ [0.00780201 0.3680259  0.1529328  0.04362723 0.2635592  0.1640529 ]
+ [0.00810526 0.36458567 0.15687618 0.04255901 0.2616348  0.16623908]
+ [0.00794774 0.36148304 0.15905805 0.04257979 0.26370612 0.16522525]
+ [0.00818529 0.3633862  0.1590619  0.04369574 0.26179996 0.16387099]
+ [0.00821163 0.35931787 0.15903737 0.04422653 0.26627705 0.1629295 ]
+ [0.00811759 0.36125436 0.15833893 0.04337385 0.26530683 0.16360846]
+ [0.00815166 0.35820928 0.15966117 0.04256143 0.2675745  0.16384196]
+ [0.00797393 0.35885006 0.1595744  0.04141214 0.26866835 0.16352117]
+ [0.0082875  0.36192435 0.15901344 0.04314493 0.26571062 0.1619192 ]
+ [0.00841047 0.35788202 0.1593046  0.04597885 0.26406792 0.16435614]
+ [0.00782255 0.36223432 0.15905939 0.04221369 0.26251972 0.16615029]
+ [0.00800547 0.36287862 0.15960364 0.03974486 0.26398998 0.16577742]
+ [0.00782407 0.36512068 0.15650706 0.04204271 0.26380906 0.16469638]]
+BLEU-1: 0.8124999998984376
+BLEU-2: 0.7359800721004565
+BLEU-3: 0.6764432289020579
+BLEU-4: 0.6389431041620091
+CIDER: 0.6468803012883456
+Inference Time: 0.06453871726989746
+
+ID: 4253
+Ground Truth: ['<START> empat orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+Generated:
+['<START> yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+['<START> tiga orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+['<START> orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+Probability: [0.05453832 0.02727891 0.02018106 0.01758806]
+Attention:
+['Pesaan Man Hat', 'Pesaan Man Hat', 'Pesaan Man Hat', 'Pesaan Man Hat', 'Pesaan Man Clothes', 'Pesaan Man Clothes', 'Pesaan Man Clothes', 'Person', 'Person', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00]
+ [7.29510002e-03 1.00161759e-02 1.90129001e-02 1.44407731e-02
+  2.57285108e-04 5.28132834e-04 2.50314246e-04 9.31996644e-01
+  5.19107375e-03 1.09016001e-02 1.09979941e-04]
+ [7.23950053e-03 9.91099607e-03 1.83617417e-02 1.39114521e-02
+  2.56028667e-04 5.22084825e-04 2.52790633e-04 9.33801532e-01
+  4.88397945e-03 1.07503887e-02 1.09444103e-04]
+ [7.39540393e-03 1.01916902e-02 1.81151256e-02 1.43803814e-02
+  2.62982910e-04 5.48828160e-04 2.60101340e-04 9.32731271e-01
+  4.86069312e-03 1.11438865e-02 1.09770604e-04]
+ [7.31003657e-03 1.01362895e-02 1.76683813e-02 1.42636020e-02
+  2.60105939e-04 5.22314920e-04 2.62094982e-04 9.33835387e-01
+  4.86261956e-03 1.07678622e-02 1.11388130e-04]
+ [7.53099471e-03 1.04413033e-02 1.97616871e-02 1.47007285e-02
+  2.72262463e-04 5.61228720e-04 2.75131024e-04 9.30031002e-01
+  5.04750432e-03 1.12571530e-02 1.21064753e-04]
+ [7.75142573e-03 1.07035898e-02 1.98086854e-02 1.52295036e-02
+  2.85048474e-04 5.84972964e-04 2.81418208e-04 9.28380013e-01
+  5.07488661e-03 1.17806876e-02 1.19700977e-04]
+ [7.50442129e-03 1.03108091e-02 2.01832149e-02 1.46896085e-02
+  2.75540282e-04 5.69619588e-04 2.69532437e-04 9.29528713e-01
+  5.08744456e-03 1.14634875e-02 1.17619689e-04]
+ [7.18564773e-03 9.86753497e-03 1.87611114e-02 1.35885412e-02
+  2.61173438e-04 5.42544178e-04 2.53555248e-04 9.33787882e-01
+  4.71585756e-03 1.09248133e-02 1.11253263e-04]
+ [7.72491191e-03 1.07825371e-02 2.02329289e-02 1.51292151e-02
+  2.74102058e-04 5.69713826e-04 2.69284385e-04 9.28044677e-01
+  4.99098701e-03 1.18554924e-02 1.26186977e-04]]
+BLEU-1: 0.6667363984801989
+BLEU-2: 0.5738353261355059
+BLEU-3: 0.49592812684043114
+BLEU-4: 0.40084360371488403
+CIDER: 1.3003756260309653
+Inference Time: 0.06373310089111328
+
+ID: 10251
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat melayu jambi sedang berfoto <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> satu orang perempuan yang memakai pakaian adat melayu jambi sedang berfoto tersenyum <END>']
+Probability: [0.0635626  0.04045122 0.03749118 0.03727515]
+Attention:
+['Person', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Woman Hat']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [2.6640984e-01 7.3359019e-01 8.3457232e-09]
+ [2.6499906e-01 7.3500091e-01 8.6732364e-09]
+ [2.6722455e-01 7.3277545e-01 7.7986106e-09]
+ [2.6345873e-01 7.3654127e-01 9.1222230e-09]
+ [2.5606531e-01 7.4393475e-01 9.2808694e-09]
+ [2.6135257e-01 7.3864746e-01 7.8159834e-09]
+ [2.6204956e-01 7.3795050e-01 8.6045873e-09]
+ [2.6156148e-01 7.3843855e-01 8.0370128e-09]
+ [2.6024511e-01 7.3975486e-01 8.6882554e-09]
+ [2.5564915e-01 7.4435085e-01 9.7952464e-09]
+ [2.6021591e-01 7.3978406e-01 8.8149266e-09]
+ [2.5937378e-01 7.4062622e-01 9.8154445e-09]
+ [2.6151556e-01 7.3848444e-01 9.3925747e-09]]
+BLEU-1: 0.7857142856581634
+BLEU-2: 0.6953534953135371
+BLEU-3: 0.6229603841068718
+BLEU-4: 0.5757575635737915
+CIDER: 1.6490273673639841
+Inference Time: 0.053156137466430664
+
+ID: 10254
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar sambil tersenyum <END>']
+Probability: [0.04216835 0.02685065 0.02035609 0.01385408]
+Attention:
+['Melayu Jambi Woman Hat', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Man Clothes', 'Melayu Jambi Man Hat', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [5.35497308e-01 8.81342962e-02 3.48495245e-01 6.65984116e-05
+  1.27022285e-02 1.51043292e-02]
+ [5.33577561e-01 8.90069753e-02 3.49803567e-01 6.29791757e-05
+  1.27502671e-02 1.47985965e-02]
+ [5.30559182e-01 8.85999575e-02 3.53055388e-01 6.22252919e-05
+  1.28915254e-02 1.48317302e-02]
+ [5.31468511e-01 8.68208483e-02 3.53672266e-01 6.56508128e-05
+  1.28062833e-02 1.51664512e-02]
+ [5.40107012e-01 8.78307521e-02 3.44234079e-01 6.47448687e-05
+  1.27915423e-02 1.49719333e-02]
+ [5.23687482e-01 9.02780890e-02 3.57518107e-01 6.70285008e-05
+  1.31619852e-02 1.52873294e-02]
+ [5.26172340e-01 8.99481326e-02 3.56017858e-01 6.38431738e-05
+  1.28786638e-02 1.49190882e-02]
+ [5.53249776e-01 8.57606158e-02 3.34193677e-01 6.24965614e-05
+  1.23214107e-02 1.44120259e-02]
+ [5.54951370e-01 8.61880854e-02 3.32106769e-01 6.03769040e-05
+  1.23890825e-02 1.43043110e-02]
+ [5.27850688e-01 8.74258652e-02 3.56833100e-01 6.42022715e-05
+  1.28153330e-02 1.50108449e-02]
+ [5.32824218e-01 8.63782093e-02 3.53077918e-01 6.26259571e-05
+  1.28721995e-02 1.47847598e-02]
+ [5.36080778e-01 8.61893818e-02 3.49651396e-01 6.60921651e-05
+  1.28202699e-02 1.51920747e-02]
+ [5.33526123e-01 8.48836675e-02 3.53339434e-01 6.80290177e-05
+  1.29557298e-02 1.52270775e-02]
+ [5.42702854e-01 8.39120075e-02 3.45333397e-01 6.47677007e-05
+  1.28926020e-02 1.50943696e-02]]
+BLEU-1: 0.8107727202526325
+BLEU-2: 0.7360529595487584
+BLEU-3: 0.6781679561265105
+BLEU-4: 0.6423088501305156
+CIDER: 0.7112850621702473
+Inference Time: 0.06959772109985352
+
+ID: 3998
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto pengantin <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> satu orang perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+Probability: [0.05561236 0.02101506 0.01924844 0.00433181]
+Attention:
+['Person', 'Person', 'Kebaya Sunda Clothes', 'Kebaya Sunda Hat']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00]
+ [1.01257535e-02 3.21822627e-05 2.51633232e-03 9.87325788e-01]
+ [9.56024975e-03 2.97304541e-05 2.50779209e-03 9.87902284e-01]
+ [9.76165850e-03 2.91830729e-05 2.43187882e-03 9.87777174e-01]
+ [9.84355714e-03 2.96929629e-05 2.37437058e-03 9.87752438e-01]
+ [9.71983932e-03 2.78571515e-05 2.31479970e-03 9.87937510e-01]
+ [9.57431644e-03 2.77427062e-05 2.27074674e-03 9.88127172e-01]
+ [9.40980483e-03 2.76696774e-05 2.25517200e-03 9.88307297e-01]
+ [1.02361450e-02 2.98972282e-05 2.40280014e-03 9.87331092e-01]
+ [1.00405123e-02 2.99626972e-05 2.36320030e-03 9.87566233e-01]
+ [9.71468166e-03 2.75895545e-05 2.24236702e-03 9.88015354e-01]
+ [1.02274409e-02 2.87609073e-05 2.35057576e-03 9.87393260e-01]
+ [9.78474505e-03 2.76393603e-05 2.29450827e-03 9.87893045e-01]
+ [9.66841355e-03 2.82469173e-05 2.26265402e-03 9.88040745e-01]]
+BLEU-1: 0.9285714284387758
+BLEU-2: 0.886405260298854
+BLEU-3: 0.8683493184353132
+BLEU-4: 0.8555261857411393
+CIDER: 7.9857862364938885
+Inference Time: 0.05809378623962402
+
+ID: 10236
+Ground Truth: ['<START> lima orang perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+Generated:
+['<START> tiga orang laki-laki yang memakai pakaian sedang berfoto berjajar <END>']
+['<START> tiga orang laki-laki yang memakai pakaian melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian sedang berfoto berjajar <END>']
+Probability: [0.06252549 0.05740528 0.05350075 0.03644819]
+Attention:
+['Melayu Jambi Woman Hat', 'Melayu Jambi Woman Hat', 'Melayu Jambi Woman Hat', 'Melayu Jambi Woman Hat', 'Melayu Jambi Woman Hat', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Woman Clothes', 'Person', 'Person', 'Person', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00]
+ [1.58488405e-07 1.18480273e-06 3.60806189e-05 2.60777670e-05
+  5.80646913e-04 1.18810898e-02 2.29768525e-03 1.42621735e-04
+  1.96002627e-04 4.08751279e-04 7.16228271e-04 6.62472972e-04
+  2.89235753e-03 9.80154037e-01 4.56722228e-06]
+ [1.39318317e-07 1.03792729e-06 3.21199914e-05 2.22792314e-05
+  5.19547553e-04 1.05520394e-02 1.98964356e-03 1.23107151e-04
+  1.74962348e-04 3.59197729e-04 6.51923416e-04 5.72330318e-04
+  2.58412817e-03 9.82413650e-01 4.06478557e-06]
+ [1.41219203e-07 1.13596752e-06 3.30177718e-05 2.29943071e-05
+  5.05953969e-04 1.17662167e-02 2.15580291e-03 1.27123858e-04
+  1.70769461e-04 3.72067356e-04 6.15922327e-04 6.03514723e-04
+  2.57064821e-03 9.81050789e-01 3.85855037e-06]
+ [1.33309442e-07 1.08427935e-06 3.36166158e-05 2.30917631e-05
+  5.06820215e-04 1.06820660e-02 2.07179668e-03 1.26446845e-04
+  1.69486229e-04 3.58394667e-04 6.34829164e-04 5.65085036e-04
+  2.43394333e-03 9.82389331e-01 3.84227133e-06]
+ [1.20291688e-07 1.06004939e-06 3.05043650e-05 2.07355006e-05
+  4.60204144e-04 9.48970672e-03 1.83061894e-03 1.09817964e-04
+  1.41848534e-04 3.16368183e-04 5.03482181e-04 5.27089520e-04
+  2.00933404e-03 9.84555960e-01 3.07667688e-06]
+ [1.19643659e-07 9.40244092e-07 2.85472815e-05 1.91661038e-05
+  4.16309311e-04 9.36019979e-03 1.84342975e-03 1.06902597e-04
+  1.45707745e-04 3.17758793e-04 5.31297468e-04 5.40487235e-04
+  2.03709025e-03 9.84648883e-01 3.12281827e-06]
+ [1.25717520e-07 9.13707254e-07 2.96163307e-05 1.99643309e-05
+  4.26324899e-04 9.97770298e-03 1.76963105e-03 1.07997199e-04
+  1.47850791e-04 3.20130726e-04 5.22407005e-04 5.50459838e-04
+  2.00616149e-03 9.84117627e-01 3.01618206e-06]
+ [1.40258933e-07 1.10648830e-06 3.47021778e-05 2.30939131e-05
+  4.98721260e-04 1.06913578e-02 2.06137425e-03 1.24987593e-04
+  1.71580541e-04 3.66524328e-04 6.11086900e-04 5.82122535e-04
+  2.41599674e-03 9.82413411e-01 3.88793251e-06]
+ [1.41827641e-07 1.10805399e-06 3.51568560e-05 2.34789550e-05
+  5.09635662e-04 1.09425606e-02 2.04225909e-03 1.27112100e-04
+  1.66340993e-04 3.66171880e-04 6.10536430e-04 5.76564984e-04
+  2.35269568e-03 9.82242584e-01 3.70254520e-06]
+ [1.31532630e-07 1.00262616e-06 3.27968628e-05 2.22484268e-05
+  4.72057291e-04 1.03901401e-02 1.94009650e-03 1.21821773e-04
+  1.57740360e-04 3.45213542e-04 5.80832828e-04 5.48888289e-04
+  2.26971717e-03 9.83113885e-01 3.36774110e-06]]
+BLEU-1: 0.6228821344569184
+BLEU-2: 0.48692936332598447
+BLEU-3: 0.39185215687934727
+BLEU-4: 0.2750794814782799
+CIDER: 0.9531326199931003
+Inference Time: 0.06978273391723633
+
+ID: 10303
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+Probability: [0.1288494  0.06442355 0.06237838 0.03699843]
+Attention:
+['Person', 'Person', 'Ulee Balang Woman Hat', 'Ulee Balang Woman Clothes', 'Ulee Balang Man Clothes', 'Ulee Balang Man Hat']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [6.9061673e-01 2.2162026e-01 5.4752063e-02 2.7556177e-02 4.8916419e-03
+  5.6314771e-04]
+ [7.0752674e-01 2.0782726e-01 5.2455187e-02 2.6914844e-02 4.7613387e-03
+  5.1464356e-04]
+ [7.0519584e-01 2.1582311e-01 4.8711605e-02 2.5342064e-02 4.4571403e-03
+  4.7017873e-04]
+ [6.9526356e-01 2.2088991e-01 5.2425392e-02 2.6197165e-02 4.7126822e-03
+  5.1137188e-04]
+ [6.9164604e-01 2.2009861e-01 5.5091053e-02 2.7644826e-02 5.0170301e-03
+  5.0250482e-04]
+ [6.9318599e-01 2.2048835e-01 5.3767651e-02 2.7071521e-02 4.9586985e-03
+  5.2778854e-04]
+ [7.0226860e-01 2.1496089e-01 5.2300692e-02 2.5450459e-02 4.5865271e-03
+  4.3293016e-04]
+ [7.1204484e-01 2.0906028e-01 4.9689278e-02 2.4309281e-02 4.4521457e-03
+  4.4413551e-04]
+ [7.0783544e-01 2.0910129e-01 5.3208187e-02 2.5025755e-02 4.4247964e-03
+  4.0448975e-04]
+ [7.2700971e-01 1.8999740e-01 5.1815245e-02 2.6111631e-02 4.6474999e-03
+  4.1852240e-04]
+ [7.2615600e-01 1.9740312e-01 4.7401335e-02 2.4292521e-02 4.3184170e-03
+  4.2856662e-04]
+ [7.0595831e-01 2.1055679e-01 5.3277116e-02 2.5272151e-02 4.4857091e-03
+  4.4990223e-04]
+ [6.9689614e-01 2.1616855e-01 5.5250838e-02 2.6373273e-02 4.7804057e-03
+  5.3076801e-04]
+ [7.0237833e-01 2.0751436e-01 5.7935551e-02 2.6805930e-02 4.8417374e-03
+  5.2403187e-04]
+ [7.1088743e-01 2.0479296e-01 5.2890945e-02 2.6132477e-02 4.7632274e-03
+  5.3301454e-04]]
+BLEU-1: 0.8824969024742833
+BLEU-2: 0.8525730060715597
+BLEU-3: 0.8413897572649679
+BLEU-4: 0.8346140404806057
+CIDER: 7.152505827344305
+Inference Time: 0.07868647575378418
+
+ID: 4237
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.04183163 0.02960264 0.0210275  0.01506822]
+Attention:
+['Pesaan Woman Clothes', 'Pesaan Man Clothes', 'Pesaan Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.        ]
+ [0.1985485  0.17447898 0.33426467 0.13795607 0.15475178]
+ [0.19615014 0.17491971 0.33269343 0.14216581 0.15407082]
+ [0.19316112 0.17703177 0.33281326 0.14297482 0.15401901]
+ [0.19787286 0.17466359 0.32982132 0.1416916  0.15595064]
+ [0.19687773 0.17405462 0.32819968 0.14763775 0.15323022]
+ [0.19523178 0.17513703 0.32813683 0.14676993 0.15472454]
+ [0.19204609 0.176979   0.33062017 0.1442678  0.15608695]
+ [0.19450195 0.17603381 0.32977548 0.14535724 0.15433148]
+ [0.19312954 0.17642562 0.33387935 0.14156176 0.15500379]
+ [0.19529264 0.17574921 0.3323117  0.14135522 0.15529127]
+ [0.19627    0.17623724 0.33165115 0.14141254 0.15442903]
+ [0.19843806 0.17526057 0.33135727 0.13925856 0.15568553]
+ [0.20100753 0.172694   0.32843304 0.14292891 0.15493645]
+ [0.19781132 0.17349166 0.33256677 0.14041136 0.15571891]]
+BLEU-1: 0.933333333208889
+BLEU-2: 0.8944271908785294
+BLEU-3: 0.8505807404483116
+BLEU-4: 0.8003203202714512
+CIDER: 3.454049417014314
+Inference Time: 0.06082582473754883
+
+ID: 3145
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+Probability: [0.03950704 0.03448917 0.02533004 0.01823851]
+Attention:
+['Bundo Kanduang Woman Hat', 'Bundo Kanduang Woman Clothes', 'Person']
+[[0.         0.         0.        ]
+ [0.49723417 0.39222813 0.11053771]
+ [0.49980035 0.39037204 0.10982759]
+ [0.49810216 0.3894053  0.11249252]
+ [0.49500516 0.39260325 0.11239157]
+ [0.4920993  0.39335853 0.11454222]
+ [0.4921299  0.3918075  0.11606251]
+ [0.49661276 0.3923296  0.11105769]
+ [0.49291912 0.39188308 0.11519781]
+ [0.4889895  0.39316672 0.11784376]
+ [0.49284938 0.39097363 0.11617698]
+ [0.4940391  0.38800803 0.11795291]
+ [0.4906057  0.39152563 0.11786873]]
+BLEU-1: 0.7692307691124263
+BLEU-2: 0.6201736728486433
+BLEU-3: 0.47161224624605236
+BLEU-4: 0.3200286100743157
+CIDER: 0.8085537246875056
+Inference Time: 0.052680015563964844
+
+ID: 3987
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto bergaya <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat paksian sedang menari <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat ulee balang sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat jawa sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat ulee balang sedang menari <END>']
+Probability: [0.03907629 0.0304353  0.02707846 0.02638715]
+Attention:
+['Person', 'Kebaya Sunda Clothes', 'Kebaya Sunda Hat']
+[[0.         0.         0.        ]
+ [0.00290685 0.98768836 0.00940481]
+ [0.00304376 0.98648864 0.01046763]
+ [0.00321524 0.98569876 0.01108595]
+ [0.00330369 0.9856022  0.01109407]
+ [0.00358295 0.9840149  0.01240217]
+ [0.00345413 0.9844007  0.01214519]
+ [0.00394995 0.98286945 0.01318059]
+ [0.00424596 0.9813508  0.01440333]
+ [0.0036257  0.9837953  0.01257902]
+ [0.00363951 0.9840592  0.01230123]
+ [0.00352288 0.984897   0.0115801 ]]
+BLEU-1: 0.6348612935621505
+BLEU-2: 0.4942388467252807
+BLEU-3: 0.39585627353696723
+BLEU-4: 0.2763738307534392
+CIDER: 0.4798411555342087
+Inference Time: 0.04875898361206055
+
+ID: 10139
+Ground Truth: ['<START> delapan orang laki-laki yang memakai pakaian adat betawi sedang upacara <END>']
+Generated:
+['<START> enam orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar <END>']
+['<START> enam orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto bergaya <END>']
+['<START> enam orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar sambil berpegangan tangan <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar sambil berpegangan tangan <END>']
+Probability: [0.01873118 0.01408778 0.00449172 0.00279142]
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Hat', 'Betawi Man Hat', 'Betawi Man Hat', 'Betawi Man Hat', 'Betawi Man Hat']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.03748755 0.03658558 0.06428555 0.00713882 0.05036402 0.16303408
+  0.02422228 0.05265114 0.07062244 0.0512442  0.04817769 0.03405624
+  0.06149885 0.08239461 0.05184336 0.05264205 0.0501759  0.06157561]
+ [0.03687864 0.03666179 0.06453524 0.0070848  0.05048852 0.16120684
+  0.02491396 0.05154097 0.07101917 0.05130371 0.04830319 0.03406582
+  0.06208685 0.08272679 0.05208128 0.05285469 0.0503656  0.06188221]
+ [0.03719507 0.03599557 0.06449046 0.00701917 0.05003808 0.16322179
+  0.02420768 0.05100979 0.07113867 0.05138612 0.04837372 0.03390808
+  0.06202667 0.08283354 0.05210041 0.05287289 0.05029253 0.06188982]
+ [0.03797646 0.03601187 0.06415711 0.00721613 0.04998748 0.1634495
+  0.02372494 0.05307238 0.07057726 0.05124356 0.04831456 0.03414016
+  0.0615118  0.08237433 0.05189183 0.0526876  0.05014848 0.06151457]
+ [0.0382733  0.03604272 0.06402678 0.00712812 0.05003348 0.16494222
+  0.02392843 0.05400531 0.07046008 0.05107814 0.04809924 0.03393574
+  0.06123387 0.08145934 0.05165699 0.05248016 0.04990758 0.06130849]
+ [0.03825331 0.0359343  0.06400113 0.00709438 0.05021638 0.1644978
+  0.02378385 0.05353229 0.07055085 0.05114048 0.04813807 0.03400261
+  0.06132646 0.08206481 0.05170676 0.05251586 0.04989725 0.06134342]
+ [0.03784363 0.03556857 0.0641937  0.00703593 0.04953663 0.16366316
+  0.02398885 0.0529463  0.07087984 0.05138136 0.04824227 0.03396168
+  0.06172894 0.08282955 0.05189514 0.05268543 0.05003574 0.06158335]
+ [0.03784382 0.0359595  0.06392181 0.00712184 0.05042183 0.16412042
+  0.02423256 0.05371126 0.07056641 0.05095698 0.0481267  0.03382907
+  0.06154193 0.08215186 0.05174924 0.05254117 0.04988282 0.06132083]
+ [0.0374636  0.03611797 0.0643195  0.00698037 0.04927147 0.16358092
+  0.02452494 0.05227862 0.0710411  0.05126589 0.04820047 0.0339077
+  0.06204167 0.08241745 0.05198797 0.05276488 0.05012945 0.06170604]
+ [0.03794035 0.03609724 0.06415328 0.00706375 0.04938718 0.16267577
+  0.02461561 0.05224237 0.07096659 0.0512009  0.04823251 0.03396501
+  0.06185668 0.08329023 0.05196922 0.05275596 0.05002642 0.06156096]
+ [0.03799199 0.03598661 0.06426979 0.00717571 0.04983459 0.16280256
+  0.02441896 0.05272741 0.07064585 0.05135915 0.04821278 0.03401409
+  0.06167208 0.08268052 0.05184086 0.05264089 0.05015047 0.0615757 ]
+ [0.03775121 0.03607829 0.06413478 0.00725898 0.04999477 0.16431043
+  0.02407965 0.05285868 0.0703465  0.05122268 0.04818706 0.03412699
+  0.06138894 0.08231175 0.05177662 0.05257119 0.05015622 0.06144524]
+ [0.03806992 0.03590685 0.06383269 0.00716112 0.05006422 0.16525471
+  0.02378251 0.05382341 0.0703731  0.05096311 0.04808003 0.03396015
+  0.06127588 0.08229522 0.05166338 0.05246935 0.04983475 0.06118963]
+ [0.03795672 0.03628827 0.06424847 0.00711123 0.04935363 0.16399267
+  0.02387057 0.05206415 0.07083594 0.05136453 0.04828015 0.03413847
+  0.06166546 0.08237838 0.05196198 0.05276234 0.0501376  0.06158943]]
+BLEU-1: 0.6666666666222223
+BLEU-2: 0.5345224837879413
+BLEU-3: 0.44464785150936803
+BLEU-4: 0.38503228865915257
+CIDER: 1.5441682403459456
+Inference Time: 0.08559107780456543
+
+ID: 10044
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> satu orang perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto <END>']
+['<START> satu orang perempuan yang memakai pakaian adat ulee balang sedang berfoto tersenyum <END>']
+Probability: [0.05866243 0.05190343 0.0388915  0.03860538]
+Attention:
+['Aesan Gede Woman Hat', 'Aesan Gede Woman Clothes', 'Person']
+[[0.         0.         0.        ]
+ [0.02672308 0.05182637 0.9214505 ]
+ [0.03150959 0.05173723 0.9167531 ]
+ [0.03117637 0.05082625 0.9179974 ]
+ [0.0294596  0.04834424 0.92219615]
+ [0.0339969  0.05330615 0.9126969 ]
+ [0.03171916 0.05234369 0.91593707]
+ [0.03298732 0.05682482 0.91018784]
+ [0.03157992 0.05755319 0.9108669 ]
+ [0.02954045 0.05714286 0.9133168 ]
+ [0.02800647 0.05193024 0.92006326]
+ [0.02908176 0.05282252 0.91809577]
+ [0.03115189 0.05456378 0.91428435]
+ [0.02986466 0.05387238 0.9162629 ]]
+BLEU-1: 0.9285714285051022
+BLEU-2: 0.8864052603621686
+BLEU-3: 0.868349318497338
+BLEU-4: 0.8555261858022482
+CIDER: 7.717224102082399
+Inference Time: 0.05104565620422363
+
+ID: 10297
+Ground Truth: ['<START> enam orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+Generated:
+['<START> tiga orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> tiga orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berjajar sambil duduk <END>']
+['<START> tiga orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berjajar sambil duduk <END>']
+['<START> tiga orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berjajar sambil duduk melakukan parade <END>']
+Probability: [0.02586532 0.00813765 0.00448478 0.0018033 ]
+Attention:
+['Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [4.64985222e-02 4.36946284e-03 3.57959536e-03 1.09180555e-01
+  5.33099025e-02 3.15464847e-02 6.62668347e-02 1.13509400e-02
+  2.30339859e-02 3.05849407e-02 3.13057639e-02 2.35873275e-02
+  4.83273976e-02 4.80297713e-05 1.03993006e-01 8.38210732e-02
+  4.06298265e-02 2.88566291e-01]
+ [4.50229794e-02 4.22869204e-03 3.50910728e-03 1.05780713e-01
+  5.09072393e-02 3.10080647e-02 6.41824529e-02 1.09167611e-02
+  2.20934879e-02 2.95013264e-02 2.99524926e-02 2.26785000e-02
+  4.70836759e-02 4.83106778e-05 1.00750208e-01 8.13854560e-02
+  3.90760526e-02 3.11874390e-01]
+ [4.54531237e-02 4.26973728e-03 3.52261751e-03 1.06868081e-01
+  5.14020659e-02 3.09433863e-02 6.33599460e-02 1.08686378e-02
+  2.22554449e-02 2.97574271e-02 3.02256756e-02 2.26766206e-02
+  4.65704538e-02 4.57632086e-05 1.01966329e-01 8.09401870e-02
+  3.93434986e-02 3.09531003e-01]
+ [4.42789197e-02 4.25212458e-03 3.43937823e-03 1.03377938e-01
+  5.02932370e-02 2.94271167e-02 6.31578714e-02 1.09232767e-02
+  2.21816041e-02 2.91303173e-02 3.03228647e-02 2.26022881e-02
+  4.60108593e-02 4.68145845e-05 1.00641839e-01 7.88963214e-02
+  3.90117280e-02 3.22005510e-01]
+ [4.46332321e-02 4.26546670e-03 3.45839700e-03 1.03495277e-01
+  4.99750264e-02 3.12379822e-02 6.32002056e-02 1.07117193e-02
+  2.21585482e-02 2.94124447e-02 3.02712023e-02 2.25816444e-02
+  4.50446382e-02 4.57863935e-05 1.02881208e-01 7.82268494e-02
+  3.92861217e-02 3.19114268e-01]
+ [4.33391184e-02 4.08269465e-03 3.30611062e-03 1.00842826e-01
+  4.91826758e-02 3.08756810e-02 6.08408935e-02 1.05216550e-02
+  2.14033704e-02 2.85428744e-02 2.88319550e-02 2.17979923e-02
+  4.41692919e-02 4.61822092e-05 1.00170173e-01 7.65341744e-02
+  3.83518673e-02 3.37160438e-01]
+ [4.41850647e-02 4.22415929e-03 3.40037630e-03 1.02315672e-01
+  5.01763634e-02 3.18797491e-02 6.06376044e-02 1.04421610e-02
+  2.17931569e-02 2.92482506e-02 2.95435600e-02 2.24870909e-02
+  4.43041436e-02 4.92362087e-05 9.83174220e-02 7.73132741e-02
+  3.83239836e-02 3.31358641e-01]
+ [4.46207523e-02 4.24942793e-03 3.43680149e-03 1.03537507e-01
+  5.10452725e-02 3.08478195e-02 6.29233643e-02 1.06992414e-02
+  2.21958738e-02 2.94545423e-02 3.02048717e-02 2.28360835e-02
+  4.49443907e-02 4.71337808e-05 9.99952704e-02 7.80479908e-02
+  3.91100086e-02 3.21803600e-01]
+ [4.49335575e-02 4.22129221e-03 3.47864442e-03 1.04714245e-01
+  5.13919443e-02 3.12139820e-02 6.16548024e-02 1.06196171e-02
+  2.23517064e-02 2.95180995e-02 3.02550141e-02 2.29249224e-02
+  4.53987531e-02 4.73382643e-05 1.02799222e-01 7.93725699e-02
+  3.97953391e-02 3.15308988e-01]
+ [4.60153781e-02 4.35160939e-03 3.53881205e-03 1.06085010e-01
+  5.21610528e-02 3.18610966e-02 6.51745275e-02 1.13031678e-02
+  2.29046736e-02 3.03668920e-02 3.09977345e-02 2.33411957e-02
+  4.71603610e-02 4.94671767e-05 1.02626853e-01 8.16268772e-02
+  4.08077389e-02 2.99627602e-01]
+ [4.37924229e-02 4.18675039e-03 3.39819258e-03 1.01578541e-01
+  5.00925221e-02 2.99900435e-02 6.17468506e-02 1.07641453e-02
+  2.19273381e-02 2.88417488e-02 2.97655724e-02 2.23682206e-02
+  4.47565168e-02 4.69686347e-05 1.00079089e-01 7.74316564e-02
+  3.92766967e-02 3.29956740e-01]
+ [4.50485386e-02 4.32657311e-03 3.52517446e-03 1.04507335e-01
+  5.21634892e-02 3.02967802e-02 6.21580780e-02 1.09898690e-02
+  2.26219594e-02 2.97040176e-02 3.08733042e-02 2.32157633e-02
+  4.58365791e-02 4.74952722e-05 1.02271900e-01 7.96481073e-02
+  4.00163010e-02 3.12748760e-01]]
+BLEU-1: 0.8461538460236689
+BLEU-2: 0.7510676160808549
+BLEU-3: 0.6751063810707115
+BLEU-4: 0.5923033071047642
+CIDER: 1.6104114425543434
+Inference Time: 0.08271360397338867
+
+ID: 3768
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.11925923 0.09898109 0.03197984 0.02849293]
+Attention:
+['Tulang Bawang Woman Hat', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Man Clothes', 'Tulang Bawang Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.01991216 0.04203569 0.91125125 0.00101021 0.01158902 0.0142017 ]
+ [0.02060349 0.04101058 0.9100812  0.00098005 0.01189478 0.0154299 ]
+ [0.01876925 0.03919939 0.9154006  0.00092454 0.01111237 0.01459375]
+ [0.0190626  0.04115484 0.91262084 0.00102164 0.01141454 0.01472552]
+ [0.02022283 0.04159588 0.91023093 0.00104392 0.01164796 0.01525852]
+ [0.02001852 0.04154498 0.91037947 0.00108371 0.01200063 0.01497262]
+ [0.02035748 0.04261082 0.9088267  0.00105922 0.01175267 0.01539302]
+ [0.01978937 0.04134889 0.9119541  0.0009906  0.0113618  0.01455523]
+ [0.02004168 0.04461725 0.906924   0.00097448 0.01211181 0.01533083]
+ [0.02058704 0.04387325 0.9073267  0.00099447 0.01185908 0.01535944]
+ [0.0199633  0.04387214 0.9085695  0.00098385 0.01164596 0.01496516]
+ [0.01946721 0.04327403 0.90991527 0.00098416 0.01166356 0.01469573]
+ [0.0204339  0.04308015 0.9070371  0.00106552 0.012497   0.01588633]
+ [0.02119244 0.04240334 0.90565944 0.00110651 0.01315583 0.01648246]
+ [0.0202226  0.0421591  0.908816   0.00103522 0.01231302 0.0154541 ]]
+BLEU-1: 0.999999999875
+BLEU-2: 0.9999999998729167
+BLEU-3: 0.999999999870635
+BLEU-4: 0.9999999998681205
+CIDER: 10.0
+Inference Time: 0.0705709457397461
+
+ID: 3318
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin sambil berpegangan tangan <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto pengantin <END>']
+Probability: [0.03053923 0.0273629  0.0245805  0.02378883]
+Attention:
+['Person', 'Person', 'Aesan Gede Man Clothes', 'Aesan Gede Man Hat', 'Aesan Gede Woman Clothes', 'Aesan Gede Woman Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.28013635 0.24163243 0.20933095 0.00166294 0.26325336 0.00398398]
+ [0.27603698 0.24220608 0.210899   0.00160275 0.26539534 0.00385985]
+ [0.2711976  0.24308214 0.21059592 0.00162389 0.26958326 0.00391719]
+ [0.27531996 0.23917611 0.21127872 0.00165126 0.26856285 0.00401117]
+ [0.27711707 0.2385678  0.21198156 0.0016117  0.26672912 0.00399275]
+ [0.27340257 0.24213809 0.21339917 0.0017339  0.26518905 0.00413725]
+ [0.2725744  0.24019234 0.2127061  0.00169929 0.26856846 0.00425943]
+ [0.28381982 0.23759975 0.20814963 0.00154879 0.2649731  0.0039089 ]
+ [0.28064057 0.23635955 0.20924725 0.00159554 0.2681791  0.00397804]
+ [0.28768215 0.23548394 0.20653751 0.00161489 0.264717   0.0039645 ]
+ [0.2883851  0.23329473 0.20733522 0.00150234 0.26569206 0.00379057]
+ [0.27591386 0.23772086 0.21043897 0.00158212 0.2704562  0.00388801]
+ [0.2745795  0.23643601 0.2133168  0.0016116  0.27013046 0.00392567]
+ [0.27677345 0.24347772 0.2093843  0.00169466 0.2645876  0.00408223]
+ [0.27550542 0.24178529 0.21045792 0.00165818 0.2665322  0.00406099]]
+BLEU-1: 0.7772147981969736
+BLEU-2: 0.7472767485180659
+BLEU-3: 0.7348442686074756
+BLEU-4: 0.7263589009030192
+CIDER: 4.283073294568634
+Inference Time: 0.06677436828613281
+
+ID: 10329
+Ground Truth: ['<START> empat orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto keluarga <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil berpegangan tangan <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin sambil berpegangan tangan <END>']
+Probability: [0.03667617 0.03171848 0.02579733 0.01574293]
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Ulee Balang Man Clothes', 'Ulee Balang Woman Clothes', 'Ulee Balang Woman Hat', 'Ulee Balang Man Hat', 'Ulee Balang Man Hat', 'Ulee Balang Man Hat']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.        ]
+ [0.02938076 0.5468215  0.01138695 0.05039245 0.03411125 0.02508515
+  0.00816794 0.04876245 0.23583543 0.01005613]
+ [0.03065348 0.5491817  0.01129124 0.04938465 0.03400556 0.02510583
+  0.0081142  0.04755902 0.23467644 0.01002787]
+ [0.03023925 0.56164235 0.01078899 0.04900018 0.0341739  0.02519578
+  0.00802241 0.04812907 0.22330497 0.00950315]
+ [0.03105539 0.55552214 0.01073806 0.04997149 0.0342051  0.02491535
+  0.0078618  0.04786647 0.22792779 0.00993642]
+ [0.0310412  0.5516857  0.01060205 0.04900308 0.03405995 0.02496304
+  0.00790908 0.04801963 0.23310687 0.00960949]
+ [0.03092617 0.5539219  0.01136515 0.04951673 0.03407509 0.02471999
+  0.00794029 0.04737648 0.23061167 0.00954662]
+ [0.03080652 0.5593286  0.01071739 0.04917308 0.03328131 0.02478111
+  0.00816408 0.04799621 0.22612286 0.00962877]
+ [0.02985649 0.5489412  0.01096486 0.04820178 0.0338138  0.02528526
+  0.00821264 0.04645013 0.23766547 0.01060834]
+ [0.02951832 0.5512038  0.01197231 0.04821907 0.03429427 0.02502498
+  0.00831932 0.04643193 0.23460117 0.01041483]
+ [0.02982509 0.5567453  0.01107136 0.04823385 0.03267848 0.0246439
+  0.00784221 0.04697518 0.23237146 0.00961321]
+ [0.03032579 0.5538809  0.01036457 0.05004424 0.03257077 0.02521033
+  0.00804152 0.04814199 0.2313539  0.01006598]
+ [0.03082045 0.54855    0.01103845 0.05051405 0.03328411 0.02589715
+  0.00833822 0.04818268 0.23270504 0.01066985]
+ [0.02984777 0.5442295  0.01066341 0.04990687 0.03325418 0.02552597
+  0.00824204 0.04809511 0.23992038 0.01031482]
+ [0.03020636 0.55191267 0.01079816 0.04995275 0.03268292 0.0250414
+  0.0080403  0.04700308 0.23434399 0.01001835]
+ [0.03011124 0.55485934 0.00985848 0.05025092 0.03286513 0.02512985
+  0.00791044 0.04785972 0.2312249  0.00992989]]
+BLEU-1: 0.7499999999062502
+BLEU-2: 0.6324555319533014
+BLEU-3: 0.5555132242159604
+BLEU-4: 0.5067309892229019
+CIDER: 0.22729224449227625
+Inference Time: 0.08031654357910156
+
+ID: 10259
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.03711988 0.03001771 0.02392397 0.01152714]
+Attention:
+['Person', 'Person', 'Melayu Jambi Man Clothes', 'Melayu Jambi Man Hat', 'Melayu Jambi Woman Clothes', 'Melayu Jambi Woman Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.08538385 0.4009816  0.00362942 0.0030513  0.45433426 0.05261955]
+ [0.08630069 0.4120701  0.00361657 0.00307179 0.44335672 0.05158416]
+ [0.088063   0.4192027  0.00365804 0.00302671 0.43528765 0.05076193]
+ [0.08799244 0.40417928 0.00382675 0.00308264 0.4489136  0.05200518]
+ [0.08867443 0.42093948 0.00388556 0.0031837  0.42993125 0.05338558]
+ [0.0860102  0.41637078 0.00380645 0.0030864  0.4378548  0.05287128]
+ [0.09070668 0.4242457  0.00388427 0.00319035 0.42278153 0.05519143]
+ [0.09326492 0.41668883 0.00374269 0.00315295 0.42930695 0.05384366]
+ [0.09282567 0.4176345  0.00364166 0.00310022 0.42781985 0.05497799]
+ [0.09467544 0.42041934 0.00384332 0.00324048 0.4235091  0.05431239]
+ [0.09360935 0.40454957 0.00377359 0.0031623  0.4440541  0.05085105]
+ [0.0912648  0.40163872 0.00351774 0.00301739 0.44744077 0.05312059]
+ [0.08543994 0.40098453 0.00369319 0.00311671 0.45403975 0.05272589]
+ [0.08724301 0.4080686  0.00375968 0.00315547 0.44379765 0.05397569]
+ [0.08801522 0.40807918 0.00363298 0.0030923  0.44347742 0.05370288]]
+BLEU-1: 0.8124999998984376
+BLEU-2: 0.7359800721004565
+BLEU-3: 0.6764432289020579
+BLEU-4: 0.6389431041620091
+CIDER: 0.6190192777101868
+Inference Time: 0.06855940818786621
+
+ID: 10136
+Ground Truth: ['<START> enam orang laki-laki yang memakai pakaian adat betawi sedang berjalan <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+Probability: [0.11826026 0.02518348 0.02309278 0.01879275]
+Attention:
+['Person', 'Person', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Hat', 'Betawi Man Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.3659474  0.00685526 0.07263516 0.4787369  0.04191202 0.03391327]
+ [0.32928795 0.00702756 0.07655612 0.50712705 0.04430834 0.03569292]
+ [0.32886848 0.00691441 0.08073725 0.50109607 0.04561725 0.03676653]
+ [0.3476308  0.00703096 0.07849015 0.48810273 0.04357114 0.03517418]
+ [0.34514308 0.00723367 0.07567276 0.4955089  0.0423233  0.03411832]
+ [0.34881663 0.00676771 0.07688104 0.49073187 0.04240465 0.03439815]
+ [0.32607788 0.00682713 0.07416163 0.5158812  0.04256467 0.03448751]
+ [0.31255507 0.0067293  0.07897842 0.52128494 0.04444237 0.03600991]
+ [0.32246467 0.00645741 0.08051344 0.5097193  0.04469664 0.03614849]
+ [0.31949186 0.00651166 0.08209065 0.51017857 0.04523228 0.03649496]
+ [0.29492813 0.0070334  0.08686125 0.52557826 0.0473848  0.03821419]
+ [0.292027   0.00712325 0.08586192 0.529065   0.04754143 0.03838138]
+ [0.309915   0.00730035 0.0847956  0.51522785 0.04580835 0.03695284]
+ [0.32738423 0.00723407 0.08093357 0.5068354  0.04296226 0.03465044]
+ [0.3178841  0.00694224 0.08609247 0.50384927 0.04723588 0.03799611]]
+BLEU-1: 0.5624999999648439
+BLEU-2: 0.38729833459572877
+BLEU-3: 0.27775661212534003
+BLEU-4: 0.20149416155666633
+CIDER: 0.011215074662102364
+Inference Time: 0.06937742233276367
+
+ID: 3182
+Ground Truth: ['<START> tiga orang perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar sambil tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.06198891 0.03998833 0.03389918 0.01480696]
+Attention:
+['Person', 'Person', 'Person', 'Bundo Kanduang Woman Hat', 'Bundo Kanduang Woman Hat', 'Bundo Kanduang Woman Clothes', 'Bundo Kanduang Woman Clothes']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.12344513 0.20611787 0.08587298 0.23547302 0.0376828  0.3036372
+  0.00777102]
+ [0.12151808 0.21101527 0.0877763  0.21957438 0.03648913 0.31588995
+  0.00773698]
+ [0.11641361 0.19752856 0.08539511 0.22137043 0.03511153 0.33685064
+  0.00733013]
+ [0.11830637 0.19402769 0.08593258 0.23429778 0.03592185 0.32414198
+  0.00737177]
+ [0.11679567 0.1860979  0.08490064 0.22104806 0.03505559 0.34889877
+  0.00720336]
+ [0.11972629 0.19855794 0.08691685 0.2164901  0.035259   0.33592546
+  0.0071244 ]
+ [0.11737605 0.1893213  0.08781885 0.2116952  0.03512196 0.35130855
+  0.00735807]
+ [0.1204636  0.19703844 0.08571637 0.21272255 0.03487996 0.34155464
+  0.00762454]
+ [0.11791369 0.19156775 0.08542442 0.21528192 0.03521191 0.3469254
+  0.00767495]
+ [0.12198853 0.20060004 0.08808125 0.21523356 0.03644127 0.32999036
+  0.00766496]
+ [0.12457628 0.20195363 0.088939   0.22913125 0.03722437 0.3103092
+  0.0078663 ]
+ [0.12262201 0.19458923 0.08676722 0.23932283 0.0372999  0.31147328
+  0.00792554]
+ [0.12284424 0.20003583 0.08824964 0.23298357 0.03712585 0.3109446
+  0.0078163 ]
+ [0.1252392  0.19952305 0.09055687 0.22987284 0.03692327 0.3102003
+  0.0076845 ]]
+BLEU-1: 0.6860384555983814
+BLEU-2: 0.5244563581696332
+BLEU-3: 0.4293987683630017
+BLEU-4: 0.33332626950651506
+CIDER: 0.7221508714992475
+Inference Time: 0.06932377815246582
+
+ID: 10148
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.05772181 0.03115024 0.01987041 0.01411882]
+Attention:
+['Person', 'Person', 'Person', 'Betawi Man Clothes', 'Betawi Man Clothes', 'Betawi Man Hat', 'Betawi Man Hat', 'Betawi Woman Clothes']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00]
+ [8.01021724e-06 9.98265922e-01 7.29953055e-04 1.16946740e-06
+  5.07116667e-04 1.48124687e-04 1.13307702e-04 2.26419361e-04]
+ [6.67012046e-06 9.98488426e-01 6.39272970e-04 9.68509312e-07
+  4.37695940e-04 1.29987835e-04 1.00125450e-04 1.96857261e-04]
+ [6.66841197e-06 9.98481095e-01 6.44724932e-04 9.74832233e-07
+  4.39391559e-04 1.29763313e-04 9.97038296e-05 1.97722606e-04]
+ [7.41361737e-06 9.98419046e-01 6.71015703e-04 1.10535018e-06
+  4.58490220e-04 1.35155904e-04 1.03361344e-04 2.04276017e-04]
+ [7.59037084e-06 9.98379469e-01 6.83077087e-04 1.10574297e-06
+  4.73188411e-04 1.40806267e-04 1.07573680e-04 2.07117540e-04]
+ [6.99450038e-06 9.98495936e-01 6.34385098e-04 1.03857928e-06
+  4.42789868e-04 1.29583204e-04 9.93667272e-05 1.89935687e-04]
+ [7.27802808e-06 9.98422623e-01 6.66791340e-04 1.04588673e-06
+  4.59012052e-04 1.36279326e-04 1.04839935e-04 2.02090814e-04]
+ [6.86362000e-06 9.98518169e-01 6.35078410e-04 1.02854449e-06
+  4.27838066e-04 1.24909886e-04 9.66135121e-05 1.89489394e-04]
+ [7.01534782e-06 9.98449087e-01 6.66934939e-04 1.00465081e-06
+  4.43756144e-04 1.31106281e-04 1.01532765e-04 1.99423826e-04]
+ [7.31180899e-06 9.98429000e-01 6.64530555e-04 1.06847335e-06
+  4.57269081e-04 1.33339170e-04 1.02932900e-04 2.04631157e-04]
+ [7.47989270e-06 9.98345017e-01 6.96445815e-04 1.10113990e-06
+  4.83001291e-04 1.42600722e-04 1.08501888e-04 2.15812222e-04]
+ [8.16686133e-06 9.98223603e-01 7.52366905e-04 1.23855318e-06
+  5.16321103e-04 1.51128392e-04 1.16044466e-04 2.31138358e-04]
+ [8.26801079e-06 9.98255074e-01 7.41102209e-04 1.23819302e-06
+  5.07365854e-04 1.48030580e-04 1.13385380e-04 2.25507974e-04]
+ [7.45043508e-06 9.98457670e-01 6.51064853e-04 1.08871427e-06
+  4.49922722e-04 1.31255030e-04 1.02263250e-04 1.99223665e-04]]
+BLEU-1: 0.8666666665511112
+BLEU-2: 0.7867957923626638
+BLEU-3: 0.7249202485683098
+BLEU-4: 0.6865890478720554
+CIDER: 0.6698172822372084
+Inference Time: 0.06727743148803711
+
+ID: 3121
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat bundo kanduang sedang berfoto dengan orang lain <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar <END>']
+Probability: [0.04030295 0.03482695 0.03067722 0.02067683]
+Attention:
+['Bundo Kanduang Woman Hat', 'Bundo Kanduang Woman Clothes', 'Person', 'Person']
+[[0.         0.         0.         0.        ]
+ [0.05694544 0.84982854 0.02934229 0.06388374]
+ [0.05788648 0.8474474  0.02979673 0.06486933]
+ [0.060361   0.84175086 0.03013772 0.06775041]
+ [0.06187222 0.8364692  0.03192034 0.06973831]
+ [0.06456636 0.82779515 0.03363008 0.07400839]
+ [0.06030708 0.8378844  0.03206705 0.06974147]
+ [0.06819512 0.8209996  0.03414825 0.07665701]
+ [0.06435694 0.8288417  0.03372496 0.07307648]
+ [0.07067335 0.8157126  0.03531368 0.07830037]
+ [0.06813161 0.82024676 0.03464395 0.07697768]
+ [0.06667322 0.8249852  0.03288605 0.07545546]
+ [0.06227955 0.83624154 0.03145465 0.07002425]
+ [0.06232687 0.8333282  0.03260384 0.07174107]
+ [0.06375239 0.83168083 0.03215872 0.07240807]]
+BLEU-1: 0.6236713232712557
+BLEU-2: 0.4564806674061582
+BLEU-3: 0.35565034840795967
+BLEU-4: 0.2893952342431997
+CIDER: 0.01811494559209963
+Inference Time: 0.0634613037109375
+
+ID: 4004
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto berdiri <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> satu orang perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+Probability: [0.04332522 0.03671158 0.02812931 0.02185031]
+Attention:
+['Person', 'Kebaya Sunda Clothes', 'Kebaya Sunda Hat']
+[[0.         0.         0.        ]
+ [0.39873087 0.5648807  0.03638841]
+ [0.40108994 0.5602599  0.03865011]
+ [0.4043144  0.55832326 0.03736233]
+ [0.41775155 0.54593265 0.03631581]
+ [0.4212823  0.5420076  0.03671006]
+ [0.431413   0.53120196 0.03738507]
+ [0.4281358  0.5360335  0.03583066]
+ [0.43185806 0.53302443 0.0351175 ]
+ [0.41072088 0.5513735  0.03790569]
+ [0.4293383  0.5310157  0.03964595]
+ [0.4057893  0.55260783 0.04160284]
+ [0.42502928 0.53649783 0.03847288]
+ [0.42808494 0.5347493  0.03716572]]
+BLEU-1: 0.9285714284387758
+BLEU-2: 0.886405260298854
+BLEU-3: 0.8683493184353132
+BLEU-4: 0.8555261857411393
+CIDER: 6.9584805255424325
+Inference Time: 0.055448055267333984
+
+ID: 4167
+Ground Truth: ['<START> tujuh orang laki-laki yang memakai pakaian adat jawa sedang berfoto bergaya <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto berjajar sambil berpegangan tangan <END>']
+Probability: [0.02584031 0.01240329 0.01166581 0.0007893 ]
+Attention:
+['Jawa Man Hat', 'Jawa Man Hat', 'Jawa Man Hat', 'Jawa Man Hat', 'Jawa Man Hat', 'Jawa Man Hat', 'Jawa Man Hat', 'Jawa Man Clothes', 'Jawa Man Clothes', 'Jawa Man Clothes', 'Jawa Man Clothes', 'Person', 'Person', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.        ]
+ [0.0247719  0.05053441 0.04937669 0.07945603 0.06702297 0.02737539
+  0.07972606 0.0089027  0.0616684  0.08273628 0.01693645 0.25801307
+  0.11106723 0.00923704 0.00455635 0.06861905]
+ [0.02454593 0.05047078 0.04945807 0.08002006 0.06705705 0.02740896
+  0.08009434 0.00872254 0.06182114 0.08222967 0.01662921 0.25694236
+  0.1123688  0.00917621 0.00450701 0.06854792]
+ [0.024669   0.05067354 0.04970792 0.08055128 0.06751963 0.02781309
+  0.08052201 0.00869508 0.06218292 0.08232924 0.01669084 0.25287604
+  0.1131042  0.0092008  0.00449645 0.06896791]
+ [0.02475665 0.05077295 0.0498601  0.08024157 0.06766716 0.02811551
+  0.08016126 0.00908597 0.06218056 0.08226996 0.01715534 0.25229695
+  0.11212277 0.00961413 0.00453788 0.06916127]
+ [0.02489599 0.0506787  0.04986307 0.08071947 0.06744751 0.02840269
+  0.08031708 0.00908177 0.06233093 0.08178122 0.0174135  0.25097048
+  0.11273388 0.00966457 0.0045915  0.06910764]
+ [0.02481935 0.05019621 0.04944203 0.08015054 0.06714638 0.02835873
+  0.0795378  0.00890779 0.06200693 0.08174346 0.0171266  0.25536147
+  0.11210853 0.00951786 0.00458905 0.06898723]
+ [0.02528035 0.05120315 0.05035618 0.08126636 0.06827734 0.02901493
+  0.08107462 0.00905394 0.06245978 0.08180437 0.01775194 0.24394341
+  0.11441524 0.00940089 0.00460589 0.07009154]
+ [0.02555536 0.05089982 0.0501097  0.08112139 0.06815056 0.02879365
+  0.08038254 0.00906054 0.06211206 0.08197749 0.01761625 0.24787788
+  0.11344618 0.00951856 0.0045526  0.06882546]
+ [0.02537062 0.05173623 0.05071099 0.08210117 0.06854539 0.02874786
+  0.08175708 0.00913809 0.06232278 0.08182494 0.01756038 0.241036
+  0.11499661 0.00931816 0.00460172 0.07023196]
+ [0.02543614 0.05129271 0.0504254  0.08159918 0.06839279 0.02872186
+  0.08096379 0.00899111 0.06203974 0.0817644  0.01747241 0.24577242
+  0.11367019 0.00930469 0.00457518 0.0695781 ]
+ [0.02486785 0.05096754 0.05018731 0.08170511 0.0680946  0.02797824
+  0.08086573 0.00893411 0.06233891 0.08171103 0.01726348 0.2481768
+  0.11380363 0.00915176 0.00455239 0.0694015 ]
+ [0.02500175 0.05104244 0.05005147 0.08093686 0.0681428  0.02807654
+  0.08046071 0.00909034 0.06224588 0.08271775 0.0174078  0.24901012
+  0.11260947 0.00956078 0.00460062 0.06904469]
+ [0.02485337 0.05054069 0.04980573 0.08033637 0.06753334 0.02819781
+  0.0798329  0.00905851 0.06191335 0.08172625 0.0171381  0.25458732
+  0.11195247 0.00940134 0.0046006  0.06852189]
+ [0.02450583 0.0509311  0.05001349 0.0807539  0.06775962 0.02798711
+  0.08042064 0.00899404 0.06197437 0.08203566 0.01711489 0.25164104
+  0.11263444 0.00943151 0.00453943 0.06926292]]
+BLEU-1: 0.6666666666222223
+BLEU-2: 0.4879500364405749
+BLEU-3: 0.3321078320500879
+BLEU-4: 0.23505204105206395
+CIDER: 0.017150245179595448
+Inference Time: 0.08266520500183105
+
+ID: 10104
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum membawa <UNK> <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.11046864 0.02921279 0.0224987  0.02201401]
+Attention:
+['Jawa Man Hat', 'Jawa Man Clothes', 'Jawa Woman Clothes', 'Jawa Woman Hat', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [2.70707786e-01 7.16150086e-03 1.06526793e-04 2.23047868e-03
+  1.90542310e-01 5.29251397e-01]
+ [2.69677103e-01 7.23665021e-03 1.11336936e-04 2.28710938e-03
+  1.80627167e-01 5.40060580e-01]
+ [2.74323821e-01 7.31855538e-03 1.01297490e-04 2.26434320e-03
+  1.79147407e-01 5.36844611e-01]
+ [2.66622990e-01 7.20977224e-03 1.02253529e-04 2.29152408e-03
+  1.90909013e-01 5.32864451e-01]
+ [2.67312884e-01 7.32077844e-03 1.08646127e-04 2.44206353e-03
+  1.81248158e-01 5.41567445e-01]
+ [2.69778579e-01 7.18897115e-03 1.06801381e-04 2.41582212e-03
+  1.80786148e-01 5.39723635e-01]
+ [2.67365187e-01 7.26254191e-03 1.03978833e-04 2.48813350e-03
+  1.81926325e-01 5.40853798e-01]
+ [2.65810758e-01 7.46301934e-03 1.13067792e-04 2.47505656e-03
+  1.94638386e-01 5.29499650e-01]
+ [2.54077017e-01 7.17937294e-03 1.07872642e-04 2.36946694e-03
+  1.91715702e-01 5.44550598e-01]
+ [2.60055482e-01 7.27127492e-03 1.11782188e-04 2.22278386e-03
+  1.82398185e-01 5.47940552e-01]
+ [2.51786798e-01 7.23000802e-03 1.10980232e-04 2.32579536e-03
+  1.93592966e-01 5.44953465e-01]
+ [2.56082684e-01 7.04684108e-03 1.04325278e-04 2.27380777e-03
+  1.84270903e-01 5.50221443e-01]
+ [2.63171375e-01 7.26705650e-03 1.05294188e-04 2.36684084e-03
+  1.90851018e-01 5.36238432e-01]
+ [2.55808890e-01 7.12409569e-03 1.03934617e-04 2.25826958e-03
+  1.93880022e-01 5.40824890e-01]
+ [2.59414613e-01 7.19535863e-03 1.04137296e-04 2.38451897e-03
+  1.84289306e-01 5.46612084e-01]]
+BLEU-1: 0.7254004783171754
+BLEU-2: 0.6640863049675475
+BLEU-3: 0.6171315772738624
+BLEU-4: 0.5691338868378261
+CIDER: 0.5617045300990235
+Inference Time: 0.07187771797180176
+
+ID: 10103
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil bergaya <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.02914147 0.02688267 0.01924458 0.00867512]
+Attention:
+['Person', 'Person', 'Jawa Woman Clothes', 'Jawa Woman Hat', 'Jawa Man Clothes', 'Jawa Man Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.02080159 0.17885587 0.01289721 0.1235364  0.06380101 0.6001079 ]
+ [0.01999375 0.1856409  0.01292518 0.1274342  0.064564   0.58944196]
+ [0.01928761 0.17567158 0.01257825 0.12092204 0.06263894 0.6089016 ]
+ [0.01944777 0.16923115 0.01320562 0.12774286 0.06421465 0.60615796]
+ [0.01964341 0.17600611 0.01335575 0.13130495 0.06467129 0.5950185 ]
+ [0.01990822 0.16928379 0.01298181 0.12664595 0.06291663 0.60826355]
+ [0.01892295 0.18177848 0.01312776 0.12416375 0.06357366 0.5984334 ]
+ [0.01893908 0.1855608  0.01311738 0.12821501 0.06354472 0.590623  ]
+ [0.01985027 0.19195856 0.01295279 0.12585062 0.0643399  0.58504796]
+ [0.01974893 0.18353589 0.01316511 0.12684955 0.06413762 0.59256285]
+ [0.02003798 0.17513455 0.01345388 0.12778157 0.06564691 0.5979451 ]
+ [0.02010166 0.17742197 0.01320489 0.12786235 0.06496783 0.5964413 ]
+ [0.02018026 0.18087149 0.01333334 0.12890667 0.06577272 0.5909355 ]
+ [0.01862135 0.17572404 0.01308934 0.1254402  0.06431001 0.60281503]
+ [0.01968217 0.17632109 0.01305161 0.13308632 0.06489697 0.59296185]]
+BLEU-1: 0.76327311344054
+BLEU-2: 0.6913892937015725
+BLEU-3: 0.6354596054823193
+BLEU-4: 0.6002314984443826
+CIDER: 0.47975107179954246
+Inference Time: 0.06879329681396484
+
+ID: 10280
+Ground Truth: ['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat melayu jambi sedang berfoto tersenyum <END>']
+Probability: [0.08498756 0.0596827  0.03783606 0.0238043 ]
+Attention:
+['Pangsi Man Clothes', 'Pangsi Man Hat', 'Person']
+[[0.         0.         0.        ]
+ [0.8163673  0.10356788 0.08006482]
+ [0.81971806 0.0997183  0.08056358]
+ [0.82090884 0.09549724 0.08359394]
+ [0.8197029  0.09659239 0.08370463]
+ [0.81767386 0.09888756 0.08343861]
+ [0.8181048  0.09401695 0.08787823]
+ [0.8256752  0.09532141 0.07900343]
+ [0.8183319  0.10384512 0.07782301]
+ [0.8172898  0.1028583  0.07985183]
+ [0.8172778  0.10182547 0.08089676]
+ [0.8152771  0.10325926 0.08146362]
+ [0.8141254  0.10498551 0.08088902]]
+BLEU-1: 0.9230769229349115
+BLEU-2: 0.8770580191692865
+BLEU-3: 0.8569763244855236
+BLEU-4: 0.842362674240226
+CIDER: 5.95948701073287
+Inference Time: 0.05144476890563965
+
+ID: 3866
+Ground Truth: ['<START> lima orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+Generated:
+['<START> enam orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+['<START> enam orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> enam orang laki-laki yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> enam orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto berjajar <END>']
+Probability: [0.02851291 0.02692119 0.02634878 0.01495424]
+Attention:
+['Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Person', 'Person', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.        ]
+ [0.02181772 0.01320111 0.01682745 0.0063622  0.01285913 0.00306444
+  0.00767789 0.01840738 0.2772204  0.0585876  0.02858729 0.00058982
+  0.52070516 0.00667206 0.0074203 ]
+ [0.02254412 0.01374414 0.01744843 0.00661958 0.01330507 0.00313917
+  0.00786343 0.01901963 0.2769971  0.06056323 0.02740344 0.00060378
+  0.5161737  0.00704009 0.00753501]
+ [0.02235356 0.01351637 0.01727668 0.0065371  0.0132875  0.00308956
+  0.00773917 0.01869949 0.26505718 0.05961034 0.02712396 0.00060212
+  0.53094083 0.00692677 0.00723943]
+ [0.02237573 0.01354964 0.01731677 0.0065991  0.01333926 0.00319997
+  0.00776283 0.01861922 0.26044592 0.05930114 0.02810242 0.00064075
+  0.5344656  0.0068498  0.00743186]
+ [0.02287164 0.01373518 0.0176736  0.00668861 0.01358928 0.00319409
+  0.00783624 0.01884591 0.2466519  0.06084429 0.02702004 0.00061541
+  0.5461826  0.00706921 0.00718208]
+ [0.02230715 0.01355067 0.01738634 0.0065873  0.01327742 0.00317655
+  0.00775146 0.01857915 0.25461525 0.0589981  0.02719077 0.00061418
+  0.5416439  0.00702154 0.00730018]
+ [0.02327178 0.01422844 0.01825066 0.00688639 0.01372987 0.00326551
+  0.00818428 0.01957899 0.25610602 0.06286391 0.0281007  0.00062779
+  0.53028405 0.00729031 0.00733126]
+ [0.02321543 0.01389361 0.01796084 0.00678849 0.01360178 0.00323474
+  0.00805682 0.01923348 0.25999635 0.06129203 0.02725262 0.0006329
+  0.530345   0.00721771 0.00727822]
+ [0.02242418 0.01343878 0.01741939 0.00659283 0.01326074 0.00318187
+  0.00781694 0.01865224 0.25362045 0.05885646 0.02717567 0.00063861
+  0.5426439  0.00707568 0.00720233]
+ [0.02257764 0.01367006 0.01752356 0.00668467 0.01340508 0.00326089
+  0.00787901 0.01881493 0.2670073  0.05985684 0.02775207 0.00064126
+  0.52632517 0.00706005 0.0075415 ]
+ [0.02275183 0.01376997 0.01777574 0.00671836 0.01345865 0.00327714
+  0.00797316 0.01905063 0.2641322  0.05992572 0.02864823 0.00067097
+  0.5272035  0.00717375 0.00747019]
+ [0.02271159 0.01391967 0.01785355 0.006743   0.01339907 0.00326297
+  0.00794999 0.01922168 0.25917438 0.05903081 0.02844681 0.00063819
+  0.5331121  0.00714907 0.00738707]]
+BLEU-1: 0.9230769229349115
+BLEU-2: 0.8770580191692865
+BLEU-3: 0.8569763244855236
+BLEU-4: 0.842362674240226
+CIDER: 5.0878777249119
+Inference Time: 0.07097649574279785
+
+ID: 3860
+Ground Truth: ['<START> dua orang laki-laki yang memakai pakaian adat pangsi sedang berfoto <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.05454505 0.04319727 0.04242587 0.02014964]
+Attention:
+['Person', 'Person', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Hat', 'Pangsi Man Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.22113496 0.18042211 0.119688   0.16196124 0.22688274 0.0899109 ]
+ [0.21804664 0.18473251 0.12162077 0.1617896  0.22338997 0.09042054]
+ [0.21352597 0.18495017 0.1222987  0.16372664 0.2239398  0.09155872]
+ [0.21128194 0.188031   0.12214319 0.16466303 0.22147354 0.09240733]
+ [0.20739466 0.18553542 0.12232377 0.16527471 0.22645293 0.09301855]
+ [0.21625133 0.18964387 0.12268793 0.1656303  0.21327227 0.09251431]
+ [0.21895266 0.18474483 0.12397102 0.16544162 0.21270205 0.09418779]
+ [0.21021529 0.18609093 0.12279092 0.16290301 0.22475983 0.09324005]
+ [0.20331813 0.18820682 0.12302385 0.16381535 0.22891045 0.0927254 ]
+ [0.20960648 0.18856247 0.1222688  0.16305514 0.22409032 0.09241682]
+ [0.21001756 0.1914991  0.12345965 0.16328722 0.21864504 0.09309142]
+ [0.21169777 0.1915421  0.12272685 0.16225982 0.21951827 0.09225522]]
+BLEU-1: 0.8461538460887575
+BLEU-2: 0.7510676161386293
+BLEU-3: 0.7107024449738449
+BLEU-4: 0.681245536360254
+CIDER: 5.434660951611244
+Inference Time: 0.06261730194091797
+
+ID: 10289
+Ground Truth: ['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat bundo kanduang sedang berfoto tersenyum <END>']
+Probability: [0.06501682 0.0649917  0.0537946  0.02047984]
+Attention:
+['Pangsi Man Clothes', 'Pangsi Man Hat', 'Person']
+[[0.         0.         0.        ]
+ [0.50489986 0.12531969 0.3697804 ]
+ [0.5059778  0.12541208 0.3686101 ]
+ [0.5052467  0.12137403 0.3733793 ]
+ [0.50826013 0.12218001 0.36955982]
+ [0.50734276 0.11822917 0.37442806]
+ [0.5081963  0.12110836 0.3706953 ]
+ [0.5126422  0.11752477 0.369833  ]
+ [0.5114514  0.11692081 0.3716278 ]
+ [0.5083347  0.12060428 0.37106103]
+ [0.50857335 0.12447862 0.366948  ]
+ [0.5112283  0.11995686 0.36881474]
+ [0.5111168  0.12159599 0.36728725]]
+BLEU-1: 0.9230769229349115
+BLEU-2: 0.8770580191692865
+BLEU-3: 0.8569763244855236
+BLEU-4: 0.842362674240226
+CIDER: 5.95948701073287
+Inference Time: 0.048754215240478516
+
+ID: 10291
+Ground Truth: ['<START> lima belas orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang melakukan parade <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto berjajar sambil berpegangan tangan <END>']
+Probability: [0.01167375 0.01127262 0.01067513 0.00140022]
+Attention:
+['Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Clothes', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Pangsi Man Hat', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.0419221  0.06034452 0.06534898 0.01143744 0.02967451 0.02238083
+  0.04015474 0.04225287 0.03753403 0.06388444 0.02328175 0.03246519
+  0.03497446 0.01585219 0.03826381 0.01105233 0.06787719 0.05975671
+  0.05865901 0.09855834 0.06661691 0.0471444  0.01699503 0.01356822]
+ [0.04224077 0.06056102 0.06591142 0.01166375 0.02929447 0.02229046
+  0.04019119 0.04188327 0.03750217 0.06367631 0.02312177 0.03241186
+  0.03493151 0.01606165 0.03830643 0.01097655 0.06837101 0.06014665
+  0.05883426 0.09652948 0.06761482 0.04726431 0.01682012 0.01339478]
+ [0.0423059  0.06075954 0.06623315 0.01163879 0.0293921  0.02242096
+  0.04035279 0.04150172 0.03760121 0.06374639 0.02312772 0.03250993
+  0.035054   0.01586057 0.0383525  0.01096596 0.06734326 0.0604337
+  0.05905515 0.09614634 0.06755559 0.04748864 0.01679567 0.01335845]
+ [0.04227772 0.06055561 0.06560193 0.01160089 0.02922339 0.02260566
+  0.04035742 0.04116857 0.03766634 0.06364029 0.02329582 0.03261594
+  0.0351588  0.01583008 0.03845043 0.01096312 0.06802265 0.06006137
+  0.05886121 0.09731969 0.06671137 0.04739146 0.01711546 0.01350478]
+ [0.04224626 0.06061204 0.06586596 0.01175481 0.02884463 0.02250995
+  0.04040094 0.04184348 0.03771528 0.06397908 0.02335979 0.03257588
+  0.03520914 0.01621194 0.03863461 0.01099216 0.06714233 0.06033482
+  0.05884518 0.09528341 0.06717908 0.04737512 0.0172164  0.01386768]
+ [0.04234067 0.06023012 0.06565911 0.01173683 0.02959841 0.02249028
+  0.04027069 0.04191692 0.03755137 0.06392536 0.02324777 0.03247476
+  0.03507246 0.01597813 0.03844859 0.01101659 0.0675674  0.06014643
+  0.05849345 0.09704676 0.06663568 0.04727773 0.01708181 0.01379268]
+ [0.0426314  0.06045372 0.0658651  0.0115846  0.02911232 0.02254002
+  0.04043426 0.04217675 0.03768039 0.06360018 0.02318028 0.03263576
+  0.03516533 0.01601097 0.03848761 0.01097063 0.06546969 0.06037226
+  0.05875525 0.09766628 0.06707213 0.04750188 0.01698246 0.01365075]
+ [0.04222151 0.06072657 0.06571956 0.01157729 0.02909404 0.02265176
+  0.04041452 0.04146798 0.03768839 0.06390414 0.02330988 0.03266623
+  0.03518714 0.01598741 0.03854024 0.01099976 0.06586089 0.06020224
+  0.0590114  0.09744726 0.06746473 0.04736064 0.01711474 0.01338172]
+ [0.04249275 0.06060462 0.06604241 0.01157922 0.02961531 0.02258056
+  0.04039757 0.04234873 0.03769973 0.06385344 0.02324923 0.03269131
+  0.03511241 0.01604136 0.03843156 0.01099658 0.06521327 0.06017911
+  0.05893213 0.09656186 0.06767888 0.0473983  0.01691302 0.01338668]
+ [0.04261938 0.06016626 0.06562454 0.01147174 0.02977117 0.02256816
+  0.04023816 0.04252032 0.03753507 0.06373391 0.02313188 0.03257253
+  0.03499801 0.01582303 0.03836704 0.01097456 0.06530949 0.05991307
+  0.05847721 0.09982204 0.06686292 0.0471965  0.01696611 0.01333688]
+ [0.0426552  0.06036717 0.06542525 0.01158003 0.02929082 0.02248096
+  0.0402486  0.04165317 0.03760179 0.06378826 0.02330844 0.03252088
+  0.03507316 0.01588767 0.03837493 0.01088947 0.06709395 0.05991288
+  0.05866842 0.09851795 0.06694369 0.04721926 0.01710323 0.0133949 ]
+ [0.04253681 0.06052241 0.06516842 0.01146165 0.02911639 0.02260993
+  0.04036754 0.04098041 0.03775622 0.06374598 0.02352682 0.03267456
+  0.03523097 0.0158709  0.03850812 0.01096925 0.06730776 0.05986573
+  0.0588344  0.09819178 0.06674159 0.04724893 0.01731401 0.01344939]
+ [0.04246418 0.0605107  0.06523639 0.01154709 0.02999061 0.02261734
+  0.04026463 0.04108828 0.03759166 0.06337882 0.02330294 0.03256164
+  0.03510313 0.01576911 0.03849795 0.01110182 0.06689817 0.05990214
+  0.05877525 0.09876061 0.06681254 0.04720364 0.01722282 0.01339861]
+ [0.04274401 0.06088229 0.06550179 0.01142412 0.03030264 0.02270837
+  0.04038328 0.04073415 0.03772235 0.0639746  0.02335257 0.03268582
+  0.03517998 0.01563075 0.03856695 0.01105269 0.06677099 0.06005548
+  0.05915846 0.09640934 0.06689706 0.04734128 0.01717304 0.01334802]]
+BLEU-1: 0.6666666666222223
+BLEU-2: 0.4879500364405749
+BLEU-3: 0.3321078320500879
+BLEU-4: 0.23505204105206395
+CIDER: 0.017208854112481898
+Inference Time: 0.09613871574401855
+
+ID: 10242
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat melayu jambi sedang berfoto tersenyum <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> satu orang perempuan yang memakai pakaian adat aesan gede sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.07014647 0.04313284 0.03078933 0.01606365]
+Attention:
+['Melayu Jambi Woman Hat', 'Melayu Jambi Woman Clothes', 'Person']
+[[0.         0.         0.        ]
+ [0.02728029 0.62380534 0.34891438]
+ [0.0297607  0.6213097  0.34892955]
+ [0.02857273 0.6218663  0.349561  ]
+ [0.0289586  0.6217391  0.34930226]
+ [0.02956634 0.62215686 0.34827685]
+ [0.02989355 0.6199628  0.35014358]
+ [0.02989691 0.62107766 0.3490255 ]
+ [0.028125   0.62081116 0.35106385]
+ [0.03015766 0.62131447 0.34852782]
+ [0.03283456 0.6181935  0.34897196]
+ [0.03130928 0.6174865  0.35120428]
+ [0.029381   0.6181241  0.35249487]
+ [0.02927467 0.62157995 0.34914532]]
+BLEU-1: 0.8571428570204084
+BLEU-2: 0.8119979428229199
+BLEU-3: 0.7603371307639573
+BLEU-4: 0.6997522297157751
+CIDER: 3.4567880476288764
+Inference Time: 0.054712772369384766
+
+ID: 10009
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto bergaya <END>']
+Probability: [0.04085711 0.03975164 0.02277266 0.0177571 ]
+Attention:
+['Bundo Kanduang Woman Clothes', 'Bundo Kanduang Woman Hat', 'Bundo Kanduang Man Clothes', 'Bundo Kanduang Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.10688031 0.03264764 0.01516487 0.14570552 0.00204336 0.6975583 ]
+ [0.10349022 0.03199475 0.01501134 0.13986464 0.00212639 0.7075126 ]
+ [0.10167913 0.03141423 0.01514218 0.1398336  0.00220976 0.7097211 ]
+ [0.10439772 0.03180761 0.0155121  0.14131305 0.00222464 0.7047449 ]
+ [0.10484862 0.03255921 0.01555458 0.14094599 0.00221984 0.70387185]
+ [0.10105457 0.03201894 0.01515222 0.13812931 0.00212947 0.7115155 ]
+ [0.09986491 0.02977027 0.01506138 0.13857666 0.00204596 0.7146808 ]
+ [0.09893118 0.02967631 0.01501902 0.13504504 0.00193084 0.71939754]
+ [0.10161038 0.03106878 0.01475039 0.13651074 0.00192327 0.7141364 ]
+ [0.10239729 0.03143088 0.01521354 0.13875547 0.00199732 0.7102055 ]
+ [0.10105556 0.0300683  0.01496182 0.13986544 0.00203833 0.7120105 ]
+ [0.10409102 0.03261608 0.01486166 0.14383025 0.00200773 0.7025933 ]
+ [0.10669629 0.03232551 0.01568381 0.14399762 0.00214469 0.69915205]
+ [0.10414903 0.02985269 0.01553813 0.14191566 0.00206615 0.70647836]]
+BLEU-1: 0.9355069849068837
+BLEU-2: 0.9014770872799427
+BLEU-3: 0.8886514174233945
+BLEU-4: 0.880771385528998
+CIDER: 7.855984481181665
+Inference Time: 0.06302237510681152
+
+ID: 3826
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berjalan beriringan <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto bergaya <END>']
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+Probability: [0.01966068 0.0189741  0.01779929 0.01738298]
+Attention:
+['Tulang Bawang Woman Hat', 'Tulang Bawang Woman Clothes', 'Tulang Bawang Man Clothes', 'Tulang Bawang Man Hat', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.050292   0.04575766 0.50726295 0.11768936 0.06618925 0.21280879]
+ [0.04978624 0.04572282 0.50722533 0.12118277 0.06561119 0.21047166]
+ [0.05030278 0.04581902 0.5082445  0.12085036 0.06608374 0.20869961]
+ [0.05073796 0.04614473 0.49499437 0.1266722  0.06637051 0.21508023]
+ [0.05273186 0.04709652 0.4902889  0.12370889 0.06660137 0.21957253]
+ [0.05140506 0.04646382 0.4928064  0.12703402 0.06578552 0.21650515]
+ [0.05353327 0.04776329 0.48713303 0.12855162 0.06785425 0.2151646 ]
+ [0.05181218 0.0473959  0.48570937 0.12224488 0.06908281 0.22375488]
+ [0.05164846 0.04779391 0.48397082 0.12207489 0.06985239 0.22465944]
+ [0.05296199 0.04895036 0.48174432 0.12648788 0.07056465 0.21929076]
+ [0.05186862 0.04823808 0.49425486 0.11831859 0.06975387 0.21756601]
+ [0.05221556 0.04734048 0.49324548 0.11801381 0.06883842 0.22034618]
+ [0.051843   0.04701919 0.48591876 0.12660557 0.0678316  0.2207819 ]
+ [0.05103137 0.0464926  0.5033115  0.11686901 0.06577525 0.2165203 ]]
+BLEU-1: 0.7484055879255069
+BLEU-2: 0.6708868275541224
+BLEU-3: 0.6375252637880559
+BLEU-4: 0.613216746812442
+CIDER: 0.3897517277313286
+Inference Time: 0.06134796142578125
+
+ID: 10223
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto pengantin <END>']
+Probability: [0.0459487  0.04356916 0.02968862 0.0246985 ]
+Attention:
+['Person', 'Person', 'Paksian Man Clothes', 'Paksian Man Hat', 'Paksian Woman Clothes', 'Paksian Woman Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.06787167 0.01623191 0.05359491 0.27166733 0.07402971 0.5166045 ]
+ [0.06814858 0.01677822 0.05392971 0.2712189  0.07535835 0.51456624]
+ [0.067333   0.01597034 0.052542   0.28380477 0.07392364 0.5064263 ]
+ [0.06831463 0.0162649  0.05432573 0.2826844  0.07533338 0.503077  ]
+ [0.06872248 0.0168836  0.05467596 0.28294906 0.07503825 0.5017306 ]
+ [0.06841144 0.01641942 0.0544187  0.27831423 0.07458939 0.5078468 ]
+ [0.06734926 0.01614114 0.05330234 0.28980052 0.0746033  0.49880344]
+ [0.06725814 0.01663651 0.05321935 0.2893177  0.07270896 0.5008594 ]
+ [0.06716478 0.01648442 0.05330976 0.2856326  0.07386421 0.5035443 ]
+ [0.06780125 0.0168926  0.05397936 0.28603515 0.07501622 0.5002754 ]
+ [0.06561131 0.01645976 0.05315951 0.28884977 0.07327055 0.5026491 ]
+ [0.06785949 0.01655086 0.05463813 0.28809482 0.07498807 0.49786866]
+ [0.06622449 0.01594551 0.05288716 0.27413857 0.0734421  0.5173622 ]
+ [0.06657381 0.016627   0.054088   0.28071475 0.07346959 0.5085269 ]]
+BLEU-1: 0.933333333208889
+BLEU-2: 0.8944271908785294
+BLEU-3: 0.8505807404483116
+BLEU-4: 0.8003203202714512
+CIDER: 2.1071576693542906
+Inference Time: 0.06387543678283691
+
+ID: 3605
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar sambil berpegangan tangan <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+Probability: [0.06441275 0.05554516 0.04854518 0.03652491]
+Attention:
+['Person', 'Person', 'Paksian Man Clothes', 'Paksian Man Hat', 'Paksian Woman Clothes', 'Paksian Woman Hat']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [9.0142053e-01 9.1069289e-02 3.6197028e-03 3.8381221e-03 5.2365463e-05
+  3.5980793e-08]
+ [9.0574265e-01 8.7236144e-02 3.4308936e-03 3.5423180e-03 4.8088168e-05
+  3.1226858e-08]
+ [9.0949559e-01 8.3669476e-02 3.3628368e-03 3.4276652e-03 4.4388424e-05
+  3.2075175e-08]
+ [9.0775496e-01 8.5479848e-02 3.2342251e-03 3.4852715e-03 4.5686804e-05
+  3.5185824e-08]
+ [9.1187906e-01 8.1553511e-02 3.1710148e-03 3.3528146e-03 4.3553100e-05
+  3.2824744e-08]
+ [9.0926242e-01 8.3720259e-02 3.2982689e-03 3.6720498e-03 4.6895959e-05
+  3.5354947e-08]
+ [9.0690124e-01 8.6054571e-02 3.3176511e-03 3.6796725e-03 4.6961370e-05
+  3.7695830e-08]
+ [9.0416765e-01 8.8802963e-02 3.5058768e-03 3.4746549e-03 4.8760787e-05
+  3.4788702e-08]
+ [9.0291727e-01 8.9788146e-02 3.6704675e-03 3.5730093e-03 5.1064810e-05
+  3.6392485e-08]
+ [9.0274119e-01 8.9853548e-02 3.5759460e-03 3.7788867e-03 5.0374027e-05
+  3.6233445e-08]
+ [8.9751619e-01 9.5238574e-02 3.5297894e-03 3.6634477e-03 5.1964260e-05
+  3.5696718e-08]
+ [8.9895868e-01 9.3770847e-02 3.4619011e-03 3.7566328e-03 5.1829149e-05
+  3.8255813e-08]
+ [9.0049869e-01 9.2283189e-02 3.4162323e-03 3.7507236e-03 5.1121940e-05
+  3.8594731e-08]
+ [8.9854485e-01 9.3759276e-02 3.5843672e-03 4.0587704e-03 5.2665579e-05
+  4.1012566e-08]
+ [9.0362906e-01 8.9104213e-02 3.3841003e-03 3.8325440e-03 5.0062052e-05
+  3.6620186e-08]]
+BLEU-1: 0.772184789664998
+BLEU-2: 0.70691619188119
+BLEU-3: 0.6569331444312653
+BLEU-4: 0.6058398689212499
+CIDER: 0.9663206282575114
+Inference Time: 0.0647740364074707
+
+ID: 3365
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat teluk belanga sedang berfoto berjajar <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar sambil tersenyum <END>']
+Probability: [0.08232176 0.07154988 0.03399491 0.02837471]
+Attention:
+['Teluk Belanga Woman Hat', 'Teluk Belanga Woman Clothes', 'Teluk Belanga Man Clothes', 'Teluk Belanga Man Hat', 'Person', 'Person']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [1.41687595e-09 4.15315837e-01 7.47460350e-02 1.30658018e-05
+  1.19060436e-02 4.98018980e-01]
+ [1.51647783e-09 4.14382249e-01 7.58923590e-02 1.25979450e-05
+  1.18286135e-02 4.97884154e-01]
+ [1.42145318e-09 4.11989242e-01 7.77036771e-02 1.29790906e-05
+  1.20964311e-02 4.98197585e-01]
+ [1.52749291e-09 4.14503187e-01 7.35567883e-02 1.38665428e-05
+  1.14155747e-02 5.00510633e-01]
+ [1.54338653e-09 4.10389960e-01 7.54225627e-02 1.39612876e-05
+  1.17240632e-02 5.02449453e-01]
+ [1.78596493e-09 4.12948638e-01 7.68709406e-02 1.50559517e-05
+  1.20000988e-02 4.98165280e-01]
+ [1.41666856e-09 4.13389742e-01 7.51051679e-02 1.40125403e-05
+  1.15656620e-02 4.99925494e-01]
+ [1.50588753e-09 4.15171295e-01 7.32733458e-02 1.34413203e-05
+  1.13278860e-02 5.00214159e-01]
+ [1.51375534e-09 4.15303230e-01 7.31425285e-02 1.25548613e-05
+  1.09552620e-02 5.00586450e-01]
+ [1.62631641e-09 4.14098233e-01 7.40499645e-02 1.31617380e-05
+  1.14802187e-02 5.00358343e-01]
+ [1.50800905e-09 4.12287116e-01 7.58606121e-02 1.45684771e-05
+  1.20096924e-02 4.99827981e-01]
+ [1.54235491e-09 4.12069529e-01 7.46481195e-02 1.31694214e-05
+  1.15413461e-02 5.01727819e-01]
+ [1.56658364e-09 4.11248833e-01 7.47298747e-02 1.34749635e-05
+  1.16000874e-02 5.02407730e-01]
+ [1.57168012e-09 4.14532721e-01 7.27476552e-02 1.42633207e-05
+  1.13230310e-02 5.01382351e-01]
+ [1.58381508e-09 4.12509412e-01 7.50786737e-02 1.40761094e-05
+  1.16028674e-02 5.00795007e-01]]
+BLEU-1: 0.8749999998906252
+BLEU-2: 0.8366600264277502
+BLEU-3: 0.7937005258814227
+BLEU-4: 0.7447819788897434
+CIDER: 1.5145194462144134
+Inference Time: 0.07744264602661133
+
+ID: 10215
+Ground Truth: ['<START> satu orang laki-laki yang memakai pakaian adat paksian sedang berfoto <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+['<START> satu orang perempuan yang memakai pakaian adat bundo kanduang sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pesaan sedang berfoto bergaya <END>']
+Probability: [0.04810765 0.04574336 0.01996728 0.01912119]
+Attention:
+['Person', 'Paksian Man Clothes', 'Paksian Man Hat']
+[[0.         0.         0.        ]
+ [0.184405   0.3881735  0.4274215 ]
+ [0.183233   0.38643694 0.43033016]
+ [0.1856036  0.3937098  0.42068666]
+ [0.18543874 0.38737863 0.42718256]
+ [0.18795231 0.3981942  0.41385353]
+ [0.18424815 0.3888132  0.42693868]
+ [0.18185584 0.38800392 0.4301403 ]
+ [0.18488827 0.39396816 0.42114362]
+ [0.1878911  0.39746514 0.4146438 ]
+ [0.18711092 0.38929728 0.42359176]
+ [0.18758377 0.3924591  0.4199572 ]
+ [0.18675622 0.3888846  0.42435917]]
+BLEU-1: 0.8461538460887575
+BLEU-2: 0.7510676161386293
+BLEU-3: 0.6751063811226427
+BLEU-4: 0.6262844962215647
+CIDER: 2.560083874376986
+Inference Time: 0.05063629150390625
+
+ID: 10161
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berfoto berjajar <END>']
+Probability: [0.0397459  0.03365312 0.02907004 0.02445097]
+Attention:
+['Person', 'Person', 'Betawi Man Clothes', 'Betawi Woman Clothes']
+[[0.         0.         0.         0.        ]
+ [0.32180908 0.11223268 0.5575652  0.00839309]
+ [0.31994128 0.11347321 0.5582155  0.00836995]
+ [0.32014954 0.10901652 0.56272864 0.00810526]
+ [0.3178746  0.11659199 0.55708396 0.0084494 ]
+ [0.31977817 0.11269581 0.55884403 0.00868193]
+ [0.3176765  0.11586014 0.5579795  0.00848388]
+ [0.3182601  0.11569303 0.5578096  0.00823731]
+ [0.32417855 0.1164394  0.5509884  0.00839373]
+ [0.32382733 0.11211257 0.55530906 0.00875099]
+ [0.32078382 0.11729473 0.5525638  0.0093576 ]
+ [0.31951448 0.11497245 0.55653626 0.00897682]
+ [0.3242609  0.11705084 0.5496183  0.00907001]
+ [0.31986222 0.11799279 0.5528774  0.00926754]
+ [0.31856397 0.11546826 0.5566     0.0093678 ]]
+BLEU-1: 0.8666666665511112
+BLEU-2: 0.7867957923626638
+BLEU-3: 0.7249202485683098
+BLEU-4: 0.6865890478720554
+CIDER: 0.7033718314167104
+Inference Time: 0.06035923957824707
+
+ID: 10129
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Probability: [0.02494844 0.02267279 0.02176229 0.01245118]
+Attention:
+['Person', 'Person', 'Betawi Man Clothes', 'Betawi Man Hat', 'Betawi Woman Clothes']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [4.9987782e-02 3.7473641e-04 1.5041503e-01 1.6388331e-01 6.3533920e-01]
+ [4.9691103e-02 3.7574724e-04 1.4748466e-01 1.6436039e-01 6.3808811e-01]
+ [4.6842549e-02 3.6765385e-04 1.4802384e-01 1.6469985e-01 6.4006615e-01]
+ [4.8930380e-02 3.9802291e-04 1.5354872e-01 1.6663709e-01 6.3048583e-01]
+ [4.7525205e-02 3.8034812e-04 1.5025842e-01 1.6682354e-01 6.3501245e-01]
+ [5.0158143e-02 3.8732786e-04 1.5329646e-01 1.6509032e-01 6.3106775e-01]
+ [5.2614786e-02 3.7214055e-04 1.5586704e-01 1.6478799e-01 6.2635803e-01]
+ [5.0147951e-02 3.7095472e-04 1.5340912e-01 1.6771936e-01 6.2835264e-01]
+ [5.0863411e-02 3.8618196e-04 1.4942603e-01 1.6276757e-01 6.3655680e-01]
+ [5.0791740e-02 3.9641763e-04 1.4898142e-01 1.6387834e-01 6.3595206e-01]
+ [5.3248901e-02 4.0504333e-04 1.5255186e-01 1.6717690e-01 6.2661725e-01]
+ [5.0948825e-02 4.0934194e-04 1.5237427e-01 1.6757590e-01 6.2869167e-01]]
+BLEU-1: 0.6595414761757948
+BLEU-2: 0.4854093832492346
+BLEU-3: 0.33241430369273944
+BLEU-4: 0.23689513579244037
+CIDER: 0.026264767621672017
+Inference Time: 0.06053757667541504
+
+ID: 3106
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat pesaan sedang berfoto bergaya <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil berpegangan tangan <END>']
+Probability: [0.0759297  0.06652528 0.01879714 0.01515532]
+Attention:
+['Bundo Kanduang Woman Hat', 'Bundo Kanduang Woman Clothes', 'Bundo Kanduang Man Clothes', 'Bundo Kanduang Man Hat', 'Person', 'Person']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [5.1092631e-01 1.8965490e-01 1.2712753e-01 1.7215936e-01 7.0788643e-05
+  6.1115061e-05]
+ [5.1742309e-01 1.8625386e-01 1.2445626e-01 1.7173831e-01 7.0898859e-05
+  5.7596571e-05]
+ [5.2185124e-01 1.8616223e-01 1.2482003e-01 1.6703728e-01 6.9730180e-05
+  5.9516733e-05]
+ [5.1681584e-01 1.8726040e-01 1.2666009e-01 1.6912067e-01 7.9460566e-05
+  6.3546875e-05]
+ [5.2138442e-01 1.8541586e-01 1.2441160e-01 1.6864830e-01 7.8744182e-05
+  6.1096791e-05]
+ [5.1246047e-01 1.8901026e-01 1.2751004e-01 1.7086910e-01 8.5281019e-05
+  6.4889951e-05]
+ [5.1526314e-01 1.8883155e-01 1.2627089e-01 1.6949041e-01 8.2312734e-05
+  6.1682324e-05]
+ [5.1358116e-01 1.8869528e-01 1.2532075e-01 1.7225797e-01 8.1976621e-05
+  6.2850071e-05]
+ [5.1378196e-01 1.8789482e-01 1.2499174e-01 1.7319492e-01 7.6466386e-05
+  6.0089649e-05]
+ [5.0456703e-01 1.9259322e-01 1.2703499e-01 1.7566106e-01 8.0228943e-05
+  6.3474865e-05]
+ [5.1163715e-01 1.9086275e-01 1.2658836e-01 1.7078537e-01 6.7835739e-05
+  5.8533522e-05]
+ [5.1349831e-01 1.8800183e-01 1.2739901e-01 1.7096224e-01 7.6013472e-05
+  6.2609208e-05]
+ [4.9915862e-01 1.9296138e-01 1.3071845e-01 1.7701426e-01 8.2234728e-05
+  6.5055996e-05]
+ [5.0402105e-01 1.9147399e-01 1.2995146e-01 1.7440544e-01 8.3398547e-05
+  6.4714055e-05]]
+BLEU-1: 0.8731398525797581
+BLEU-2: 0.8367428846690724
+BLEU-3: 0.795724224022761
+BLEU-4: 0.748705249876684
+CIDER: 2.6587738901240647
+Inference Time: 0.06766223907470703
+
+ID: 10213
+Ground Truth: ['<START> lima orang perempuan yang memakai pakaian adat paksian sedang menari <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat paksian sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berjalan berbaris <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat tulang bawang sedang berjalan <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+Probability: [0.03713236 0.02899059 0.01879211 0.01743719]
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Paksian Woman Hat', 'Paksian Woman Hat', 'Paksian Woman Hat', 'Paksian Woman Hat', 'Paksian Woman Hat', 'Paksian Woman Clothes', 'Paksian Woman Clothes', 'Paksian Woman Clothes', 'Paksian Woman Clothes', 'Paksian Woman Clothes']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00]
+ [1.61579903e-03 5.21619199e-03 2.30842343e-04 1.13273168e-03
+  3.49275321e-01 5.53309917e-01 5.54888556e-03 8.59421998e-05
+  3.36837885e-03 4.48365230e-04 1.02405893e-02 6.42226031e-03
+  3.11394613e-02 1.85127498e-03 3.01140528e-02]
+ [1.54702470e-03 5.13341045e-03 2.19209061e-04 1.08431221e-03
+  3.39478344e-01 5.65795362e-01 5.26570063e-03 8.06962780e-05
+  3.36002605e-03 4.28606407e-04 1.00655016e-02 6.32916624e-03
+  2.96000428e-02 1.82197778e-03 2.97906343e-02]
+ [1.67029526e-03 5.27505763e-03 2.25584721e-04 1.10769423e-03
+  3.54764700e-01 5.47522545e-01 5.46232751e-03 8.50284487e-05
+  3.47157335e-03 4.45051788e-04 1.03205610e-02 6.53374149e-03
+  3.01499832e-02 1.89152674e-03 3.10743731e-02]
+ [1.58873689e-03 4.95283585e-03 2.03767719e-04 1.09472766e-03
+  3.42900217e-01 5.64118981e-01 5.10940328e-03 8.26717805e-05
+  3.37209669e-03 4.34697227e-04 9.80932359e-03 6.17775694e-03
+  2.94624269e-02 1.78646925e-03 2.89059654e-02]
+ [1.61312567e-03 5.03438804e-03 2.01673887e-04 1.08280871e-03
+  3.32331687e-01 5.76677203e-01 4.75334842e-03 8.00108683e-05
+  3.42246448e-03 4.21373610e-04 1.00749470e-02 6.19708234e-03
+  2.75721643e-02 1.79262075e-03 2.87451949e-02]
+ [1.61485851e-03 5.07644005e-03 2.13495077e-04 1.15063111e-03
+  3.36901993e-01 5.70344925e-01 5.04064467e-03 8.24313684e-05
+  3.42540769e-03 4.28996485e-04 1.01371445e-02 6.33808039e-03
+  2.85729151e-02 1.77334342e-03 2.88987234e-02]
+ [1.65547873e-03 5.19552920e-03 2.15504508e-04 1.15593313e-03
+  3.33031148e-01 5.71321368e-01 5.07497648e-03 8.47353222e-05
+  3.47237964e-03 4.43416677e-04 1.02943322e-02 6.51671598e-03
+  2.94843502e-02 1.86751189e-03 3.01866289e-02]
+ [1.57595123e-03 4.91981814e-03 2.01877148e-04 1.14862144e-03
+  3.29204738e-01 5.79179585e-01 4.97629447e-03 8.23634036e-05
+  3.19163175e-03 4.10505541e-04 9.89866257e-03 6.18660264e-03
+  2.81803198e-02 1.79637352e-03 2.90466305e-02]
+ [1.60814798e-03 5.06314123e-03 2.13335414e-04 1.09370786e-03
+  3.53887588e-01 5.52440226e-01 5.05474675e-03 8.22708025e-05
+  3.52947507e-03 4.21292178e-04 1.00115407e-02 6.32878905e-03
+  2.87109800e-02 1.87473348e-03 2.96800509e-02]
+ [1.60926266e-03 5.02370996e-03 2.12937142e-04 1.11010054e-03
+  3.45120102e-01 5.59412181e-01 5.38632832e-03 8.38104897e-05
+  3.48331127e-03 4.27651394e-04 1.00577110e-02 6.40064012e-03
+  2.99956948e-02 1.87877228e-03 2.97978222e-02]
+ [1.61214813e-03 5.00303553e-03 2.19601789e-04 1.17044919e-03
+  3.38710248e-01 5.66436172e-01 5.51080704e-03 8.56439801e-05
+  3.50087485e-03 4.32230474e-04 1.01743741e-02 6.27271738e-03
+  2.91928984e-02 1.88176299e-03 2.97970530e-02]
+ [1.60264655e-03 5.08641219e-03 2.13931897e-04 1.17284339e-03
+  3.54233772e-01 5.49577475e-01 5.11880871e-03 8.60601140e-05
+  3.55047802e-03 4.34604997e-04 1.03412932e-02 6.38035592e-03
+  3.01107708e-02 1.86625705e-03 3.02243121e-02]
+ [1.59286824e-03 5.09265019e-03 2.23798110e-04 1.20282115e-03
+  3.54284883e-01 5.48438847e-01 5.33743808e-03 8.85474292e-05
+  3.42203164e-03 4.52094071e-04 1.02142151e-02 6.42874371e-03
+  3.13947946e-02 1.83060579e-03 2.99956612e-02]
+ [1.56018394e-03 5.06516639e-03 2.16466971e-04 1.17496157e-03
+  3.63939643e-01 5.40658355e-01 5.09932591e-03 8.39771092e-05
+  3.40102962e-03 4.37338924e-04 1.01258652e-02 6.41903514e-03
+  3.00737917e-02 1.81871769e-03 2.99262200e-02]]
+BLEU-1: 0.6666666666222223
+BLEU-2: 0.5345224837879413
+BLEU-3: 0.47898237806996413
+BLEU-4: 0.43748114308983366
+CIDER: 2.6911103076132994
+Inference Time: 0.07587480545043945
+
+ID: 3108
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat bundo kanduang sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat jawa sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+Probability: [0.04781452 0.0440919  0.03289228 0.01912658]
+Attention:
+['Person', 'Person', 'Bundo Kanduang Man Clothes', 'Bundo Kanduang Man Hat', 'Bundo Kanduang Woman Clothes', 'Bundo Kanduang Woman Hat']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.775729   0.06736845 0.13245478 0.00831927 0.01444094 0.00168746]
+ [0.77658945 0.06934785 0.12995785 0.00822266 0.01420479 0.00167742]
+ [0.76010466 0.07474452 0.13907993 0.00869511 0.01549163 0.00188405]
+ [0.7619288  0.07500979 0.13722587 0.00882852 0.01520841 0.00179862]
+ [0.74174815 0.08181422 0.14856926 0.00963267 0.01627766 0.00195808]
+ [0.7553583  0.07573935 0.14220142 0.00906396 0.01569599 0.00194109]
+ [0.76777434 0.07432796 0.13246576 0.00878069 0.01474186 0.00190933]
+ [0.77022636 0.07089722 0.13408175 0.00862636 0.01438084 0.00178748]
+ [0.77657175 0.07016715 0.12938197 0.00842471 0.01364779 0.00180668]
+ [0.7802418  0.06951984 0.12637109 0.00832566 0.01379528 0.00174631]
+ [0.77561736 0.06673177 0.13357335 0.00847725 0.01385091 0.00174935]
+ [0.76948905 0.06921559 0.13565098 0.00912031 0.01481251 0.00171161]
+ [0.77144426 0.06985234 0.13373391 0.00874606 0.01449786 0.00172557]
+ [0.77717763 0.06818613 0.1299178  0.00829793 0.0147516  0.00166893]]
+BLEU-1: 0.8731398525797581
+BLEU-2: 0.8367428846690724
+BLEU-3: 0.795724224022761
+BLEU-4: 0.748705249876684
+CIDER: 1.9181886211791581
+Inference Time: 0.06573867797851562
+
+ID: 3941
+Ground Truth: ['<START> satu orang laki-laki yang memakai pakaian adat betawi sedang berfoto berdiri <END>']
+Generated:
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto berdiri <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat pangsi sedang berfoto bergaya <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat betawi sedang berfoto tersenyum <END>']
+['<START> satu orang laki-laki yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+Probability: [0.11202867 0.06760742 0.06413355 0.03260684]
+Attention:
+['Person', 'Betawi Man Clothes', 'Betawi Man Hat']
+[[0.         0.         0.        ]
+ [0.5234213  0.38820302 0.08837563]
+ [0.52049    0.39000082 0.08950918]
+ [0.5181402  0.39279407 0.08906572]
+ [0.52317154 0.38765624 0.08917221]
+ [0.5208328  0.38953257 0.08963462]
+ [0.5187999  0.39141735 0.08978277]
+ [0.51748043 0.39267948 0.0898401 ]
+ [0.5160944  0.3939321  0.08997348]
+ [0.5203112  0.39005274 0.0896361 ]
+ [0.5231295  0.38708985 0.08978064]
+ [0.5240932  0.3860417  0.08986508]
+ [0.52291286 0.38770965 0.08937747]]
+BLEU-1: 0.9230769229349115
+BLEU-2: 0.8770580191692865
+BLEU-3: 0.8239824905019124
+BLEU-4: 0.7611606002096152
+CIDER: 5.809682704070314
+Inference Time: 0.048985958099365234
+
+ID: 4005
+Ground Truth: ['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+Generated:
+['<START> satu orang perempuan yang memakai pakaian adat ulee balang sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat kebaya sunda sedang berfoto tersenyum <END>']
+['<START> satu orang perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> satu orang perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.08267252 0.05708685 0.03717596 0.02981411]
+Attention:
+['Kebaya Sunda Hat', 'Kebaya Sunda Clothes', 'Person']
+[[0.         0.         0.        ]
+ [0.8195126  0.14408313 0.03640429]
+ [0.8269661  0.13658097 0.03645284]
+ [0.819465   0.14214222 0.0383928 ]
+ [0.82119364 0.1414961  0.03731025]
+ [0.8262846  0.13820457 0.03551083]
+ [0.81718075 0.14108983 0.04172941]
+ [0.81754816 0.14427224 0.03817959]
+ [0.8155947  0.14701642 0.03738895]
+ [0.8156917  0.14633197 0.03797631]
+ [0.8243136  0.13533059 0.04035582]
+ [0.82368225 0.13885608 0.03746171]
+ [0.8317372  0.13188891 0.03637385]
+ [0.8234263  0.13477878 0.04179486]]
+BLEU-1: 0.8571428570204084
+BLEU-2: 0.8119979428229199
+BLEU-3: 0.7603371307639573
+BLEU-4: 0.6997522297157751
+CIDER: 3.4567880476288764
+Inference Time: 0.055870771408081055
+
+ID: 3033
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil bergandengan tangan <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.20462908 0.14238751 0.0334337  0.01943942]
+Attention:
+['Person', 'Person', 'Ulee Balang Man Hat', 'Ulee Balang Woman Hat', 'Ulee Balang Man Clothes', 'Ulee Balang Woman Clothes']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [9.9982065e-01 1.0689672e-06 2.3944701e-06 2.8899809e-05 5.7420828e-05
+  8.9594017e-05]
+ [9.9981946e-01 1.1027807e-06 2.1414794e-06 2.9723433e-05 5.7331352e-05
+  9.0321832e-05]
+ [9.9985158e-01 1.0316855e-06 1.8438392e-06 2.5012667e-05 4.7467609e-05
+  7.3077761e-05]
+ [9.9984026e-01 1.0294810e-06 2.0853586e-06 2.5993664e-05 5.1240509e-05
+  7.9388738e-05]
+ [9.9982673e-01 1.1177328e-06 2.2626289e-06 2.8574950e-05 5.4626227e-05
+  8.6738954e-05]
+ [9.9985349e-01 9.4036960e-07 1.9252266e-06 2.3869643e-05 4.6829842e-05
+  7.2945535e-05]
+ [9.9986053e-01 9.3534425e-07 1.7500732e-06 2.3454297e-05 4.3668631e-05
+  6.9647307e-05]
+ [9.9987626e-01 8.0503906e-07 1.4035325e-06 2.0504418e-05 3.8387971e-05
+  6.2655323e-05]
+ [9.9987221e-01 7.8141568e-07 1.5624030e-06 2.1472215e-05 3.9986051e-05
+  6.4030755e-05]
+ [9.9986088e-01 8.4310250e-07 1.5773732e-06 2.3699859e-05 4.2524040e-05
+  7.0511473e-05]
+ [9.9987853e-01 7.8262735e-07 1.4088300e-06 1.9709514e-05 3.7956968e-05
+  6.1582636e-05]
+ [9.9988306e-01 7.5902796e-07 1.4402021e-06 1.9078585e-05 3.6188885e-05
+  5.9389928e-05]
+ [9.9984956e-01 9.5323077e-07 1.9791712e-06 2.4231504e-05 4.7935344e-05
+  7.5337106e-05]
+ [9.9984407e-01 9.7577390e-07 1.9911179e-06 2.6229585e-05 5.0303464e-05
+  7.6401375e-05]
+ [9.9982196e-01 1.1267862e-06 2.0725404e-06 3.0475398e-05 5.5951252e-05
+  8.8481698e-05]
+ [9.9984872e-01 9.4867374e-07 1.8061098e-06 2.5694844e-05 4.5942248e-05
+  7.6973280e-05]
+ [9.9987888e-01 8.1079355e-07 1.4336473e-06 2.0461343e-05 3.6621987e-05
+  6.1823557e-05]]
+BLEU-1: 0.8934061649793444
+BLEU-2: 0.8635388992457106
+BLEU-3: 0.8514283975968098
+BLEU-4: 0.8434168122778867
+CIDER: 5.539051547427012
+Inference Time: 0.07176327705383301
+
+ID: 3306
+Ground Truth: ['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+Generated:
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat aesan gede sedang berfoto pengantin <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat melayu jambi sedang berfoto berjajar <END>']
+['<START> dua orang laki-laki dan perempuan yang memakai pakaian adat ulee balang sedang berfoto pengantin sambil tersenyum <END>']
+Probability: [0.03069553 0.02285689 0.01944827 0.01061555]
+Attention:
+['Person', 'Person', 'Aesan Gede Woman Clothes', 'Aesan Gede Woman Hat', 'Aesan Gede Man Clothes', 'Aesan Gede Man Hat']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [1.5823789e-03 1.9213796e-03 5.7581696e-03 7.4329611e-05 4.8642629e-03
+  9.8579943e-01]
+ [1.5751042e-03 1.9987961e-03 5.7637864e-03 7.3481926e-05 4.8281597e-03
+  9.8576075e-01]
+ [1.5057810e-03 1.8728473e-03 5.5359183e-03 7.0447277e-05 4.6079778e-03
+  9.8640710e-01]
+ [1.5045727e-03 1.8183554e-03 5.4139262e-03 7.9172067e-05 4.5955940e-03
+  9.8658842e-01]
+ [1.4875027e-03 1.9396645e-03 5.5197170e-03 7.3756593e-05 4.6542264e-03
+  9.8632509e-01]
+ [1.5347074e-03 1.9457106e-03 5.5864304e-03 7.4594594e-05 4.7191782e-03
+  9.8613936e-01]
+ [1.4567168e-03 1.8695520e-03 5.2463147e-03 7.4832868e-05 4.4662938e-03
+  9.8688632e-01]
+ [1.5198727e-03 1.9744118e-03 5.3944066e-03 7.0415226e-05 4.6678800e-03
+  9.8637307e-01]
+ [1.5276527e-03 1.9981738e-03 5.5493871e-03 7.5972959e-05 4.7895857e-03
+  9.8605925e-01]
+ [1.5779400e-03 2.0118747e-03 5.5000777e-03 7.6756289e-05 4.6845786e-03
+  9.8614872e-01]
+ [1.6768123e-03 2.1036752e-03 5.7651890e-03 7.6885488e-05 4.9915253e-03
+  9.8538578e-01]
+ [1.5530650e-03 1.9165974e-03 5.7005323e-03 7.5058924e-05 4.8995730e-03
+  9.8585516e-01]
+ [1.5814980e-03 1.9199449e-03 5.7879365e-03 7.9005134e-05 5.0045028e-03
+  9.8562706e-01]
+ [1.5818574e-03 1.9309814e-03 5.6207436e-03 7.7246754e-05 4.8850449e-03
+  9.8590416e-01]
+ [1.5599038e-03 1.9808882e-03 5.7751653e-03 7.1663591e-05 5.0094989e-03
+  9.8560286e-01]]
+BLEU-1: 0.9374999998828125
+BLEU-2: 0.9013878187514461
+BLEU-3: 0.8863913854079735
+BLEU-4: 0.8761560782053983
+CIDER: 7.782822199537387
+Inference Time: 0.06945419311523438
+

@@ -1,0 +1,4305 @@
+ID: 21048
+Ground Truth:
+<START> tiga orang bermain balap karung sambil ditonton warga <END>
+<START> warga menonton perlombaan balap karung <END>
+<START> tiga orang sedang berlomba balap karung dengan ceria <END>
+<START> tiga orang bermain balap karung di rerumputan <END>
+<START> tiga orang bermain balap karung di lapangan <END>
+Generated: ['<START> lima orang bermain balap karung di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.        ]
+ [0.02742912 0.03744242 0.09010488 0.09768599 0.12688611 0.19922428
+  0.3509725  0.03445859 0.03579602]
+ [0.02768139 0.03796913 0.09027276 0.09802117 0.12419432 0.1998431
+  0.35120416 0.03460454 0.0362094 ]
+ [0.02755329 0.0374903  0.09069457 0.09830768 0.12484463 0.19903442
+  0.35083064 0.03485268 0.03639178]
+ [0.02762021 0.03799566 0.09012207 0.09799242 0.12441768 0.1998439
+  0.35101807 0.03453848 0.03645152]
+ [0.02788381 0.03825087 0.09083233 0.09841119 0.1228884  0.20060837
+  0.34978148 0.03493373 0.03640981]
+ [0.02774126 0.03796802 0.09090977 0.09841058 0.12347078 0.20011874
+  0.3501251  0.0349471  0.03630862]
+ [0.02774296 0.03804415 0.09098716 0.09848215 0.1228673  0.20048386
+  0.35004008 0.03496905 0.03638329]
+ [0.02776471 0.03791694 0.09132674 0.09846995 0.1234181  0.2006323
+  0.34951305 0.03509622 0.03586195]
+ [0.02784229 0.03810747 0.09109028 0.09847366 0.12303118 0.20053215
+  0.34970596 0.03503453 0.03618238]
+ [0.02780305 0.03816439 0.09085093 0.09839754 0.12338616 0.20045283
+  0.34958762 0.03493515 0.03642227]]
+BLEU-1: 0.6363636363057852
+BLEU-2: 0.5045249790613539
+BLEU-3: 0.4394215622543056
+BLEU-4: 0.38163309109639254
+CIDER: 2.3867246449418134
+Inference Time: 0.051950693130493164
+
+ID: 22221
+Ground Truth:
+<START> anak-anak sedang bermain gundu <END>
+<START> anak-anak sedang bermain gundu dengan banyak kelereng <END>
+<START> anak-anak sedang bermain gundu di atas tanah <END>
+<START> anak-anak sedang bermain gundu dengan senang <END>
+<START> anak-anak sedang bermain gundu dengan tenang <END>
+Generated: ['<START> dua anak laki-laki sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Gundu', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.        ]
+ [0.3127773  0.12065495 0.5576794  0.00888832]
+ [0.31198847 0.12055007 0.5585119  0.00894953]
+ [0.31301168 0.12079051 0.5573133  0.00888449]
+ [0.3122832  0.12084775 0.55785507 0.00901395]
+ [0.31353366 0.12126779 0.55621165 0.00898689]
+ [0.31422895 0.1220571  0.5547257  0.00898829]
+ [0.31398696 0.1217711  0.5552592  0.00898274]
+ [0.31445906 0.1213273  0.55536485 0.00884878]
+ [0.31393063 0.12099965 0.5561516  0.00891804]
+ [0.3144338  0.12128887 0.55542195 0.00885532]]
+BLEU-1: 0.5454545454049587
+BLEU-2: 0.23354968322616365
+BLEU-3: 1.8232183584593488e-06
+BLEU-4: 5.246341022301387e-09
+CIDER: 0.16034911349458672
+Inference Time: 0.028101444244384766
+
+ID: 21818
+Ground Truth:
+<START> seorang anak sedang bermain tarik tambang <END>
+<START> seorang anak laki-laki sedang bermain tarik tambang <END>
+<START> seorang anak sedang bermain tarik tambang dengan semangat <END>
+<START> seorang anak sedang bermain tarik tambang pada siang hari <END>
+<START> seorang anak sedang bermain tarik tambang dengan serius <END>
+Generated: ['<START> dua orang sedang bermain tarik tambang dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Person', 'Tarik Tambang', 'Tarik Tambang', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.3360227  0.22419575 0.11795822 0.16519997 0.08861124 0.06801216]
+ [0.33591938 0.22370142 0.11859004 0.16511422 0.08872671 0.0679482 ]
+ [0.3349579  0.22399652 0.11848721 0.16573524 0.08873132 0.06809185]
+ [0.3378169  0.22301772 0.11707015 0.16537021 0.08885054 0.06787453]
+ [0.3382973  0.2238774  0.11731538 0.16436803 0.08868952 0.06745239]
+ [0.33841428 0.22346444 0.11696795 0.16466984 0.08866906 0.0678144 ]
+ [0.33888316 0.22317442 0.1161902  0.16505139 0.08878586 0.06791496]
+ [0.33781254 0.22299954 0.11633144 0.16554227 0.08890975 0.06840443]
+ [0.33812532 0.22269064 0.11633616 0.16532542 0.08925691 0.06826551]]
+BLEU-1: 0.7999999998400004
+BLEU-2: 0.7302967431901053
+BLEU-3: 0.6933612742036167
+BLEU-4: 0.6606328634575929
+CIDER: 4.658506263936544
+Inference Time: 0.025887489318847656
+
+ID: 21519
+Ground Truth:
+<START> seorang anak laki-laki sedang berlomba makan kerupuk <END>
+<START> seorang anak laki-laki sedang berlomba makan kerupuk di siang hari <END>
+<START> seorang anak laki-laki berlomba makan kerupuk dengan senang <END>
+<START> seorang anak laki-laki berlomba makan kerupuk dengan semangat <END>
+<START> seorang anak laki-laki belomba makan kerupuk di lapangan <END>
+Generated: ['<START> seorang anak laki-laki sedang bermain gandu dengan banyak kelereng <END>']
+Attention:
+['Person', 'Makan Kerupuk']
+[[0.         0.        ]
+ [0.33220038 0.66779965]
+ [0.33261853 0.6673814 ]
+ [0.3336938  0.66630614]
+ [0.3318594  0.6681406 ]
+ [0.33231887 0.6676811 ]
+ [0.33248308 0.6675169 ]
+ [0.33273542 0.6672646 ]
+ [0.33259654 0.66740346]
+ [0.33339128 0.6666087 ]
+ [0.3332133  0.66678673]]
+BLEU-1: 0.6363636363057852
+BLEU-2: 0.5045249790613539
+BLEU-3: 0.4394215622543056
+BLEU-4: 0.38163309109639254
+CIDER: 1.6651772638176623
+Inference Time: 0.017584562301635742
+
+ID: 20408
+Ground Truth:
+<START> dua orang anak sedang berjalan dengan menggunakan egrang di sawah <END>
+<START> dua orang anak sedang mengobrol sambil berjalan menggunakan egrang <END>
+<START> dua orang anak bermain egrang di hari yang cerah <END>
+<START> dua orang anak sedang berjalan berbaris dengan menggunakan egrang <END>
+<START> dua orang anak bermain egrang <END>
+Generated: ['<START> seorang anak sedang bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Egrang', 'Egrang']
+[[0.         0.         0.         0.        ]
+ [0.29575118 0.52525413 0.09782498 0.08116971]
+ [0.2976155  0.5225706  0.09860852 0.08120541]
+ [0.29743233 0.5227374  0.0984569  0.08137336]
+ [0.2977148  0.522179   0.09851658 0.08158965]
+ [0.29446635 0.5260215  0.09775808 0.08175413]
+ [0.29579878 0.5240877  0.09809561 0.08201794]
+ [0.29764056 0.5217312  0.09875591 0.08187231]
+ [0.29729652 0.5242776  0.09740427 0.08102158]
+ [0.29614916 0.52428526 0.09791216 0.08165341]
+ [0.29571596 0.5234116  0.0985632  0.08230929]]
+BLEU-1: 0.636363636247934
+BLEU-2: 0.43693144867122347
+BLEU-3: 0.2768182380057799
+BLEU-4: 4.035278636666363e-05
+CIDER: 1.3292095504287296
+Inference Time: 0.021424055099487305
+
+ID: 21797
+Ground Truth:
+<START> bapak-bapak sedang bermain panjat pinang <END>
+<START> bapak-bapak sedang bermain panjat pinang dan kesusahan <END>
+<START> bapak-bapak sedang bermain panjat pinang dan keberatan <END>
+<START> bapak-bapak sedang bermain panjat pinang dengan penuh semangat <END>
+<START> bapak-bapak sedang bermain panjat pinang tanpa kenal lelah <END>
+Generated: ['<START> bapak-bapak sedang bermain panjat pinang dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Person', 'Panjat Pinang', 'Panjat Pinang']
+[[0.         0.         0.         0.         0.        ]
+ [0.02883524 0.01188794 0.7231505  0.19981979 0.03630655]
+ [0.02875187 0.01186592 0.72369134 0.19952272 0.03616818]
+ [0.02878139 0.01195702 0.7233906  0.19981751 0.03605344]
+ [0.02859926 0.01189215 0.724224   0.19951423 0.03577038]
+ [0.02867849 0.01185775 0.7239774  0.19946912 0.03601729]
+ [0.02866236 0.0118068  0.7242069  0.1992365  0.03608751]
+ [0.02871132 0.01182967 0.7240394  0.19925806 0.03616156]
+ [0.02886768 0.01202533 0.7230204  0.19997711 0.03610957]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9354143464791199
+BLEU-3: 0.8549879731353458
+BLEU-4: 0.8034284187457875
+CIDER: 6.829961161837551
+Inference Time: 0.022968053817749023
+
+ID: 21712
+Ground Truth:
+<START> banyak orang sedang berlomba panjat pinang <END>
+<START> banyak orang sedang berlomba panjat pinang untuk meraih hadiah <END>
+<START> banyak orang sedang berlomba panjat pinang dengan gembira <END>
+<START> banyak orang sedang berlomba panjat pinang di siang hari <END>
+<START> banyak orang sedang berlomba panjat pinang dengan semangat <END>
+Generated: ['<START> dua orang sedang bermain tarik tambang dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Panjat Pinang', 'Panjat Pinang', 'Panjat Pinang', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.11291887 0.15599559 0.3879723  0.05448269 0.03667995 0.12838164
+  0.12356896]
+ [0.11287599 0.15553153 0.388644   0.05481979 0.03661235 0.12809227
+  0.12342408]
+ [0.11281852 0.15523277 0.38961554 0.05481833 0.03642144 0.12780504
+  0.12328832]
+ [0.11209492 0.1556925  0.39132732 0.05473667 0.03608005 0.12735398
+  0.12271456]
+ [0.11209881 0.1558001  0.39078295 0.05430762 0.03624933 0.12788223
+  0.12287904]
+ [0.11243133 0.15592977 0.38950932 0.05440114 0.03649145 0.12808068
+  0.12315636]
+ [0.11213607 0.15624775 0.39027065 0.05435925 0.03627481 0.12780523
+  0.12290628]
+ [0.11263873 0.15631779 0.38848153 0.05462001 0.03658965 0.12804897
+  0.12330332]
+ [0.11227337 0.15659311 0.38943604 0.05446215 0.03631382 0.12788023
+  0.12304127]]
+BLEU-1: 0.4999999999000002
+BLEU-2: 0.23570226034706615
+BLEU-3: 1.907857070517686e-06
+BLEU-4: 5.612222323072491e-09
+CIDER: 0.2775023471848094
+Inference Time: 0.02703094482421875
+
+ID: 22247
+Ground Truth:
+<START> empat anak bermain gundu <END>
+<START> empat anak bermain gundu dengan bahagia <END>
+<START> empat anak bermain gundu di atas ubin <END>
+<START> empat anak bermain gundu di atas lantai <END>
+<START> empat anak bermain gundu di taman <END>
+Generated: ['<START> anak-anak sedang bermain gundu di lapangan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Gundu', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.00315054 0.04138113 0.01778823 0.8712699  0.00555607 0.06085411]
+ [0.00320683 0.04195995 0.01807517 0.86981654 0.00564681 0.06129476]
+ [0.00300661 0.03968962 0.01702568 0.8772374  0.00529879 0.05774189]
+ [0.00299625 0.03925794 0.01695653 0.8780448  0.00528275 0.05746177]
+ [0.00302071 0.03992871 0.01718781 0.87595797 0.0053593  0.05854554]
+ [0.00302694 0.04008691 0.01726514 0.8755589  0.00540064 0.05866153]
+ [0.00306741 0.04112235 0.01752813 0.8732381  0.00540388 0.05964011]]
+BLEU-1: 0.6249999998437503
+BLEU-2: 0.42257712725484126
+BLEU-3: 0.3098990470369235
+BLEU-4: 4.939382735714412e-05
+CIDER: 1.927766415407166
+Inference Time: 0.022416353225708008
+
+ID: 22014
+Ground Truth:
+<START> tiga anak perempuan sedang bermain balap kelereng <END>
+<START> tiga anak perempuan sedang bermain balap kelereng dengan semangat <END>
+<START> tiga anak perempuan sedang bermain balap kelereng dengan serius <END>
+<START> tiga anak perempuan sedang bermain balap kelereng dengan hati-hati <END>
+<START> tiga anak perempuan sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> tiga anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Kelereng', 'Balap Kelereng', 'Balap Kelereng']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.43936008 0.23022829 0.07268621 0.01048611 0.20589721 0.04134211]
+ [0.43803096 0.23081706 0.07189433 0.01033698 0.20795487 0.04096585]
+ [0.4399888  0.23020709 0.07252581 0.01042624 0.20568652 0.04116556]
+ [0.4390213  0.23082079 0.07172678 0.01032022 0.20719554 0.04091533]
+ [0.43931493 0.23064062 0.07209747 0.01041432 0.20640765 0.04112506]
+ [0.43867072 0.23068577 0.07239879 0.01046774 0.20659931 0.04117769]
+ [0.43930915 0.23036061 0.07296279 0.01060614 0.20526168 0.04149958]
+ [0.44027674 0.23035206 0.07244603 0.01043879 0.20532766 0.04115869]
+ [0.43942374 0.23046727 0.07248712 0.01051431 0.20576529 0.04134227]
+ [0.44130862 0.23017389 0.07245617 0.01046485 0.20439939 0.04119712]]
+BLEU-1: 0.999999999818182
+BLEU-2: 0.9999999998136365
+BLEU-3: 0.9999999998084177
+BLEU-4: 0.9999999998023361
+CIDER: 8.796084415796626
+Inference Time: 0.02361130714416504
+
+ID: 21387
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas bambu <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan ceria <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas kali <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal siang hari <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.0495164  0.6951202  0.01402135 0.01063235 0.02857438 0.02277123
+  0.17936398]
+ [0.04975267 0.6904185  0.01409756 0.01066    0.0288822  0.02282854
+  0.1833605 ]
+ [0.04983284 0.6898237  0.01407193 0.01066204 0.02872301 0.02284379
+  0.18404274]
+ [0.04963915 0.6905601  0.0140587  0.01075921 0.02899174 0.02287314
+  0.18311803]
+ [0.04979918 0.6908636  0.01413196 0.01068496 0.02851078 0.02290836
+  0.18310113]
+ [0.04913951 0.6925266  0.01373695 0.0106703  0.02835505 0.02267416
+  0.18289746]
+ [0.04931773 0.68926644 0.01385407 0.01065005 0.0284548  0.0227324
+  0.18572454]
+ [0.04943447 0.68951315 0.01394438 0.01067583 0.02848763 0.02275073
+  0.1851938 ]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.1535884166184776
+Inference Time: 0.0242311954498291
+
+ID: 21230
+Ground Truth:
+<START> dua orang wanita sedang bermain gebuk bantal <END>
+<START> dua orang wanita sedang bermain gebuk bantal ditonton warga <END>
+<START> warga menonton dua orang wanita sedang bermain gebuk bantal <END>
+<START> dua orang wanita sedang bermain gebuk bantal di atas kali <END>
+<START> dua orang wanita sedang bermain gebuk bantal sore hari <END>
+Generated: ['<START> dua orang pria sedang bermain gebuk bantal di atas kali <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.72638476 0.13001521 0.02043943 0.05964941 0.01321578 0.05029541]
+ [0.726559   0.1298912  0.02040896 0.05963436 0.01315757 0.05034894]
+ [0.72832894 0.12811024 0.02042273 0.05965047 0.01308299 0.05040464]
+ [0.72633964 0.12935808 0.02053373 0.0600837  0.01319119 0.05049375]
+ [0.72587967 0.12947062 0.02059571 0.06024388 0.01330327 0.05050683]
+ [0.7187378  0.13423839 0.02091477 0.06141523 0.01356979 0.05112403]
+ [0.72076803 0.13250197 0.02089555 0.06121102 0.01355714 0.05106633]
+ [0.71728796 0.13436168 0.02116855 0.06186472 0.01371639 0.05160067]
+ [0.72100776 0.13187551 0.02095779 0.06136712 0.01356688 0.05122488]
+ [0.7204492  0.13212419 0.02102272 0.06145447 0.01357034 0.05137907]
+ [0.71972764 0.13355626 0.02088522 0.0612968  0.01352146 0.05101256]]
+BLEU-1: 0.9166666665138891
+BLEU-2: 0.8660254036368208
+BLEU-3: 0.8067143228713007
+BLEU-4: 0.7348889199554272
+CIDER: 2.283084430795544
+Inference Time: 0.024608373641967773
+
+ID: 21554
+Ground Truth:
+<START> banyak anak laki - laki sedang berlomba makan kerupuk <END>
+<START> banyak anak laki - laki sedang berlomba makan kerupuk dengan serius <END>
+<START> banyak anak laki - laki sedang berlomba makan kerupuk di siang hari <END>
+<START> banyak anak laki - laki sedang berlomba makan kerupuk dan ditonton banyak orang <END>
+<START> banyak anak laki - laki sedang berlomba makan kerupuk dengan semangat <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk <END>']
+Attention:
+['Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.13975455 0.01122402 0.14112811 0.32093865 0.19256087 0.19439381]
+ [0.13938646 0.01095439 0.14147781 0.32242346 0.19187385 0.19388397]
+ [0.1395088  0.01102599 0.14091873 0.32189992 0.1921529  0.1944936 ]
+ [0.13962774 0.0111267  0.14078298 0.3210775  0.1926655  0.19471955]
+ [0.13963032 0.01111969 0.1411841  0.32130888 0.1923753  0.19438176]
+ [0.13975465 0.01125022 0.14058453 0.32065788 0.19299445 0.19475833]
+ [0.13974385 0.01118464 0.14074232 0.32091618 0.19253941 0.1948736 ]]
+BLEU-1: 0.6872892786191501
+BLEU-2: 0.6363062284981051
+BLEU-3: 0.5703308794849995
+BLEU-4: 0.47522037734443034
+CIDER: 1.8080925458122983
+Inference Time: 0.021811246871948242
+
+ID: 20827
+Ground Truth:
+<START> seorang anak sedang bermain layangan di <UNK> pasir <END>
+<START> seorang anak bermain layangan di bawah langit yang cerah <END>
+<START> satu orang anak bermain layangan di bawah sinar matahari <END>
+<START> seorang anak sedang berlari sambil menerbangkan layangan <END>
+<START> satu orang anak sedang bermain layangan dengan ceria <END>
+Generated: ['<START> seorang anak sedang bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.14985356 0.8501465 ]
+ [0.1502654  0.8497346 ]
+ [0.15071893 0.8492811 ]
+ [0.14882448 0.85117555]
+ [0.15052958 0.84947044]
+ [0.15024056 0.84975946]
+ [0.15059532 0.84940463]
+ [0.14479433 0.85520566]
+ [0.14579625 0.85420376]
+ [0.14514185 0.8548581 ]
+ [0.14708653 0.8529135 ]]
+BLEU-1: 0.9999999999166668
+BLEU-2: 0.9999999999128789
+BLEU-3: 0.999999999908586
+BLEU-4: 0.9999999999036617
+CIDER: 3.627186897124682
+Inference Time: 0.01707172393798828
+
+ID: 20979
+Ground Truth:
+<START> orang-orang sedang berlomba balap bakiak sambil ditonton warga <END>
+<START> warga menonton perlombaan balap bakiak <END>
+<START> orang-orang sedang bermain bakiak di lapangan <END>
+<START> orang-orang bermain bakiak di hari yang cerah <END>
+<START> orang-orang sedang berlomba permainan balap bakiak <END>
+Generated: ['<START> orang-orang bermain bakiak di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak', 'Spectator', 'Spectator']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [1.7655231e-01 1.6895900e-02 3.5116155e-02 4.8922956e-01 6.0249507e-02
+  7.4819423e-02 9.3112871e-02 4.2099877e-05 5.3982176e-02]
+ [1.7659803e-01 1.6942685e-02 3.4967359e-02 4.8821324e-01 6.0374402e-02
+  7.4425697e-02 9.3251087e-02 4.3768745e-05 5.5183724e-02]
+ [1.7642099e-01 1.6862284e-02 3.4832243e-02 4.8996159e-01 6.0414739e-02
+  7.3965237e-02 9.3309842e-02 4.2922682e-05 5.4190140e-02]
+ [1.7667621e-01 1.6835481e-02 3.4797840e-02 4.8982134e-01 6.0386389e-02
+  7.3690630e-02 9.3332961e-02 4.2967724e-05 5.4416131e-02]
+ [1.7721350e-01 1.6900923e-02 3.4774289e-02 4.8852822e-01 6.0559522e-02
+  7.4272849e-02 9.3603946e-02 4.2873424e-05 5.4103900e-02]
+ [1.7839369e-01 1.6982175e-02 3.5004504e-02 4.8870999e-01 6.0902808e-02
+  7.4321248e-02 9.4179794e-02 4.3023989e-05 5.1462810e-02]
+ [1.7769113e-01 1.6991075e-02 3.4953710e-02 4.8827219e-01 6.0838092e-02
+  7.4595287e-02 9.3978398e-02 4.3630822e-05 5.2636523e-02]
+ [1.7711182e-01 1.6916439e-02 3.4862086e-02 4.8791832e-01 6.0669824e-02
+  7.4384153e-02 9.3715250e-02 4.2964046e-05 5.4379102e-02]]
+BLEU-1: 0.6666666665185187
+BLEU-2: 0.5773502690573166
+BLEU-3: 0.52275795845059
+BLEU-4: 0.46713797761257436
+CIDER: 2.770834327316954
+Inference Time: 0.027813196182250977
+
+ID: 20086
+Ground Truth:
+<START> orang-orang bermain lompat tali di halaman <END>
+<START> satu orang sedang berusaha melompati tali <END>
+<START> dua orang membentangkan tali dengan tinggi pada permainan lompat tali <END>
+<START> banyak orang menonton permainan lompat tali <END>
+<START> orang yang sedang bermain lompat tali ditonton banyak orang <END>
+Generated: ['<START> anak-anak sedang bermain panjat pinang <END>']
+Attention:
+['Lompat Tali', 'Spectator', 'Spectator', 'Spectator', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.1896965  0.2333378  0.12741987 0.12926953 0.09662691 0.04329045
+  0.18035899]
+ [0.19084015 0.23252548 0.12728702 0.1291573  0.09681893 0.04315571
+  0.18021548]
+ [0.19428611 0.23219852 0.12694243 0.12865062 0.09588847 0.0429262
+  0.1791077 ]
+ [0.19026949 0.23216814 0.12738857 0.12908505 0.09699052 0.04338214
+  0.18071617]
+ [0.19006501 0.23315609 0.12758002 0.1292667  0.09650103 0.04321435
+  0.18021682]
+ [0.19121091 0.2329007  0.12733918 0.12912437 0.09646172 0.04297724
+  0.17998579]]
+BLEU-1: 0.4953587997157158
+BLEU-2: 0.2675243277994909
+BLEU-3: 2.3151092838987057e-06
+BLEU-4: 7.201170725888819e-09
+CIDER: 0.0030484435599211386
+Inference Time: 0.023090124130249023
+
+ID: 22269
+Ground Truth:
+<START> anak-anak sedang bermain gundu <END>
+<START> anak-anak sedang bermain gundu di tanah <END>
+<START> anak-anak sedang bermain gundu dengan banyak kelereng <END>
+<START> anak-anak sedang bermain gundu dengan serius <END>
+<START> anak-anak sedang bermain gundu dengan tenang <END>
+Generated: ['<START> anak-anak sedang bermain gundu dengan banyak kelereng <END>']
+Attention:
+['Person', 'Gundu', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.        ]
+ [0.24020272 0.15862809 0.10255542 0.4986138 ]
+ [0.24041125 0.15900311 0.10283179 0.4977538 ]
+ [0.24052468 0.15907416 0.102497   0.49790412]
+ [0.24033223 0.15891415 0.10288724 0.49786648]
+ [0.24012876 0.15852116 0.10258076 0.49876934]
+ [0.24034324 0.1588075  0.10252679 0.49832252]
+ [0.24042775 0.15882032 0.10196129 0.49879062]
+ [0.24018049 0.15848094 0.10208478 0.49925372]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 5.738518728058369
+Inference Time: 0.018565893173217773
+
+ID: 22186
+Ground Truth:
+<START> anak-anak sedang bermain balap kelereng <END>
+<START> anak-anak sedang bermain balap kelereng di tonton warga <END>
+<START> anak-anak sedang bermain balap kelereng dengan semangat <END>
+<START> anak-anak sedang bermain balap kelereng dengan serius <END>
+<START> anak-anak sedang bermain balap kelereng dengan hati hati <END>
+Generated: ['<START> dua orang sedang bermain gebuk bantal ditonton warga <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Balap Kelereng', 'Balap Kelereng', 'Balap Kelereng', 'Balap Kelereng', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.        ]
+ [0.06994201 0.08304053 0.23522039 0.06367176 0.10594794 0.1297334
+  0.12074574 0.07655789 0.07065534 0.01335372 0.03113127]
+ [0.07012503 0.08317268 0.23452874 0.06365915 0.10615895 0.12998135
+  0.12079506 0.07657726 0.07067017 0.01333162 0.03100003]
+ [0.07052917 0.08337612 0.234735   0.06364735 0.10623123 0.12984084
+  0.12065804 0.07640523 0.07076202 0.01323698 0.03057797]
+ [0.07017846 0.08323477 0.23542298 0.06339418 0.10606003 0.12987907
+  0.12092584 0.07658534 0.07035054 0.01322533 0.03074349]
+ [0.06958181 0.082945   0.23467319 0.06369033 0.10576258 0.12984526
+  0.12121762 0.07681582 0.07060482 0.0133752  0.03148837]
+ [0.06981201 0.08308619 0.23471019 0.06364306 0.10577119 0.12967962
+  0.12113873 0.07685198 0.07052711 0.01340254 0.03137738]
+ [0.07006478 0.08326653 0.2339601  0.06377475 0.10577074 0.12959154
+  0.12116087 0.07691617 0.0706903  0.01344709 0.03135715]
+ [0.07030734 0.08340672 0.23299907 0.06393722 0.10595205 0.12961626
+  0.12104674 0.07694434 0.07087985 0.01352786 0.03138252]
+ [0.0700744  0.08332214 0.23377275 0.06360856 0.10587732 0.12980479
+  0.12129358 0.0770448  0.07042008 0.01344514 0.03133634]]
+BLEU-1: 0.4999999999000002
+BLEU-2: 0.33333333326481496
+BLEU-3: 2.403749283336e-06
+BLEU-4: 6.674094717574906e-09
+CIDER: 0.13719851220999113
+Inference Time: 0.03361630439758301
+
+ID: 21215
+Ground Truth:
+<START> tiga orang anak sedang bermain balap karung di tepi danau <END>
+<START> tiga orang anak berlatih balap karung di bawah sinar matahari <END>
+<START> tiga orang anak bermain balap karung dengan ceria <END>
+<START> tiga orang anak bermain balap karung di rerumputan <END>
+<START> tiga orang anak sedang berlatih memainkan balap karung <END>
+Generated: ['<START> dua orang bermain balap karung di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.28998995 0.08865271 0.07606451 0.2913649  0.07287034 0.18105756]
+ [0.28966308 0.08848525 0.07612557 0.29207754 0.07282403 0.18082452]
+ [0.28982905 0.08788651 0.07632218 0.2924367  0.07266229 0.18086326]
+ [0.28947678 0.08919129 0.07593977 0.29188526 0.07299713 0.18050982]
+ [0.28822398 0.08926652 0.07645571 0.29083493 0.07352281 0.18169601]
+ [0.2888643  0.08883162 0.07649443 0.29096228 0.07329423 0.18155311]
+ [0.28834215 0.08871972 0.07642996 0.2914039  0.07329477 0.1818095 ]
+ [0.288515   0.0891408  0.0767882  0.29032567 0.07359283 0.18163748]
+ [0.2891656  0.08915523 0.07667447 0.28973424 0.07351243 0.18175806]
+ [0.28892037 0.08913728 0.07664342 0.29009974 0.07350188 0.18169731]]
+BLEU-1: 0.6363636363057852
+BLEU-2: 0.43693144871094447
+BLEU-3: 0.34876912508999725
+BLEU-4: 0.2698553466394427
+CIDER: 2.1058067833128904
+Inference Time: 0.024199724197387695
+
+ID: 20658
+Ground Truth:
+<START> tiga orang bermain layangan di <UNK> <UNK> <END>
+<START> orang tua dan anak bermain layangan bersama <END>
+<START> tiga orang bermain layangan dengan ceria <END>
+<START> tiga orang saling bergandengan sambil berlari untuk menerbangkan layangan <END>
+<START> seorang anak bermain layangan bersama dengan kedua orang tuanya <END>
+Generated: ['<START> anak-anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Layangan']
+[[0.         0.         0.         0.        ]
+ [0.00142461 0.0734259  0.91625786 0.00889163]
+ [0.00143554 0.07383117 0.9159449  0.00878839]
+ [0.00145817 0.07435182 0.9153777  0.0088123 ]
+ [0.00142351 0.07405841 0.91570574 0.00881235]
+ [0.00141404 0.07445128 0.91528916 0.00884547]
+ [0.00136998 0.07272588 0.9172802  0.00862396]
+ [0.00140647 0.07380378 0.91609925 0.00869047]
+ [0.00136317 0.07262237 0.9174065  0.00860791]
+ [0.00141004 0.07335618 0.91655844 0.00867528]]
+BLEU-1: 0.4999999999500001
+BLEU-2: 0.33333333329814824
+BLEU-3: 0.24037492835763732
+BLEU-4: 3.753119268302293e-05
+CIDER: 0.9822807806845378
+Inference Time: 0.01917743682861328
+
+ID: 20822
+Ground Truth:
+<START> seorang anak bermain layangan sendirian <END>
+<START> satu orang anak sedang bermain layangan di bawah sinar matahari <END>
+<START> satu orang anak sedang bermain layangan di rerumputan <END>
+<START> seorang anak sedang berjalan sambil menerbangkan layangan <END>
+<START> satu orang anak bermain layangan di bawah langit yang cerah <END>
+Generated: ['<START> seorang anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.08560949 0.91439056]
+ [0.08526194 0.91473806]
+ [0.08517005 0.9148299 ]
+ [0.08565668 0.9143433 ]
+ [0.08600359 0.9139964 ]
+ [0.0858427  0.9141573 ]
+ [0.08508628 0.9149137 ]
+ [0.08556709 0.91443294]
+ [0.08540753 0.91459244]
+ [0.0859613  0.91403866]]
+BLEU-1: 0.999999999909091
+BLEU-2: 0.9999999999045456
+BLEU-3: 0.9999999998993268
+BLEU-4: 0.9999999998932452
+CIDER: 3.2936691274265772
+Inference Time: 0.016225099563598633
+
+ID: 21631
+Ground Truth:
+<START> banyak orang sedang bermain panjat pinang <END>
+<START> banyak orang sedang bermain panjat pinang dengan semangat <END>
+<START> banyak orang sedang bermain panjat pinang pada siang hari <END>
+<START> banyak orang sedang bermain panjat pinang dengan serius <END>
+<START> banyak orang sedang bermain panjat pinang dan meraih hadiah <END>
+Generated: ['<START> banyak orang sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Panjat Pinang']
+[[0.         0.        ]
+ [0.98678756 0.01321247]
+ [0.9875236  0.01247641]
+ [0.98743445 0.01256555]
+ [0.9870069  0.01299316]
+ [0.98710513 0.01289481]
+ [0.9871263  0.01287372]
+ [0.98730266 0.01269739]]
+BLEU-1: 0.9999999997500004
+BLEU-2: 0.9999999997410718
+BLEU-3: 0.9999999997301591
+BLEU-4: 0.9999999997163694
+CIDER: 7.300808732161823
+Inference Time: 0.014462947845458984
+
+ID: 22116
+Ground Truth:
+<START> dua anak laki-laki sedang bermain balap kelereng <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan semangat <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan serius <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan hati-hati <END>
+<START> dua anak laki-laki sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> dua orang anak sedang bermain tarik tambang dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Balap Kelereng', 'Balap Kelereng', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.07588154 0.03931827 0.06193874 0.04994519 0.77291626]
+ [0.07602085 0.03929463 0.06203458 0.05005101 0.77259886]
+ [0.07562957 0.03934042 0.06158312 0.04971464 0.7737322 ]
+ [0.07556619 0.03912359 0.06162852 0.0496832  0.7739985 ]
+ [0.07597527 0.03907352 0.06204186 0.05002233 0.772887  ]
+ [0.07604478 0.03882594 0.06223379 0.05010364 0.77279186]
+ [0.07651841 0.03891395 0.06260221 0.05047495 0.77149045]
+ [0.07649195 0.03881676 0.06259497 0.05045617 0.77164006]
+ [0.07695488 0.03890552 0.06294257 0.05081675 0.7703804 ]
+ [0.0770083  0.03908675 0.06305734 0.05087627 0.7699714 ]]
+BLEU-1: 0.7272727271404961
+BLEU-2: 0.5393598898700768
+BLEU-3: 0.31854558815077505
+BLEU-4: 4.483386699498255e-05
+CIDER: 0.5358110933313366
+Inference Time: 0.0337529182434082
+
+ID: 21950
+Ground Truth:
+<START> lima anak sedang bermain tarik tambang <END>
+<START> lima anak sedang bermain tarik tambang di perlombaan <END>
+<START> lima anak sedang bermain tarik tambang di siang hari <END>
+<START> lima anak sedang bermain tarik tambang dan ditonton warga <END>
+<START> warga menonton perlombaan tarik tambang <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.        ]
+ [0.11874636 0.1720925  0.05013682 0.23366685 0.0179532  0.0412914
+  0.13995852 0.17512424 0.05103021]
+ [0.11860982 0.17181562 0.05020436 0.2330743  0.01808956 0.04130186
+  0.14107797 0.17482048 0.05100605]
+ [0.1196553  0.17290741 0.04965572 0.23305255 0.01815256 0.04162334
+  0.13942665 0.17411868 0.05140777]
+ [0.11834205 0.17183103 0.05007211 0.23362489 0.01807524 0.04110751
+  0.14153318 0.17464219 0.05077184]
+ [0.11856189 0.17172505 0.04987809 0.23264708 0.01806897 0.04130508
+  0.14263129 0.17425317 0.05092943]
+ [0.11882803 0.17218162 0.04947465 0.2328964  0.01805783 0.0413668
+  0.1426124  0.17364198 0.0509403 ]
+ [0.11883328 0.17209893 0.04950738 0.23284985 0.01799636 0.04141035
+  0.14256105 0.17372452 0.05101835]
+ [0.11951479 0.17281114 0.04886594 0.232408   0.01806504 0.04170742
+  0.14310105 0.17229442 0.05123216]]
+BLEU-1: 0.7777777776913581
+BLEU-2: 0.6236095643887031
+BLEU-3: 0.5503212080795865
+BLEU-4: 0.48549177164109825
+CIDER: 2.618921330883733
+Inference Time: 0.028177976608276367
+
+ID: 21893
+Ground Truth:
+<START> anak-anak sedang bermain tarik tambang <END>
+<START> anak-anak sedang bermain tarik tambang di siang hari <END>
+<START> anak-anak sedang bermain tarik tambang dengan serius <END>
+<START> anak-anak sedang bermain tarik tambang di rerumputan <END>
+<START> anak-anak sedang bermain tarik tambang dengan semangat <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.        ]
+ [0.00604869 0.00887723 0.00540553 0.00234663 0.00697963 0.00289218
+  0.03444221 0.9210645  0.00450862 0.0037098  0.003725  ]
+ [0.00610424 0.00894493 0.00545776 0.00237025 0.00703385 0.00292365
+  0.03475641 0.920343   0.00455343 0.0037491  0.00376338]
+ [0.00604549 0.00884358 0.00541002 0.00233051 0.00698939 0.00289878
+  0.0346932  0.92079526 0.00452496 0.00372648 0.00374238]
+ [0.00601073 0.00882284 0.00537136 0.00231922 0.00690165 0.002857
+  0.03440515 0.9214853  0.00446813 0.00367437 0.0036842 ]
+ [0.00599434 0.008786   0.00535951 0.00232224 0.00689944 0.00286193
+  0.03454047 0.9214022  0.0044678  0.00367692 0.00368918]
+ [0.00602318 0.00882618 0.00538672 0.00231658 0.00693655 0.0028694
+  0.03451454 0.92123294 0.00449164 0.00369526 0.00370704]
+ [0.00597974 0.00876503 0.00534744 0.00229317 0.00689962 0.0028527
+  0.03440654 0.92163706 0.00446243 0.00367131 0.00368487]
+ [0.00608054 0.00889122 0.00544372 0.00231319 0.00703155 0.00290315
+  0.03471594 0.9205575  0.00455349 0.00374766 0.00376205]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.2076218640363106
+Inference Time: 0.031876325607299805
+
+ID: 21366
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal ditonton warga <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan serius <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di siang hari <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan semangat <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Gebuk Bantal', 'Gebuk Bantal', 'Person', 'Person', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.04422861 0.20648253 0.02220429 0.36459684 0.19195798 0.17052966]
+ [0.04321172 0.20932932 0.02171562 0.36707202 0.1901847  0.1684866 ]
+ [0.04358079 0.208233   0.0218763  0.36645147 0.19075468 0.16910376]
+ [0.04346279 0.20842342 0.02189078 0.36563703 0.19135989 0.16922612]
+ [0.0438474  0.20770526 0.02203978 0.36539447 0.19107716 0.16993587]
+ [0.04406327 0.20760022 0.02222785 0.3654104  0.1912328  0.16946553]
+ [0.0443572  0.20766309 0.0223716  0.3653475  0.19074894 0.16951168]
+ [0.04414584 0.20763254 0.02224243 0.36518437 0.19110358 0.16969115]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.45278086325097
+Inference Time: 0.02266669273376465
+
+ID: 21916
+Ground Truth:
+<START> anak-anak sedang bermain tarik tambang <END>
+<START> anak-anak sedang bermain tarik tambang di siang hari <END>
+<START> anak-anak sedang bermain tarik tambang dengan serius <END>
+<START> anak-anak sedang bermain tarik tambang di rerumputan <END>
+<START> anak-anak sedang bermain tarik tambang dengan semangat <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Tarik Tambang']
+[[0.         0.         0.         0.        ]
+ [0.01429322 0.8181658  0.15558125 0.01195967]
+ [0.01429837 0.8185916  0.15509912 0.01201089]
+ [0.01428801 0.817549   0.15610339 0.01205965]
+ [0.01445078 0.8165188  0.15694498 0.01208541]
+ [0.01426719 0.81853664 0.15523003 0.01196618]
+ [0.01427943 0.81802195 0.15571539 0.01198318]
+ [0.01434969 0.8182144  0.15550505 0.01193083]
+ [0.01447047 0.8152927  0.15806195 0.01217486]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.2076218640363106
+Inference Time: 0.01891183853149414
+
+ID: 21479
+Ground Truth:
+<START> tiga perempuan sedang berlomba makan kerupuk <END>
+<START> tiga perempuan berlomba makan kerupuk di hari kemerdekaan <END>
+<START> tiga perempuan berlomba makan kerupuk di pagi hari <END>
+<START> tiga perempuan berlomba makan kerupuk dengan semangat <END>
+<START> tiga perempuan berlomba makan kerupuk di pesta <END>
+Generated: ['<START> dua orang anak sedang bermain balap karung di lapangan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.10890757 0.26403844 0.08225824 0.02895411 0.32654995 0.18929169]
+ [0.10875493 0.26368102 0.08352315 0.02925213 0.32646945 0.18831928]
+ [0.10887083 0.26399624 0.0831703  0.02912944 0.32675132 0.1880818 ]
+ [0.10856207 0.26437065 0.08345235 0.02899391 0.32663852 0.18798247]
+ [0.10870631 0.264837   0.08305094 0.02884785 0.32622513 0.18833275]
+ [0.10829548 0.26328918 0.0835707  0.02921947 0.32657307 0.18905215]
+ [0.10869876 0.26417089 0.08334986 0.02908806 0.32576978 0.18892266]
+ [0.10882601 0.264683   0.08266485 0.02884928 0.32621646 0.18876036]
+ [0.10878967 0.26465997 0.08314076 0.02894265 0.3259791  0.18848787]
+ [0.1090299  0.2656801  0.08133537 0.02839283 0.32621673 0.18934503]]
+BLEU-1: 0.36363636360330587
+BLEU-2: 6.03022689097966e-09
+BLEU-3: 1.5927279408986703e-11
+BLEU-4: 8.430118945584141e-13
+CIDER: 0.0008066344814867535
+Inference Time: 0.02351999282836914
+
+ID: 20474
+Ground Truth:
+<START> seorang anak bermain egrang di halaman <END>
+<START> seorang anak bermain egrang di hari yang cerah <END>
+<START> seorang anak berdiri di atas egrang <END>
+<START> seorang anak menjaga keseimbangan saat berdiri di atas egrang <END>
+<START> seorang anak bermain egrang di bawah sinar matahari <END>
+Generated: ['<START> dua orang anak bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Egrang']
+[[0.         0.        ]
+ [0.6382216  0.3617784 ]
+ [0.6396112  0.3603888 ]
+ [0.6394459  0.3605541 ]
+ [0.6419372  0.35806277]
+ [0.64617074 0.3538293 ]
+ [0.6409037  0.35909632]
+ [0.6415057  0.35849428]
+ [0.63452125 0.3654788 ]
+ [0.63977563 0.3602244 ]
+ [0.6436321  0.35636792]]
+BLEU-1: 0.818181818033058
+BLEU-2: 0.756787468523232
+BLEU-3: 0.7254690150137174
+BLEU-4: 0.6989307621403409
+CIDER: 3.22487179413928
+Inference Time: 0.01613926887512207
+
+ID: 22083
+Ground Truth:
+<START> dua anak laki-laki sedang bermain balap kelereng <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan semangat <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan serius <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan hati-hati <END>
+<START> dua anak laki-laki sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> anak-anak bermain engklek di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Balap Kelereng', 'Balap Kelereng', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.10949891 0.1473469  0.16107321 0.21119276 0.37088817]
+ [0.10983836 0.14818192 0.16135143 0.21104605 0.3695823 ]
+ [0.11012048 0.1492066  0.16143668 0.21040536 0.3688309 ]
+ [0.10973486 0.14852196 0.16134644 0.21103027 0.3693665 ]
+ [0.10960777 0.14846997 0.16094084 0.2112185  0.36976296]
+ [0.10986982 0.14855239 0.16057779 0.21139218 0.36960778]
+ [0.10975805 0.1485554  0.16004138 0.21144387 0.37020126]
+ [0.10957867 0.14844556 0.16109665 0.21115194 0.3697272 ]]
+BLEU-1: 0.555555555432099
+BLEU-2: 8.333333331423613e-09
+BLEU-3: 2.1487199818053214e-11
+BLEU-4: 1.1339582219145234e-12
+CIDER: 0.0162872781146623
+Inference Time: 0.020786046981811523
+
+ID: 20484
+Ground Truth:
+<START> seorang anak sedang bermain egrang di taman <END>
+<START> seorang anak bermain egrang sendirian <END>
+<START> satu orang anak sedang berusaha berjalan dengan menggunakan egrang <END>
+<START> seorang anak sedang berlatih bermain egrang dengan serius <END>
+<START> seorang anak bermain egrang di hari yang cerah <END>
+Generated: ['<START> seorang anak sedang bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Egrang']
+[[0.         0.        ]
+ [0.69583    0.30417004]
+ [0.6965191  0.30348098]
+ [0.6972443  0.30275574]
+ [0.69599384 0.30400616]
+ [0.6957678  0.3042322 ]
+ [0.6950455  0.3049546 ]
+ [0.6972024  0.30279762]
+ [0.6953736  0.30462638]
+ [0.69596636 0.3040336 ]
+ [0.69627464 0.30372533]]
+BLEU-1: 0.7272727271404961
+BLEU-2: 0.6605782589527088
+BLEU-3: 0.6235319076442863
+BLEU-4: 0.5900468725226498
+CIDER: 2.5569765392188284
+Inference Time: 0.016162633895874023
+
+ID: 21166
+Ground Truth:
+<START> tiga orang anak bermain balap karung dengan ceria <END>
+<START> tiga orang anak bermain balap karung di rerumputan <END>
+<START> tiga orang anak sedang berusaha melompat melaju saat bermain balap karung <END>
+<START> tiga orang anak bermain balap karung di bawah sinar matahari <END>
+<START> tiga orang anak berlomba balap karung <END>
+Generated: ['<START> dua orang anak bermain balap karung di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.01945018 0.00342792 0.29462644 0.03221857 0.03936757 0.6109094 ]
+ [0.01930393 0.00340757 0.29429275 0.03281118 0.04041621 0.6097684 ]
+ [0.01919067 0.00337739 0.29390165 0.03246065 0.04020607 0.61086357]
+ [0.01908802 0.00335436 0.29368535 0.0328086  0.04043077 0.6106329 ]
+ [0.02017136 0.00335171 0.28912574 0.03306367 0.04077309 0.6135145 ]
+ [0.02018022 0.00344393 0.29350087 0.03311064 0.04096362 0.6088007 ]
+ [0.01968491 0.00347848 0.29514182 0.03344559 0.04137628 0.6068729 ]
+ [0.01998862 0.00342018 0.29310614 0.03322958 0.04088091 0.6093746 ]
+ [0.02026101 0.00353543 0.2967     0.03341447 0.04107505 0.605014  ]
+ [0.02023455 0.00349465 0.2954642  0.0334497  0.04119157 0.60616535]
+ [0.01975458 0.00336531 0.29551828 0.03315194 0.04075767 0.6074523 ]]
+BLEU-1: 0.9166666665138891
+BLEU-2: 0.8660254036368208
+BLEU-3: 0.8434326651543615
+BLEU-4: 0.8265168182308785
+CIDER: 3.776181547482528
+Inference Time: 0.024507999420166016
+
+ID: 20808
+Ground Truth:
+<START> seorang anak sedang tersenyum sambil mengangkat layangan <END>
+<START> seorang anak bermain layangan dengan ceria <END>
+<START> seorang anak sedang bermain layangan di bawah langit yang cerah <END>
+<START> seorang anak bermain layangan di bawah sinar matahari <END>
+<START> seorang anak sedang bersiap untuk menerbangkan layangan <END>
+Generated: ['<START> dua orang anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.21198976 0.7880102 ]
+ [0.21052028 0.78947973]
+ [0.20829968 0.7917003 ]
+ [0.21089387 0.7891061 ]
+ [0.21237238 0.7876277 ]
+ [0.2144717  0.7855283 ]
+ [0.21257569 0.7874243 ]
+ [0.2161175  0.7838825 ]
+ [0.2150209  0.7849791 ]
+ [0.21747576 0.7825242 ]
+ [0.21769592 0.7823041 ]]
+BLEU-1: 0.8333333331944446
+BLEU-2: 0.7784989440288245
+BLEU-3: 0.7514003018503002
+BLEU-4: 0.7292571722562665
+CIDER: 2.8113297454635533
+Inference Time: 0.023760080337524414
+
+ID: 21304
+Ground Truth:
+<START> dua orang pria sedang bermain gebuk bantal <END>
+<START> dua orang pria sedang bermain gebuk bantal di atas batang bambu <END>
+<START> dua orang pria sedang bermain gebuk bantal dengan semangat <END>
+<START> dua orang pria sedang bermain gebuk bantal pada siang hari <END>
+<START> dua orang pria sedang bermain gebuk bantal dengan bahagia <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal']
+[[0.         0.         0.         0.        ]
+ [0.12410303 0.39298242 0.16305631 0.31985825]
+ [0.12445472 0.39262706 0.16325226 0.31966597]
+ [0.12396049 0.39322346 0.1628995  0.31991655]
+ [0.12451582 0.39247492 0.16335928 0.31965   ]
+ [0.12412951 0.39293283 0.16309048 0.31984717]
+ [0.12313151 0.3941456  0.16237031 0.32035258]
+ [0.1233597  0.39385754 0.16254342 0.32023934]
+ [0.1237821  0.3933427  0.16284946 0.32002574]]
+BLEU-1: 0.7777777776049386
+BLEU-2: 0.6972166886186177
+BLEU-3: 0.5928155506075895
+BLEU-4: 0.5133450479131076
+CIDER: 2.6474940203198196
+Inference Time: 0.01909351348876953
+
+ID: 21307
+Ground Truth:
+<START> dua orang sedang bermain gebuk bantal <END>
+<START> dua orang pria sedang bermain gebuk bantal <END>
+<START> dua orang pria sedang bermain gebuk bantal sambil ditonton warga <END>
+<START> seorang pria terjatuh saat bermain gebuk bantal <END>
+<START> dua orang pria sedang bermain gebuk bantal di atas kali <END>
+Generated: ['<START> dua orang pria sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.0388147  0.13290875 0.06645846 0.03384733 0.22607018 0.02299145
+  0.2018005  0.27710864]
+ [0.03878488 0.13279572 0.06633922 0.03360972 0.22590004 0.02290612
+  0.20264076 0.27702358]
+ [0.03896499 0.13289429 0.06643305 0.03345717 0.22579192 0.02289987
+  0.20265506 0.27690366]
+ [0.03882648 0.13278915 0.06632733 0.03348763 0.22586125 0.02284111
+  0.20284879 0.27701828]
+ [0.03876572 0.13280913 0.06635149 0.03368281 0.22616427 0.02276121
+  0.20216857 0.27729684]
+ [0.03834078 0.13261098 0.06601534 0.03365078 0.22631149 0.02285157
+  0.20248547 0.2777336 ]
+ [0.03855889 0.1327327  0.06622167 0.03376091 0.22623557 0.02286208
+  0.20216557 0.27746254]
+ [0.0387474  0.13284008 0.06638569 0.03380692 0.22604273 0.02296759
+  0.20208924 0.27712035]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 6.1218733326333865
+Inference Time: 0.02664017677307129
+
+ID: 21056
+Ground Truth:
+<START> tiga orang anak sedang bermain balap karung di halaman sambil ditonton teman-temannya <END>
+<START> tiga orang anak sedang melompat bersamaan saat berlomba balap karung <END>
+<START> anak-anak menonton temannya yang sedang bermain balap karung <END>
+<START> tiga orang anak bermain balap karung dengan serius <END>
+<START> tiga orang anak <UNK> meramaikan lomba agustusan dengan berlomba balap karung <END>
+Generated: ['<START> anak-anak bermain balap karung di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Balap Karung', 'Balap Karung', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.1595003  0.12238973 0.15292487 0.5139784  0.05120661]
+ [0.15958749 0.1222912  0.15273193 0.5138434  0.05154596]
+ [0.15771323 0.12335309 0.15437514 0.5128549  0.05170367]
+ [0.1587397  0.12286309 0.15311924 0.51357263 0.05170537]
+ [0.15828638 0.122186   0.15246661 0.515544   0.05151702]
+ [0.15882833 0.12291383 0.15273367 0.51411647 0.05140765]
+ [0.15809828 0.12266669 0.15299697 0.5144523  0.05178583]
+ [0.15706164 0.12102351 0.15193102 0.518453   0.05153083]
+ [0.1600028  0.12183498 0.15184677 0.51494735 0.05136806]]
+BLEU-1: 0.7999999998400004
+BLEU-2: 0.5962847938773745
+BLEU-3: 0.44628863329348356
+BLEU-4: 0.3356891924299591
+CIDER: 1.7952199662438706
+Inference Time: 0.022207260131835938
+
+ID: 21369
+Ground Truth:
+<START> dua orang pria sedang bermain gebuk bantal <END>
+<START> dua orang pria sedang bermain gebuk bantal di atas kali <END>
+<START> dua orang pria sedang bermain gebuk bantal dengan semangat <END>
+<START> dua orang pria sedang bermain gebuk bantal di sore hari <END>
+<START> dua orang pria sedang bermain gebuk bantal dengan serius <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.32846642 0.20564744 0.1234096  0.18907264 0.15340391]
+ [0.32912764 0.20529683 0.12350223 0.18874705 0.15332621]
+ [0.32905185 0.205331   0.12331656 0.18912515 0.15317546]
+ [0.32869202 0.205773   0.12352881 0.18929228 0.15271391]
+ [0.32807297 0.20586747 0.12334715 0.18921031 0.15350214]
+ [0.3279241  0.20693752 0.1226794  0.1908071  0.15165187]
+ [0.3277751  0.20656985 0.12290229 0.19020164 0.15255113]
+ [0.32804424 0.20611739 0.12317083 0.18988568 0.15278186]]
+BLEU-1: 0.7777777776049386
+BLEU-2: 0.6972166886186177
+BLEU-3: 0.5928155506075895
+BLEU-4: 0.5133450479131076
+CIDER: 2.800477255757902
+Inference Time: 0.022197246551513672
+
+ID: 20280
+Ground Truth:
+<START> anak-anak bermain engklek di jalanan <END>
+<START> seorang anak sedang bersiap memainkan engklek sambil ditonton teman-temannya <END>
+<START> anak-anak menonton temannya yang bersiap memainkan engklek <END>
+<START> anak-anak bermain engklek di bawah sinar matahari <END>
+<START> anak-anak bermain engklek bersama <END>
+Generated: ['<START> seorang anak sedang bermain engklek sambil ditonton teman-temannya <END>']
+Attention:
+['Person', 'Engklek', 'Spectator']
+[[0.         0.         0.        ]
+ [0.00384152 0.33135346 0.664805  ]
+ [0.00386438 0.33078513 0.6653505 ]
+ [0.00378279 0.3310972  0.66512   ]
+ [0.00378916 0.33196253 0.6642483 ]
+ [0.00373263 0.33174157 0.6645258 ]
+ [0.00376496 0.33243093 0.6638041 ]
+ [0.00378905 0.3326375  0.6635734 ]
+ [0.00381579 0.33274865 0.6634356 ]
+ [0.0037872  0.33272353 0.6634893 ]]
+BLEU-1: 0.9999999999000002
+BLEU-2: 0.9428090414825449
+BLEU-3: 0.8220706913513879
+BLEU-4: 0.698534205574366
+CIDER: 1.733159779298505
+Inference Time: 0.018222570419311523
+
+ID: 20967
+Ground Truth:
+<START> anak-anak sedang bermain bakiak di halaman <END>
+<START> anak-anak bermain bakiak dengan ceria <END>
+<START> anak-anak sedang bertanding balap bakiak <END>
+<START> anak-anak berusaha melangkahkan kaki bersamaan saat bermain bakiak <END>
+<START> anak-anak bermain bakiak di hari yang cerah <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.14792274 0.00429492 0.27213332 0.01109783 0.0294473  0.01577397
+  0.02340808 0.49592188]
+ [0.1465664  0.0043221  0.27195558 0.01114116 0.02955248 0.01582331
+  0.02348645 0.49715254]
+ [0.14550942 0.00429638 0.27335104 0.01107775 0.02948342 0.01579097
+  0.02316919 0.49732172]
+ [0.14517264 0.00433177 0.2752918  0.01114781 0.02966988 0.01580656
+  0.02361864 0.4949608 ]
+ [0.14536859 0.00431155 0.27486613 0.01108947 0.02955842 0.01578231
+  0.02342402 0.4955996 ]
+ [0.14622828 0.0043251  0.2760703  0.01113528 0.02968497 0.01587177
+  0.0234287  0.49325556]
+ [0.1451153  0.0043156  0.2763523  0.01109388 0.02967406 0.01582951
+  0.02334747 0.49427196]
+ [0.14488885 0.00433953 0.2769867  0.01117305 0.02978532 0.01597258
+  0.02324511 0.49360892]]
+BLEU-1: 0.6666666665185187
+BLEU-2: 0.4999999998854169
+BLEU-3: 0.4149132665846075
+BLEU-4: 0.33031643171962105
+CIDER: 0.642746270033915
+Inference Time: 0.026767730712890625
+
+ID: 20105
+Ground Truth:
+<START> seorang anak bermain lompat tali di bawah langit yang cerah <END>
+<START> satu orang anak sedang melompati tali yang diayunkannya sendiri <END>
+<START> seorang anak bermain lompat tali dengan bahagia <END>
+<START> seorang anak perempuan sedang bermain lompat tali <END>
+<START> satu orang anak bermain lompat tali di halaman <END>
+Generated: ['<START> satu orang anak bermain lompat tali di hari yang cerah <END>']
+Attention:
+['Lompat Tali', 'Person']
+[[0.         0.        ]
+ [0.9394652  0.06053476]
+ [0.9382695  0.06173044]
+ [0.9387376  0.06126238]
+ [0.9389068  0.06109323]
+ [0.93882877 0.06117118]
+ [0.9384408  0.06155921]
+ [0.93883765 0.06116242]
+ [0.9388991  0.06110089]
+ [0.93900627 0.06099375]
+ [0.94007593 0.05992401]
+ [0.93973505 0.06026493]]
+BLEU-1: 0.9166666665138891
+BLEU-2: 0.8660254036368208
+BLEU-3: 0.8067143228713007
+BLEU-4: 0.7348889199554272
+CIDER: 3.7408036909843467
+Inference Time: 0.0183870792388916
+
+ID: 21138
+Ground Truth:
+<START> tiga orang anak sedang bermain balap karung dengan ceria <END>
+<START> tiga orang anak bermain balap karung di bawah sinar matahari <END>
+<START> tiga orang anak bermain balap karung di rerumputan <END>
+<START> anak-anak sedang bersiap bermain balap karung <END>
+<START> tiga orang anak bermain balap karung di hari yang cerah <END>
+Generated: ['<START> anak-anak bermain balap karung di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.1398435  0.40806553 0.33117962 0.02454301 0.06437647 0.03199193]
+ [0.14033388 0.40756342 0.3301355  0.02455119 0.06495012 0.03246588]
+ [0.13984218 0.4073416  0.33057067 0.02445194 0.06502273 0.03277091]
+ [0.14051652 0.40714124 0.32991937 0.02452416 0.06513371 0.03276503]
+ [0.14074038 0.40830046 0.32892197 0.02449884 0.06506599 0.03247241]
+ [0.14040773 0.4085186  0.32843885 0.02464568 0.06529678 0.0326923 ]
+ [0.14111064 0.4083795  0.3274269  0.02479025 0.06551898 0.03277379]
+ [0.1415902  0.40945014 0.32743984 0.02457176 0.0647746  0.03217342]
+ [0.14082962 0.4079442  0.32948637 0.02458332 0.06484405 0.03231242]]
+BLEU-1: 0.9999999998000004
+BLEU-2: 0.9428090413882642
+BLEU-3: 0.8735804645510677
+BLEU-4: 0.8307018472587394
+CIDER: 3.5188893305882427
+Inference Time: 0.02376699447631836
+
+ID: 21398
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal ditonton banyak anak-anak <END>
+<START> banyak anak yang menonton dua anak laki-laki yang sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas bambu <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal siang hari <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal di atas kolam <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.05182741 0.03890299 0.06089741 0.08696168 0.10594278 0.3964012
+  0.02813798 0.23092854]
+ [0.05256555 0.03885415 0.06081496 0.08765575 0.10557624 0.39529467
+  0.02869355 0.2305452 ]
+ [0.05251194 0.03871677 0.06065174 0.08768268 0.10549391 0.39603195
+  0.02841638 0.23049462]
+ [0.0527392  0.0391574  0.06114932 0.08822691 0.10574082 0.39407447
+  0.02873266 0.23017924]
+ [0.05207651 0.0389274  0.06091381 0.08694733 0.10597643 0.3959402
+  0.02847099 0.23074734]
+ [0.05259053 0.03858718 0.06046994 0.08782497 0.10541389 0.39688504
+  0.02829589 0.22993262]
+ [0.05210208 0.03867322 0.06059853 0.08697194 0.10571244 0.39713624
+  0.02839492 0.23041059]
+ [0.05234095 0.03884845 0.06079908 0.08740484 0.10577318 0.396026
+  0.02845533 0.23035225]
+ [0.05243114 0.03873617 0.06067461 0.08724786 0.10571682 0.39616165
+  0.02851665 0.23051512]
+ [0.05260435 0.03888134 0.06084592 0.08791376 0.10573199 0.39527723
+  0.02819545 0.23054996]
+ [0.05276728 0.03895545 0.06091413 0.08829477 0.10568911 0.39491725
+  0.02825199 0.23020999]]
+BLEU-1: 0.9166666665138891
+BLEU-2: 0.8660254036368208
+BLEU-3: 0.8434326651543615
+BLEU-4: 0.8265168182308785
+CIDER: 4.384880857143525
+Inference Time: 0.029590129852294922
+
+ID: 21885
+Ground Truth:
+<START> anak-anak sedang bermain tarik tambang <END>
+<START> anak-anak sedang bermain tarik tambang di siang hari <END>
+<START> anak-anak sedang bermain tarik tambang dengan serius <END>
+<START> anak-anak sedang bermain tarik tambang di pasir <END>
+<START> anak-anak sedang bermain tarik tambang dengan semangat <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.9868945  0.00384085 0.00375109 0.00198915 0.00352449]
+ [0.9867835  0.00387478 0.00378226 0.00200596 0.00355352]
+ [0.9870077  0.003827   0.0036929  0.00198901 0.00348348]
+ [0.98709595 0.0037848  0.00370331 0.00195283 0.0034631 ]
+ [0.98712116 0.00378743 0.00368169 0.00195363 0.0034561 ]
+ [0.9871918  0.00376215 0.00365484 0.00195402 0.00343718]
+ [0.9869898  0.00383353 0.00370037 0.00199147 0.00348486]
+ [0.98701096 0.00381652 0.00371399 0.0019807  0.00347787]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.306822135902512
+Inference Time: 0.021349430084228516
+
+ID: 20656
+Ground Truth:
+<START> seorang anak sedang bermain layangan di bawah langit yang cerah <END>
+<START> satu orang anak bermain layangan sendirian <END>
+<START> seorang anak sedang berusaha menerbangkan layangan <END>
+<START> seorang anak memegangi tali layangan dengan kedua <UNK> untuk mempertahankan ketinggiannya <END>
+<START> seorang anak bermain layangan yang sangat besar <END>
+Generated: ['<START> seseorang bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.22130728 0.7786927 ]
+ [0.22220132 0.7777987 ]
+ [0.21691734 0.78308266]
+ [0.22045289 0.7795471 ]
+ [0.22000948 0.77999055]
+ [0.22374025 0.7762597 ]
+ [0.22261035 0.77738965]
+ [0.22153221 0.77846783]
+ [0.22090194 0.77909803]]
+BLEU-1: 0.8999999999100001
+BLEU-2: 0.8366600264457615
+BLEU-3: 0.80671432292189
+BLEU-4: 0.7825422899429405
+CIDER: 1.5226824896968791
+Inference Time: 0.0160067081451416
+
+ID: 21179
+Ground Truth:
+<START> empat orang anak sedang bermain balap karung dengan ceria <END>
+<START> empat orang anak bermain balap karung di lapangan <END>
+<START> empat orang anak berlomba balap karung di rerumputan <END>
+<START> empat orang anak sedang bermain balap karung di hari yang cerah <END>
+<START> empat orang anak bermain balap karung bersama <END>
+Generated: ['<START> empat orang anak bermain balap karung di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.125015   0.00163328 0.05770432 0.10462382 0.16809392 0.5075828
+  0.01904876 0.01629812]
+ [0.12597257 0.00167139 0.05782954 0.10526607 0.16831355 0.5055639
+  0.01907481 0.01630809]
+ [0.12399273 0.00168009 0.05770334 0.10405449 0.16780792 0.5091042
+  0.01917632 0.0164809 ]
+ [0.12461989 0.00170007 0.05794169 0.104671   0.16860524 0.50637436
+  0.01942018 0.01666758]
+ [0.12535056 0.00167532 0.05774631 0.10456506 0.16893779 0.5059275
+  0.01934053 0.01645698]
+ [0.12462452 0.00165005 0.05805492 0.10486353 0.16693215 0.50805336
+  0.01936941 0.01645215]
+ [0.12459785 0.00163422 0.05804094 0.10493111 0.16791625 0.5071063
+  0.01927903 0.01649425]
+ [0.1240467  0.00163308 0.05818126 0.10471717 0.16606487 0.5095525
+  0.01934778 0.01645664]
+ [0.12379935 0.00161704 0.05818384 0.10433823 0.16521253 0.5112213
+  0.01927319 0.01635451]
+ [0.12432928 0.0016283  0.0580108  0.10456992 0.16598965 0.5102821
+  0.01894276 0.01624717]
+ [0.1236688  0.001602   0.05780042 0.10400415 0.16598241 0.51164156
+  0.01898273 0.01631793]]
+BLEU-1: 0.9999999999166668
+BLEU-2: 0.9999999999128789
+BLEU-3: 0.999999999908586
+BLEU-4: 0.9999999999036617
+CIDER: 5.832629712123174
+Inference Time: 0.028900861740112305
+
+ID: 21801
+Ground Truth:
+<START> banyak orang sedang bermain panjat pinang <END>
+<START> banyak orang sedang bermain panjat pinang pada siang hari <END>
+<START> banyak orang sedang bermain panjat pinang meraih hadiah <END>
+<START> beberapa orang memenangkan permainan panjat pinang <END>
+<START> beberapa orang memenangkan permainan panjat pinang dan mendapatkan hadiah <END>
+Generated: ['<START> banyak orang sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Panjat Pinang']
+[[0.         0.        ]
+ [0.04572331 0.9542766 ]
+ [0.04595155 0.9540484 ]
+ [0.04576694 0.954233  ]
+ [0.04580994 0.95419   ]
+ [0.04558437 0.9544156 ]
+ [0.04581685 0.95418316]
+ [0.04620978 0.95379025]]
+BLEU-1: 0.9999999997500004
+BLEU-2: 0.9999999997410718
+BLEU-3: 0.9999999997301591
+BLEU-4: 0.9999999997163694
+CIDER: 5.0953344228049815
+Inference Time: 0.014918327331542969
+
+ID: 20270
+Ground Truth:
+<START> seseorang yang <UNK> terlihat <UNK> sedang bermain engklek <END>
+<START> seseorang yang <UNK> terlihat <UNK> sedang bermain engklek di dalam rumah <END>
+<START> seseorang yang <UNK> terlihat <UNK> sedang bermain engklek sendirian <END>
+<START> seseorang yang <UNK> terlihat <UNK> sedang bertumpu satu kaki pada permainan engklek <END>
+<START> seseorang sedang bermain engklek <END>
+Generated: ['<START> seorang anak bermain engklek di bawah sinar matahari <END>']
+Attention:
+['Person', 'Engklek']
+[[0.         0.        ]
+ [0.04333529 0.9566647 ]
+ [0.04242645 0.9575736 ]
+ [0.04270738 0.9572926 ]
+ [0.04321287 0.9567871 ]
+ [0.0427467  0.95725334]
+ [0.04256067 0.95743936]
+ [0.04376077 0.9562393 ]
+ [0.043807   0.95619303]
+ [0.04337086 0.9566291 ]]
+BLEU-1: 0.4999999999000002
+BLEU-2: 0.33333333326481496
+BLEU-3: 0.24037492833359989
+BLEU-4: 3.753119267926982e-05
+CIDER: 0.6818182275316691
+Inference Time: 0.01580643653869629
+
+ID: 20454
+Ground Truth:
+<START> anak-anak bermain egrang di jalanan sambil ditonton warga <END>
+<START> anak-anak berbaris <UNK> dengan menaiki egrang sambil ditonton warga <END>
+<START> anak-anak bersiap mengikuti lomba baris menaiki egrang sambil ditonton warga <END>
+<START> warga menonton anak-anak yang berbaris menaiki egrang <END>
+<START> anak-anak bermain egrang di bawah sinar matahari sambil ditonton warga <END>
+Generated: ['<START> empat orang sedang bermain egrang di lapangan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Egrang', 'Egrang', 'Egrang', 'Egrang', 'Egrang', 'Egrang']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.12588492 0.09921006 0.40474945 0.0180342  0.0091493  0.00091669
+  0.02124754 0.04216086 0.01067837 0.1788387  0.03537808 0.05375184]
+ [0.12590799 0.09910116 0.4046384  0.01805551 0.00915693 0.00092644
+  0.02128222 0.04220061 0.01071477 0.17882441 0.03540685 0.05378467]
+ [0.12600954 0.09806523 0.40572548 0.01793875 0.00900628 0.0009245
+  0.02122784 0.04217314 0.01074749 0.17880213 0.03530129 0.05407831]
+ [0.12536609 0.0986543  0.40579975 0.01798288 0.00912149 0.00092006
+  0.02118804 0.04208058 0.01071474 0.17881304 0.03534252 0.05401646]
+ [0.12546122 0.09942153 0.4051359  0.01801795 0.00922059 0.00094626
+  0.02122726 0.04203643 0.01067773 0.17881767 0.03533023 0.05370719]
+ [0.12532546 0.09964486 0.40421924 0.01820846 0.00924201 0.0009258
+  0.02123788 0.04223803 0.01067448 0.17883827 0.03556568 0.05387981]
+ [0.12518051 0.09911607 0.40577447 0.01804976 0.0091756  0.00092359
+  0.02116071 0.0420259  0.01066927 0.17885272 0.03534544 0.05372591]
+ [0.1252683  0.09927888 0.40516776 0.01815446 0.00905383 0.00091991
+  0.02101685 0.04217514 0.01051975 0.17890543 0.03549241 0.05404726]]
+BLEU-1: 0.555555555432099
+BLEU-2: 0.37267799616455977
+BLEU-3: 0.2707217535406251
+BLEU-4: 4.264366796762506e-05
+CIDER: 0.9790139782231757
+Inference Time: 0.03374767303466797
+
+ID: 20743
+Ground Truth:
+<START> tiga orang bermain layangan di bawah langit yang cerah <END>
+<START> tiga orang bermain layangan di bawah sinar matahari <END>
+<START> tiga orang bermain layangan di lapangan <END>
+<START> orang tua dan anaknya bermain layangan bersama <END>
+<START> anak dan kedua orang tuanya bermain layangan bersama <END>
+Generated: ['<START> seorang anak sedang bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan', 'Spectator']
+[[0.         0.         0.        ]
+ [0.24496593 0.06170986 0.6933242 ]
+ [0.24445051 0.06192145 0.693628  ]
+ [0.24423102 0.06163126 0.6941377 ]
+ [0.2452408  0.06153813 0.69322103]
+ [0.24450171 0.06128016 0.6942181 ]
+ [0.24547124 0.06160324 0.69292545]
+ [0.24521606 0.0618219  0.692962  ]
+ [0.2458119  0.06099679 0.6931913 ]
+ [0.2458452  0.06162817 0.6925266 ]
+ [0.24560286 0.06114239 0.6932547 ]
+ [0.24575235 0.06153889 0.6927088 ]]
+BLEU-1: 0.833333333263889
+BLEU-2: 0.7282190811909759
+BLEU-3: 0.6826924810331241
+BLEU-4: 0.6484115070772977
+CIDER: 2.478813910636965
+Inference Time: 0.019069910049438477
+
+ID: 21742
+Ground Truth:
+<START> tiga orang laki-laki sedang bermain panjat pinang <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang dengan gembira <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang dengan semangat <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang di siang hari <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang untuk meraih hadiah <END>
+Generated: ['<START> banyak orang sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Panjat Pinang', 'Panjat Pinang']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [5.1539275e-04 3.4857576e-03 1.6121353e-01 1.3493205e-03 7.1616650e-02
+  7.6181924e-01]
+ [5.1007495e-04 3.4682746e-03 1.5823425e-01 1.3501785e-03 6.9538966e-02
+  7.6689827e-01]
+ [5.1003328e-04 3.4603269e-03 1.5879212e-01 1.3418327e-03 6.9504641e-02
+  7.6639110e-01]
+ [5.0720311e-04 3.4378716e-03 1.5668687e-01 1.3285965e-03 7.0298545e-02
+  7.6774096e-01]
+ [5.1196915e-04 3.4638285e-03 1.5947755e-01 1.3386278e-03 7.0052214e-02
+  7.6515579e-01]
+ [5.1371322e-04 3.4845888e-03 1.5924107e-01 1.3523342e-03 7.0173703e-02
+  7.6523459e-01]
+ [5.1723409e-04 3.4891053e-03 1.6066891e-01 1.3580029e-03 6.9324367e-02
+  7.6464242e-01]]
+BLEU-1: 0.772184789568475
+BLEU-2: 0.6240195440321152
+BLEU-3: 0.5559382118666637
+BLEU-4: 0.4962644775350441
+CIDER: 3.0343634038619394
+Inference Time: 0.022121906280517578
+
+ID: 21546
+Ground Truth:
+<START> banyak anak perempuan sedang berlomba makan kerupuk <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk di siang hari <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk dan ditonton banyak orang <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk dengan serius <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk dengan semangat <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk <END>']
+Attention:
+['Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.26555106 0.4562575  0.17842609 0.07238662 0.02737877]
+ [0.26415765 0.45623198 0.18031862 0.07167491 0.02761691]
+ [0.26421472 0.45531514 0.18067643 0.07182509 0.02796854]
+ [0.26404813 0.45501068 0.18091619 0.07206349 0.02796157]
+ [0.26424298 0.4550408  0.18082674 0.07206853 0.02782095]
+ [0.26464313 0.455537   0.18002881 0.07217134 0.02761969]
+ [0.26476547 0.4559793  0.17964114 0.07235259 0.02726149]]
+BLEU-1: 0.8824969023639716
+BLEU-2: 0.8170333701882847
+BLEU-3: 0.7323193451806126
+BLEU-4: 0.610195043038188
+CIDER: 3.963804376480785
+Inference Time: 0.019912004470825195
+
+ID: 22004
+Ground Truth:
+<START> dua orang anak sedang bermain tarik tambang <END>
+<START> dua orang anak sedang bermain tarik tambang di rerumputan <END>
+<START> dua orang anak sedang bermain tarik tambang dengan senang <END>
+<START> dua orang anak sedang bermain tarik tambang dengan bahagia <END>
+<START> dua orang anak sedang bermain tarik tambang dengan semangat <END>
+Generated: ['<START> dua orang anak sedang bermain tarik tambang dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Tarik Tambang']
+[[0.         0.         0.        ]
+ [0.08832954 0.7644992  0.14717133]
+ [0.08888444 0.76275307 0.1483625 ]
+ [0.08914819 0.7624176  0.14843422]
+ [0.08815458 0.76326114 0.14858428]
+ [0.08805489 0.7643199  0.14762516]
+ [0.08725178 0.7648219  0.14792627]
+ [0.08792578 0.7646694  0.14740479]
+ [0.08762722 0.7654686  0.14690423]
+ [0.08851968 0.76506096 0.14641938]
+ [0.08831771 0.76331574 0.14836659]]
+BLEU-1: 0.999999999818182
+BLEU-2: 0.9999999998136365
+BLEU-3: 0.9999999998084177
+BLEU-4: 0.9999999998023361
+CIDER: 7.714787432075079
+Inference Time: 0.01795482635498047
+
+ID: 21516
+Ground Truth:
+<START> bapak-bapak sedang berlomba makan kerupuk <END>
+<START> bapak-bapak sedang berlomba makan kerupuk di lapangan <END>
+<START> bapak-bapak sedang berlomba makan kerupuk ditonton warga <END>
+<START> bapak-bapak sedang berlomba makan kerupuk di hari kemerdekaan <END>
+<START> bapak-bapak sedang berlomba makan kerupuk di siang hari <END>
+Generated: ['<START> seorang anak laki-laki sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Makan Kerupuk']
+[[0.         0.        ]
+ [0.5004741  0.4995259 ]
+ [0.5011034  0.49889657]
+ [0.49998093 0.5000191 ]
+ [0.4997644  0.50023556]
+ [0.49910736 0.50089264]
+ [0.49736595 0.50263405]
+ [0.49900532 0.5009947 ]
+ [0.4979105  0.5020895 ]
+ [0.49575627 0.50424373]
+ [0.49533856 0.50466144]]
+BLEU-1: 0.27272727270247943
+BLEU-2: 5.222329678172441e-09
+BLEU-3: 1.4470893700930525e-11
+BLEU-4: 7.84510965356927e-13
+CIDER: 0.00027861539115082415
+Inference Time: 0.016155719757080078
+
+ID: 22099
+Ground Truth:
+<START> seorang perempuan sedang bermain balap kelereng <END>
+<START> seorang perempuan sedang bermain balap kelereng dengan semangat <END>
+<START> seorang perempuan bermain balap kelereng dengan serius <END>
+<START> seorang perempuan sedang bermain balap kelereng dengan hati-hati <END>
+<START> seorang perempuan sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> seorang anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Balap Kelereng']
+[[0.         0.        ]
+ [0.8795798  0.12042022]
+ [0.88036823 0.11963174]
+ [0.880568   0.11943202]
+ [0.88007987 0.11992009]
+ [0.8795466  0.12045336]
+ [0.87971145 0.12028857]
+ [0.8791242  0.12087572]
+ [0.8799746  0.12002543]
+ [0.8791119  0.12088808]
+ [0.87961054 0.12038952]]
+BLEU-1: 0.9090909089256201
+BLEU-2: 0.8528028652635105
+BLEU-3: 0.7856009757221424
+BLEU-4: 0.7419446625898454
+CIDER: 4.963439720730639
+Inference Time: 0.01672959327697754
+
+ID: 22016
+Ground Truth:
+<START> dua anak laki-laki sedang bermain balap kelereng <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan semangat <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan serius <END>
+<START> dua anak laki-laki sedang bermain balap kelereng dengan hati-hati <END>
+<START> dua anak laki-laki sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> dua anak laki-laki sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Balap Kelereng', 'Balap Kelereng']
+[[0.         0.         0.         0.        ]
+ [0.05647748 0.1652485  0.50933725 0.26893687]
+ [0.05662565 0.16655399 0.50922424 0.2675961 ]
+ [0.05643639 0.1663461  0.51026183 0.26695564]
+ [0.0568376  0.16741703 0.50926286 0.26648253]
+ [0.0566036  0.16637483 0.50896376 0.2680578 ]
+ [0.05642178 0.16632573 0.5102636  0.2669889 ]
+ [0.05662046 0.16589388 0.5106968  0.2667888 ]
+ [0.05630796 0.16538313 0.5117727  0.2665362 ]
+ [0.05654545 0.16499987 0.5095749  0.2688797 ]
+ [0.05638367 0.16502815 0.51203185 0.26655626]]
+BLEU-1: 0.999999999818182
+BLEU-2: 0.9999999998136365
+BLEU-3: 0.9999999998084177
+BLEU-4: 0.9999999998023361
+CIDER: 8.03725256088536
+Inference Time: 0.020021915435791016
+
+ID: 22139
+Ground Truth:
+<START> banyak orang sedang bermain balap kelereng <END>
+<START> banyak orang sedang bermain balap kelereng di lapangan <END>
+<START> banyak orang sedang bermain balap kelereng dengan serius <END>
+<START> banyak orang sedang bermain balap kelereng dengan semangat <END>
+<START> banyak orang sedang bermain balap kelereng dengan hati-hati <END>
+Generated: ['<START> dua anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Balap Kelereng', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.        ]
+ [0.6379779  0.16766874 0.04861463 0.14573874]
+ [0.63727665 0.16718541 0.04847773 0.14706019]
+ [0.6381025  0.16713749 0.04832546 0.14643459]
+ [0.6369387  0.16724533 0.04844019 0.14737576]
+ [0.63614386 0.16736703 0.04853891 0.14795013]
+ [0.63726455 0.16780263 0.04852139 0.14641142]
+ [0.63728577 0.168359   0.04885286 0.14550234]
+ [0.63835925 0.16764264 0.04844546 0.1455527 ]
+ [0.63648003 0.16799675 0.04885628 0.14666693]
+ [0.6373611  0.16785623 0.04863252 0.14615013]]
+BLEU-1: 0.7272727272066117
+BLEU-2: 0.6605782590127613
+BLEU-3: 0.623531907700971
+BLEU-4: 0.5900468725762904
+CIDER: 3.163195152487224
+Inference Time: 0.020336151123046875
+
+ID: 20433
+Ground Truth:
+<START> dua orang anak sedang bermain egrang di lapangan <END>
+<START> seorang anak sedang berdiri di atas egrang sedangkan seorang anak lainnya sedang mencoba menaiki egrang <END>
+<START> seorang anak sedang mempertahankan keseimbangan saat bermain egrang sedangkan seorang anak lain sedang mencoba menaiki egrang <END>
+<START> dua orang anak sedang bermain egrang sambil ditonton orang yang sedang duduk <END>
+<START> dua orang anak bermain egrang di hari yang cerah <END>
+Generated: ['<START> anak-anak bermain bakiak di bawah sinar matahari <END>']
+Attention:
+['Person', 'Egrang', 'Egrang', 'Person', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.18884686 0.02880323 0.5485544  0.22879289 0.00500257]
+ [0.18902187 0.0290402  0.54769963 0.22923228 0.00500603]
+ [0.18832976 0.02903995 0.546399   0.23121871 0.00501254]
+ [0.18887533 0.02886658 0.54736763 0.22991374 0.00497669]
+ [0.18931006 0.02880626 0.5485093  0.22840422 0.00497014]
+ [0.189754   0.02886186 0.54922014 0.22723232 0.00493166]
+ [0.1891199  0.02895693 0.54862654 0.22837116 0.00492544]
+ [0.18870384 0.02894154 0.5484333  0.22897013 0.00495113]]
+BLEU-1: 0.3977063629402297
+BLEU-2: 6.6697384695928586e-09
+BLEU-3: 1.784931452728886e-11
+BLEU-4: 9.596538469300547e-13
+CIDER: 0.0022746107563236264
+Inference Time: 0.021094322204589844
+
+ID: 20465
+Ground Truth:
+<START> anak-anak berbaris dengan menaiki egrang sambil ditonton warga <END>
+<START> anak-anak mengikuti parade dengan menaiki egrang sambil ditonton warga <END>
+<START> anak-anak berjalan dengan menggunakan egrang sambil ditonton warga <END>
+<START> warga menonton <UNK> anak-anak yang menaiki egrang <END>
+<START> anak-anak sedang berbaris berjalan dengan menggunakan egrang <END>
+Generated: ['<START> anak-anak bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Egrang', 'Egrang', 'Egrang', 'Egrang', 'Egrang', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.050618   0.01260931 0.05722407 0.10048013 0.07736187 0.11001947
+  0.00843216 0.04395324 0.26994738 0.07825021 0.11445563 0.01291067
+  0.06373788]
+ [0.05081846 0.01270305 0.05745124 0.10041169 0.07747945 0.11003987
+  0.00850487 0.04409529 0.26865718 0.07833983 0.11452816 0.01304255
+  0.06392838]
+ [0.05089105 0.01263786 0.05754143 0.10054399 0.07741273 0.10995854
+  0.00848505 0.04398545 0.26827845 0.07836469 0.11470927 0.01317543
+  0.06401603]
+ [0.0508827  0.01259017 0.05716174 0.1006238  0.0774473  0.11015356
+  0.0084782  0.04398344 0.26831275 0.07859987 0.11468849 0.01303985
+  0.06403814]
+ [0.05109655 0.01249002 0.05696819 0.10039236 0.0774935  0.11044256
+  0.00838825 0.04391242 0.2682154  0.07863162 0.11483596 0.01282559
+  0.06430763]
+ [0.05075048 0.01248386 0.05685542 0.10048069 0.07758655 0.1106376
+  0.00839499 0.04395876 0.26835307 0.07881226 0.11493174 0.01277708
+  0.06397744]
+ [0.05090792 0.01253462 0.05709622 0.10069056 0.0775519  0.11043834
+  0.00843515 0.04397922 0.26767823 0.07872555 0.11491329 0.01294026
+  0.06410874]
+ [0.05105842 0.01251307 0.05712036 0.10072008 0.07744603 0.11026043
+  0.00842894 0.04390309 0.2677925  0.07864101 0.11485934 0.01300767
+  0.06424911]]
+BLEU-1: 0.4444444443456792
+BLEU-2: 0.23570226034150096
+BLEU-3: 1.994694934821646e-06
+BLEU-4: 6.030725358915047e-09
+CIDER: 0.8281848786703163
+Inference Time: 0.036054134368896484
+
+ID: 21994
+Ground Truth:
+<START> anak-anak sedang bermain tarik tambang <END>
+<START> anak-anak sedang bermain tarik tambang di rerumputan <END>
+<START> anak-anak sedang bermain tarik tambang pada siang hari <END>
+<START> anak-anak sedang bermain tarik tambang dengan semangat <END>
+<START> anak-anak sedang bermain tarik tambang dengan bahagia <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.14659223 0.191266   0.23649573 0.30160007 0.06493834 0.05910764]
+ [0.14640439 0.19155432 0.2369209  0.30116302 0.06522157 0.05873584]
+ [0.14629917 0.19232278 0.23774254 0.29999638 0.06530536 0.05833381]
+ [0.14555284 0.19122492 0.23705904 0.30289334 0.06494247 0.05832742]
+ [0.14571278 0.19137043 0.23696448 0.30224094 0.0649776  0.05873379]
+ [0.1460139  0.19197926 0.2378499  0.30044916 0.06501289 0.05869483]
+ [0.14619023 0.19097207 0.23633981 0.30256674 0.06479893 0.05913218]
+ [0.14660233 0.1925141  0.2382661  0.29845616 0.06511696 0.05904433]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 6.563778304906849
+Inference Time: 0.022359609603881836
+
+ID: 20642
+Ground Truth:
+<START> anak-anak bermain ular naga dengan didampingi gurunya <END>
+<START> siswa <UNK> bermain ular naga di dalam ruangan bersama dengan gurunya <END>
+<START> anak-anak bermain ular naga dengan ceria <END>
+<START> guru mendampingi siswanya bermain ular naga <END>
+<START> anak-anak sedang belajar bermain ular naga dengan didampingi gurunya <END>
+Generated: ['<START> banyak anak-anak sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Ular Naga']
+[[0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [3.20347550e-04 5.03755221e-03 2.11305935e-02 7.94567645e-01
+  5.65417744e-02 3.03466362e-03 2.51430981e-02 1.30897528e-02
+  5.12873894e-03 7.60059282e-02]
+ [3.16926424e-04 5.02078747e-03 2.10085586e-02 7.95445323e-01
+  5.65082207e-02 2.97483173e-03 2.49250717e-02 1.30037703e-02
+  5.03083365e-03 7.57656321e-02]
+ [3.18886741e-04 5.07977651e-03 2.11501997e-02 7.94106603e-01
+  5.68059236e-02 3.01524112e-03 2.51104459e-02 1.30873481e-02
+  5.09103760e-03 7.62345567e-02]
+ [3.29600793e-04 5.13834879e-03 2.12094933e-02 7.91429877e-01
+  5.75900748e-02 3.05754598e-03 2.54956558e-02 1.33417007e-02
+  5.16204257e-03 7.72456303e-02]
+ [3.24987486e-04 5.07141836e-03 2.10739169e-02 7.93609440e-01
+  5.68056703e-02 3.05205653e-03 2.52674390e-02 1.31079750e-02
+  5.14456537e-03 7.65425116e-02]
+ [3.27143207e-04 5.13637112e-03 2.11593118e-02 7.91876972e-01
+  5.74505329e-02 3.09010874e-03 2.55884174e-02 1.32360095e-02
+  5.20443637e-03 7.69307092e-02]
+ [3.27469374e-04 5.11541404e-03 2.11855806e-02 7.91209579e-01
+  5.76334298e-02 3.05938069e-03 2.55284291e-02 1.32724745e-02
+  5.16879698e-03 7.74995387e-02]
+ [3.29343544e-04 5.17543685e-03 2.13593226e-02 7.90184915e-01
+  5.79765476e-02 3.08978162e-03 2.57255640e-02 1.34098353e-02
+  5.21443738e-03 7.75347427e-02]
+ [3.26546520e-04 5.19985985e-03 2.14035399e-02 7.89164186e-01
+  5.80921471e-02 3.09832906e-03 2.57045869e-02 1.34269390e-02
+  5.23073692e-03 7.83530474e-02]]
+BLEU-1: 0.5999999999400001
+BLEU-2: 0.25819888971990695
+BLEU-3: 2.027400664963992e-06
+BLEU-4: 5.873949093995857e-09
+CIDER: 0.11829800245101493
+Inference Time: 0.03058481216430664
+
+ID: 22124
+Ground Truth:
+<START> empat anak laki-laki sedang bermain balap kelereng <END>
+<START> empat anak laki-laki sedang bermain balap kelereng dengan semangat <END>
+<START> empat anak laki-laki sedang bermain balap kelereng dengan serius <END>
+<START> empat anak laki-laki sedang bermain balap kelereng dengan hati-hati <END>
+<START> empat anak laki-laki sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> empat anak sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Balap Kelereng', 'Balap Kelereng', 'Balap Kelereng', 'Balap Kelereng', 'Spectator', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.06267319 0.04109079 0.10276965 0.08928918 0.03712569 0.15170911
+  0.07861488 0.16967945 0.09417354 0.06643298 0.07796367 0.02450133
+  0.0039765 ]
+ [0.06227699 0.04083757 0.1029378  0.0894462  0.03672405 0.15220885
+  0.07831573 0.1698155  0.09433573 0.06653419 0.07803006 0.02456543
+  0.00397192]
+ [0.06246729 0.0410462  0.10316376 0.0896316  0.03670008 0.15181732
+  0.07826103 0.17037143 0.09425148 0.06623848 0.07768251 0.02442124
+  0.00394758]
+ [0.06221902 0.0412786  0.10342582 0.08987094 0.03643686 0.15192105
+  0.07812592 0.17077294 0.09423641 0.06602998 0.07738676 0.02435974
+  0.00393596]
+ [0.06209492 0.04127082 0.10325339 0.08972453 0.03688811 0.15122984
+  0.07876949 0.17071731 0.09410299 0.06608305 0.07748205 0.02436519
+  0.00401832]
+ [0.062206   0.04162476 0.10342903 0.08991659 0.03667953 0.15133865
+  0.07843502 0.170717   0.09408344 0.06593513 0.07723402 0.02438476
+  0.00401606]
+ [0.06237027 0.04126726 0.10348087 0.08991157 0.03638657 0.15177535
+  0.07817615 0.17100695 0.09418393 0.06593081 0.07727082 0.02429937
+  0.00394006]
+ [0.06213282 0.04140012 0.10332747 0.08982865 0.03641026 0.15214293
+  0.07806949 0.17026854 0.09425747 0.06617639 0.07750806 0.0245022
+  0.00397563]
+ [0.06234393 0.04097577 0.10378142 0.09020607 0.03607722 0.1515805
+  0.07796269 0.17128426 0.09432191 0.06594232 0.07720386 0.02436436
+  0.00395574]]
+BLEU-1: 0.9999999999000002
+BLEU-2: 0.9428090414825449
+BLEU-3: 0.8735804646384256
+BLEU-4: 0.7856293017069533
+CIDER: 5.437650343778502
+Inference Time: 0.036527395248413086
+
+ID: 21423
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas kali <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan ceria <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan semangat <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal sore hari <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal ditonton warga <END>']
+Attention:
+['Gebuk Bantal', 'Gebuk Bantal', 'Person', 'Person', 'Spectator', 'Spectator', 'Spectator', 'Spectator', 'Spectator', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.27672672 0.03217735 0.03555694 0.07377278 0.06818262 0.07557125
+  0.02856307 0.07878245 0.03645351 0.08837264 0.06056705 0.1215088
+  0.02376486]
+ [0.2761285  0.03210533 0.03556354 0.07317402 0.06818592 0.07725298
+  0.02843876 0.07880731 0.0364058  0.08832064 0.06027357 0.12156752
+  0.02377616]
+ [0.27784583 0.03205856 0.03546306 0.07317705 0.06815843 0.07549431
+  0.02842594 0.0788032  0.03634368 0.08840501 0.06043042 0.12173194
+  0.02366264]
+ [0.2752947  0.03221524 0.03564008 0.07365628 0.06819258 0.07753386
+  0.02850568 0.07882854 0.03646453 0.08821216 0.06029449 0.12131995
+  0.02384191]
+ [0.27687854 0.03204246 0.03542315 0.07351848 0.06803239 0.07667843
+  0.02848459 0.07858909 0.036346   0.08828395 0.0604968  0.1214262
+  0.02379995]
+ [0.2793611  0.03197261 0.03513783 0.07413353 0.06770875 0.07542688
+  0.02838285 0.07837592 0.03609315 0.08792902 0.06060582 0.12098971
+  0.02388289]
+ [0.27890322 0.03193891 0.03515285 0.07372236 0.06773407 0.07600976
+  0.02840266 0.07834005 0.03612587 0.08801644 0.06061252 0.12108736
+  0.02395392]
+ [0.27787527 0.03204429 0.03533569 0.07359957 0.0679354  0.0760382
+  0.02846862 0.07854084 0.03627093 0.08817019 0.06057531 0.12127391
+  0.02387169]
+ [0.27634394 0.03219591 0.03553784 0.07377563 0.06810363 0.07642565
+  0.02857104 0.0787041  0.03643392 0.08823223 0.06055738 0.12126575
+  0.02385297]
+ [0.27852795 0.03193824 0.03520693 0.07359227 0.06782535 0.07570073
+  0.02848937 0.07834484 0.03621936 0.08822268 0.06074354 0.12129983
+  0.0238889 ]]
+BLEU-1: 0.818181818033058
+BLEU-2: 0.756787468523232
+BLEU-3: 0.7254690150137174
+BLEU-4: 0.6989307621403409
+CIDER: 5.595798713876887
+Inference Time: 0.03837418556213379
+
+ID: 20322
+Ground Truth:
+<START> anak-anak bermain engklek di jalanan <END>
+<START> anak-anak bermain engklek di bawah sinar matahari <END>
+<START> seorang anak sedang berusaha menyelesaikan permainan engklek sambil diikuti temannya di belakangnya <END>
+<START> anak-anak bertanding pada permainan engklek <END>
+<START> anak-anak bermain engklek dengan sungguh-sungguh <END>
+Generated: ['<START> dua orang anak bermain lompat tali di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Engklek']
+[[0.         0.         0.        ]
+ [0.30598614 0.08573605 0.6082778 ]
+ [0.30792177 0.08559131 0.6064869 ]
+ [0.30695406 0.08427394 0.60877204]
+ [0.3082487  0.08485437 0.60689694]
+ [0.30723968 0.08515805 0.6076023 ]
+ [0.30843744 0.08564998 0.6059126 ]
+ [0.30643505 0.0866702  0.60689473]
+ [0.3064872  0.08565038 0.6078624 ]
+ [0.30560938 0.08588891 0.60850173]
+ [0.30391154 0.08602556 0.6100629 ]
+ [0.3050726  0.0864142  0.6085132 ]]
+BLEU-1: 0.3527007186456392
+BLEU-2: 5.2097348792891294e-09
+BLEU-3: 1.3195209117898922e-11
+BLEU-4: 6.817983991742714e-13
+CIDER: 0.005974404578361695
+Inference Time: 0.01882195472717285
+
+ID: 21127
+Ground Truth:
+<START> lima orang bermain balap karung sambil ditonton warga <END>
+<START> warga menonton perlombaan balap karung <END>
+<START> orang-orang bermain balap karung di bawah langit yang cerah <END>
+<START> lima orang bermain balap karung di hari yang cerah <END>
+<START> lima orang bermain balap karung dengan ceria <END>
+Generated: ['<START> anak-anak sedang berlomba balap bakiak <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.07553058 0.06304885 0.04770865 0.04320381 0.03925724 0.06432856
+  0.10928307 0.0117976  0.20790482 0.21250415 0.1112482  0.01418442]
+ [0.07593231 0.06344996 0.04818015 0.04348065 0.03957358 0.06461284
+  0.10934315 0.01192581 0.20750345 0.21015047 0.11147945 0.01436814]
+ [0.07643473 0.06280254 0.04780172 0.04273785 0.03980021 0.0646978
+  0.10664587 0.01198196 0.208465   0.21163319 0.11246102 0.01453805]
+ [0.07618456 0.06354068 0.04818372 0.04338763 0.03974295 0.06440517
+  0.10903884 0.01181819 0.20740458 0.21032624 0.11179401 0.01417338]
+ [0.07634565 0.06329507 0.04806123 0.04311395 0.03983907 0.06452007
+  0.10797023 0.01191434 0.20742413 0.2113015  0.11196012 0.01425462]
+ [0.07645291 0.06331138 0.04817486 0.04318284 0.03986325 0.06473827
+  0.10834362 0.01196859 0.20812166 0.20933312 0.1122533  0.01425622]]
+BLEU-1: 0.4285714284489797
+BLEU-2: 8.451542544769827e-09
+BLEU-3: 2.4264275024438503e-11
+BLEU-4: 1.3747081013031475e-12
+CIDER: 0.27274765143132357
+Inference Time: 0.03246116638183594
+
+ID: 20205
+Ground Truth:
+<START> anak-anak bermain engklek di trotoar <END>
+<START> seorang anak berusaha menyelesaikan permainan engklek sambil ditonton temannya <END>
+<START> anak-anak melihat temannya bermain engklek <END>
+<START> seorang anak sedang berdiri di petak dua kaki pada permainan engklek <END>
+<START> seorang anak bermain engklek di tengah keramaian pejalan kaki <END>
+Generated: ['<START> banyak anak-anak sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Engklek', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.        ]
+ [0.1441093  0.37680033 0.36402655 0.11506385]
+ [0.14505942 0.37273833 0.36632735 0.11587489]
+ [0.14523326 0.3728965  0.3658605  0.11600978]
+ [0.14508754 0.3752934  0.36367744 0.11594159]
+ [0.14458416 0.37622932 0.3642091  0.11497743]
+ [0.14513706 0.37562346 0.3636628  0.1155766 ]
+ [0.14549623 0.37296763 0.36559683 0.11593932]
+ [0.14530998 0.3743834  0.36411557 0.11619113]
+ [0.1449894  0.37615713 0.363182   0.1156715 ]]
+BLEU-1: 0.4524187089274962
+BLEU-2: 6.744259916326348e-09
+BLEU-3: 1.726300465668873e-11
+BLEU-4: 9.030367374358917e-13
+CIDER: 0.06925958678618531
+Inference Time: 0.019446611404418945
+
+ID: 21449
+Ground Truth:
+<START> seorang wanita sedang berlomba makan kerupuk <END>
+<START> seorang wanita <UNK> sedang berlomba makan kerupuk <END>
+<START> seorang wanita berbaju hitam sedang berlomba makan kerupuk <END>
+<START> seorang wanita sedang berlomba makan kerupuk di hari kemerdekaan <END>
+<START> seorang wanita sedang berlomba makan kerupuk di malam hari <END>
+Generated: ['<START> seorang anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Makan Kerupuk']
+[[0.         0.        ]
+ [0.33494955 0.66505045]
+ [0.3367697  0.66323024]
+ [0.33587587 0.66412413]
+ [0.3335227  0.66647726]
+ [0.33389336 0.66610664]
+ [0.33645877 0.66354126]
+ [0.33603013 0.66396993]
+ [0.33456737 0.6654327 ]
+ [0.3342226  0.6657773 ]
+ [0.33392054 0.6660795 ]]
+BLEU-1: 0.36363636357024803
+BLEU-2: 0.19069251781358043
+BLEU-3: 1.5927279407538764e-06
+BLEU-4: 4.740604258941092e-09
+CIDER: 0.21629836413535242
+Inference Time: 0.01609969139099121
+
+ID: 20955
+Ground Truth:
+<START> tiga orang anak sedang bermain bakiak di halaman <END>
+<START> tiga orang anak bermain bakiak dengan ceria <END>
+<START> tiga orang anak sedang berlatih permainan bakiak <END>
+<START> tiga orang anak bermain bakiak di hari yang cerah <END>
+<START> tiga orang sedang melangkahkan kaki bersamaan dengan menggunakan bakiak <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Bakiak', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.1860833  0.04598152 0.09590767 0.14047858 0.14565867 0.38589028]
+ [0.18610893 0.04603023 0.09606671 0.14062661 0.14583609 0.38533145]
+ [0.1851284  0.04579471 0.09640969 0.1403652  0.1459311  0.38637096]
+ [0.18626441 0.04592621 0.09576153 0.1406094  0.14582185 0.3856166 ]
+ [0.18585418 0.04583809 0.09601613 0.14052363 0.14585915 0.38590875]
+ [0.1853549  0.04573335 0.09604318 0.14033817 0.14586961 0.38666075]
+ [0.185184   0.045896   0.09596688 0.14016627 0.14570373 0.3870831 ]
+ [0.18420622 0.04568513 0.09640305 0.1399978  0.14592384 0.38778397]]
+BLEU-1: 0.555555555432099
+BLEU-2: 0.26352313828697443
+BLEU-3: 2.1487199818053206e-06
+BLEU-4: 6.376715692219053e-09
+CIDER: 0.00595394889850882
+Inference Time: 0.022367477416992188
+
+ID: 20156
+Ground Truth:
+<START> tiga orang anak bermain lompat tali di halaman <END>
+<START> anak-anak bermain lompat tali di hari yang cerah <END>
+<START> seorang anak sedang melompati tali yang dibentangkan dua temannya <END>
+<START> dua orang anak sedang membentangkan tali yang dilompati seorang anak <END>
+<START> anak-anak bermain lompat tali dengan ceria <END>
+Generated: ['<START> anak-anak bermain engklek di hari yang cerah <END>']
+Attention:
+['Lompat Tali', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.        ]
+ [0.01030006 0.9576359  0.00693385 0.02513013]
+ [0.01049584 0.9569186  0.00706769 0.02551785]
+ [0.01075696 0.9561828  0.00716415 0.02589611]
+ [0.01089687 0.9553537  0.0073302  0.02641932]
+ [0.01102144 0.9548333  0.00740611 0.02673907]
+ [0.0104726  0.95700544 0.00708632 0.02543576]
+ [0.01072118 0.9558106  0.00726687 0.02620129]
+ [0.01070898 0.9559069  0.00724932 0.02613477]]
+BLEU-1: 0.8888888887901236
+BLEU-2: 0.8164965808313341
+BLEU-3: 0.724920248577021
+BLEU-4: 0.5969491791205356
+CIDER: 0.7982036217304458
+Inference Time: 0.018580198287963867
+
+ID: 22113
+Ground Truth:
+<START> seorang perempuan sedang bermain balap kelereng <END>
+<START> seorang perempuan sedang bermain balap kelereng dengan semangat <END>
+<START> seorang perempuan bermain balap kelereng dengan serius <END>
+<START> seorang perempuan sedang bermain balap kelereng dengan hati-hati <END>
+<START> seorang anak perempuan sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> dua anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Balap Kelereng']
+[[0.         0.        ]
+ [0.42981073 0.57018924]
+ [0.42904994 0.5709501 ]
+ [0.42885253 0.5711475 ]
+ [0.4292499  0.5707501 ]
+ [0.42973036 0.57026964]
+ [0.43022776 0.56977224]
+ [0.43065047 0.5693495 ]
+ [0.43016228 0.5698377 ]
+ [0.43081138 0.56918865]
+ [0.430441   0.56955904]]
+BLEU-1: 0.9090909090082646
+BLEU-2: 0.852802865341038
+BLEU-3: 0.8270230438969788
+BLEU-4: 0.807055727406641
+CIDER: 4.759272141227471
+Inference Time: 0.01646137237548828
+
+ID: 21890
+Ground Truth:
+<START> anak-anak sedang bermain tarik tambang <END>
+<START> anak-anak sedang bermain tarik tambang di siang hari <END>
+<START> anak-anak sedang bermain tarik tambang dengan serius <END>
+<START> anak-anak sedang bermain tarik tambang di rerumputan <END>
+<START> anak-anak sedang bermain tarik tambang dengan semangat <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.11529224 0.02303215 0.01684958 0.06710754 0.1724327  0.12630355
+  0.06569424 0.05084464 0.03076402 0.05620744 0.08566281 0.04948107
+  0.06511829 0.07520968]
+ [0.11430193 0.02312253 0.01692236 0.06710549 0.1718992  0.12753113
+  0.06574144 0.05094091 0.0307721  0.05626618 0.08560574 0.04951717
+  0.06506575 0.07520807]
+ [0.11242493 0.02299279 0.01699514 0.06738086 0.17310984 0.1277104
+  0.06620374 0.04984299 0.03063179 0.05663743 0.08604083 0.0497241
+  0.06514553 0.0751596 ]
+ [0.11344265 0.02303093 0.01681563 0.06708397 0.17258789 0.128671
+  0.06588438 0.05092355 0.03063021 0.05568844 0.08572252 0.04939523
+  0.06482436 0.07529919]
+ [0.11249233 0.02308916 0.01691214 0.06722537 0.17252764 0.1282555
+  0.0659692  0.05071486 0.03073356 0.05633689 0.08582317 0.04957398
+  0.06505278 0.07529344]
+ [0.11204159 0.02295516 0.01687257 0.06727803 0.17326154 0.12806977
+  0.06617714 0.05010217 0.03059788 0.05692934 0.0859951  0.04956798
+  0.06492736 0.07522432]
+ [0.11145593 0.02298519 0.01696452 0.06741525 0.17364442 0.12744653
+  0.0662268  0.05017938 0.03070582 0.05663144 0.08615029 0.04968396
+  0.06516425 0.07534628]
+ [0.10956748 0.02288229 0.01702506 0.06774144 0.1749328  0.12707093
+  0.06681368 0.04907269 0.03061113 0.05713853 0.08666179 0.04992387
+  0.06520747 0.07535082]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.2076218640363106
+Inference Time: 0.03783917427062988
+
+ID: 21026
+Ground Truth:
+<START> sepuluh orang sedang bermain bakiak di lapangan <END>
+<START> sepuluh orang bermain bakiak dengan ceria <END>
+<START> sepuluh orang bermain bakiak di bawah sinar matahari <END>
+<START> sepuluh orang sedang berlomba balap bakiak <END>
+<START> sepuluh orang bermain bakiak di rerumputan <END>
+Generated: ['<START> orang-orang bermain bakiak di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.        ]
+ [0.08385171 0.11094064 0.03728784 0.28720874 0.15713565 0.04511054
+  0.08371173 0.02482399 0.1011113  0.06881791]
+ [0.08444413 0.11166394 0.0374893  0.28158113 0.15885788 0.04559105
+  0.08419003 0.02494926 0.10172005 0.06951327]
+ [0.08456565 0.11208601 0.03774631 0.27975777 0.15906346 0.04581787
+  0.08433757 0.02504185 0.10187189 0.06971163]
+ [0.08471144 0.11240008 0.03763266 0.27800193 0.1596845  0.04587375
+  0.0845513  0.02498398 0.10222828 0.06993205]
+ [0.0847725  0.11264448 0.03740736 0.27688894 0.15994504 0.04586384
+  0.08479482 0.02490565 0.10265145 0.07012595]
+ [0.08443056 0.11286663 0.03702871 0.2783116  0.15894753 0.0456129
+  0.08497023 0.02472492 0.10306598 0.07004093]
+ [0.08431191 0.11239268 0.03725198 0.2800645  0.158591   0.04566437
+  0.08459961 0.02482321 0.10245149 0.06984932]
+ [0.0841326  0.11200228 0.03723633 0.2816876  0.15858366 0.04564623
+  0.08424371 0.02477221 0.10197846 0.06971698]]
+BLEU-1: 0.8888888886913584
+BLEU-2: 0.8164965807406125
+BLEU-3: 0.780896665433669
+BLEU-4: 0.7506238535645454
+CIDER: 1.7560865438936273
+Inference Time: 0.03013443946838379
+
+ID: 21635
+Ground Truth:
+<START> dua orang laki-laki sedang bermain panjat pinang <END>
+<START> dua orang laki-laki sedang bermain panjat pinang di siang hari <END>
+<START> dua orang laki-laki sedang bermain panjat pinang dengan semangat <END>
+<START> dua orang laki-laki sedang bermain panjat pinang meraih hadiah <END>
+<START> dua orang laki-laki sedang bermain panjat pinang dengan gembira <END>
+Generated: ['<START> banyak orang sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Panjat Pinang']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [1.0715879e-06 1.4824675e-05 9.9998415e-01]
+ [1.1074603e-06 1.5472238e-05 9.9998343e-01]
+ [1.1248914e-06 1.5721766e-05 9.9998319e-01]
+ [1.0751335e-06 1.5025993e-05 9.9998391e-01]
+ [1.0268006e-06 1.4441107e-05 9.9998450e-01]
+ [1.0893368e-06 1.5200357e-05 9.9998367e-01]
+ [1.0480073e-06 1.4584436e-05 9.9998438e-01]]
+BLEU-1: 0.772184789568475
+BLEU-2: 0.6240195440321152
+BLEU-3: 0.5559382118666637
+BLEU-4: 0.4962644775350441
+CIDER: 3.283825491805578
+Inference Time: 0.01604437828063965
+
+ID: 21642
+Ground Truth:
+<START> tiga orang laki-laki sedang bermain panjat pinang <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang dengan gembira <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang dengan semangat <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang di siang hari <END>
+<START> tiga orang laki-laki sedang bermain panjat pinang untuk meraih hadiah <END>
+Generated: ['<START> anak-anak sedang berlomba panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Person', 'Panjat Pinang', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.05273678 0.13840649 0.34269658 0.1047095  0.29361576 0.0678348 ]
+ [0.05297817 0.13845438 0.34248316 0.10475952 0.29344916 0.06787562]
+ [0.05299544 0.13815151 0.34217095 0.1053908  0.29368985 0.06760144]
+ [0.05298402 0.13778165 0.34345713 0.10360182 0.2942385  0.06793687]
+ [0.05291373 0.13756332 0.34339163 0.10379308 0.2944858  0.06785243]
+ [0.05290115 0.13776176 0.34340426 0.10385355 0.29433942 0.06773984]]
+BLEU-1: 0.5367694949004131
+BLEU-2: 0.36668337245653715
+BLEU-3: 0.27238055299729663
+BLEU-4: 4.4141393638778416e-05
+CIDER: 1.5928121588130466
+Inference Time: 0.02160334587097168
+
+ID: 22201
+Ground Truth:
+<START> tiga anak sedang bermain gundu <END>
+<START> tiga anak berkumpul di lapangan <END>
+<START> dua anak sedang menonton seorang anak bermain gundu <END>
+<START> tiga anak bermain gundu <UNK> <UNK> <END>
+<START> tiga anak bermain gundu di sore hari <END>
+Generated: ['<START> anak-anak sedang bermain gundu dengan serius <END>']
+Attention:
+['Person', 'Gundu', 'Spectator']
+[[0.         0.         0.        ]
+ [0.21878587 0.33992836 0.4412858 ]
+ [0.21909647 0.34005207 0.44085145]
+ [0.21907003 0.3400409  0.4408891 ]
+ [0.21773659 0.34092084 0.44134256]
+ [0.2181164  0.34042168 0.44146195]
+ [0.21896471 0.3399915  0.44104373]
+ [0.21783806 0.3406844  0.44147754]]
+BLEU-1: 0.6249999998437503
+BLEU-2: 0.42257712725484126
+BLEU-3: 0.3098990470369235
+BLEU-4: 4.939382735714412e-05
+CIDER: 1.5785680876186317
+Inference Time: 0.017225265502929688
+
+ID: 21730
+Ground Truth:
+<START> dua orang laki-laki sedang bermain panjat pinang <END>
+<START> dua orang laki-laki sedang bermain panjat pinang dengan gembira <END>
+<START> dua orang laki-laki sedang bermain panjat pinang pada siang hari <END>
+<START> dua orang laki-laki sedang bermain panjat pinang meraih hadiah <END>
+<START> dua orang laki-laki sedang bermain panjat pinang dengan semangat <END>
+Generated: ['<START> dua orang laki-laki sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Panjat Pinang']
+[[0.         0.         0.        ]
+ [0.7111702  0.15673491 0.13209485]
+ [0.70864385 0.15810475 0.13325135]
+ [0.7123107  0.15605067 0.13163862]
+ [0.7100228  0.15727767 0.1326995 ]
+ [0.70966786 0.15731874 0.13301344]
+ [0.70896035 0.157836   0.13320361]
+ [0.71083057 0.15670489 0.13246454]
+ [0.7094018  0.15757681 0.1330214 ]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.781738130301701
+Inference Time: 0.017458677291870117
+
+ID: 21091
+Ground Truth:
+<START> empat orang anak sedang bermain balap karung sambil ditonton teman-temannya <END>
+<START> empat orang anak bermain balap karung sambil menggunakan helm <END>
+<START> anak-anak bermain balap karung di halaman <END>
+<START> anak-anak menonton teman-temannya yang sedang bermain balap karung <END>
+<START> empat orang anak bermain balap karung di bawah sinar matahari <END>
+Generated: ['<START> dua anak sedang bermain balap karung di lapangan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.1485052  0.12613332 0.07328343 0.03138426 0.31638265 0.23521519
+  0.0610354  0.00806057]
+ [0.1485727  0.12589374 0.07395408 0.0315249  0.31602877 0.23446144
+  0.06147497 0.00808933]
+ [0.14749974 0.12565362 0.07365916 0.03120483 0.31711182 0.23560625
+  0.06120919 0.00805536]
+ [0.14689419 0.12494267 0.07367168 0.03102461 0.31776235 0.2362346
+  0.06138335 0.00808653]
+ [0.14726879 0.12621675 0.07370251 0.03128198 0.316301   0.23615861
+  0.06101348 0.00805689]
+ [0.14698893 0.1262203  0.07357873 0.03138805 0.31620494 0.23637526
+  0.06111373 0.00813011]
+ [0.1475895  0.12399445 0.07324377 0.03174132 0.318556   0.23608951
+  0.06068487 0.00810057]
+ [0.14690304 0.1247398  0.07371422 0.03146382 0.3178586  0.23624784
+  0.06096425 0.0081084 ]
+ [0.14740862 0.12496384 0.07261103 0.03167207 0.3180782  0.23669054
+  0.06048253 0.00809314]]
+BLEU-1: 0.7999999998400004
+BLEU-2: 0.6666666665296299
+BLEU-3: 0.6057068641489479
+BLEU-4: 0.5555238066802866
+CIDER: 2.455442231631355
+Inference Time: 0.04144763946533203
+
+ID: 20068
+Ground Truth:
+<START> dua orang anak sedang melompati tali yang ditonton banyak orang <END>
+<START> anak-anak sedang bermain lompat tali di halaman <END>
+<START> banyak orang menonton permainan lompat tali <END>
+<START> dua orang anak melompat secara bersama-sama dalam permainan lompat tali <END>
+<START> anak-anak bermain lompat tali di hari yang cerah <END>
+Generated: ['<START> anak-anak bermain bakiak di bawah sinar matahari <END>']
+Attention:
+['Lompat Tali', 'Person', 'Person', 'Person', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.06554557 0.08826659 0.03915167 0.03816507 0.11766909 0.07393132
+  0.57727075]
+ [0.06590409 0.08851933 0.03935936 0.0384263  0.11798044 0.07431887
+  0.5754916 ]
+ [0.06624984 0.08855239 0.03913213 0.03851134 0.1176319  0.07433569
+  0.57558674]
+ [0.06606288 0.08810597 0.03899729 0.03819315 0.11757677 0.0740722
+  0.57699174]
+ [0.06607817 0.08789253 0.03903579 0.03804812 0.11771464 0.0740063
+  0.57722443]
+ [0.06485806 0.08775722 0.03911985 0.03793474 0.11801989 0.07403591
+  0.57827437]
+ [0.06549519 0.08800575 0.03915032 0.03815102 0.11796163 0.07421436
+  0.5770218 ]
+ [0.06608056 0.08798243 0.03906431 0.03816696 0.11779865 0.07419215
+  0.57671493]]
+BLEU-1: 0.555555555432099
+BLEU-2: 0.37267799616455977
+BLEU-3: 0.2707217535406251
+BLEU-4: 4.264366796762506e-05
+CIDER: 0.207917978659056
+Inference Time: 0.02454972267150879
+
+ID: 20697
+Ground Truth:
+<START> seorang anak sedang bermain layangan sendirian <END>
+<START> seorang anak sedang berlari untuk menerbangkan layangan <END>
+<START> seorang anak bermain layangan di lapangan <END>
+<START> seorang anak bermain layangan di bawah langit yang cerah <END>
+<START> seorang anak bermain layangan dengan ceria <END>
+Generated: ['<START> seorang anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.23427728 0.7657227 ]
+ [0.23647767 0.7635224 ]
+ [0.23635094 0.763649  ]
+ [0.23476832 0.7652317 ]
+ [0.23546323 0.76453674]
+ [0.23571648 0.76428354]
+ [0.23287258 0.76712745]
+ [0.23436968 0.7656303 ]
+ [0.23275334 0.76724666]
+ [0.23428206 0.7657179 ]]
+BLEU-1: 0.999999999818182
+BLEU-2: 0.9999999998136365
+BLEU-3: 0.9999999998084177
+BLEU-4: 0.9999999998023361
+CIDER: 4.114833706506529
+Inference Time: 0.017207860946655273
+
+ID: 20308
+Ground Truth:
+<START> dua orang anak bermain engklek di halaman <END>
+<START> seorang anak sedang berusaha menyelesaikan permainan engklek sambil ditonton temannya <END>
+<START> seorang anak sedang menjaga keseimbangan dengan satu kaki saat bermain engklek sambil ditonton temannya <END>
+<START> dua orang anak bermain engklek dengan sungguh-sungguh <END>
+<START> seorang anak sedang menonton temannya bermain engklek <END>
+Generated: ['<START> dua orang anak bermain engklek di bawah sinar matahari <END>']
+Attention:
+['Person', 'Engklek', 'Spectator']
+[[0.         0.         0.        ]
+ [0.22986796 0.33517373 0.43495825]
+ [0.22841047 0.3382881  0.43330142]
+ [0.22770615 0.3382009  0.43409294]
+ [0.22828221 0.3396546  0.43206316]
+ [0.22895157 0.33834782 0.43270063]
+ [0.229602   0.33905417 0.43134376]
+ [0.22890604 0.34088135 0.43021265]
+ [0.23169626 0.3355124  0.43279132]
+ [0.23134044 0.3361082  0.43255132]
+ [0.23040357 0.33846563 0.43113086]]
+BLEU-1: 0.6640732480845413
+BLEU-2: 0.6031744814102082
+BLEU-3: 0.5693474314948433
+BLEU-4: 0.5387722219405403
+CIDER: 2.1942956835111636
+Inference Time: 0.01851201057434082
+
+ID: 21261
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas kolam <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas kolam biru <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di siang hari <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan semangat <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal di atas kali <END>']
+Attention:
+['Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Person', 'Person']
+[[0.         0.         0.         0.         0.        ]
+ [0.03477139 0.23809253 0.32039893 0.11027692 0.29646018]
+ [0.03378549 0.2385633  0.31988394 0.10917412 0.29859316]
+ [0.03436661 0.23677553 0.32319456 0.10995764 0.29570562]
+ [0.03316182 0.23764448 0.32282558 0.10805158 0.29831654]
+ [0.03407592 0.23772418 0.32198885 0.10960135 0.29660964]
+ [0.03352276 0.23836318 0.32434055 0.10920057 0.29457286]
+ [0.03468396 0.23802854 0.32356972 0.11034741 0.2933704 ]
+ [0.03462169 0.23775803 0.32380852 0.11062048 0.29319128]
+ [0.03396524 0.23773251 0.32302004 0.10974974 0.2955324 ]
+ [0.0345379  0.235841   0.32736537 0.11021099 0.2920447 ]
+ [0.03412661 0.23777467 0.32437614 0.1102845  0.29343814]]
+BLEU-1: 0.9166666665138891
+BLEU-2: 0.8660254036368208
+BLEU-3: 0.8434326651543615
+BLEU-4: 0.8265168182308785
+CIDER: 5.703228178818937
+Inference Time: 0.02263951301574707
+
+ID: 21848
+Ground Truth:
+<START> ibu-ibu sedang bermain tarik tambang <END>
+<START> ibu-ibu sedang bermain tarik tambang dengan semangat <END>
+<START> ibu-ibu sedang bermain tarik tambang di dalam air <END>
+<START> ibu-ibu sedang bermain tarik tambang sambil ditonton penduduk <END>
+<START> ibu-ibu sedang bermain tarik tambang dengan semangat <END>
+Generated: ['<START> banyak orang sedang bermain tarik tambang dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.        ]
+ [0.01712178 0.18681698 0.08687863 0.03170731 0.04253651 0.03084405
+  0.04947855 0.26864216 0.10051989 0.0775585  0.1078956 ]
+ [0.01693259 0.18563153 0.087271   0.03192421 0.04222887 0.03040379
+  0.04942596 0.2689921  0.10089994 0.07797657 0.10831345]
+ [0.0171099  0.1866688  0.08705778 0.03168796 0.04216171 0.03052706
+  0.04924354 0.2687836  0.10076098 0.07789711 0.10810158]
+ [0.01733487 0.18752263 0.08695632 0.03154303 0.04226546 0.03073251
+  0.04930113 0.26828608 0.10027719 0.07775826 0.10802256]
+ [0.01750514 0.18745573 0.08664853 0.03165229 0.04230651 0.03060878
+  0.04976527 0.2688767  0.10033169 0.0771886  0.10766074]
+ [0.017591   0.18691091 0.08688775 0.03181503 0.04238942 0.03068135
+  0.04946123 0.2683596  0.10053097 0.07750238 0.1078703 ]
+ [0.01731909 0.18687662 0.08694683 0.03168369 0.04265605 0.03075906
+  0.04946565 0.2684431  0.10026778 0.07758652 0.10799553]
+ [0.01745341 0.18590622 0.08732149 0.03193343 0.04262143 0.03074946
+  0.0493622  0.26766717 0.10057853 0.07808182 0.10832486]
+ [0.01776179 0.18730581 0.08707548 0.03177905 0.04244744 0.03092623
+  0.04922017 0.2674015  0.10022613 0.07777835 0.10807809]]
+BLEU-1: 0.7999999998400004
+BLEU-2: 0.7302967431901053
+BLEU-3: 0.6933612742036167
+BLEU-4: 0.6606328634575929
+CIDER: 2.9149569835474565
+Inference Time: 0.033440351486206055
+
+ID: 20616
+Ground Truth:
+<START> anak-anak bermain ular naga dengan ceria <END>
+<START> empat orang anak bermain ular naga sambil difoto oleh pejalan kaki <END>
+<START> dua orang anak yang berperan sebagai naga sedang memutari dua orang anak yang berperan sebagai gerbang pada permainan ular naga <END>
+<START> pejalan kaki memfoto anak-anak yang sedang bermain ular naga <END>
+<START> anak-anak bermain ular naga di hari yang cerah <END>
+Generated: ['<START> dua anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Ular Naga', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.00433476 0.0098104  0.02478421 0.03555188 0.05744131 0.856249
+  0.01182843]
+ [0.00427925 0.00967867 0.02447051 0.03517629 0.05688414 0.85777843
+  0.0117328 ]
+ [0.00424298 0.00965529 0.02456499 0.03524745 0.05701829 0.85756904
+  0.01170193]
+ [0.00430131 0.00974626 0.02487997 0.03559027 0.05746409 0.856203
+  0.01181513]
+ [0.00426697 0.00966681 0.0247107  0.0352972  0.05694178 0.85739404
+  0.01172248]
+ [0.0042059  0.00968745 0.02463118 0.03503041 0.05650277 0.8583926
+  0.01154978]
+ [0.00419808 0.00966051 0.0246425  0.03500896 0.05636347 0.85853964
+  0.0115868 ]
+ [0.00419775 0.00962416 0.02465766 0.03514709 0.05671239 0.8580511
+  0.01160988]
+ [0.00428084 0.00971615 0.02475283 0.03532153 0.05690717 0.85727185
+  0.01174955]
+ [0.0042882  0.0098425  0.02525132 0.03595131 0.05792269 0.85484797
+  0.01189598]]
+BLEU-1: 0.636363636247934
+BLEU-2: 0.35675303393985225
+BLEU-3: 2.418230050045727e-06
+BLEU-4: 6.48411507011597e-09
+CIDER: 0.014038386399230579
+Inference Time: 0.027045011520385742
+
+ID: 21351
+Ground Truth:
+<START> dua orang sedang bermain gebuk bantal <END>
+<START> dua orang sedang bermain gebuk bantal di atas kali <END>
+<START> dua orang sedang bermain gebuk bantal dengan semangat <END>
+<START> dua orang sedang bermain gebuk bantal dengan bahagia <END>
+<START> dua orang sedang bermain gebuk bantal dengan ceria <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Spectator', 'Spectator', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.0195659  0.12010262 0.14127593 0.08969717 0.06501202 0.09024368
+  0.47410268]
+ [0.01943588 0.12012899 0.1410684  0.08925866 0.06496313 0.09000025
+  0.47514474]
+ [0.01930556 0.12002978 0.14118762 0.08944798 0.06489711 0.09009693
+  0.47503495]
+ [0.01954603 0.1203327  0.14131944 0.08992161 0.06523685 0.09033125
+  0.47331205]
+ [0.01950248 0.12028112 0.14150646 0.08957922 0.06519595 0.09051285
+  0.47342196]
+ [0.01936518 0.11966146 0.14176041 0.09137878 0.06479132 0.09064554
+  0.4723973 ]
+ [0.01939222 0.11989781 0.14173026 0.09062713 0.06495038 0.09066015
+  0.47274205]
+ [0.01931807 0.12012362 0.14163527 0.09026992 0.06510834 0.0906056
+  0.4729391 ]]
+BLEU-1: 0.7777777776913581
+BLEU-2: 0.6972166886960861
+BLEU-3: 0.5928155506734578
+BLEU-4: 0.5133450479701459
+CIDER: 3.9169779479158704
+Inference Time: 0.02552032470703125
+
+ID: 21664
+Ground Truth:
+<START> dua orang sedang bermain panjat pinang <END>
+<START> dua orang laki-laki sedang bermain panjat pinang <END>
+<START> dua orang sedang bermain panjat pinang pada siang hari <END>
+<START> dua orang sedang bermain panjat pinang meraih hadiah <END>
+<START> dua orang sedang bermain panjat pinang dengan semangat <END>
+Generated: ['<START> beberapa orang memenangkan permainan panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Panjat Pinang']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [2.3132034e-04 9.9976820e-01 5.4240292e-07]
+ [2.3045385e-04 9.9976903e-01 5.2827858e-07]
+ [2.2696836e-04 9.9977249e-01 5.3582846e-07]
+ [2.4118322e-04 9.9975830e-01 5.3713882e-07]
+ [2.3860867e-04 9.9976081e-01 5.2853420e-07]
+ [2.3237210e-04 9.9976712e-01 5.1169610e-07]
+ [2.3229547e-04 9.9976724e-01 5.0626937e-07]]
+BLEU-1: 0.6249999998437503
+BLEU-2: 0.42257712725484126
+BLEU-3: 0.3098990470369235
+BLEU-4: 4.939382735714412e-05
+CIDER: 1.2287678858334432
+Inference Time: 0.01681971549987793
+
+ID: 21390
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas bambu <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan ceria <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas danau <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal siang hari <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.28886557 0.05312075 0.2983138  0.16704771 0.19265217]
+ [0.28953227 0.05249574 0.29862165 0.16631833 0.19303203]
+ [0.2890213  0.05275328 0.29844847 0.16694441 0.19283253]
+ [0.28866184 0.05302311 0.29791585 0.16730763 0.19309154]
+ [0.2884814  0.0531362  0.29808196 0.16744883 0.19285156]
+ [0.28667352 0.05385204 0.29703993 0.16959335 0.19284125]
+ [0.28709516 0.05364674 0.29735255 0.16906191 0.19284365]
+ [0.2877088  0.05331262 0.29762968 0.1684386  0.19291037]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 6.969275745991236
+Inference Time: 0.021657943725585938
+
+ID: 21534
+Ground Truth:
+<START> banyak anak perempuan sedang berlomba makan kerupuk <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk di siang hari <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk dengan semangat <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk dengan serius <END>
+<START> banyak anak perempuan sedang berlomba makan kerupuk dan ditonton banyak orang <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [2.0096763e-03 5.8624661e-03 9.9203062e-01 9.7156808e-05]
+ [1.9595635e-03 5.6625758e-03 9.9228364e-01 9.4184164e-05]
+ [2.0042015e-03 5.7461686e-03 9.9215323e-01 9.6417876e-05]
+ [1.9611660e-03 5.7499572e-03 9.9219406e-01 9.4779694e-05]
+ [1.9942352e-03 5.7667256e-03 9.9214256e-01 9.6519143e-05]
+ [1.9895374e-03 5.8626742e-03 9.9205071e-01 9.7105134e-05]
+ [2.0465595e-03 5.8603627e-03 9.9199355e-01 9.9594246e-05]
+ [2.0078993e-03 5.8164801e-03 9.9207824e-01 9.7396456e-05]
+ [2.0150207e-03 5.8981595e-03 9.9198979e-01 9.6975164e-05]]
+BLEU-1: 0.9999999999000002
+BLEU-2: 0.9428090414825449
+BLEU-3: 0.8735804646384256
+BLEU-4: 0.7856293017069533
+CIDER: 4.570895428543455
+Inference Time: 0.020642518997192383
+
+ID: 20296
+Ground Truth:
+<START> seseorang bermain engklek di jalanan <END>
+<START> seseorang sedang berusaha menyelesaikan permainan engklek <END>
+<START> seseorang bermain engklek di hari yang cerah <END>
+<START> seseorang sedang bersiap melompat pada permainan engklek <END>
+<START> seseorang sedang bertumpu pada dua kaki pada permainan engklek <END>
+Generated: ['<START> seorang anak sedang bermain engklek di jalanan <END>']
+Attention:
+['Person', 'Engklek']
+[[0.         0.        ]
+ [0.99247825 0.00752168]
+ [0.99237555 0.00762443]
+ [0.9923511  0.00764883]
+ [0.9924999  0.00750007]
+ [0.992542   0.00745793]
+ [0.9922586  0.00774143]
+ [0.9922321  0.00776787]
+ [0.9923735  0.00762641]]
+BLEU-1: 0.7777777776049386
+BLEU-2: 0.6236095643194133
+BLEU-3: 0.5503212080184399
+BLEU-4: 0.48549177158715484
+CIDER: 1.612625943360754
+Inference Time: 0.015549182891845703
+
+ID: 20872
+Ground Truth:
+<START> anak-anak sedang bermain bakiak di lapangan sambil ditonton warga <END>
+<START> warga menonton anak-anak yang bermain bakiak <END>
+<START> anak-anak sedang berlatih bermain bakiak sambil ditonton warga <END>
+<START> anak-anak bermain bakiak sambil mengobrol dengan temannya <END>
+<START> anak-anak bermain bakiak sambil disemangati oleh teman-temannya <END>
+Generated: ['<START> orang-orang bermain bakiak di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Bakiak', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.07571845 0.60840344 0.13012494 0.00743556 0.17831759]
+ [0.07592358 0.60726094 0.13014345 0.00768845 0.1789836 ]
+ [0.07621113 0.60627246 0.12987511 0.0076547  0.17998663]
+ [0.07601043 0.607339   0.12992403 0.00764206 0.17908446]
+ [0.07578995 0.60807276 0.13018773 0.00761737 0.1783322 ]
+ [0.07551879 0.6096508  0.13048102 0.00729202 0.17705745]
+ [0.07595944 0.60767055 0.13040322 0.00744982 0.17851701]
+ [0.07610188 0.6071193  0.13023426 0.00760406 0.17894049]]
+BLEU-1: 0.555555555432099
+BLEU-2: 0.37267799616455977
+BLEU-3: 0.2707217535406251
+BLEU-4: 4.264366796762506e-05
+CIDER: 1.0693105413717783
+Inference Time: 0.020844697952270508
+
+ID: 20200
+Ground Truth:
+<START> seorang anak sedang bersiap melompat ke petak selanjutnya di permainan engklek <END>
+<START> anak-anak bermain engklek di halaman <END>
+<START> anak perempuan bermain engklek sambil ditonton oleh teman-temannya <END>
+<START> anak-anak menonton temannya bermain engklek <END>
+<START> anak-anak sedang menunggu giliran bermain engklek <END>
+Generated: ['<START> dua anak sedang bermain gundu dengan serius <END>']
+Attention:
+['Person', 'Engklek', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.        ]
+ [0.0804678  0.23082054 0.49118316 0.19752847]
+ [0.08081043 0.23148261 0.49037594 0.19733101]
+ [0.08059015 0.23021229 0.49183363 0.197364  ]
+ [0.08089276 0.22913943 0.49219745 0.19777031]
+ [0.0803204  0.22858472 0.49448705 0.19660784]
+ [0.08065623 0.23009273 0.4922169  0.19703412]
+ [0.08129975 0.23044169 0.49062586 0.19763276]
+ [0.08116376 0.2288623  0.4925257  0.19744824]]
+BLEU-1: 0.5555555554938273
+BLEU-2: 0.26352313831625473
+BLEU-3: 2.148719982044067e-06
+BLEU-4: 6.376715692927575e-09
+CIDER: 0.020929625576228822
+Inference Time: 0.019530057907104492
+
+ID: 20598
+Ground Truth:
+<START> siswa sekolah bermain ular naga pada jam pelajaran olahraga dengan didampingi gurunya <END>
+<START> anak-anak bermain ular naga di halaman dengan didampingi gurunya <END>
+<START> anak-anak yang berperan sebagai naga sedang memutari dua orang anak yang berperan sebagai gerbang pada permainan ular naga <END>
+<START> anak-anak memanfaatkan waktu istirahat sekolah untuk bermain ular naga <END>
+<START> anak-anak bermain ular naga bersama-sama <END>
+Generated: ['<START> anak-anak bermain ular naga di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Ular Naga']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.10226685 0.14874063 0.06892349 0.08558121 0.06430505 0.00982253
+  0.09577661 0.05198095 0.18041267 0.07290304 0.01617948 0.10310747]
+ [0.10244056 0.14866555 0.06914289 0.08497489 0.06433233 0.00983203
+  0.0959339  0.05211154 0.17988738 0.07293271 0.01629001 0.10345626]
+ [0.10249192 0.14836678 0.0690823  0.08566918 0.06434561 0.00997064
+  0.09642339 0.05171183 0.17847364 0.07289645 0.01647346 0.10409481]
+ [0.10259065 0.14893834 0.06920043 0.08397292 0.06428218 0.00977872
+  0.09618823 0.05204816 0.18003641 0.07288127 0.01630229 0.10378036]
+ [0.10268462 0.14903753 0.06942876 0.08297751 0.06434867 0.00966319
+  0.09599195 0.05245398 0.18054467 0.07297613 0.0162971  0.10359585]
+ [0.1026097  0.14918579 0.06930222 0.08290246 0.06434485 0.00964394
+  0.09599956 0.0523584  0.1809969  0.0729614  0.01624766 0.10344714]
+ [0.10251475 0.14890113 0.06926791 0.08373844 0.06439605 0.00971242
+  0.09592496 0.05234504 0.18055499 0.07299981 0.01629455 0.10334993]
+ [0.10271854 0.1492399  0.06932166 0.0831733  0.06417225 0.00971469
+  0.09592344 0.05227332 0.18079698 0.07284182 0.01613863 0.10368543]
+ [0.10265917 0.14913647 0.0692919  0.08333668 0.06423561 0.00975085
+  0.09597054 0.0522532  0.18065757 0.07288041 0.01619531 0.10363226]]
+BLEU-1: 0.7238699342839938
+BLEU-2: 0.6032249452333104
+BLEU-3: 0.5480662350431916
+BLEU-4: 0.502658726894098
+CIDER: 2.5577281265561673
+Inference Time: 0.03471875190734863
+
+ID: 20129
+Ground Truth:
+<START> tiga orang anak bermain lompat tali di taman <END>
+<START> anak-anak bermain lompat tali di hari yang cerah <END>
+<START> seorang anak sedang melompati tali sedangkan dua anak lainnya sedang bersiap <END>
+<START> tiga orang <UNK> <UNK> sedang bermain lompat tali <END>
+<START> anak-anak bermain lompat tali dengan serius <END>
+Generated: ['<START> anak-anak bermain lompat tali di hari yang cerah <END>']
+Attention:
+['Lompat Tali', 'Lompat Tali', 'Lompat Tali', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.12654535 0.01930494 0.16013835 0.17769402 0.17635055 0.3399667 ]
+ [0.12481123 0.01936287 0.16096877 0.17713524 0.17723426 0.34048763]
+ [0.12492967 0.0193006  0.16098912 0.17664745 0.17743357 0.34069955]
+ [0.12407609 0.01929904 0.16134863 0.17660215 0.17768744 0.34098664]
+ [0.12389562 0.01929112 0.16133276 0.17663059 0.17771246 0.34113747]
+ [0.12429251 0.01937792 0.16099869 0.17727159 0.17734331 0.34071594]
+ [0.12487125 0.01942016 0.16092457 0.17728768 0.17720012 0.34029612]
+ [0.12489194 0.0192295  0.16066658 0.17731655 0.17694642 0.34094894]
+ [0.12501334 0.01928087 0.16071653 0.17727864 0.1769977  0.3407129 ]]
+BLEU-1: 0.9999999998000004
+BLEU-2: 0.9999999997944449
+BLEU-3: 0.9999999997879634
+BLEU-4: 0.9999999997802583
+CIDER: 4.274340460649477
+Inference Time: 0.023972272872924805
+
+ID: 21582
+Ground Truth:
+<START> banyak anak sedang berlomba makan kerupuk <END>
+<START> banyak anak sedang berlomba makan kerupuk dengan semangat <END>
+<START> banyak anak sedang berlomba makan kerupuk dengan serius <END>
+<START> banyak anak sedang berlomba makan kerupuk dan ditonton banyak orang <END>
+<START> banyak anak sedang berlomba makan kerupuk dengan semangat <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.69000006 0.05978743 0.01771795 0.05034069 0.01649424 0.08219714
+  0.00782149 0.07564098]
+ [0.6904316  0.05987802 0.01738805 0.05037313 0.01648027 0.08192977
+  0.00776966 0.07574954]
+ [0.68999624 0.06029579 0.01760373 0.05061751 0.01645568 0.08113934
+  0.00780113 0.07609059]
+ [0.68775594 0.06068611 0.01778072 0.05085081 0.01647864 0.08239556
+  0.00788136 0.07617088]
+ [0.68491524 0.06112406 0.01782147 0.05127858 0.01664651 0.08317146
+  0.00798392 0.07705877]
+ [0.68774855 0.06055458 0.01794331 0.0510016  0.01648205 0.08171637
+  0.0079098  0.07664371]
+ [0.68813753 0.06083176 0.01785882 0.05103133 0.01644369 0.08135099
+  0.00791799 0.07642786]
+ [0.68779606 0.06053196 0.01775302 0.05099558 0.01632966 0.08232182
+  0.00794419 0.07632775]
+ [0.68865734 0.06042237 0.01796618 0.05058172 0.01625134 0.0827738
+  0.00791282 0.07543445]]
+BLEU-1: 0.9999999998000004
+BLEU-2: 0.9999999997944449
+BLEU-3: 0.9999999997879634
+BLEU-4: 0.9999999997802583
+CIDER: 8.544028152040257
+Inference Time: 0.027306795120239258
+
+ID: 21039
+Ground Truth:
+<START> orang-orang sedang bermain bakiak di lapangan <END>
+<START> orang-orang berlomba balap bakiak sambil ditonton warga <END>
+<START> warga menonton orang yang sedang bermain bakiak <END>
+<START> orang-orang bermain bakiak di bawah sinar matahari <END>
+<START> orang-orang bermain bakiak dengan ceria <END>
+Generated: ['<START> anak-anak bermain ular naga di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Bakiak', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.02909346 0.0608488  0.01754017 0.06617774 0.66587746 0.16046238]
+ [0.02924385 0.06125665 0.01771287 0.06667883 0.6643424  0.16076548]
+ [0.02918386 0.06137536 0.0177485  0.06670473 0.6641708  0.16081673]
+ [0.02914176 0.0610493  0.01766001 0.06660318 0.6651282  0.16041762]
+ [0.0294262  0.06135638 0.01780349 0.0670578  0.6636462  0.16070995]
+ [0.02932807 0.06100201 0.01772039 0.06665388 0.66483575 0.16045983]
+ [0.02947403 0.06128122 0.01780619 0.06682432 0.66380507 0.16080913]
+ [0.02897404 0.06100915 0.01751371 0.06667035 0.66563374 0.16019903]
+ [0.02905823 0.06106111 0.01759492 0.066684   0.6652482  0.1603535 ]]
+BLEU-1: 0.4999999999500001
+BLEU-2: 7.453559924212536e-09
+BLEU-3: 1.907857070708472e-11
+BLEU-4: 9.98009940267863e-13
+CIDER: 0.026640456934193334
+Inference Time: 0.024027109146118164
+
+ID: 22258
+Ground Truth:
+<START> tujuh orang bermain gundu <END>
+<START> tujuh orang bermain gundu di tanah <END>
+<START> tujuh orang bermain gundu siang hari <END>
+<START> tujuh orang bermain gundu serius <END>
+<START> tujuh orang bermain gundu di <UNK> <UNK> rumah <END>
+Generated: ['<START> anak-anak sedang bermain gundu dengan serius <END>']
+Attention:
+['Person', 'Person', 'Gundu', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.6081361  0.04548719 0.07116733 0.0601287  0.1000068  0.08877163
+  0.02630228]
+ [0.607187   0.04573034 0.07132009 0.06036739 0.10010281 0.08893755
+  0.02635486]
+ [0.6089292  0.04549181 0.07157577 0.06043722 0.09903932 0.08815396
+  0.02637267]
+ [0.6074562  0.04582747 0.07144894 0.06039369 0.10005975 0.08868387
+  0.02613004]
+ [0.6052208  0.04586359 0.07221138 0.06076797 0.10044468 0.08904815
+  0.02644345]
+ [0.6089876  0.04539702 0.07163945 0.06034258 0.0991093  0.0881093
+  0.02641467]
+ [0.6081141  0.0456096  0.0720002  0.06068439 0.09906346 0.08808669
+  0.02644156]]
+BLEU-1: 0.6249999998437503
+BLEU-2: 0.42257712725484126
+BLEU-3: 3.0989904703692355e-06
+BLEU-4: 8.783602617222663e-09
+CIDER: 1.36352963178809
+Inference Time: 0.02427983283996582
+
+ID: 20301
+Ground Truth:
+<START> dua orang anak bermain engklek di taman <END>
+<START> anak-anak bermain engklek bersamaan <END>
+<START> seorang anak sedang berusaha menyelesaikan permainan engklek dengan diikuti temannya di belakangnya <END>
+<START> dua orang anak sedang bertanding bermain engklek <END>
+<START> anak-anak sedang balapan engklek <END>
+Generated: ['<START> dua orang anak bermain engklek di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Engklek']
+[[0.         0.         0.        ]
+ [0.697545   0.03481999 0.267635  ]
+ [0.6962117  0.03497927 0.26880902]
+ [0.6957354  0.03461485 0.26964974]
+ [0.69684947 0.0347789  0.26837158]
+ [0.69747746 0.03534494 0.2671776 ]
+ [0.6970093  0.0352652  0.26772547]
+ [0.6960063  0.03539496 0.2685988 ]
+ [0.70015603 0.03407643 0.26576748]
+ [0.6990668  0.03469301 0.2662402 ]
+ [0.6977005  0.03528106 0.26701847]]
+BLEU-1: 0.7272727272066117
+BLEU-2: 0.6605782590127613
+BLEU-3: 0.623531907700971
+BLEU-4: 0.5900468725762904
+CIDER: 1.688209525121355
+Inference Time: 0.018964529037475586
+
+ID: 20673
+Ground Truth:
+<START> anak-anak bermain layangan di <UNK> pasir <END>
+<START> tiga orang anak sedang berlari bersama untuk menerbangkan layangan <END>
+<START> tiga orang anak bermain layangan dengan ceria <END>
+<START> tiga orang anak bermain layangan di bawah langit yang cerah <END>
+<START> dua orang anak sedang berlari untuk menerbangkan layangan dan seorang anak <UNK> dan akan terjatuh <END>
+Generated: ['<START> anak-anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Layangan', 'Layangan', 'Layangan']
+[[0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00
+  0.0000000e+00]
+ [6.3917026e-02 4.0014446e-04 9.1783544e-03 8.9657992e-01 7.6273200e-03
+  2.2297204e-02]
+ [6.2597483e-02 4.1497030e-04 9.3570715e-03 8.9778388e-01 7.8084990e-03
+  2.2038087e-02]
+ [6.3922517e-02 3.9537728e-04 8.8513959e-03 8.9681178e-01 7.4478248e-03
+  2.2571120e-02]
+ [6.3815698e-02 4.2902507e-04 9.6042501e-03 8.9534825e-01 7.9440707e-03
+  2.2858653e-02]
+ [6.3326515e-02 4.1123416e-04 9.2148939e-03 8.9729035e-01 7.6186913e-03
+  2.2138199e-02]
+ [5.9867252e-02 3.8825991e-04 8.9959148e-03 9.0325463e-01 7.2569894e-03
+  2.0236874e-02]
+ [6.1077394e-02 3.8323412e-04 8.6531043e-03 9.0178812e-01 7.1149715e-03
+  2.0983184e-02]
+ [6.1738417e-02 3.7945175e-04 8.6635379e-03 9.0177399e-01 7.0658498e-03
+  2.0378750e-02]
+ [6.2142190e-02 3.9602080e-04 8.9659644e-03 8.9981133e-01 7.3660626e-03
+  2.1318477e-02]]
+BLEU-1: 0.9999999999000002
+BLEU-2: 0.9999999998944447
+BLEU-3: 0.9999999998879632
+BLEU-4: 0.9999999998802581
+CIDER: 2.548576386418981
+Inference Time: 0.02336716651916504
+
+ID: 21781
+Ground Truth:
+<START> banyak orang sedang berlomba panjat pinang <END>
+<START> banyak orang sedang berlomba panjat pinang untuk meraih hadiah <END>
+<START> banyak orang sedang berlomba panjat pinang dengan gembira <END>
+<START> banyak orang sedang berlomba panjat pinang di siang hari <END>
+<START> banyak orang sedang berlomba panjat pinang dengan semangat <END>
+Generated: ['<START> banyak orang sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Person', 'Panjat Pinang', 'Panjat Pinang', 'Panjat Pinang']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.3140301  0.12261669 0.04824873 0.03593647 0.0179226  0.46124545]
+ [0.3147484  0.12351142 0.0489267  0.03544443 0.01788688 0.45948213]
+ [0.318343   0.12295149 0.04890411 0.03545483 0.0177842  0.45656234]
+ [0.31837898 0.12213511 0.04828343 0.03562479 0.01774975 0.45782787]
+ [0.3168411  0.1228063  0.04845329 0.03552554 0.01776524 0.4586086 ]
+ [0.315936   0.12351766 0.04874377 0.03568528 0.01792036 0.45819697]
+ [0.3159194  0.12394538 0.04893425 0.03557399 0.01796164 0.45766535]]
+BLEU-1: 0.8749999997812503
+BLEU-2: 0.7905694148373941
+BLEU-3: 0.6786044039656115
+BLEU-4: 0.49999999985818483
+CIDER: 4.215044943660055
+Inference Time: 0.0225067138671875
+
+ID: 22285
+Ground Truth:
+<START> tiga anak laki-laki sedang bermain gundu <END>
+<START> tiga anak laki-laki sedang bermain gundu di atas tanah <END>
+<START> tiga anak laki-laki sedang bermain gundu dengan senang <END>
+<START> tiga anak laki-laki sedang bermain gundu dengan tenang <END>
+<START> tiga anak laki-laki sedang bermain gundu dengan serius <END>
+Generated: ['<START> anak-anak sedang bermain gundu dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Gundu']
+[[0.         0.         0.         0.        ]
+ [0.2827678  0.28989556 0.19338557 0.23395105]
+ [0.28292462 0.28934908 0.19371511 0.23401116]
+ [0.2836613  0.28859255 0.19397078 0.23377535]
+ [0.2820873  0.2909973  0.19289443 0.23402101]
+ [0.282548   0.29077402 0.1928722  0.23380578]
+ [0.2833754  0.28933734 0.19357282 0.23371442]
+ [0.2834802  0.2896409  0.19330636 0.23357259]]
+BLEU-1: 0.8749999997812503
+BLEU-2: 0.7905694148373941
+BLEU-3: 0.7469007908913164
+BLEU-4: 0.7071067809859904
+CIDER: 3.3236522476077
+Inference Time: 0.01879286766052246
+
+ID: 20668
+Ground Truth:
+<START> seorang anak sedang bermain layangan sambil duduk <END>
+<START> satu orang anak sedang mengatur tali layangan untuk mempertahankan ketinggiannya <END>
+<START> seorang anak bermain layangan sendirian <END>
+<START> seorang anak bermain layangan di bawah langit yang cerah <END>
+<START> seorang anak bermain layangan dengan santai <END>
+Generated: ['<START> dua orang anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.4311725  0.56882757]
+ [0.43072203 0.56927794]
+ [0.4306486  0.5693514 ]
+ [0.43001646 0.56998354]
+ [0.43008748 0.5699125 ]
+ [0.43187526 0.5681248 ]
+ [0.43117014 0.5688299 ]
+ [0.433966   0.566034  ]
+ [0.43254462 0.5674554 ]
+ [0.4332882  0.56671184]
+ [0.43296972 0.5670303 ]]
+BLEU-1: 0.9166666665138891
+BLEU-2: 0.8660254036368208
+BLEU-3: 0.8067143228713007
+BLEU-4: 0.7691605671752624
+CIDER: 2.381704336905893
+Inference Time: 0.017491579055786133
+
+ID: 21199
+Ground Truth:
+<START> anak-anak bermain balap karung dengan serius <END>
+<START> anak-anak bermain balap karung di bawah sinar matahari <END>
+<START> anak-anak sedang berlomba balap karung di lapangan <END>
+<START> anak-anak bertanding di lomba balap karung <END>
+<START> anak-anak bermain balap karung di hari yang cerah <END>
+Generated: ['<START> lima orang anak sedang bermain balap karung di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.        ]
+ [0.00197365 0.27068436 0.01071875 0.05863682 0.475336   0.00173757
+  0.00196579 0.04066953 0.01156659 0.03120112 0.09550984]
+ [0.00196524 0.26764932 0.01058694 0.05748714 0.47127923 0.00173364
+  0.00196446 0.04023642 0.01139858 0.03073241 0.10496664]
+ [0.00200398 0.2688205  0.01071208 0.05842642 0.47211152 0.00174953
+  0.00198993 0.0405592  0.01165041 0.0310632  0.1009133 ]
+ [0.00199966 0.26773995 0.0106578  0.05811837 0.4751979  0.00174405
+  0.00198662 0.04027339 0.01155217 0.03097637 0.09975367]
+ [0.00199952 0.27048305 0.01072223 0.05825645 0.47163683 0.00175514
+  0.00199008 0.04035738 0.01157406 0.03110165 0.10012351]
+ [0.00196456 0.26951715 0.01058343 0.05740016 0.47387344 0.00173421
+  0.00196252 0.03993626 0.01133869 0.03076373 0.1009258 ]
+ [0.00199144 0.27213496 0.01073943 0.05798201 0.47097182 0.00176458
+  0.00199149 0.04061485 0.01149525 0.03110914 0.09920502]
+ [0.00199945 0.2717646  0.01080015 0.05868943 0.47040978 0.00176222
+  0.00199105 0.04090927 0.01163351 0.03132062 0.09871992]
+ [0.00198803 0.2699522  0.01069709 0.05801766 0.46828038 0.00175234
+  0.00198381 0.04036319 0.01152722 0.03100335 0.10443468]
+ [0.00202047 0.27575505 0.01096064 0.05950736 0.46886048 0.00178511
+  0.00201021 0.04131794 0.01178433 0.03175579 0.0942426 ]]
+BLEU-1: 0.6363636363057852
+BLEU-2: 0.43693144871094447
+BLEU-3: 0.34876912508999725
+BLEU-4: 0.2698553466394427
+CIDER: 1.9665125672424268
+Inference Time: 0.03335380554199219
+
+ID: 20514
+Ground Truth:
+<START> seorang anak bermain egrang di bawah langit yang cerah <END>
+<START> seorang anak melompat dengan menaiki egrang <END>
+<START> seorang anak bermain egrang sendirian <END>
+<START> seorang anak bermain egrang di taman <END>
+<START> satu orang anak sedang bersiap <UNK> dengan egrang yang <UNK> <END>
+Generated: ['<START> seorang anak bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Egrang']
+[[0.         0.        ]
+ [0.05218933 0.9478107 ]
+ [0.05086591 0.9491342 ]
+ [0.0523106  0.94768935]
+ [0.05109568 0.9489043 ]
+ [0.05339446 0.9466055 ]
+ [0.05227922 0.94772077]
+ [0.05179804 0.94820195]
+ [0.05112602 0.948874  ]
+ [0.051708   0.948292  ]]
+BLEU-1: 0.7238699342839938
+BLEU-2: 0.660799819508205
+BLEU-3: 0.6273792251165234
+BLEU-4: 0.5977653344406709
+CIDER: 3.159160190139059
+Inference Time: 0.015999794006347656
+
+ID: 20398
+Ground Truth:
+<START> dua orang sedang berlomba balap egrang sambil ditonton warga <END>
+<START> warga menonton perlombaan balap egrang <END>
+<START> dua orang bermain egrang di lapangan <END>
+<START> dua orang sedang berjalan dengan menggunakan egrang <END>
+<START> dua orang sedang mengikuti lomba balap egrang <END>
+Generated: ['<START> dua orang sedang bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Egrang', 'Egrang', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.09256568 0.1233312  0.18750809 0.03359111 0.12302776 0.34013498
+  0.09984117]
+ [0.09163184 0.12373007 0.18811533 0.03421159 0.12353127 0.3388722
+  0.09990768]
+ [0.0911835  0.12404776 0.1889238  0.0342265  0.12406858 0.3377864
+  0.09976343]
+ [0.09146319 0.12361263 0.18817352 0.03432573 0.12292327 0.34078503
+  0.09871664]
+ [0.09103172 0.12291691 0.18695746 0.03417552 0.12212888 0.343385
+  0.09940454]
+ [0.09192646 0.12333917 0.18727939 0.03388293 0.12237    0.34230214
+  0.09889998]
+ [0.09079588 0.12346344 0.18780808 0.03417305 0.12254797 0.34250197
+  0.09870964]
+ [0.09114143 0.12387848 0.18835893 0.03318132 0.12288024 0.34230834
+  0.09825122]
+ [0.09182134 0.12344865 0.1875497  0.03367215 0.12248352 0.3423127
+  0.09871193]
+ [0.09193236 0.12310313 0.18699515 0.03415635 0.12204172 0.34297505
+  0.09879622]]
+BLEU-1: 0.7272727271404961
+BLEU-2: 0.6030226890431458
+BLEU-3: 0.4948976030651392
+BLEU-4: 0.35084396949451946
+CIDER: 1.8955624682433787
+Inference Time: 0.025796175003051758
+
+ID: 21124
+Ground Truth:
+<START> dua orang anak bermain balap karung di dalam ruangan <END>
+<START> dua orang anak bermain balap karung dengan ceria <END>
+<START> dua orang anak sedang berlatih balap karung <END>
+<START> dua orang anak sedang melompat bersamaan saat bermain balap karung <END>
+<START> dua orang anak bermain balap karung <END>
+Generated: ['<START> dua anak laki-laki sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Balap Karung', 'Balap Karung', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.17339587 0.23774691 0.07100513 0.45361492 0.06423722]
+ [0.17241162 0.23698397 0.07094191 0.45524508 0.06441741]
+ [0.17310065 0.2374601  0.07116235 0.4539718  0.06430509]
+ [0.1724529  0.23656145 0.07131261 0.45509878 0.06457419]
+ [0.1737272  0.2374696  0.07168093 0.45261592 0.06450634]
+ [0.17394766 0.2372129  0.0720539  0.45247862 0.06430696]
+ [0.17414904 0.23701148 0.07189995 0.45279515 0.06414435]
+ [0.17473175 0.23846082 0.0716712  0.4509536  0.06418257]
+ [0.17459233 0.23849563 0.07152202 0.450979   0.06441099]
+ [0.1749945  0.238453   0.07163427 0.450833   0.0640853 ]]
+BLEU-1: 0.7272727271404961
+BLEU-2: 0.38138503562716075
+BLEU-3: 2.528298008651847e-06
+BLEU-4: 6.704226836838146e-09
+CIDER: 0.8697607436008494
+Inference Time: 0.02199530601501465
+
+ID: 21335
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas bambu <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal dengan ceria <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas kolam <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal siang hari <END>
+Generated: ['<START> dua orang pria sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Gebuk Bantal', 'Gebuk Bantal', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.05939924 0.04119977 0.06881657 0.07770324 0.01900078 0.7338804 ]
+ [0.05904488 0.04089077 0.06843998 0.07765271 0.01900575 0.7349659 ]
+ [0.05904303 0.04089854 0.06855123 0.07812507 0.01892954 0.7344525 ]
+ [0.05901562 0.0408624  0.06847709 0.07777666 0.01887678 0.73499143]
+ [0.05914967 0.04104938 0.06861168 0.07775493 0.0188669  0.7345675 ]
+ [0.0586741  0.04047774 0.06783764 0.07632372 0.01893538 0.7377515 ]
+ [0.05901423 0.04083269 0.06829625 0.07699535 0.0189785  0.735883  ]
+ [0.05925543 0.04102625 0.06859134 0.07742499 0.01908051 0.7346215 ]]
+BLEU-1: 0.7777777776049386
+BLEU-2: 0.6972166886186177
+BLEU-3: 0.5928155506075895
+BLEU-4: 0.5133450479131076
+CIDER: 2.6178596317416565
+Inference Time: 0.02267146110534668
+
+ID: 21845
+Ground Truth:
+<START> dua <UNK> orang sedang bermain tarik tambang <END>
+<START> dua <UNK> orang sedang bermain tarik tambang dengan serius <END>
+<START> dua <UNK> orang sedang bermain tarik tambang dengan semangat <END>
+<START> dua <UNK> orang sedang bermain tarik tambang di rerumputan <END>
+<START> dua <UNK> orang sedang bermain tarik tambang pada siang hari <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.        ]
+ [0.09243332 0.20382833 0.27877995 0.02088315 0.00308492 0.04869742
+  0.11820643 0.12484135 0.10924512]
+ [0.09248686 0.20388804 0.27843326 0.02097919 0.00311122 0.0488179
+  0.1182961  0.12491604 0.10907139]
+ [0.0922962  0.20403202 0.27781266 0.02107842 0.00309221 0.04898973
+  0.11850705 0.12513115 0.10906059]
+ [0.09245671 0.20349684 0.28081468 0.02077884 0.0030844  0.04849616
+  0.11798089 0.12460219 0.1082893 ]
+ [0.09250357 0.20384565 0.27828404 0.02097964 0.00309973 0.04884091
+  0.11843132 0.12506087 0.10895421]
+ [0.0923517  0.20405427 0.27874002 0.02091778 0.00306789 0.04876145
+  0.11842056 0.12505938 0.10862695]
+ [0.09257305 0.20357347 0.27964804 0.02085994 0.00308459 0.04865216
+  0.11816743 0.12479921 0.10864211]
+ [0.09228807 0.20411444 0.2782463  0.02100072 0.00305624 0.04890475
+  0.11857256 0.12521514 0.10860179]]
+BLEU-1: 0.8888888886913584
+BLEU-2: 0.8164965807406125
+BLEU-3: 0.780896665433669
+BLEU-4: 0.7506238535645454
+CIDER: 3.2111314715379846
+Inference Time: 0.02940821647644043
+
+ID: 21630
+Ground Truth:
+<START> seorang anak laki-laki sedang bermain panjat pinang <END>
+<START> seorang anak laki-laki sedang bermain panjat pinang dan kesusahan <END>
+<START> seorang anak laki-laki sedang bermain panjat pinang dan keberatan <END>
+<START> seorang anak laki-laki sedang bermain panjat pinang dengan penuh semangat <END>
+<START> seorang anak laki-laki sedang bermain panjat pinang tanpa kenal lelah <END>
+Generated: ['<START> dua orang sedang bermain gebuk bantal di atas kali <END>']
+Attention:
+['Person', 'Panjat Pinang']
+[[0.         0.        ]
+ [0.56295    0.43704996]
+ [0.56426734 0.43573266]
+ [0.5645974  0.43540257]
+ [0.5640948  0.43590528]
+ [0.56344736 0.43655258]
+ [0.56313866 0.4368613 ]
+ [0.56304103 0.43695894]
+ [0.56354547 0.43645453]
+ [0.5628571  0.43714288]
+ [0.5627517  0.43724823]]
+BLEU-1: 0.36363636357024803
+BLEU-2: 0.19069251781358043
+BLEU-3: 1.5927279407538764e-06
+BLEU-4: 4.740604258941092e-09
+CIDER: 0.012196668180315364
+Inference Time: 0.016674041748046875
+
+ID: 20111
+Ground Truth:
+<START> anak-anak bermain lompat tali di halaman <END>
+<START> tiga orang anak bermain lompat tali di hari yang cerah <END>
+<START> anak-anak bermain lompat tali dengan ceria <END>
+<START> seorang anak sedang melompati tali yang dibentangkan oleh dua anak lainnya <END>
+<START> dua orang anak sedang membentangkan tali yang dilompati oleh seorang anak <END>
+Generated: ['<START> dua orang anak sedang bermain lompat tali <END>']
+Attention:
+['Lompat Tali', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.        ]
+ [0.12939304 0.4806801  0.05433887 0.33558798]
+ [0.13010934 0.47799802 0.05450479 0.33738783]
+ [0.12880796 0.48073873 0.05397196 0.3364814 ]
+ [0.12977165 0.47966516 0.05393038 0.33663285]
+ [0.12916476 0.48078114 0.05403565 0.3360185 ]
+ [0.13090648 0.4775591  0.05433812 0.33719635]
+ [0.13072532 0.47745347 0.05466599 0.3371552 ]
+ [0.13040552 0.47760537 0.05496142 0.33702776]]
+BLEU-1: 0.9999999998888891
+BLEU-2: 0.8660254036821997
+BLEU-3: 0.7539474410339133
+BLEU-4: 0.6147881528674021
+CIDER: 2.3930599401029156
+Inference Time: 0.019176721572875977
+
+ID: 21488
+Ground Truth:
+<START> banyak anak laki-laki sedang berlomba makan kerupuk <END>
+<START> banyak anak laki-laki sedang berlomba makan kerupuk di siang hari <END>
+<START> banyak anak laki-laki sedang berlomba makan kerupuk dengan senang <END>
+<START> banyak anak laki-laki sedang berlomba makan kerupuk dengan semangat <END>
+<START> banyak anak laki-laki sedang belomba makan kerupuk di lapangan <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.01540365 0.029954   0.07112592 0.01363574 0.04104719 0.00178374
+  0.02619847 0.03837921 0.01747158 0.6748439  0.03928145 0.03087514]
+ [0.01513305 0.02966187 0.07027252 0.01319384 0.04039508 0.00171997
+  0.02581279 0.03797402 0.01728671 0.6791928  0.03882209 0.03053534]
+ [0.01534833 0.02969674 0.07103741 0.01335008 0.0407282  0.00173651
+  0.02597101 0.0380834  0.0172836  0.67697585 0.03910866 0.03068023]
+ [0.01531007 0.0296581  0.07085466 0.01334106 0.04076733 0.00172702
+  0.02592516 0.03800049 0.01726777 0.6774091  0.03907238 0.03066686]
+ [0.01489241 0.02938739 0.06981213 0.01314491 0.04031364 0.00169973
+  0.02568352 0.03763626 0.01715375 0.68134123 0.03860631 0.0303287 ]
+ [0.01503306 0.02945768 0.06978769 0.01339565 0.04016094 0.00170754
+  0.02567287 0.03771893 0.01714984 0.68102217 0.03855719 0.03033636]
+ [0.01519946 0.02961641 0.07071128 0.01337052 0.0405008  0.00172169
+  0.02592882 0.03794715 0.01726235 0.6780755  0.03903272 0.03063333]]
+BLEU-1: 0.8824969023639716
+BLEU-2: 0.8170333701882847
+BLEU-3: 0.7323193451806126
+BLEU-4: 0.610195043038188
+CIDER: 4.084240593352989
+Inference Time: 0.034099578857421875
+
+ID: 22294
+Ground Truth:
+<START> dua anak sedang bermain gundu <END>
+<START> dua anak sedang bermain gundu di dekat taman <END>
+<START> dua anak sedang bermain gundu dengan senang <END>
+<START> dua anak sedang bermain gundu dengan gembira <END>
+<START> dua anak sedang bermain gundu dengan banyak kelereng <END>
+Generated: ['<START> dua anak sedang bermain gundu dengan serius <END>']
+Attention:
+['Person', 'Person', 'Gundu']
+[[0.         0.         0.        ]
+ [0.16638088 0.5657244  0.26789472]
+ [0.1664947  0.56483865 0.26866663]
+ [0.16635993 0.565621   0.26801905]
+ [0.16645172 0.5668662  0.266682  ]
+ [0.16697606 0.5654937  0.26753023]
+ [0.16664287 0.56622624 0.26713085]
+ [0.1665227  0.56677926 0.26669803]
+ [0.16626891 0.56826913 0.26546195]]
+BLEU-1: 0.8888888886913584
+BLEU-2: 0.8164965807406125
+BLEU-3: 0.780896665433669
+BLEU-4: 0.7506238535645454
+CIDER: 6.257865864072171
+Inference Time: 0.017467975616455078
+
+ID: 21945
+Ground Truth:
+<START> lima orang anak sedang berimain tarik tambang <END>
+<START> lima orang anak sedang berimain tarik tambang dengan serius <END>
+<START> lima orang anak sedang berimain tarik tambang dengan senang <END>
+<START> lima orang anak sedang berimain tarik tambang di siang hari <END>
+<START> lima orang anak sedang berimain tarik tambang dengan semangat <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Tarik Tambang']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.05296804 0.01067619 0.02807858 0.31705382 0.56788516 0.02333824]
+ [0.05324615 0.01070897 0.02828831 0.31639996 0.5678349  0.02352172]
+ [0.0531383  0.01057664 0.02819485 0.31593743 0.56870306 0.02344973]
+ [0.05288424 0.01068091 0.0281817  0.31595147 0.56906265 0.02323901]
+ [0.05308869 0.01060865 0.02821896 0.31480446 0.5698704  0.02340882]
+ [0.05287101 0.01057446 0.02810101 0.31561586 0.5695499  0.02328776]
+ [0.05296934 0.01060778 0.02807745 0.31555396 0.56940675 0.0233848 ]
+ [0.05298531 0.01051662 0.02810531 0.31489444 0.5701273  0.02337107]]
+BLEU-1: 0.6666666665185187
+BLEU-2: 0.40824829037030635
+BLEU-3: 0.28768479126408814
+BLEU-4: 4.463236136748592e-05
+CIDER: 1.2325103449173758
+Inference Time: 0.022432565689086914
+
+ID: 20144
+Ground Truth:
+<START> empat orang anak bermain lompat tali di trotoar <END>
+<START> anak-anak bermain lompat tali dengan ceria <END>
+<START> seorang anak menunggu giliran bermain lompat tali <END>
+<START> seorang anak sedang melompati tali yang diayunkan kedua temannya <END>
+<START> tiga orang anak bermain lompat tali sambil dilihat oleh temannya <END>
+Generated: ['<START> anak-anak bermain lompat tali di hari yang cerah <END>']
+Attention:
+['Lompat Tali', 'Person', 'Person', 'Person', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.03609857 0.3808672  0.05427499 0.17268044 0.35607874]
+ [0.03648096 0.38009977 0.05453072 0.17308918 0.35579938]
+ [0.03669229 0.37896782 0.05451392 0.17314443 0.35668153]
+ [0.03628105 0.37940663 0.05410317 0.17256376 0.35764533]
+ [0.03661528 0.37963557 0.05431138 0.17319447 0.3562433 ]
+ [0.03626595 0.3796902  0.05396864 0.17263608 0.35743916]
+ [0.03645056 0.3799627  0.05430299 0.17300631 0.35627744]
+ [0.03642592 0.38128212 0.05431268 0.17336799 0.35461128]
+ [0.03637851 0.38081747 0.05424672 0.17314994 0.35540736]]
+BLEU-1: 0.7999999998400004
+BLEU-2: 0.6666666665296299
+BLEU-3: 0.6057068641489479
+BLEU-4: 0.5555238066802866
+CIDER: 2.516818317599945
+Inference Time: 0.02104473114013672
+
+ID: 22299
+Ground Truth:
+<START> seorang anak laki-laki sedang bermain gandu <END>
+<START> seorang anak laki-laki sedang bermain gandu dengan senang <END>
+<START> seorang anak laki-laki sedang bermain gandu dengan sedikit kelereng <END>
+<START> seorang anak laki-laki sedang bermain gandu di siang hari <END>
+<START> seorang anak laki-laki berbaju kotak-kotak sedang bermain gandu <END>
+Generated: ['<START> dua orang anak bermain engklek di hari yang cerah <END>']
+Attention:
+['Person', 'Gundu']
+[[0.         0.        ]
+ [0.18424276 0.8157573 ]
+ [0.18397759 0.8160224 ]
+ [0.182872   0.817128  ]
+ [0.18337302 0.81662697]
+ [0.1847135  0.81528646]
+ [0.18501933 0.81498075]
+ [0.18493219 0.8150678 ]
+ [0.18526044 0.8147395 ]
+ [0.18457961 0.8154204 ]
+ [0.18465865 0.81534135]]
+BLEU-1: 0.545454545355372
+BLEU-2: 7.385489457383578e-09
+BLEU-3: 1.8232183582936022e-11
+BLEU-4: 9.329460217152974e-13
+CIDER: 0.05661487230002807
+Inference Time: 0.017527341842651367
+
+ID: 21472
+Ground Truth:
+<START> dua orang sedang berlomba makan kerupuk <END>
+<START> dua orang sedang berlomba makan kerupuk dalam ruangan <END>
+<START> dua orang berbaju putih sedang berlomba makan kerupuk <END>
+<START> dua orang sedang berlomba makan kerupuk dengan senang <END>
+<START> dua orang sedang berlomba makan kerupuk dengan semangat <END>
+Generated: ['<START> dua anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.         0.         0.         0.        ]
+ [0.00918166 0.6297827  0.03079517 0.33024052]
+ [0.00898863 0.6307964  0.03096369 0.3292513 ]
+ [0.00891547 0.6306739  0.03082276 0.3295879 ]
+ [0.00886003 0.63021964 0.03072791 0.33019242]
+ [0.00888817 0.63017035 0.03075976 0.3301817 ]
+ [0.00883213 0.6301601  0.03070041 0.33030733]
+ [0.00896464 0.6300026  0.03088541 0.33014736]
+ [0.00879452 0.6312995  0.03049941 0.3294065 ]
+ [0.00904103 0.63053066 0.03076537 0.32966298]
+ [0.00882563 0.6301098  0.03057944 0.33048514]]
+BLEU-1: 0.4545454545041323
+BLEU-2: 0.21320071633525958
+BLEU-3: 1.715714163827573e-06
+BLEU-4: 5.01257871520395e-09
+CIDER: 0.24313613714599047
+Inference Time: 0.021594762802124023
+
+ID: 20029
+Ground Truth:
+<START> empat orang anak bermain lompat tali di halaman <END>
+<START> anak-anak sedang bermain lompat tali di hari yang cerah <END>
+<START> anak-anak bermain lompat tali bergiliran <END>
+<START> satu orang anak sedang bersiap-siap melompat <END>
+<START> anak-anak bermain lompat tali dengan ceria <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Lompat Tali', 'Person', 'Person', 'Person', 'Person']
+[[0.         0.         0.         0.         0.        ]
+ [0.08618875 0.49367344 0.2810598  0.08540718 0.05367078]
+ [0.08582865 0.49307588 0.28242147 0.0851903  0.05348367]
+ [0.08572468 0.4923128  0.28391135 0.08487816 0.05317297]
+ [0.0858386  0.49076352 0.28446206 0.08523666 0.05369914]
+ [0.08626768 0.4913981  0.283838   0.08521711 0.05327911]
+ [0.08604577 0.49169964 0.284023   0.08488191 0.05334964]
+ [0.08629352 0.49163905 0.28381255 0.08502959 0.05322528]
+ [0.08634016 0.4918297  0.28316653 0.08524674 0.05341692]]
+BLEU-1: 0.5555555554938273
+BLEU-2: 0.26352313831625473
+BLEU-3: 2.148719982044067e-06
+BLEU-4: 6.376715692927575e-09
+CIDER: 0.020751768720288367
+Inference Time: 0.021435022354125977
+
+ID: 21478
+Ground Truth:
+<START> empat anak sedang berlomba makan kerupuk <END>
+<START> empat anak sedang berlomba makan kerupuk di hari kemerdekaan <END>
+<START> empat anak sedang berlomba makan kerupuk di pagi hari <END>
+<START> empat anak sedang berlomba makan kerupuk dengan semangat <END>
+<START> empat anak sedang berlomba makan kerupuk ditonton banyak anak-anak <END>
+Generated: ['<START> dua orang sedang bermain balap karung di lapangan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.        ]
+ [0.21138579 0.03764657 0.03423042 0.15052584 0.20246814 0.04518338
+  0.03416845 0.1002183  0.1538925  0.02635006 0.00393056]
+ [0.21166542 0.0375126  0.03414569 0.15011202 0.20259953 0.04532045
+  0.03399165 0.10051849 0.15385143 0.02630315 0.00397958]
+ [0.2122153  0.03724706 0.03408971 0.15007845 0.20287922 0.04516016
+  0.03365916 0.1007579  0.15367731 0.02628086 0.00395482]
+ [0.21272363 0.03738815 0.03396033 0.14872271 0.2033264  0.0452031
+  0.03400804 0.10017046 0.15429595 0.02621869 0.00398251]
+ [0.21156275 0.03781005 0.03407966 0.14977    0.20276524 0.04546623
+  0.03456118 0.09935511 0.15446056 0.02622565 0.00394353]
+ [0.21179049 0.03793748 0.03418696 0.14861187 0.20279078 0.04548375
+  0.03491061 0.09940631 0.15458496 0.02639245 0.00390426]
+ [0.21209106 0.0376744  0.03415786 0.1489949  0.20290823 0.04527641
+  0.03440213 0.09998886 0.15428849 0.02636978 0.00384783]
+ [0.21224989 0.03767766 0.03411854 0.1485753  0.20301273 0.04531362
+  0.0345131  0.09989859 0.15439697 0.0263553  0.00388832]
+ [0.21222615 0.03770601 0.03417557 0.14844568 0.20294763 0.04506231
+  0.03451214 0.10032811 0.15435025 0.02641831 0.00382786]]
+BLEU-1: 0.3999999999200002
+BLEU-2: 6.666666665296299e-09
+BLEU-3: 1.7710976149288165e-11
+BLEU-4: 9.438595266157062e-13
+CIDER: 0.0008688383338271159
+Inference Time: 0.03408622741699219
+
+ID: 21257
+Ground Truth:
+<START> seorang anak sedang bermain gebuk bantal <END>
+<START> seorang anak laki-laki sedang bermain gebuk bantal <END>
+<START> seorang anak terjatuh saat bermain gebuk bantal <END>
+<START> seorang anak laki-laki terjatuh saat bermain gebuk bantal <END>
+<START> seorang anak terjatuh ke dalam kali saat bermain gebuk bantal <END>
+Generated: ['<START> dua anak laki-laki sedang bermain gebuk bantal <END>']
+Attention:
+['Person', 'Person', 'Spectator', 'Gebuk Bantal', 'Gebuk Bantal']
+[[0.         0.         0.         0.         0.        ]
+ [0.1327436  0.14369577 0.03631965 0.56095606 0.12628488]
+ [0.13310552 0.14338598 0.03583962 0.56135154 0.12631729]
+ [0.13279985 0.14320575 0.03586319 0.5622587  0.1258725 ]
+ [0.13336171 0.1435678  0.03612064 0.5598916  0.12705824]
+ [0.13320719 0.14342055 0.03619274 0.5610201  0.12615941]
+ [0.13283001 0.1424971  0.03624423 0.56283075 0.12559792]
+ [0.13291918 0.14277017 0.0362521  0.56227255 0.12578607]
+ [0.13307296 0.14327274 0.036273   0.5618097  0.1255716 ]]
+BLEU-1: 0.8888888886913584
+BLEU-2: 0.8164965807406125
+BLEU-3: 0.780896665433669
+BLEU-4: 0.7506238535645454
+CIDER: 4.105230017401925
+Inference Time: 0.021092891693115234
+
+ID: 20452
+Ground Truth:
+<START> empat orang anak sedang bermain egrang di lapangan sambil ditonton warga <END>
+<START> empat orang anak sedang berusaha menjaga keseimbangan saat bermain egrang <END>
+<START> empat orang anak bermain egrang di bawah sinar matahari sambil ditonton warga <END>
+<START> warga menonton anak-anak yang sedang bermain egrang <END>
+<START> empat orang anak <UNK> egrang <UNK> <END>
+Generated: ['<START> anak-anak bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Egrang', 'Egrang', 'Egrang', 'Egrang']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.05201071 0.05287189 0.03465242 0.06081086 0.06003559 0.09861958
+  0.2758568  0.36514223]
+ [0.05225291 0.05313882 0.03487542 0.06105681 0.06028467 0.09878492
+  0.27535647 0.36424994]
+ [0.0521398  0.05296331 0.03493991 0.06073108 0.0601675  0.09808713
+  0.27481106 0.36616027]
+ [0.05219688 0.0532083  0.03492456 0.06105822 0.06023589 0.09866329
+  0.2754038  0.36430904]
+ [0.05196279 0.05305522 0.03492505 0.06101146 0.05999779 0.09892755
+  0.27634957 0.3637705 ]
+ [0.05199213 0.05317759 0.03463806 0.06117646 0.06003441 0.09922688
+  0.27674094 0.3630136 ]
+ [0.05207964 0.05316195 0.03474132 0.06107197 0.06011963 0.09886241
+  0.2760228  0.3639403 ]
+ [0.05204194 0.05307202 0.03490866 0.06090542 0.0600784  0.09849563
+  0.27562943 0.3648684 ]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.790569414860923
+BLEU-3: 0.7094917058167348
+BLEU-4: 0.6500593258734669
+CIDER: 1.5999218620897109
+Inference Time: 0.02673959732055664
+
+ID: 20852
+Ground Truth:
+<START> anak-anak bermain bakiak di halaman sambil ditonton teman-temannya <END>
+<START> anak-anak sedang berlomba balap bakiak sambil ditonton teman-temannya <END>
+<START> anak-anak bermain bakiak dengan ceria <END>
+<START> siswa sekolah bermain bakiak saat jam pelajaran olahraga <END>
+<START> anak-anak menonton perlombaan bakiak <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.15373984 0.12876748 0.16308439 0.05605373 0.09018286 0.09633924
+  0.07068011 0.2411523 ]
+ [0.15343611 0.12838566 0.16208741 0.05605417 0.08992165 0.0961854
+  0.07069671 0.24323294]
+ [0.15398705 0.12824449 0.16216943 0.05633404 0.09018515 0.09662398
+  0.07098453 0.2414714 ]
+ [0.15424772 0.12908247 0.16158856 0.05611257 0.0904247  0.09637783
+  0.07096054 0.24120566]
+ [0.15408602 0.12872447 0.1618494  0.05617113 0.09036636 0.09643896
+  0.07093038 0.24143334]
+ [0.15440951 0.12865964 0.16161497 0.05620145 0.09020415 0.09655737
+  0.07099923 0.24135374]
+ [0.15364963 0.12830171 0.16081013 0.05589025 0.09027454 0.09610124
+  0.07057224 0.24440023]
+ [0.15412869 0.12795033 0.16038774 0.05617267 0.08999409 0.09648918
+  0.07087901 0.24399833]]
+BLEU-1: 0.5965595444103445
+BLEU-2: 0.3653166212455994
+BLEU-3: 0.2574316620726412
+BLEU-4: 3.9938791753893164e-05
+CIDER: 0.33985809379272425
+Inference Time: 0.027058839797973633
+
+ID: 21672
+Ground Truth:
+<START> banyak orang sedang bermain panjat pinang <END>
+<START> banyak orang sedang bermain panjat pinang dengan serius <END>
+<START> banyak orang sedang bermain panjat pinang dengan semangat <END>
+<START> banyak orang sedang bermain panjat pinang pada siang hari <END>
+<START> banyak orang sedang bermain panjat pinang meraih hadiah <END>
+Generated: ['<START> banyak orang sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Panjat Pinang', 'Panjat Pinang']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.00509122 0.00701169 0.00538343 0.89846313 0.06825919 0.01579132]
+ [0.00504762 0.00690138 0.00533054 0.9005439  0.0667934  0.01538305]
+ [0.00498685 0.0068702  0.00528915 0.90077347 0.0666282  0.01545203]
+ [0.00495856 0.00679966 0.00528061 0.89973074 0.06764294 0.01558751]
+ [0.00497142 0.00674852 0.00524302 0.9006408  0.06693527 0.01546095]
+ [0.00501721 0.00684391 0.00532886 0.8999914  0.06723171 0.01558702]
+ [0.0049888  0.00682497 0.00528668 0.90109086 0.06640601 0.01540267]]
+BLEU-1: 0.9999999997500004
+BLEU-2: 0.9999999997410718
+BLEU-3: 0.9999999997301591
+BLEU-4: 0.9999999997163694
+CIDER: 7.629919448068254
+Inference Time: 0.02306079864501953
+
+ID: 20820
+Ground Truth:
+<START> seorang anak bermain layangan dengan ceria <END>
+<START> satu orang anak sedang mengatur tali layangan untuk mengatur ketinggiannya <END>
+<START> satu orang anak bermain layangan di bawah sinar matahari <END>
+<START> satu orang anak belajar bermain layangan <END>
+<START> seorang anak sedang menerbangkan layangan <END>
+Generated: ['<START> seorang anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.7872445  0.21275547]
+ [0.78684425 0.21315572]
+ [0.7878139  0.21218613]
+ [0.78578675 0.2142133 ]
+ [0.786173   0.213827  ]
+ [0.7860443  0.21395567]
+ [0.7862198  0.21378018]
+ [0.7858958  0.21410416]
+ [0.7856737  0.21432635]
+ [0.7854237  0.21457633]]
+BLEU-1: 0.7272727271404961
+BLEU-2: 0.6605782589527088
+BLEU-3: 0.6235319076442863
+BLEU-4: 0.5900468725226498
+CIDER: 1.9386288968664225
+Inference Time: 0.028011560440063477
+
+ID: 20973
+Ground Truth:
+<START> enam orang bermain bakiak di lapangan sambil ditonton warga <END>
+<START> enam orang sedang berlomba balap bakiak sambil ditonton warga <END>
+<START> warga menonton orang yang sedang berlomba balap bakiak <END>
+<START> enam orang mengikuti perlombaan balap bakiak <END>
+<START> orang-orang yang bermain bakiak sedang berusaha untuk menyamakan langkah kaki <END>
+Generated: ['<START> anak-anak sedang bermain bakiak di lapangan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.        ]
+ [0.07021758 0.0400795  0.01847694 0.07703777 0.06917197 0.13333651
+  0.44375664 0.04982288 0.0224446  0.07565559]
+ [0.07026485 0.04025596 0.01854636 0.07726649 0.0693341  0.13300104
+  0.44312042 0.04998613 0.02260059 0.07562407]
+ [0.06990044 0.04014014 0.01859838 0.07791297 0.06928507 0.13336313
+  0.44295213 0.05006548 0.02263318 0.07514916]
+ [0.07048986 0.04042028 0.01837407 0.07647808 0.06903002 0.13254616
+  0.44533968 0.04967761 0.02246897 0.0751753 ]
+ [0.0707678  0.04051656 0.01827771 0.07682299 0.06885897 0.133015
+  0.4447754  0.04948726 0.02238851 0.07508978]
+ [0.07082255 0.04054945 0.01832849 0.07699161 0.06888411 0.13347602
+  0.44389609 0.04955427 0.0224196  0.07507782]
+ [0.06921135 0.0397772  0.01836635 0.07750002 0.06932814 0.13301201
+  0.44536304 0.04992605 0.02260858 0.07490729]]
+BLEU-1: 0.8749999997812503
+BLEU-2: 0.6123724355372341
+BLEU-3: 0.49999999986507965
+BLEU-4: 0.3976353642707439
+CIDER: 1.1851580803622295
+Inference Time: 0.02988743782043457
+
+ID: 20623
+Ground Truth:
+<START> anak-anak bermain ular naga di halaman bersama dengan orang dewasa <END>
+<START> anak-anak yang berperan sebagai naga sedang memutari dua orang yang berperan sebagai gerbang pada permainan ular naga <END>
+<START> anak-anak dan orang dewasa bermain ular naga bersama dengan ceria <END>
+<START> anak-anak bermain ular naga di hari yang cerah bersama dengan orang dewasa <END>
+<START> tiga orang dewasa bermain ular naga bersama dengan anak-anak <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Ular Naga', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.3013715  0.09721301 0.17504068 0.12091872 0.09132831 0.0303988
+  0.09275918 0.09096974]
+ [0.29831693 0.09782793 0.1757569  0.12085494 0.09170681 0.03061412
+  0.09336364 0.09155878]
+ [0.29603213 0.09768064 0.17697261 0.1210888  0.0920345  0.03025705
+  0.09399447 0.09193975]
+ [0.29439548 0.09883684 0.17727849 0.12046621 0.09194981 0.0306706
+  0.09404995 0.09235267]
+ [0.29331166 0.09862138 0.17744239 0.12109628 0.092266   0.03067213
+  0.09423786 0.09235224]
+ [0.2959385  0.09815205 0.17732136 0.12031437 0.09181957 0.0302379
+  0.09409387 0.09212234]
+ [0.29487684 0.09795433 0.17785136 0.12014829 0.09217995 0.03029059
+  0.09428354 0.09241515]
+ [0.29420927 0.09767312 0.1787624  0.11970995 0.09227772 0.0298628
+  0.09485456 0.09265019]]
+BLEU-1: 0.5338249351592445
+BLEU-2: 0.23115297750913813
+BLEU-3: 1.8283683143058144e-06
+BLEU-4: 5.344197270823268e-09
+CIDER: 0.1187847884020554
+Inference Time: 0.02600860595703125
+
+ID: 20191
+Ground Truth:
+<START> anak-anak bermain engklek di lapangan <END>
+<START> dua <UNK> anak-anak bermain engklek bersamaan <END>
+<START> anak-anak bermain engklek dengan ditonton oleh teman-temannya <END>
+<START> siswa sekolah bermain engklek di <UNK> jam istirahat <END>
+<START> anak-anak sedang berlomba engklek <END>
+Generated: ['<START> anak-anak bermain lompat tali di hari yang cerah <END>']
+Attention:
+['Person', 'Person', 'Person', 'Engklek', 'Engklek', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.086275   0.02427508 0.4215647  0.08869336 0.03911452 0.15063497
+  0.18944232]
+ [0.08659085 0.02423342 0.42107418 0.08904955 0.0384401  0.15092763
+  0.18968426]
+ [0.08691752 0.02432914 0.4198748  0.08909827 0.03834759 0.15137868
+  0.190054  ]
+ [0.08727466 0.02387778 0.4206651  0.08929186 0.03789027 0.15176892
+  0.18923143]
+ [0.08660769 0.02376681 0.4213299  0.08916521 0.03797165 0.15103339
+  0.19012535]
+ [0.08671515 0.02364194 0.4213846  0.08903625 0.03860208 0.15116687
+  0.18945315]
+ [0.08640163 0.02393495 0.42136285 0.0890021  0.0387752  0.15073007
+  0.18979311]
+ [0.08536909 0.02386603 0.42341506 0.08852439 0.03863074 0.14969344
+  0.19050127]
+ [0.08576897 0.02386954 0.42270142 0.088677   0.03871845 0.15011041
+  0.19015417]]
+BLEU-1: 0.4999999999000002
+BLEU-2: 0.33333333326481496
+BLEU-3: 0.24037492833359989
+BLEU-4: 3.753119267926982e-05
+CIDER: 0.3719374092218305
+Inference Time: 0.02453899383544922
+
+ID: 21227
+Ground Truth:
+<START> tiga orang sedang bermain balap karung di halaman <END>
+<START> tiga orang bermain balap karung di rerumputan <END>
+<START> tiga orang sedang berlomba balap karung <END>
+<START> tiga orang bermain balap karung di hari yang cerah <END>
+<START> tiga orang sedang berlatih balap karung <END>
+Generated: ['<START> tiga orang anak bermain balap karung di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.14917712 0.1763707  0.14284971 0.32704255 0.11060563 0.09395428]
+ [0.14898774 0.17716995 0.14298867 0.32577932 0.11045178 0.09462247]
+ [0.14891866 0.17698295 0.14319292 0.32603598 0.11030279 0.09456678]
+ [0.1491696  0.17590694 0.14273173 0.32725754 0.11083947 0.09409479]
+ [0.1493551  0.17576863 0.1424504  0.32682937 0.11132032 0.09427617]
+ [0.14980759 0.17501189 0.14252052 0.3270626  0.11181017 0.09378725]
+ [0.14955525 0.17546922 0.14274366 0.32717502 0.1112745  0.09378228]
+ [0.1496287  0.17510283 0.1426134  0.32752055 0.11146057 0.09367401]
+ [0.14985506 0.17501697 0.14283079 0.3281099  0.11127647 0.0929108 ]
+ [0.14980339 0.1751506  0.14272435 0.3272868  0.11153313 0.09350171]
+ [0.14977023 0.17497227 0.14253935 0.32715324 0.1117695  0.09379535]]
+BLEU-1: 0.6666666666111113
+BLEU-2: 0.5504818825152218
+BLEU-3: 0.4496443129815055
+BLEU-4: 0.3170233138218017
+CIDER: 3.0387252834041005
+Inference Time: 0.024941444396972656
+
+ID: 21758
+Ground Truth:
+<START> banyak orang sedang berlomba panjat pinang <END>
+<START> banyak orang sedang berlomba panjat pinang untuk meraih hadiah <END>
+<START> banyak orang sedang berlomba panjat pinang dengan gembira <END>
+<START> banyak orang sedang berlomba panjat pinang di siang hari <END>
+<START> banyak orang sedang berlomba panjat pinang dengan semangat <END>
+Generated: ['<START> banyak orang sedang berlomba panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Panjat Pinang', 'Panjat Pinang', 'Panjat Pinang', 'Panjat Pinang']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.        ]
+ [0.0366895  0.03944987 0.14935212 0.07576771 0.00621081 0.05332306
+  0.34769416 0.18004312 0.1076794  0.00379022]
+ [0.03670992 0.03982028 0.15107106 0.07559444 0.00624607 0.05395983
+  0.34294656 0.18209864 0.10798539 0.00356776]
+ [0.03661362 0.03970309 0.1506782  0.07563524 0.00619986 0.05388936
+  0.34672368 0.1809253  0.10609789 0.00353378]
+ [0.03635168 0.03905237 0.14869675 0.0762575  0.00602839 0.05325419
+  0.34685317 0.18138406 0.10844828 0.00367357]
+ [0.03627049 0.03920761 0.14848466 0.07554577 0.00615758 0.05432118
+  0.34553233 0.18189253 0.10890174 0.00368607]
+ [0.03629996 0.03920861 0.14900719 0.07552066 0.00611041 0.05379049
+  0.3480948  0.18110245 0.1072399  0.00362561]
+ [0.03636933 0.03927431 0.14927647 0.07573112 0.00613325 0.05358895
+  0.34475178 0.1828405  0.10847104 0.00356332]]
+BLEU-1: 0.9999999997500004
+BLEU-2: 0.9999999997410718
+BLEU-3: 0.9999999997301591
+BLEU-4: 0.9999999997163694
+CIDER: 7.696582150401108
+Inference Time: 0.02959299087524414
+
+ID: 22371
+Ground Truth:
+<START> seorang sedang bermain gandu <END>
+<START> seorang sedang bermain gandu dengan banyak kelereng <END>
+<START> seorang sedang bermain gandu dengan kelereng berwarna-warni <END>
+<START> seorang sedang bermain gandu di siang hari <END>
+<START> seorang sedang bermain gandu di atas semen <END>
+Generated: ['<START> dua orang anak bermain engklek di hari yang cerah <END>']
+Attention:
+['Person', 'Gundu']
+[[0.         0.        ]
+ [0.71443194 0.28556806]
+ [0.71401304 0.2859869 ]
+ [0.7140894  0.28591058]
+ [0.7142919  0.28570816]
+ [0.71485204 0.28514794]
+ [0.71386343 0.2861365 ]
+ [0.7132364  0.2867636 ]
+ [0.7137645  0.28623548]
+ [0.71524316 0.28475678]
+ [0.71493405 0.28506592]]
+BLEU-1: 0.4545454545041323
+BLEU-2: 6.741998623988867e-09
+BLEU-3: 1.7157141638275734e-11
+BLEU-4: 8.913765520446539e-13
+CIDER: 0.013860368285918688
+Inference Time: 0.01597905158996582
+
+ID: 21294
+Ground Truth:
+<START> dua anak laki-laki sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal ditonton banyak anak-anak <END>
+<START> banyak anak yang menonton dua anak laki-laki yang sedang bermain gebuk bantal <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal di atas bambu <END>
+<START> dua anak laki-laki sedang bermain gebuk bantal siang hari <END>
+Generated: ['<START> dua orang pria sedang bermain gebuk bantal <END>']
+Attention:
+['Gebuk Bantal', 'Gebuk Bantal', 'Person', 'Person', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.1255764  0.05614271 0.11506342 0.15339208 0.08044282 0.15947255
+  0.15890886 0.15100114]
+ [0.12507369 0.05614356 0.11384831 0.15244006 0.08129562 0.15848507
+  0.16032358 0.15239006]
+ [0.12462106 0.0559709  0.11270262 0.15267842 0.08160823 0.15873016
+  0.16083543 0.15285325]
+ [0.12408614 0.05588095 0.11272772 0.15343416 0.08138078 0.15952803
+  0.16050468 0.15245749]
+ [0.12457296 0.05613615 0.11405758 0.1532788  0.0807624  0.15940419
+  0.15988286 0.15190507]
+ [0.12614298 0.05619426 0.11646397 0.15220971 0.08027746 0.1582634
+  0.1591716  0.1512766 ]
+ [0.125963   0.05631394 0.11606934 0.15246439 0.08039797 0.15853757
+  0.1590552  0.15119857]
+ [0.12566058 0.05630339 0.11553719 0.15266946 0.08046251 0.15873054
+  0.15926245 0.15137392]]
+BLEU-1: 0.7777777776049386
+BLEU-2: 0.6972166886186177
+BLEU-3: 0.5928155506075895
+BLEU-4: 0.5133450479131076
+CIDER: 2.465496438387692
+Inference Time: 0.02591705322265625
+
+ID: 20784
+Ground Truth:
+<START> dua orang anak sedang bermain layangan di pantai <END>
+<START> dua orang anak bermain layangan di bawah sinar matahari <END>
+<START> dua orang anak sedang berusaha menangkap layangan yang akan jatuh <END>
+<START> dua orang anak sedang berlari untuk menerbangkan layangan <END>
+<START> dua orang anak bermain layangan bersama <END>
+Generated: ['<START> dua orang anak bermain layangan di bawah langit yang cerah <END>']
+Attention:
+['Person', 'Layangan']
+[[0.         0.        ]
+ [0.749275   0.25072497]
+ [0.7477483  0.25225163]
+ [0.7464004  0.25359952]
+ [0.7455279  0.25447205]
+ [0.7536593  0.24634065]
+ [0.7386174  0.26138255]
+ [0.74492586 0.2550741 ]
+ [0.74194914 0.2580509 ]
+ [0.74906427 0.25093573]
+ [0.7511936  0.24880645]
+ [0.7467729  0.2532271 ]]
+BLEU-1: 0.8333333331944446
+BLEU-2: 0.728219081130291
+BLEU-3: 0.682692480976233
+BLEU-4: 0.6484115070232633
+CIDER: 2.863549686945376
+Inference Time: 0.016674280166625977
+
+ID: 22211
+Ground Truth:
+<START> banyak kelereng diatas tanah <END>
+<START> kelereng disamping tangan <END>
+<START> kelereng disamping kaki <END>
+<START> sepasang tangan sedang bermain gundu <END>
+<START> ada banyak kelereng <END>
+Generated: ['<START> kelereng sedang bermain gundu <END>']
+Attention:
+['Person', 'Gundu']
+[[0.         0.        ]
+ [0.18182208 0.81817794]
+ [0.18093848 0.8190615 ]
+ [0.18125866 0.8187413 ]
+ [0.18075651 0.81924355]
+ [0.18051994 0.8194801 ]]
+BLEU-1: 0.9999999996666668
+BLEU-2: 0.8944271906868665
+BLEU-3: 0.7368062994538218
+BLEU-4: 0.604275079227126
+CIDER: 1.1459894028891875
+Inference Time: 0.012926340103149414
+
+ID: 20418
+Ground Truth:
+<START> lima orang sedang berlomba balap egrang sambil ditonton warga <END>
+<START> warga menonton perlombaan balap egrang <END>
+<START> lima orang bermain egrang dengan serius <END>
+<START> lima orang sedang berjalan dengan menggunakan egrang sambil ditonton warga <END>
+<START> lima orang sedang menjaga keseimbangan berdiri di atas egrang <END>
+Generated: ['<START> anak-anak bermain egrang di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Egrang', 'Egrang', 'Egrang', 'Egrang', 'Egrang', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.03826213 0.07601065 0.04209324 0.09870771 0.05336421 0.10280396
+  0.04322027 0.12922007 0.07812416 0.07647367 0.12730214 0.02496693
+  0.05654636 0.05290451]
+ [0.03851231 0.07603862 0.04219243 0.09873632 0.0530405  0.10277767
+  0.04328519 0.1290671  0.07806262 0.07634089 0.12715967 0.02511288
+  0.0566124  0.05306145]
+ [0.03886672 0.07597089 0.04206408 0.09877376 0.05289722 0.10299408
+  0.04311157 0.1290456  0.07789601 0.07608806 0.12753634 0.02506554
+  0.05652832 0.05316181]
+ [0.03875541 0.07586437 0.04171321 0.09897334 0.0531797  0.10301223
+  0.04324881 0.12817536 0.07841033 0.07658782 0.12783842 0.02473369
+  0.05662699 0.05288031]
+ [0.03844639 0.07591484 0.04152354 0.09954068 0.05253715 0.10307408
+  0.04329146 0.12837322 0.0786825  0.07668264 0.12804408 0.02456344
+  0.05664608 0.05267984]
+ [0.03836659 0.07584922 0.04134168 0.10001619 0.05244911 0.1030687
+  0.04335001 0.127929   0.07892579 0.07691476 0.12817863 0.02439557
+  0.05668376 0.05253101]
+ [0.03865277 0.07585476 0.04152765 0.10006337 0.05236287 0.10304575
+  0.04325447 0.1281584  0.07855996 0.07655358 0.12798373 0.02460615
+  0.05662414 0.05275233]
+ [0.03883006 0.07584712 0.04157728 0.09958513 0.05258027 0.1031382
+  0.04316268 0.1282724  0.07838921 0.07642216 0.12808561 0.02466137
+  0.05657979 0.05286868]]
+BLEU-1: 0.5555555554938273
+BLEU-2: 0.26352313831625473
+BLEU-3: 2.148719982044067e-06
+BLEU-4: 6.376715692927575e-09
+CIDER: 0.7571904021502756
+Inference Time: 0.037761688232421875
+
+ID: 21529
+Ground Truth:
+<START> tiga bapak-bapak sedang berlomba makan kerupuk <END>
+<START> tiga bapak-bapak sedang berlomba makan kerupuk di siang hari <END>
+<START> tiga bapak-bapak sedang berlomba makan kerupuk memakai baju merah <END>
+<START> tiga bapak-bapak sedang berlomba makan kerupuk dengan semangat <END>
+<START> tiga bapak-bapak sedang belomba makan kerupuk di lapangan <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk <END>']
+Attention:
+['Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.1988427  0.11315344 0.20170109 0.09682117 0.15466389 0.23481762]
+ [0.19920394 0.11241796 0.20257108 0.09689555 0.15271166 0.23619984]
+ [0.19981822 0.1128085  0.20164216 0.09716581 0.1536906  0.23487467]
+ [0.20163602 0.11235585 0.20067836 0.09893455 0.15272164 0.23367356]
+ [0.20093814 0.11213282 0.20150693 0.09866174 0.15255402 0.23420645]
+ [0.20026076 0.11293247 0.20061095 0.09824928 0.15414387 0.23380278]
+ [0.20102145 0.11254135 0.20080045 0.09851833 0.15321365 0.23390482]]
+BLEU-1: 0.7499999998125003
+BLEU-2: 0.6546536705384689
+BLEU-3: 0.5984084804271004
+BLEU-4: 0.5410822689004723
+CIDER: 2.267927684491258
+Inference Time: 0.021749019622802734
+
+ID: 21895
+Ground Truth:
+<START> para gadis sedang bermain tarik tambang <END>
+<START> para gadis sedang bermain tarik tambang di rerumputan <END>
+<START> para gadis sedang bermain tarik tambang dengan gembira <END>
+<START> para gadis sedang bermain tarik tambang dengan semangat <END>
+<START> para gadis sedang bermain tarik tambang dengan serius <END>
+Generated: ['<START> anak-anak sedang bermain tarik tambang di rerumputan <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.        ]
+ [0.17483972 0.27357346 0.24715866 0.06692962 0.03061434 0.1015336
+  0.10535052]
+ [0.1749805  0.27364546 0.24655598 0.06702364 0.03056877 0.10186879
+  0.10535695]
+ [0.17483799 0.2750294  0.24530773 0.06654607 0.03089372 0.10243516
+  0.10494998]
+ [0.17517579 0.27473155 0.24615882 0.06660345 0.03068863 0.10195252
+  0.10468925]
+ [0.17501456 0.27459052 0.24584343 0.06666692 0.03083641 0.10212263
+  0.1049255 ]
+ [0.1750276  0.27574915 0.24512169 0.06623813 0.03104708 0.10238872
+  0.10442767]
+ [0.17488836 0.27553397 0.24568045 0.06629043 0.03086271 0.10223626
+  0.10450783]
+ [0.17490481 0.27728024 0.24400684 0.06579165 0.03094599 0.10303286
+  0.10403762]]
+BLEU-1: 0.8888888887901236
+BLEU-2: 0.8164965808313341
+BLEU-3: 0.7808966655204351
+BLEU-4: 0.7506238536479479
+CIDER: 2.549359084377868
+Inference Time: 0.024271011352539062
+
+ID: 20355
+Ground Truth:
+<START> anak-anak bermain engklek di halaman <END>
+<START> tiga orang anak sedang bermain engklek bersamaan sambil ditonton dua temannya <END>
+<START> dua orang anak menonton teman-temannya yang sedang bermain engklek <END>
+<START> lima orang anak bermain engklek di hari yang cerah <END>
+<START> anak-anak bermain engklek bergantian <END>
+Generated: ['<START> anak-anak bermain engklek di halaman <END>']
+Attention:
+['Person', 'Person', 'Person', 'Engklek', 'Spectator']
+[[0.         0.         0.         0.         0.        ]
+ [0.7646025  0.02845919 0.00502757 0.11353816 0.0883726 ]
+ [0.7631916  0.02869445 0.00509643 0.11465251 0.08836505]
+ [0.7636364  0.02876022 0.0051643  0.1147618  0.0876773 ]
+ [0.76250404 0.02861173 0.00511335 0.11541814 0.08835282]
+ [0.761074   0.02875374 0.00515962 0.1159492  0.08906342]
+ [0.76015097 0.02861967 0.00504724 0.1164978  0.08968421]]
+BLEU-1: 0.9999999997142859
+BLEU-2: 0.9999999997023811
+BLEU-3: 0.9999999996873018
+BLEU-4: 0.9999999996672622
+CIDER: 3.258259475044439
+Inference Time: 0.019287824630737305
+
+ID: 22283
+Ground Truth:
+<START> seorang anak laki-laki sedang bermain gandu <END>
+<START> seorang anak laki-laki sedang bermain gandu dengan senang <END>
+<START> seorang anak laki-laki sedang bermain gandu dengan banyak kelereng <END>
+<START> seorang anak laki-laki sedang bermain gandu di siang hari <END>
+<START> seorang anak laki-laki berbaju <UNK> sedang bermain gandu <END>
+Generated: ['<START> seorang sedang bermain gandu di siang hari <END>']
+Attention:
+['Person', 'Gundu']
+[[0.         0.        ]
+ [0.28774023 0.71225977]
+ [0.2860368  0.7139632 ]
+ [0.2857284  0.7142716 ]
+ [0.28812134 0.71187866]
+ [0.28672752 0.7132725 ]
+ [0.28604108 0.713959  ]
+ [0.2857315  0.7142685 ]
+ [0.28603876 0.71396124]]
+BLEU-1: 0.9999999998888891
+BLEU-2: 0.9354143465830547
+BLEU-3: 0.8549879732303443
+BLEU-4: 0.8034284188350572
+CIDER: 3.652088207193416
+Inference Time: 0.015428543090820312
+
+ID: 20969
+Ground Truth:
+<START> enam orang sedang bermain bakiak sambil ditonton teman-temannya <END>
+<START> enam orang berlomba balap bakiak sambil ditonton teman-temannya <END>
+<START> orang-orang menonton pertandingan balap bakiak <END>
+<START> orang-orang bermain bakiak dengan ceria <END>
+<START> enam orang yang bermain bakiak sedang berusaha berjalan dan menjaga keseimbangan <END>
+Generated: ['<START> orang-orang sedang berlomba balap bakiak <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.        ]
+ [0.17852402 0.05530542 0.12043352 0.06116838 0.04333403 0.12516585
+  0.03877997 0.10116249 0.09336357 0.18276282]
+ [0.17840227 0.0559145  0.11978138 0.0614267  0.04334423 0.12485787
+  0.03883485 0.10127319 0.09335704 0.18280792]
+ [0.17880507 0.05577416 0.11847997 0.06153087 0.04351225 0.12425405
+  0.03901365 0.10158125 0.09368747 0.1833612 ]
+ [0.1783143  0.05532519 0.11980741 0.06142745 0.04355538 0.12488953
+  0.03904466 0.1014104  0.09354311 0.18268257]
+ [0.1784291  0.0553237  0.11937947 0.06149139 0.04359095 0.12470789
+  0.03904689 0.10152594 0.09362628 0.18287832]
+ [0.17847143 0.05542032 0.1192768  0.06148457 0.04356064 0.12464698
+  0.03909192 0.10150712 0.09361169 0.1829285 ]]
+BLEU-1: 0.9999999997142859
+BLEU-2: 0.8164965806847213
+BLEU-3: 0.6436595895358154
+BLEU-4: 9.036020033091823e-05
+CIDER: 1.5715029397019928
+Inference Time: 0.028676986694335938
+
+ID: 20983
+Ground Truth:
+<START> orang-orang sedang berbaris sebelum memulai perlombaan balap bakiak <END>
+<START> orang-orang sedang bersiap menunggu instruksi perlombaan balap bakiak <END>
+<START> orang-orang bersiap bermain bakiak di bawah sinar matahari <END>
+<START> orang-orang sedang bersiap mengikuti lomba balap bakiak <END>
+<START> orang-orang akan melakukan balap bakiak di hari yang cerah <END>
+Generated: ['<START> orang-orang bermain bakiak di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Person', 'Bakiak', 'Bakiak', 'Bakiak']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.        ]
+ [0.00992439 0.00125282 0.01188292 0.10743114 0.06096006 0.07119073
+  0.03882432 0.4626732  0.0137828  0.07380474 0.04261335 0.10565953]
+ [0.00997753 0.00125951 0.01195102 0.1079599  0.06154139 0.07093159
+  0.03916737 0.46124938 0.01431857 0.07374594 0.04256738 0.10533036]
+ [0.0100955  0.00127491 0.01203507 0.10779743 0.06136492 0.07089837
+  0.03899758 0.46156126 0.01419507 0.07395022 0.04285662 0.10497304]
+ [0.0099857  0.00124922 0.01192981 0.10796747 0.06141156 0.07081814
+  0.03907549 0.46155277 0.01416279 0.07393025 0.04276372 0.10515306]
+ [0.00983911 0.00121302 0.01173262 0.10781157 0.06114455 0.07037667
+  0.03892756 0.4641088  0.01401493 0.07347877 0.04251384 0.10483854]
+ [0.0098458  0.00122954 0.01136335 0.10700089 0.05990506 0.07031988
+  0.03830284 0.4679427  0.01296576 0.073465   0.04244301 0.10521609]
+ [0.00998853 0.0012251  0.011669   0.10749995 0.06059416 0.07079691
+  0.03873524 0.46362162 0.01350193 0.07400485 0.04287731 0.10548548]
+ [0.00996229 0.0012334  0.01179086 0.10783198 0.0610716  0.07061658
+  0.03894823 0.46277776 0.01397873 0.07390905 0.04281184 0.10506759]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9354143464791199
+BLEU-3: 0.8549879731353458
+BLEU-4: 0.8034284187457875
+CIDER: 2.197779184839502
+Inference Time: 0.033760786056518555
+
+ID: 21045
+Ground Truth:
+<START> empat orang anak sedang berlomba balap karung sambil ditonton warga <END>
+<START> warga menonton pertandingan balap karung <END>
+<START> empat orang anak bermain balap karung di bawah sinar matahari sambil ditonton warga <END>
+<START> empat orang anak bermain balap karung di halaman <END>
+<START> empat orang anak sedang fokus untuk melompat melangkah maju saat bermain balap karung <END>
+Generated: ['<START> empat orang bermain balap karung di bawah sinar matahari <END>']
+Attention:
+['Person', 'Person', 'Person', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Balap Karung', 'Spectator', 'Spectator', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.        ]
+ [0.02317854 0.11941042 0.14112613 0.07772318 0.24367392 0.10308636
+  0.1132126  0.01537429 0.05244769 0.0147608  0.09600608]
+ [0.02326858 0.11953405 0.14157544 0.07771378 0.24268806 0.10273159
+  0.11344055 0.01548296 0.05262009 0.014898   0.09604684]
+ [0.02312781 0.1187973  0.14161554 0.07792582 0.24426633 0.10213111
+  0.11292816 0.01551614 0.05260188 0.01481442 0.09627548]
+ [0.02333895 0.119679   0.14099695 0.07783978 0.24384402 0.10211726
+  0.11342223 0.01538755 0.05246289 0.01486687 0.09604453]
+ [0.02362456 0.12015586 0.14071994 0.07823883 0.2428975  0.10052887
+  0.1139463  0.01560726 0.05290552 0.01498932 0.09638603]
+ [0.02342888 0.11966901 0.14112295 0.07813494 0.24328856 0.10134737
+  0.11327356 0.015592   0.05284012 0.01492187 0.09638078]
+ [0.02350372 0.11987635 0.14086547 0.07833625 0.24397074 0.10027604
+  0.11327454 0.01559127 0.05288249 0.01489317 0.09652998]
+ [0.02350252 0.1201831  0.14123489 0.07833429 0.24261302 0.10031542
+  0.1133353  0.01570643 0.05318044 0.01494214 0.09665248]
+ [0.02360636 0.12024113 0.14112255 0.07834274 0.24276409 0.10007126
+  0.11345444 0.01568939 0.05310043 0.01502356 0.09658404]
+ [0.02363963 0.12021785 0.14081831 0.07841188 0.24362428 0.09963065
+  0.11350606 0.01562735 0.0529708  0.01498185 0.09657123]]
+BLEU-1: 0.999999999909091
+BLEU-2: 0.8944271909145389
+BLEU-3: 0.8109602659948114
+BLEU-4: 0.7186082238494536
+CIDER: 2.72075156093452
+Inference Time: 0.03334379196166992
+
+ID: 21425
+Ground Truth:
+<START> banyak anak sedang berlomba makan kerupuk <END>
+<START> banyak anak sedang berlomba makan kerupuk di siang hari <END>
+<START> banyak anak sedang berlomba makan kerupuk dengan senang <END>
+<START> banyak anak sedang berlomba makan kerupuk dengan semangat <END>
+<START> banyak anak sedang belomba makan kerupuk di lapangan <END>
+Generated: ['<START> banyak anak sedang berlomba makan kerupuk dengan semangat <END>']
+Attention:
+['Person', 'Person', 'Person', 'Person', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk', 'Makan Kerupuk']
+[[0.         0.         0.         0.         0.         0.
+  0.         0.        ]
+ [0.35669225 0.11404114 0.060694   0.09870267 0.00152478 0.20924988
+  0.09890451 0.06019079]
+ [0.35775638 0.11362227 0.06055094 0.09849707 0.00150235 0.20921625
+  0.09881622 0.06003849]
+ [0.3570887  0.11399186 0.06046677 0.09832787 0.00149637 0.20985116
+  0.09900385 0.05977347]
+ [0.35806176 0.11393289 0.06040968 0.0980112  0.00148952 0.20942041
+  0.09900323 0.05967127]
+ [0.35750538 0.11381923 0.06064712 0.09827677 0.00148762 0.20909262
+  0.09919313 0.05997807]
+ [0.3568691  0.11406483 0.0606425  0.09865502 0.00148187 0.2093632
+  0.09880756 0.06011597]
+ [0.35669354 0.11420389 0.06059309 0.09825958 0.00147091 0.20977663
+  0.09920681 0.0597956 ]
+ [0.3571384  0.1138352  0.06081223 0.09863423 0.00147933 0.20895049
+  0.09889343 0.06025665]
+ [0.3578729  0.1142709  0.06049992 0.09779129 0.00146319 0.20922133
+  0.09925809 0.05962234]]
+BLEU-1: 0.9999999998000004
+BLEU-2: 0.9999999997944449
+BLEU-3: 0.9999999997879634
+BLEU-4: 0.9999999997802583
+CIDER: 7.563973429392475
+Inference Time: 0.02697014808654785
+
+ID: 20012
+Ground Truth:
+<START> satu orang anak sedang bermain lompat tali <END>
+<START> anak sedang bermain lompat tali di halaman <END>
+<START> satu orang anak perempuan sedang melompati tali <END>
+<START> satu orang anak bermain lompat tali sendirian <END>
+<START> anak perempuan bermain lompat tali di hari yang cerah <END>
+Generated: ['<START> dua orang anak bermain engklek di bawah sinar matahari <END>']
+Attention:
+['Lompat Tali', 'Person']
+[[0.         0.        ]
+ [0.61421686 0.38578317]
+ [0.6138679  0.3861321 ]
+ [0.6134754  0.3865246 ]
+ [0.6141283  0.38587174]
+ [0.6147157  0.3852843 ]
+ [0.6139936  0.3860064 ]
+ [0.613839   0.38616103]
+ [0.6137567  0.38624334]
+ [0.61385655 0.38614342]
+ [0.61403966 0.3859603 ]]
+BLEU-1: 0.545454545355372
+BLEU-2: 0.3302891294763544
+BLEU-3: 0.22971111881688802
+BLEU-4: 3.5084396949451944e-05
+CIDER: 0.1616473198725739
+Inference Time: 0.031713247299194336
+
+ID: 22006
+Ground Truth:
+<START> seorang anak sedang bermain balap kelereng <END>
+<START> seorang anak menggunakan <UNK> sedang bermain balap kelereng <END>
+<START> seorang anak sedang bermain balap kelereng dengan serius <END>
+<START> seorang anak sedang bermain balap kelereng dengan hati-hati <END>
+<START> seorang anak sedang bermain balap kelereng di siang hari <END>
+Generated: ['<START> dua anak perempuan sedang bermain balap kelereng dengan serius <END>']
+Attention:
+['Person', 'Balap Kelereng']
+[[0.         0.        ]
+ [0.02566564 0.9743344 ]
+ [0.02562029 0.97437966]
+ [0.02560088 0.97439915]
+ [0.0256505  0.97434944]
+ [0.02551717 0.9744828 ]
+ [0.02520114 0.97479886]
+ [0.02514502 0.974855  ]
+ [0.02517645 0.97482353]
+ [0.02536603 0.97463393]
+ [0.02545568 0.97454435]]
+BLEU-1: 0.818181818033058
+BLEU-2: 0.7006490496147952
+BLEU-3: 0.6484993171237868
+BLEU-4: 0.6076795806936528
+CIDER: 3.2520094831390214
+Inference Time: 0.016599178314208984
+
+ID: 21850
+Ground Truth:
+<START> beberapa orang sedang bermain tarik tambang <END>
+<START> beberapa orang sedang bermain tarik tambang di rerumputan <END>
+<START> beberapa orang sedang bermain tarik tambang sambil ditonton penduduk <END>
+<START> beberapa orang sedang bermain tarik tambang dengan semangat <END>
+<START> penduduk sedang menonton lomba tarik tambang <END>
+Generated: ['<START> beberapa orang sedang bermain tarik tambang dengan serius <END>']
+Attention:
+['Person', 'Person', 'Person', 'Tarik Tambang', 'Spectator', 'Spectator']
+[[0.         0.         0.         0.         0.         0.        ]
+ [0.19957748 0.01046772 0.00645271 0.25704774 0.15060417 0.37585014]
+ [0.19967842 0.01054903 0.00647739 0.25748205 0.15061253 0.37520057]
+ [0.19999965 0.0103903  0.00640176 0.25971285 0.1503768  0.3731187 ]
+ [0.19944191 0.01041156 0.00633897 0.25798672 0.1502804  0.37554035]
+ [0.19934559 0.01048575 0.0064294  0.25606635 0.1502147  0.37745824]
+ [0.19972382 0.01052996 0.00650189 0.25679824 0.15056829 0.37587777]
+ [0.19951293 0.01045759 0.00642974 0.25650725 0.15069106 0.3764014 ]
+ [0.2000621  0.01052384 0.00651951 0.2578391  0.15112776 0.3739278 ]
+ [0.19965822 0.0104887  0.00642516 0.2569017  0.15066452 0.37586164]]
+BLEU-1: 0.8999999998200003
+BLEU-2: 0.8366600263620957
+BLEU-3: 0.8067143228412188
+BLEU-4: 0.7825422898646864
+CIDER: 6.5487371104342715
+Inference Time: 0.023478269577026367
+
+ID: 21804
+Ground Truth:
+<START> dua orang laki-laki sedang bermain panjat pinang <END>
+<START> dua orang laki-laki sedang bermain panjat pinang dengan gembira <END>
+<START> dua orang laki-laki sedang bermain panjat pinang pada siang hari <END>
+<START> dua orang laki-laki sedang bermain panjat pinang meraih hadiah <END>
+<START> dua orang laki-laki sedang bermain panjat pinang dengan semangat <END>
+Generated: ['<START> dua orang laki-laki sedang bermain panjat pinang <END>']
+Attention:
+['Person', 'Person', 'Panjat Pinang']
+[[0.         0.         0.        ]
+ [0.18754591 0.07724252 0.73521155]
+ [0.18686004 0.07657087 0.7365691 ]
+ [0.18579045 0.07591564 0.7382939 ]
+ [0.18733998 0.0766572  0.73600286]
+ [0.18713999 0.07639652 0.7364635 ]
+ [0.18793416 0.07697165 0.73509413]
+ [0.18717387 0.07694996 0.73587614]
+ [0.18741982 0.07746759 0.7351126 ]]
+BLEU-1: 0.9999999997777782
+BLEU-2: 0.9999999997708338
+BLEU-3: 0.9999999997625665
+BLEU-4: 0.9999999997524806
+CIDER: 7.781738130301701
+Inference Time: 0.016989946365356445
+
+ID: 20204
+Ground Truth:
+<START> seorang anak bermain engklek sambil ditonton teman-temannya <END>
+<START> anak perempuan terjungkal ketika memainkan engklek <END>
+<START> anak-anak menonton temannya bermain engklek <END>
+<START> anak-anak sedang berlatih engklek didampingi <UNK> <END>
+<START> anak-anak bermain engklek di dalam ruangan <END>
+Generated: ['<START> dua orang anak sedang bermain engklek di jalanan <END>']
+Attention:
+['Person', 'Engklek', 'Spectator']
+[[0.         0.         0.        ]
+ [0.92289805 0.02017116 0.05693078]
+ [0.921834   0.02092853 0.05723751]
+ [0.92246264 0.02069195 0.05684534]
+ [0.9227271  0.02058944 0.0566834 ]
+ [0.92302775 0.02019093 0.0567813 ]
+ [0.92263037 0.02040846 0.05696118]
+ [0.92205924 0.02060156 0.05733914]
+ [0.92151916 0.0209445  0.05753642]
+ [0.9223779  0.0203395  0.05728253]]
+BLEU-1: 0.6999999999300001
+BLEU-2: 0.3944053188316762
+BLEU-3: 0.2689047743072968
+BLEU-4: 4.082482904149787e-05
+CIDER: 0.9312884966271748
+Inference Time: 0.0179595947265625
+
